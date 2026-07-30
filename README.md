@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Armed Colorado
 
-## Getting Started
+Reference site for Colorado firearms law: Billwatch (Umbrella Civic stub), 2A litigation tracker, SB25-003 FAQs, civic guides, and an unauthenticated admin CMS.
 
-First, run the development server:
+**Stack:** Next.js App Router · Vercel · Supabase Free (Special projects TSOR) · optional Resend
+
+## Local development
 
 ```bash
+cp .env.example .env.local
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Purpose |
+|---|---|
+| `NEXT_PUBLIC_SUPABASE_URL` | TSOR free project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Anon key (public read + alert/pageview inserts) |
+| `SUPABASE_SERVICE_ROLE_KEY` | Server-only admin writes — never expose to the client |
+| `UMBRELLA_API_URL` / `UMBRELLA_API_KEY` | Optional; leave empty for Billwatch stub (no fake bills) |
+| `RESEND_API_KEY` / `RESEND_FROM_EMAIL` | Optional alert confirmation emails |
 
-## Learn More
+## Supabase (Special projects TSOR — Free)
 
-To learn more about Next.js, take a look at the following resources:
+1. In the **Special projects TSOR** free org, create a project (e.g. `armed-colorado`).
+2. SQL Editor → run [`supabase/migrations/20260730140000_init.sql`](supabase/migrations/20260730140000_init.sql).
+3. Copy URL, anon key, and service role key into `.env.local` and Vercel env.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Do **not** enable Supabase Auth for v1. RLS allows public `SELECT` on published content; CMS mutations go through Next.js server actions with the service role.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Without Supabase configured, the site still runs using in-repo fallbacks for litigation + resources; admin writes will fail until env is set.
 
-## Deploy on Vercel
+## Billwatch / Umbrella Civic
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Billwatch is stubbed until Umbrella credentials exist. Request API access: [umbrellacivic@gmail.com](mailto:umbrellacivic@gmail.com). SMART Act fiscal scraping is deferred.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Admin
+
+`/admin` has **no login**. Keep the URL private. Sections: Content, Litigation, Events, Analytics, API health.
+
+## Deploy
+
+1. Push to GitHub (`armed-colorado`).
+2. Import the repo on Vercel.
+3. Set env vars (including Supabase from TSOR).
+4. Deploy.
+
+## Scripts
+
+- `npm run dev` — development
+- `npm run build` — production build
+- `npm run start` — serve build
+- `npm run lint` — ESLint

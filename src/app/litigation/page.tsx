@@ -1,0 +1,45 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { getLitigationCases } from "@/lib/data/queries";
+
+export const metadata: Metadata = {
+  title: "Litigation tracker",
+};
+
+export default async function LitigationPage() {
+  const cases = await getLitigationCases();
+
+  return (
+    <main className="mx-auto w-full max-w-5xl px-4 pb-20 pt-28">
+      <p className="text-sm uppercase tracking-[0.2em] text-amber">Courts</p>
+      <h1 className="mt-3 font-display text-4xl text-cream md:text-5xl">
+        2A litigation tracker
+      </h1>
+      <p className="mt-4 max-w-2xl text-silver">
+        Digestible status updates on Second Amendment and firearms litigation
+        involving Colorado. Not a substitute for PACER or counsel.
+      </p>
+
+      <ul className="mt-12 space-y-6">
+        {cases.map((c) => (
+          <li key={c.slug} className="border-t border-silver/20 pt-6">
+            <Link href={`/litigation/${c.slug}`} className="group block">
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <h2 className="font-display text-2xl text-cream group-hover:text-amber">
+                  {c.title}
+                </h2>
+                <span className="text-xs uppercase tracking-wider text-silver-muted">
+                  {c.status}
+                </span>
+              </div>
+              {c.docket ? (
+                <p className="mt-1 text-sm text-silver-muted">{c.docket}</p>
+              ) : null}
+              <p className="mt-3 max-w-3xl text-silver">{c.summary}</p>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </main>
+  );
+}
