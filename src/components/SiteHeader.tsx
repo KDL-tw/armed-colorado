@@ -17,12 +17,13 @@ export function SiteHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const isAdmin = pathname.startsWith("/admin");
+  const isHome = pathname === "/";
 
   if (isAdmin) {
     return (
-      <header className="border-b border-silver/20 bg-navy-deep/95">
+      <header className="border-b border-white/10 bg-navy">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-          <Link href="/admin" className="font-display text-lg text-cream">
+          <Link href="/admin" className="font-display text-lg text-white">
             Armed Colorado Admin
           </Link>
           <Link href="/" className="text-sm text-silver hover:text-amber">
@@ -33,12 +34,65 @@ export function SiteHeader() {
     );
   }
 
+  // Hero: overlaid, light type for contrast on blue flag bands
+  if (isHome) {
+    return (
+      <header className="absolute inset-x-0 top-0 z-40">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5">
+          <Link
+            href="/"
+            className="font-display text-xl tracking-tight text-white drop-shadow-sm md:text-2xl"
+          >
+            Armed Colorado
+          </Link>
+          <nav className="hidden items-center gap-6 md:flex">
+            {NAV.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm text-white/90 transition-colors hover:text-amber"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+          <button
+            type="button"
+            className="text-sm text-white md:hidden"
+            aria-expanded={open}
+            aria-label="Menu"
+            onClick={() => setOpen((v) => !v)}
+          >
+            Menu
+          </button>
+        </div>
+        {open && (
+          <div className="border-t border-white/20 bg-navy/95 px-4 py-4 md:hidden">
+            <div className="flex flex-col gap-3">
+              {NAV.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="text-white"
+                  onClick={() => setOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </header>
+    );
+  }
+
+  // Inner pages: solid navy header, static white content below
   return (
-    <header className="absolute inset-x-0 top-0 z-40">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5">
+    <header className="sticky top-0 z-40 bg-navy">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <Link
           href="/"
-          className="font-display text-xl tracking-tight text-cream md:text-2xl"
+          className="font-display text-xl tracking-tight text-white md:text-2xl"
         >
           Armed Colorado
         </Link>
@@ -49,8 +103,8 @@ export function SiteHeader() {
               href={item.href}
               className={`text-sm transition-colors ${
                 pathname.startsWith(item.href)
-                  ? "text-amber"
-                  : "text-silver hover:text-cream"
+                  ? "font-semibold text-amber"
+                  : "text-white/85 hover:text-white"
               }`}
             >
               {item.label}
@@ -59,7 +113,7 @@ export function SiteHeader() {
         </nav>
         <button
           type="button"
-          className="text-sm text-silver md:hidden"
+          className="text-sm text-white md:hidden"
           aria-expanded={open}
           aria-label="Menu"
           onClick={() => setOpen((v) => !v)}
@@ -68,13 +122,13 @@ export function SiteHeader() {
         </button>
       </div>
       {open && (
-        <div className="border-t border-silver/15 bg-navy-deep/95 px-4 py-4 md:hidden">
+        <div className="border-t border-white/15 bg-navy px-4 py-4 md:hidden">
           <div className="flex flex-col gap-3">
             {NAV.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-cream"
+                className="text-white"
                 onClick={() => setOpen(false)}
               >
                 {item.label}

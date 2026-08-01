@@ -46,12 +46,12 @@ export default async function AdminHealthPage() {
   ];
 
   return (
-    <main className="mx-auto w-full max-w-3xl px-4 pb-20 pt-28">
+    <main className="mx-auto w-full max-w-3xl px-4 pb-20 pt-12 md:pt-14">
       <Link href="/admin" className="text-sm text-amber">
         ← Admin
       </Link>
-      <h1 className="mt-3 font-display text-4xl text-cream">API health</h1>
-      <p className="mt-3 text-sm text-silver">
+      <h1 className="mt-3 font-display text-4xl text-navy">API health</h1>
+      <p className="mt-3 text-sm text-muted">
         Live env checks plus optional rows in <code>api_health_checks</code>.
       </p>
 
@@ -59,11 +59,11 @@ export default async function AdminHealthPage() {
         {live.map((row) => (
           <li
             key={row.service}
-            className="flex flex-wrap items-start justify-between gap-3 border border-silver/20 px-4 py-4"
+            className="flex flex-wrap items-start justify-between gap-3 border border-navy/10 px-4 py-4"
           >
             <div>
-              <p className="font-semibold capitalize text-cream">{row.service}</p>
-              <p className="mt-1 text-sm text-silver">{row.detail}</p>
+              <p className="font-semibold capitalize text-navy">{row.service}</p>
+              <p className="mt-1 text-sm text-muted">{row.detail}</p>
             </div>
             <span
               className={`text-xs uppercase tracking-wider ${
@@ -86,10 +86,10 @@ export default async function AdminHealthPage() {
 
       {stored.length > 0 ? (
         <>
-          <h2 className="mt-12 font-display text-2xl text-cream">
+          <h2 className="mt-12 font-display text-2xl text-navy">
             Stored snapshots
           </h2>
-          <ul className="mt-4 space-y-2 text-sm text-silver">
+          <ul className="mt-4 space-y-2 text-sm text-muted">
             {stored.map((row) => (
               <li key={row.service}>
                 {row.service}: {row.status} — {row.detail} (

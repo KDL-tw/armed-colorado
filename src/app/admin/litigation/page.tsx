@@ -21,19 +21,19 @@ export default async function AdminLitigationPage() {
   }
 
   return (
-    <main className="mx-auto w-full max-w-4xl space-y-10 px-4 pb-20 pt-28">
+    <main className="mx-auto w-full max-w-4xl space-y-10 px-4 pb-20 pt-12 md:pt-14">
       <div>
         <Link href="/admin" className="text-sm text-amber">
           ← Admin
         </Link>
-        <h1 className="mt-3 font-display text-4xl text-cream">Litigation</h1>
+        <h1 className="mt-3 font-display text-4xl text-navy">Litigation</h1>
       </div>
 
       <form
         action={upsertLitigation}
-        className="grid gap-3 border border-silver/20 p-4"
+        className="grid gap-3 border border-navy/10 p-4"
       >
-        <p className="text-sm text-silver">Add / upsert by slug</p>
+        <p className="text-sm text-muted">Add / upsert by slug</p>
         <input name="slug" placeholder="slug" required className="admin-input" />
         <input name="title" placeholder="Title" required className="admin-input" />
         <input name="court" placeholder="Court" className="admin-input" />
@@ -53,7 +53,7 @@ export default async function AdminLitigationPage() {
           defaultValue="[]"
           className="admin-input min-h-20 font-mono text-xs"
         />
-        <label className="flex items-center gap-2 text-sm text-silver">
+        <label className="flex items-center gap-2 text-sm text-muted">
           <input name="published" type="checkbox" defaultChecked /> Published
         </label>
         <button type="submit" className="admin-btn">
@@ -63,10 +63,10 @@ export default async function AdminLitigationPage() {
 
       <ul className="space-y-6">
         {cases.map((c) => (
-          <li key={c.slug} className="border-t border-silver/15 pt-4">
-            <p className="font-display text-xl text-cream">{c.title}</p>
-            <p className="text-sm text-silver-muted">{c.slug}</p>
-            <p className="mt-2 text-sm text-silver">{c.summary}</p>
+          <li key={c.slug} className="border-t border-navy/10 pt-4">
+            <p className="font-display text-xl text-navy">{c.title}</p>
+            <p className="text-sm text-muted">{c.slug}</p>
+            <p className="mt-2 text-sm text-muted">{c.summary}</p>
             {c.id ? (
               <form action={deleteLitigation} className="mt-2">
                 <input type="hidden" name="id" value={c.id} />

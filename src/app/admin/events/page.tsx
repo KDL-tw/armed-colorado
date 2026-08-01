@@ -21,21 +21,21 @@ export default async function AdminEventsPage() {
   }
 
   return (
-    <main className="mx-auto w-full max-w-3xl space-y-10 px-4 pb-20 pt-28">
+    <main className="mx-auto w-full max-w-3xl space-y-10 px-4 pb-20 pt-12 md:pt-14">
       <div>
         <Link href="/admin" className="text-sm text-amber">
           ← Admin
         </Link>
-        <h1 className="mt-3 font-display text-4xl text-cream">Events</h1>
+        <h1 className="mt-3 font-display text-4xl text-navy">Events</h1>
       </div>
 
-      <form action={upsertEvent} className="grid gap-3 border border-silver/20 p-4">
+      <form action={upsertEvent} className="grid gap-3 border border-navy/10 p-4">
         <input name="title" placeholder="Title" required className="admin-input" />
         <input name="starts_at" type="datetime-local" className="admin-input" />
         <input name="location" placeholder="Location" className="admin-input" />
         <input name="url" placeholder="URL" className="admin-input" />
         <textarea name="description" placeholder="Description" className="admin-input min-h-24" />
-        <label className="flex items-center gap-2 text-sm text-silver">
+        <label className="flex items-center gap-2 text-sm text-muted">
           <input name="published" type="checkbox" defaultChecked /> Published
         </label>
         <button type="submit" className="admin-btn">
@@ -45,13 +45,13 @@ export default async function AdminEventsPage() {
 
       <ul className="space-y-4">
         {events.length === 0 ? (
-          <li className="text-silver">No events yet.</li>
+          <li className="text-muted">No events yet.</li>
         ) : (
           events.map((event) => (
-            <li key={event.id ?? event.title} className="border-t border-silver/15 pt-4">
-              <p className="text-cream">{event.title}</p>
+            <li key={event.id ?? event.title} className="border-t border-navy/10 pt-4">
+              <p className="text-navy">{event.title}</p>
               {event.starts_at ? (
-                <p className="text-sm text-silver-muted">
+                <p className="text-sm text-muted">
                   {new Date(event.starts_at).toLocaleString()}
                 </p>
               ) : null}

@@ -10,23 +10,23 @@ export function GuideLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="mx-auto w-full max-w-3xl px-4 pb-20 pt-28">
-      <p className="animate-fade text-sm uppercase tracking-[0.2em] text-amber">
-        Armed Colorado
-      </p>
-      <h1 className="animate-rise mt-3 font-display text-4xl text-cream md:text-5xl">
-        {title}
-      </h1>
-      {lede ? (
-        <p className="animate-rise-delay mt-4 text-lg text-silver">{lede}</p>
-      ) : null}
-      <div className="silver-rule my-8" />
-      <div className="prose-guide animate-fade">{children}</div>
-      <p className="mt-12 text-sm text-silver-muted">
-        <Link href="/" className="text-amber hover:underline">
-          ← Home
-        </Link>
-      </p>
+    <main className="min-h-[70vh] bg-white">
+      <div className="mx-auto w-full max-w-3xl px-4 pb-20 pt-12 md:pt-14">
+        <p className="text-sm uppercase tracking-[0.2em] text-oxblood">
+          Armed Colorado
+        </p>
+        <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
+          {title}
+        </h1>
+        {lede ? <p className="mt-4 text-lg text-muted">{lede}</p> : null}
+        <div className="silver-rule my-8" />
+        <div className="prose-guide">{children}</div>
+        <p className="mt-12 text-sm text-muted">
+          <Link href="/" className="font-medium text-oxblood hover:underline">
+            ← Home
+          </Link>
+        </p>
+      </div>
     </main>
   );
 }

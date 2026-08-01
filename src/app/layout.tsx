@@ -37,7 +37,7 @@ export default function RootLayout({
       lang="en"
       className={`${fraunces.variable} ${figtree.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-navy-deep text-cream">
+      <body className="flex min-h-full flex-col bg-white text-navy">
         <SiteHeader />
         {children}
         <SiteFooter />

@@ -13,11 +13,20 @@ const FOOTER_LINKS = [
 
 export function SiteFooter() {
   return (
-    <footer className="mt-auto border-t border-silver/15 bg-navy-deep">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-[1.2fr_1fr]">
+    <footer className="relative mt-auto overflow-hidden border-t border-navy/10 bg-navy text-cream">
+      <div
+        className="pointer-events-none absolute inset-x-0 top-0 h-2 bg-oxblood"
+        aria-hidden
+      />
+      <div
+        className="pointer-events-none absolute bottom-0 right-0 h-16 w-16 bg-amber"
+        aria-hidden
+        style={{ clipPath: "polygon(100% 0, 100% 100%, 0 100%)" }}
+      />
+      <div className="relative mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-[1.2fr_1fr]">
         <div>
           <p className="font-display text-2xl text-cream">Armed Colorado</p>
-          <p className="mt-3 max-w-md text-sm leading-relaxed text-silver-muted">
+          <p className="mt-3 max-w-md text-sm leading-relaxed text-silver">
             A reference hub for Colorado firearms law, legislation, litigation,
             and civic action. Not legal advice — verify with official sources
             and counsel.
@@ -35,8 +44,7 @@ export function SiteFooter() {
           ))}
         </div>
       </div>
-      <div className="silver-rule mx-auto max-w-6xl" />
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-silver-muted">
+      <div className="relative mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 border-t border-white/10 px-4 py-5 text-xs text-silver-muted">
         <span>© {new Date().getFullYear()} Armed Colorado</span>
         <Link href="/admin" className="hover:text-silver">
           Admin

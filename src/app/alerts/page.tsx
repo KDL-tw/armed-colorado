@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ContentShell } from "@/components/ContentShell";
 
 const TOPICS = [
   { id: "gun-bills", label: "Gun bills" },
@@ -47,12 +48,12 @@ export default function AlertsPage() {
   }
 
   return (
-    <main className="mx-auto w-full max-w-xl px-4 pb-20 pt-28">
-      <p className="text-sm uppercase tracking-[0.2em] text-amber">Alerts</p>
-      <h1 className="mt-3 font-display text-4xl text-cream">
+    <ContentShell width="xl">
+      <p className="text-sm uppercase tracking-[0.2em] text-oxblood">Alerts</p>
+      <h1 className="mt-3 font-display text-4xl text-navy">
         Gun bill alerts
       </h1>
-      <p className="mt-4 text-silver">
+      <p className="mt-4 text-muted">
         Sign up for email alerts on Colorado firearms legislation, hearings, and
         related updates. Delivery uses Resend when configured; otherwise we
         store your address for later.
@@ -60,21 +61,21 @@ export default function AlertsPage() {
 
       <form onSubmit={onSubmit} className="mt-10 space-y-6">
         <label className="block">
-          <span className="text-sm text-silver">Email</span>
+          <span className="text-sm text-muted">Email</span>
           <input
             type="email"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="mt-2 w-full border border-silver/30 bg-navy-deep px-3 py-3 text-cream outline-none focus:border-amber"
+            className="mt-2 w-full border border-navy/15 bg-white px-3 py-3 text-navy outline-none focus:border-amber"
             placeholder="you@example.com"
           />
         </label>
         <fieldset>
-          <legend className="text-sm text-silver">Topics</legend>
+          <legend className="text-sm text-muted">Topics</legend>
           <div className="mt-3 space-y-2">
             {TOPICS.map((t) => (
-              <label key={t.id} className="flex items-center gap-2 text-cream">
+              <label key={t.id} className="flex items-center gap-2 text-navy">
                 <input
                   type="checkbox"
                   checked={topics.includes(t.id)}
@@ -94,12 +95,12 @@ export default function AlertsPage() {
         <button
           type="submit"
           disabled={pending}
-          className="bg-oxblood px-6 py-3 text-sm font-semibold text-cream transition hover:bg-oxblood-deep disabled:opacity-60"
+          className="bg-oxblood px-6 py-3 text-sm font-semibold text-navy transition hover:bg-oxblood-deep disabled:opacity-60"
         >
           {pending ? "Saving…" : "Sign up"}
         </button>
-        {status ? <p className="text-sm text-silver">{status}</p> : null}
+        {status ? <p className="text-sm text-muted">{status}</p> : null}
       </form>
-    </main>
+    </ContentShell>
   );
 }
