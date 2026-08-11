@@ -38,22 +38,26 @@ export const umbrellaClient = {
     return [];
   },
 
-  async getBill(_id: string): Promise<GunBill | null> {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  async getBill(id: string): Promise<GunBill | null> {
     if (!isConfigured()) return null;
     return null;
   },
 
-  async getSponsors(_id: string): Promise<BillSponsor[]> {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  async getSponsors(id: string): Promise<BillSponsor[]> {
     if (!isConfigured()) return [];
     return [];
   },
 
-  async getSummary(_id: string): Promise<string | null> {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  async getSummary(id: string): Promise<string | null> {
     if (!isConfigured()) return null;
     return null;
   },
 
-  async getFiscalCost(_id: string): Promise<FiscalCost | null> {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  async getFiscalCost(id: string): Promise<FiscalCost | null> {
     // SMART Act / fiscal note scrape deferred — always unavailable in stub
     if (!isConfigured()) {
       return {
