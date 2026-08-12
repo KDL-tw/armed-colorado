@@ -5,6 +5,7 @@
   --oxblood-deep: #4a0e16;
   --amber: #c47a12;
   --amber-deep: #8f5608;
+  --orange: #ff8c42;
   --navy: #0a1a33;
   --navy-deep: #061122;
   --silver: #c5cad3;
@@ -22,6 +23,7 @@
   --color-oxblood-deep: var(--oxblood-deep);
   --color-amber: var(--amber);
   --color-amber-deep: var(--amber-deep);
+  --color-orange: var(--orange);
   --color-navy: var(--navy);
   --color-navy-deep: var(--navy-deep);
   --color-silver: var(--silver);
@@ -51,10 +53,6 @@ h2,
 h3,
 .font-display {
   font-family: var(--font-fraunces), Georgia, serif;
-}
-
-a {
-  color: inherit;
 }
 
 ::selection {

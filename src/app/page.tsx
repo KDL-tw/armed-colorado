@@ -11,7 +11,7 @@ export default function HomePage() {
           {/* Full-bleed lateral gunmetal text bar */}
           <div className="w-full bg-[#4a5562]/85 px-4 py-8 backdrop-blur-[2px] md:py-10">
             <div className="mx-auto w-full max-w-6xl">
-              <p className="animate-fade font-display text-5xl tracking-tight text-white md:text-7xl lg:text-8xl">
+              <p className="animate-fade font-display text-5xl tracking-tight text-amber drop-shadow-sm md:text-7xl lg:text-8xl">
                 Armed Colorado
               </p>
               <h1 className="sr-only">Armed Colorado</h1>

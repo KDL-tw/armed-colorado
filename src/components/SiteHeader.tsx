@@ -41,7 +41,7 @@ export function SiteHeader() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5">
           <Link
             href="/"
-            className="font-display text-xl tracking-tight text-white drop-shadow-sm md:text-2xl"
+            className="font-display text-xl tracking-tight text-oxblood drop-shadow-sm md:text-2xl"
           >
             Armed Colorado
           </Link>
@@ -50,7 +50,7 @@ export function SiteHeader() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm text-white/90 transition-colors hover:text-amber"
+                className="text-sm font-medium text-oxblood transition-colors hover:text-oxblood-deep"
               >
                 {item.label}
               </Link>
@@ -73,7 +73,7 @@ export function SiteHeader() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-white"
+                  className="text-oxblood"
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
@@ -101,10 +101,10 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className={`text-sm transition-colors ${
+              className={`text-sm font-medium transition-colors ${
                 pathname.startsWith(item.href)
-                  ? "font-semibold text-amber"
-                  : "text-white/85 hover:text-white"
+                  ? "text-oxblood"
+                  : "text-oxblood hover:text-oxblood-deep"
               }`}
             >
               {item.label}
@@ -128,7 +128,7 @@ export function SiteHeader() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-white"
+                className="text-oxblood"
                 onClick={() => setOpen(false)}
               >
                 {item.label}

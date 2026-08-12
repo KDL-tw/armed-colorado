@@ -14,6 +14,10 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+### Preview on another device (LAN)
+
+`npm run dev` prints a `Network:` URL (e.g. `http://192.168.1.209:3000`) for access from another machine on the same network. Add your host machine's LAN IP to `allowedDevOrigins` in `next.config.ts` so the dev server accepts requests from that origin.
+
 ## Environment
 
 | Variable | Purpose |
@@ -51,7 +55,7 @@ Billwatch is stubbed until Umbrella credentials exist. Request API access: [umbr
 
 ## Scripts
 
-- `npm run dev` — development
+- `npm run dev` — development (binds all interfaces; also reachable at the `Network:` URL)
 - `npm run build` — production build
-- `npm run start` — serve build
+- `npm run start` — serve build (localhost by default; use `npm run start -- -H 0.0.0.0` for LAN)
 - `npm run lint` — ESLint
