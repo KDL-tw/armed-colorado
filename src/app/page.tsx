@@ -37,6 +37,12 @@ export default function HomePage() {
               Find legislators
             </Link>
             <Link
+              href="/testifying"
+              className="animate-rise-delay border-2 border-navy bg-white/90 px-6 py-3 text-sm font-semibold tracking-wide text-navy transition hover:border-amber hover:text-amber-deep"
+            >
+              How to testify
+            </Link>
+            <Link
               href="/litigation"
               className="animate-rise-delay border-2 border-navy bg-white/90 px-6 py-3 text-sm font-semibold tracking-wide text-navy transition hover:border-amber hover:text-amber-deep"
             >
