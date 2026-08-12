@@ -48,6 +48,12 @@ export default function HomePage() {
             >
               Litigation tracker
             </Link>
+            <Link
+              href="/statutes"
+              className="animate-rise-delay border-2 border-navy bg-white/90 px-6 py-3 text-sm font-semibold tracking-wide text-navy transition hover:border-amber hover:text-amber-deep"
+            >
+              Colorado Revised Statutes
+            </Link>
           </div>
         </div>
       </section>
