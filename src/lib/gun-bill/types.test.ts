@@ -12,13 +12,16 @@ import {
 const supportPosition: GunBillPosition = "Support";
 const opposePosition: GunBillPosition = "Oppose";
 const amendPosition: GunBillPosition = "Amend";
+const monitorPosition: GunBillPosition = "Monitor";
 
 // GunBillStatus type checks
-const signedStatus: GunBillStatus = "Signed into law";
-const killedStatus: GunBillStatus = "Killed in Committee";
+const signedStatus: GunBillStatus = "Signed into Law";
+const killedStatus: GunBillStatus = "Died in Committee";
 const passedHouseStatus: GunBillStatus = "Passed House";
 const passedSenateStatus: GunBillStatus = "Passed Senate";
 const heldOverStatus: GunBillStatus = "Held-over";
+const deadStatus: GunBillStatus = "Dead";
+const lawStatus: GunBillStatus = "Law";
 
 // GunBillCatalogEntry type check with all required fields
 const mockEntry: GunBillCatalogEntry = {
@@ -65,7 +68,7 @@ const multiBillYear: GunBillCatalogYear = {
     },
     {
       position: "Amend",
-      status: "Killed in Committee",
+      status: "Died in Committee",
       billNumber: "SB26-2000",
       title: "Senate Test Bill",
       summary:
