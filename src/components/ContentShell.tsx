@@ -3,7 +3,7 @@ export function ContentShell({
   width = "5xl",
 }: {
   children: React.ReactNode;
-  width?: "xl" | "3xl" | "4xl" | "5xl";
+  width?: "xl" | "3xl" | "4xl" | "5xl" | "screen";
 }) {
   const max =
     width === "xl"
@@ -12,7 +12,9 @@ export function ContentShell({
         ? "max-w-3xl"
         : width === "4xl"
           ? "max-w-4xl"
-          : "max-w-5xl";
+          : width === "screen"
+            ? "max-w-screen-2xl"
+            : "max-w-5xl";
 
   return (
     <main className="min-h-[70vh] bg-white">

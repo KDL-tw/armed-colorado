@@ -4,7 +4,7 @@ import { PolygonalColoradoField } from "@/components/PolygonalColoradoField";
 export default function HomePage() {
   return (
     <main className="relative flex min-h-[100svh] flex-col bg-white">
-      <section className="relative flex min-h-[100svh] flex-1 flex-col justify-end overflow-hidden pb-16 pt-28 md:pb-24">
+      <section className="relative flex min-h-[calc(100svh-4rem)] flex-1 flex-col justify-end overflow-hidden pb-16 pt-8 md:pb-24">
         <PolygonalColoradoField intensity="full" />
 
         <div className="relative z-10 w-full">

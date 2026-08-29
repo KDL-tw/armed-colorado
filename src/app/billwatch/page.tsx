@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { loadGunBillCatalog, getYearData } from "@/lib/gun-bill/catalog-client";
+import { loadGunBillCatalog } from "@/lib/gun-bill/catalog-client";
 import { ContentShell } from "@/components/ContentShell";
+import { BillTableClient } from "./BillTableClient";
 import Link from "next/link";
 import type { GunBillCatalogEntry, GunBillCatalogYear } from "@/lib/gun-bill/types";
 
@@ -36,7 +37,8 @@ export default async function BillwatchPage() {
   }
 
   return (
-    <ContentShell width="xl">
+    <ContentShell width="screen">
+      <BillTableClient />
       <p className="text-sm uppercase tracking-[0.2em] text-oxblood">
         Legislation
       </p>
@@ -90,88 +92,118 @@ export default async function BillwatchPage() {
             </p>
           </div>
         ) : (
-          catalog.map((yearData) => (
-            <section key={yearData.year} className="mt-12">
-              <h2 className="font-display text-3xl text-navy mb-6">
-                {yearData.year} Bills - Colorado General Assembly
-              </h2>
-              <div className="overflow-x-auto">
-                <table className="w-full border-collapse table-fixed">
-                  <thead>
-                    <tr className="border-b border-navy/10">
-                      <th className="w-[80px] py-2 text-left text-xs uppercase tracking-wider text-muted">
-                        Position
-                      </th>
-                      <th className="w-[120px] py-2 text-left text-xs uppercase tracking-wider text-muted">
-                        Status
-                      </th>
-                      <th className="w-[100px] py-2 text-left text-xs uppercase tracking-wider text-muted">
-                        Bill Number
-                      </th>
-                      <th className="w-[250px] py-2 text-left text-xs uppercase tracking-wider text-muted">
-                        Title
-                      </th>
-                      <th className="w-auto py-2 text-left text-xs uppercase tracking-wider text-muted">
-                        Summary
-                      </th>
-                      <th className="w-[180px] py-2 text-left text-xs uppercase tracking-wider text-muted">
-                        Sponsors
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {yearData.bills.map((bill: GunBillCatalogEntry) => (
-                      <tr
-                        key={bill.billNumber}
-                        className="border-b border-navy/5 hover:bg-navy/5"
-                      >
-                        <td className="w-[80px] py-3">
-                          <span className={positionColors[bill.position] || "text-muted"}>
-                            {bill.position}
-                          </span>
-                        </td>
-                        <td className="w-[120px] py-3">
-                          <span className={statusColors[bill.status] || "text-muted"}>
-                            {bill.status}
-                          </span>
-                        </td>
-                        <td className="w-[100px] py-3">
-                          <Link
-                            href={bill.officialUrl || "#"}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 underline hover:text-blue-800"
-                          >
-                            {bill.billNumber}
-                          </Link>
-                        </td>
-                        <td className="w-[250px] py-3">
-                          <Link
-                            href={bill.officialUrl || "#"}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-navy hover:text-oxblood font-medium"
-                          >
-                            {bill.title}
-                          </Link>
-                        </td>
-                        <td className="w-auto py-3 text-muted">
-                          <p className="line-clamp-2">{bill.summary}</p>
-                        </td>
-                        <td className="w-[180px] py-3 text-muted text-sm">
-                          <ul className="list-none space-y-1 p-0 m-0">
-                            {bill.sponsors.map((sponsor) => (
-                              <li key={sponsor}>{sponsor}</li>
-                            ))}
-                          </ul>
-                        </td>
+          catalog.map((yearData) => {
+            // Filter out duplicate bills and bills with invalid URLs within the same year
+            const seenKeys = new Set<string>();
+            const validBills = yearData.bills.filter((bill) => {
+              // Skip bills with empty or invalid URLs (contains %20 which indicates a title in URL field)
+              if (!bill.officialUrl || bill.officialUrl.includes('%20')) {
+                return false;
+              }
+              // Skip duplicates by billNumber within same year
+              const key = `${bill.billNumber}-${yearData.year}`;
+              if (seenKeys.has(key)) {
+                return false;
+              }
+              seenKeys.add(key);
+              return true;
+            });
+
+            return (
+              <section key={yearData.year} data-year={yearData.year} className="mt-12">
+                <h2 className="font-display text-3xl text-navy mb-6">
+                  {yearData.year} Bills - Colorado General Assembly
+                </h2>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse table-auto">
+                    <thead>
+                      <tr className="border-b border-navy/20">
+                        <th className="w-20 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                          Position
+                        </th>
+                        <th className="w-32 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                          Status
+                        </th>
+                        <th className="w-28 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                          Bill Number
+                        </th>
+                        <th className="py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold">
+                          Title
+                        </th>
+                        <th className="py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold">
+                          Summary
+                        </th>
+                        <th className="w-48 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                          Sponsors
+                        </th>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </section>
-          ))
+                    </thead>
+                    <tbody>
+                      {validBills.map((bill: GunBillCatalogEntry) => {
+                        const isValidUrl = bill.officialUrl && !bill.officialUrl.includes('%20');
+                        return (
+                          <tr
+                            key={`${bill.billNumber}-${yearData.year}`}
+                            data-search={`${bill.billNumber} ${bill.title} ${bill.summary} ${bill.position} ${bill.status}`.toLowerCase()}
+                            className="border-b border-navy/10 hover:bg-navy/5"
+                          >
+                            <td className="w-20 py-3">
+                              <span className={positionColors[bill.position] || "text-muted"}>
+                                {bill.position}
+                              </span>
+                            </td>
+                            <td className="w-32 py-3">
+                              <span className={statusColors[bill.status] || "text-muted"}>
+                                {bill.status}
+                              </span>
+                            </td>
+                            <td className="w-28 py-3">
+                              {isValidUrl && bill.officialUrl ? (
+                                <Link
+                                  href={bill.officialUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-600 underline hover:text-blue-800"
+                                >
+                                  {bill.billNumber}
+                                </Link>
+                              ) : (
+                                <span>{bill.billNumber}</span>
+                              )}
+                            </td>
+                            <td className="min-w-[280px] py-3 pr-6">
+                              {isValidUrl && bill.officialUrl ? (
+                                <Link
+                                  href={bill.officialUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-navy hover:text-oxblood font-medium"
+                                >
+                                  {bill.title}
+                                </Link>
+                              ) : (
+                                <span className="text-navy font-medium">{bill.title}</span>
+                              )}
+                            </td>
+                            <td className="min-w-[320px] py-3 pl-2 pr-6 text-muted">
+                              <p className="whitespace-normal break-words">{bill.summary}</p>
+                            </td>
+                            <td className="w-56 py-3 pl-2 text-muted text-sm">
+                              <ul className="list-none space-y-1 p-0 m-0">
+                                {bill.sponsors.map((sponsor, index) => (
+                                  <li key={`${sponsor}-${index}`}>{sponsor}</li>
+                                ))}
+                              </ul>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            );
+          })
         )}
       </div>
 
