@@ -1,33 +1,77 @@
-import { assembleCatalog, saveCatalog, loadRmgoScrapedData } from '../src/lib/gun-bill/assemble-catalog';
-import { rmgoToCatalogEntry } from '../src/lib/gun-bill/assemble-catalog';
-import type { GunBillCatalogEntry } from '../src/lib/gun-bill/types';
+import * as path from "path";
+import { saveCatalog, loadRmgoScrapedData } from "../src/lib/gun-bill/assemble-catalog";
+import { rmgoToCatalogEntryWithCoGaExtraction } from "../src/lib/gun-bill/extract-co-ga-bill-info";
+import type { GunBillCatalogYear } from "../src/lib/gun-bill/types";
 
-// Load scraped RMGO data
-const rmgoData = loadRmgoScrapedData('../data/rmgo-scraped-bills-20260828.json');
+const RMGO_FILE = path.join(process.cwd(), "data", "rmgo-scraped-bills-20260828.json");
+const OUTPUT_FILE = path.join(process.cwd(), "data", "gun-bill-catalog-20260828.json");
+const TARGET_YEAR = process.argv.includes("--year")
+  ? parseInt(process.argv[process.argv.indexOf("--year") + 1])
+  : null;
 
-console.log(`Loaded RMGO data with ${Object.keys(rmgoData.years).length} years`);
+async function main() {
+  const rmgoData = loadRmgoScrapedData(RMGO_FILE);
+  console.log(`Loaded RMGO data with ${Object.keys(rmgoData.years).length} years`);
 
-// Count total bills
-const totalBills = Object.values(rmgoData.years).reduce((sum, bills) => sum + bills.length, 0);
-console.log(`Total bills: ${totalBills}`);
+  const totalBills = Object.values(rmgoData.years).reduce(
+    (sum, bills) => sum + bills.length,
+    0
+  );
+  console.log(`Total bills: ${totalBills}`);
 
-// Show sample entry
-const sampleYear = Object.keys(rmgoData.years)[0];
-const sampleBill = rmgoData.years[sampleYear][0];
-const sampleEntry = rmgoToCatalogEntry(sampleBill);
+  if (TARGET_YEAR) {
+    console.log(`\nFiltering to year ${TARGET_YEAR} only`);
+  }
 
-console.log('\nSample catalog entry:');
-console.log(JSON.stringify(sampleEntry, null, 2));
+  const sortedYears = Object.keys(rmgoData.years).sort(
+    (a, b) => parseInt(b) - parseInt(a)
+  );
 
-// Assemble full catalog
-const catalog = assembleCatalog(rmgoData);
-console.log(`\nAssembled catalog with ${catalog.length} years`);
+  const catalog: GunBillCatalogYear[] = [];
 
-// Save catalog
-saveCatalog(catalog, '../data/gun-bill-catalog-20260828.json');
-console.log('\nSaved catalog to data/gun-bill-catalog-20260828.json');
+  for (const yearStr of sortedYears) {
+    const year = parseInt(yearStr);
+    if (TARGET_YEAR && year !== TARGET_YEAR) continue;
 
-// Show summary
-for (const year of catalog) {
-  console.log(`Year ${year.year}: ${year.bills.length} bills`);
+    const bills = rmgoData.years[yearStr];
+    const catalogBills = [];
+
+    for (const rmgoBill of bills) {
+      process.stdout.write(`  ${rmgoBill.billNumber}...`);
+      const entry = await rmgoToCatalogEntryWithCoGaExtraction(rmgoBill);
+      catalogBills.push(entry);
+      const titleSource =
+        entry.title === rmgoBill.subject.replace(/\*\*/g, "")
+          ? "RMGO"
+          : "CO-GA";
+      console.log(` ${titleSource}: "${entry.title.substring(0, 50)}..."`);
+    }
+
+    catalog.push({ year, bills: catalogBills });
+    console.log(`Year ${year}: ${catalogBills.length} bills processed`);
+  }
+
+  if (!TARGET_YEAR) {
+    saveCatalog(catalog, OUTPUT_FILE);
+    console.log(`\nSaved catalog to ${OUTPUT_FILE}`);
+  } else {
+    const sampleFile = path.join(
+      process.cwd(),
+      "data",
+      `gun-bill-catalog-${TARGET_YEAR}-sample.json`
+    );
+    saveCatalog(catalog, sampleFile);
+    console.log(`\nSaved sample catalog to ${sampleFile}`);
+  }
+
+  for (const year of catalog) {
+    const coGaCount = year.bills.filter(
+      (b) => !b.title.includes("*") && b.title !== b.billNumber
+    ).length;
+    console.log(
+      `Year ${year.year}: ${year.bills.length} bills, ${coGaCount} with non-RMGO titles`
+    );
+  }
 }
+
+main().catch(console.error);
