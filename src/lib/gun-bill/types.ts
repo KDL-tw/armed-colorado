@@ -25,6 +25,11 @@ export type RmgoBill = {
   enactmentDate?: string | null;
 };
 
+export type SponsorLink = {
+  name: string;
+  slug: string | null;
+};
+
 // Internal representation for the catalog
 export type GunBillCatalogEntry = {
   billNumber: string;
@@ -33,6 +38,7 @@ export type GunBillCatalogEntry = {
   position: GunBillPosition;
   status: GunBillStatus;
   sponsors: string[];
+  sponsorLinks?: SponsorLink[];
   location?: string;
   enactmentDate?: string | null;
   officialUrl?: string;

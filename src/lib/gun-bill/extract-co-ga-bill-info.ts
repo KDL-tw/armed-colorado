@@ -1,5 +1,6 @@
 import type { GunBillCatalogEntry, RmgoBill } from './types';
 import { loadBillTextCache, saveBillTextCache } from './bill-text-cache';
+import { extractCoGaSponsorLinks, splitSponsorString, type SponsorLink } from './sponsor-links';
 
 /**
  * Decode common HTML entities in extracted text
@@ -247,6 +248,7 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
   
   let title: string;
   let summary: string;
+  let sponsorLinks: SponsorLink[] | undefined;
   
   if (cachedTitle && cachedSummary && validateCoGaExtraction(cachedTitle, cachedSummary, rmgoBill.billNumber)) {
     title = cachedTitle;
@@ -254,6 +256,7 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
   } else if (rmgoBill.subjectUrl) {
     const extractedTitle = await extractCoGaBillTitle(rmgoBill.billNumber, rmgoBill.subjectUrl);
     const coGaSummaryRef = await extractCoGaBillSummary(rmgoBill.billNumber, rmgoBill.subjectUrl);
+    const coGaSponsors = await extractCoGaSponsorLinks(rmgoBill.subjectUrl, rmgoBill.sponsors);
 
     if (extractedTitle && extractedTitle !== rmgoBill.billNumber) {
       title = extractedTitle;
@@ -265,6 +268,7 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
         rmgoBill.status
       );
       setCachedCoGaData(cacheKey, title, summary);
+      sponsorLinks = coGaSponsors;
     } else {
       title = rmgoBill.subject.replace(/\*\*/g, "");
       summary = generate2ASummary(
@@ -296,6 +300,7 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
     position: rmgoBill.position,
     status: rmgoBill.status,
     sponsors: rmgoBill.sponsors,
+    sponsorLinks,
     location: rmgoBill.location,
     enactmentDate: rmgoBill.enactmentDate || undefined,
     officialUrl: rmgoBill.subjectUrl || undefined,
