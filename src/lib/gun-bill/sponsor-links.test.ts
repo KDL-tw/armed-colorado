@@ -1,14 +1,14 @@
 import { describe, test } from 'node:test';
 import assert from 'node:assert';
 
-// Type definitions for testing (these would be imported from './sponsor-links' in production)
-interface PageSponsor {
+// PageSponsor type (would be imported from './sponsor-links' in production)
+type PageSponsor = {
   chamber: 'House' | 'Senate';
   name: string;
   slug: string;
-}
+};
 
-// -------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // splitSponsorString Tests (6 test cases)
 // -------------------------------------------------------------------------
 
