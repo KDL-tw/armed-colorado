@@ -252,24 +252,6 @@
           "Rep. Meg Froelich",
           "Rep. Andrew Boesnecker"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Tom Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Sen. Julie Gonzalez",
-            "slug": null
-          },
-          {
-            "name": "Rep. Meg Froelich",
-            "slug": "meg-froelich"
-          },
-          {
-            "name": "Rep. Andrew Boesnecker",
-            "slug": null
-          }
-        ],
         "location": "Law",
         "enactmentDate": "08/01/2026",
         "officialUrl": "https://leg.colorado.gov/bills/sb25-003"
@@ -286,24 +268,6 @@
           "Sen. Nick Hinrichsen",
           "Sen. Dafna Michaelson Jenet"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Shannon Bird",
-            "slug": "shannon-bird"
-          },
-          {
-            "name": "Rep. Andrew Boesenecker",
-            "slug": "andrew-boesenecker"
-          },
-          {
-            "name": "Sen. Nick Hinrichsen",
-            "slug": "nick-hinrichsen"
-          },
-          {
-            "name": "Sen. Dafna Michaelson Jenet",
-            "slug": "dafna-michaelson-jenet"
-          }
-        ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1171"
@@ -318,20 +282,6 @@
           "Sen. Cathy Kipp",
           "Rep. Andrew Boesnecker",
           "Rep. Jamie Jackson"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Cathy Kipp",
-            "slug": "cathy-kipp"
-          },
-          {
-            "name": "Rep. Andrew Boesnecker",
-            "slug": null
-          },
-          {
-            "name": "Rep. Jamie Jackson",
-            "slug": "jamie-jackson"
-          }
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
@@ -349,24 +299,6 @@
           "Rep. Shannon Bird",
           "Rep. Emily Sirota"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Judy Amabile",
-            "slug": "judy-amabile"
-          },
-          {
-            "name": "Sen. Jeff Bridges",
-            "slug": "jeff-bridges"
-          },
-          {
-            "name": "Rep. Shannon Bird",
-            "slug": "shannon-bird"
-          },
-          {
-            "name": "Rep. Emily Sirota",
-            "slug": "emily-sirota"
-          }
-        ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
         "officialUrl": "https://leg.colorado.gov/bills/sb25-295"
@@ -382,24 +314,6 @@
           "Sen. Julie Gonzales",
           "Rep. Meg Froelich",
           "Rep. Kyle Brown"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Tom Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Sen. Julie Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
-            "name": "Rep. Meg Froelich",
-            "slug": "meg-froelich"
-          },
-          {
-            "name": "Rep. Kyle Brown",
-            "slug": "kyle-brown"
-          }
         ],
         "location": "Law",
         "enactmentDate": "01/01/2026",
@@ -417,24 +331,6 @@
           "Sen. Dafna Michaelson Jenet",
           "Sen. Julie Gonzales"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Rebekah Stewart",
-            "slug": "rebekah-stewart"
-          },
-          {
-            "name": "Rep. Matt Soper",
-            "slug": "matt-soper"
-          },
-          {
-            "name": "Sen. Dafna Michaelson Jenet",
-            "slug": "dafna-michaelson-jenet"
-          },
-          {
-            "name": "Sen. Julie Gonzales",
-            "slug": "julie-gonzales"
-          }
-        ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1098"
@@ -451,24 +347,6 @@
           "Sen. Nick Hinrichsen",
           "Sen. Lindsey Daugherty"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Steven Woodrow",
-            "slug": "steven-woodrow"
-          },
-          {
-            "name": "Rep. Elizabeth Velasco",
-            "slug": "elizabeth-velasco"
-          },
-          {
-            "name": "Sen. Nick Hinrichsen",
-            "slug": "nick-hinrichsen"
-          },
-          {
-            "name": "Sen. Lindsey Daugherty",
-            "slug": "lindsey-daugherty"
-          }
-        ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1225"
@@ -483,20 +361,6 @@
           "Rep. Eliza Hamrick",
           "Rep. Monica Duran",
           "Sen. Lisa Cutter"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Eliza Hamrick",
-            "slug": "eliza-hamrick"
-          },
-          {
-            "name": "Rep. Monica Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Sen. Lisa Cutter",
-            "slug": "lisa-cutter"
-          }
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
@@ -513,20 +377,6 @@
           "Rep. Emily Sirota",
           "Sen. Cathy Kipp"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. William Lindstedt",
-            "slug": "william-lindstedt"
-          },
-          {
-            "name": "Rep. Emily Sirota",
-            "slug": "emily-sirota"
-          },
-          {
-            "name": "Sen. Cathy Kipp",
-            "slug": "cathy-kipp"
-          }
-        ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1314"
@@ -541,20 +391,6 @@
           "Sen. Nick Hinrichsen",
           "Rep. Cecelia Espenoza",
           "Rep. William Lindstedt"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Nick Hinrichsen",
-            "slug": "nick-hinrichsen"
-          },
-          {
-            "name": "Rep. Cecelia Espenoza",
-            "slug": "cecelia-espenoza"
-          },
-          {
-            "name": "Rep. William Lindstedt",
-            "slug": "william-lindstedt"
-          }
         ],
         "location": "Law",
         "enactmentDate": "07/01/2026",
@@ -572,24 +408,6 @@
           "Sen. Nick Hinrichsen",
           "Sen. Jeff Bridges"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Sean Camacho",
-            "slug": "sean-camacho"
-          },
-          {
-            "name": "Rep. Rebekah Stewart",
-            "slug": null
-          },
-          {
-            "name": "Sen. Nick Hinrichsen",
-            "slug": "nick-hinrichsen"
-          },
-          {
-            "name": "Sen. Jeff Bridges",
-            "slug": "jeff-bridges"
-          }
-        ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1132"
@@ -604,20 +422,6 @@
           "Sen. Tom Sullivan",
           "Rep. Steven Woodrow",
           "Rep. Michael Carter"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Tom Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Rep. Steven Woodrow",
-            "slug": "steven-woodrow"
-          },
-          {
-            "name": "Rep. Michael Carter",
-            "slug": "michael-carter"
-          }
         ],
         "location": "Law",
         "enactmentDate": "08/08/2025",
@@ -635,24 +439,6 @@
           "Sen. Cathy Kipp",
           "Sen. Jessie Danielson"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Junie Joseph",
-            "slug": "junie-joseph"
-          },
-          {
-            "name": "Rep. Sean Camacho",
-            "slug": "sean-camacho"
-          },
-          {
-            "name": "Sen. Cathy Kipp",
-            "slug": "cathy-kipp"
-          },
-          {
-            "name": "Sen. Jessie Danielson",
-            "slug": "jessie-danielson"
-          }
-        ],
         "location": "Law",
         "enactmentDate": "07/01/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1238"
@@ -668,24 +454,6 @@
           "Rep. Lindsay Gilchrist",
           "Sen. Judie Amabile",
           "Sen. Cathy Kipp"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Monica Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Rep. Lindsay Gilchrist",
-            "slug": "lindsay-gilchrist"
-          },
-          {
-            "name": "Sen. Judie Amabile",
-            "slug": "judy-amabile"
-          },
-          {
-            "name": "Sen. Cathy Kipp",
-            "slug": "cathy-kipp"
-          }
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
@@ -703,24 +471,6 @@
           "Sen. Nick Hinrichsen",
           "Sen. Byron Pelton"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ryan Armagost",
-            "slug": "ryan-armagost"
-          },
-          {
-            "name": "Rep. Monica Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Sen. Nick Hinrichsen",
-            "slug": "nick-hinrichsen"
-          },
-          {
-            "name": "Sen. Byron Pelton",
-            "slug": "byron-pelton"
-          }
-        ],
         "location": "House Floor",
         "enactmentDate": "08/08/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1062"
@@ -734,16 +484,6 @@
         "sponsors": [
           "Rep. Tammy Story",
           "Rep. Elizabeth Velasco"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Tammy Story",
-            "slug": "tammy-story"
-          },
-          {
-            "name": "Rep. Elizabeth Velasco",
-            "slug": "elizabeth-velasco"
-          }
         ],
         "location": "Agriculture, Water & Natural Resources",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1258"
@@ -759,20 +499,6 @@
           "Rep. Ryan Armagost",
           "Sen. Kyle Mullica"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Cecelia Espinoza",
-            "slug": null
-          },
-          {
-            "name": "Rep. Ryan Armagost",
-            "slug": "ryan-armagost"
-          },
-          {
-            "name": "Sen. Kyle Mullica",
-            "slug": "kyle-mullica"
-          }
-        ],
         "location": "Finance Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1128"
       },
@@ -785,16 +511,6 @@
         "sponsors": [
           "Rep. Javier Mabrey",
           "Sen. Mike Weissman"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Javier Mabrey",
-            "slug": "javier-mabrey"
-          },
-          {
-            "name": "Sen. Mike Weissman",
-            "slug": "mike-weissman"
-          }
         ],
         "location": "Finance Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1262"
@@ -811,24 +527,6 @@
           "Rep. Andrew Boesenecker",
           "Rep. Anthony Hartsook"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Lisa Frizell",
-            "slug": "lisa-frizell"
-          },
-          {
-            "name": "Sen. Lindsey Daugherty",
-            "slug": "lindsey-daugherty"
-          },
-          {
-            "name": "Rep. Andrew Boesenecker",
-            "slug": "andrew-boesenecker"
-          },
-          {
-            "name": "Rep. Anthony Hartsook",
-            "slug": "anthony-hartsook"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb25-086"
       },
@@ -842,16 +540,6 @@
           "Rep. Ken Degraaf",
           "Sen. Mark Baisley"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ken Degraaf",
-            "slug": "ken-degraaf"
-          },
-          {
-            "name": "Sen. Mark Baisley",
-            "slug": "mark-baisley"
-          }
-        ],
         "location": "Judiciary Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1067"
       },
@@ -863,12 +551,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Ron Weinberg"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ron Weinberg",
-            "slug": "ron-weinberg"
-          }
         ],
         "location": "State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1164"
@@ -883,16 +565,6 @@
           "Rep. Max Brooks",
           "Sen. Mark Baisley"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Max Brooks",
-            "slug": "max-brooks"
-          },
-          {
-            "name": "Sen. Mark Baisley",
-            "slug": "mark-baisley"
-          }
-        ],
         "location": "Business Affairs and Labor Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1055"
       },
@@ -904,12 +576,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Stephanie Luck"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Stephanie Luck",
-            "slug": "stephanie-luck"
-          }
         ],
         "location": "Judiciary Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1232"
@@ -924,20 +590,6 @@
           "Rep. Eliza Hamrick",
           "Rep. Andrew Boesenecker",
           "Sen. Faith Winter"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Eliza Hamrick",
-            "slug": "eliza-hamrick"
-          },
-          {
-            "name": "Rep. Andrew Boesenecker",
-            "slug": "andrew-boesenecker"
-          },
-          {
-            "name": "Sen. Faith Winter",
-            "slug": "faith-winter"
-          }
         ],
         "location": "Appropriations Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1170"
@@ -959,24 +611,6 @@
           "Rep. Kyle Brown",
           "Rep. Mandy Lindsey"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Sonya Jaquez Lewis",
-            "slug": "sonya-jaquez-lewis"
-          },
-          {
-            "name": "Sen. Chris Kolker",
-            "slug": "chris-kolker"
-          },
-          {
-            "name": "Rep. Kyle Brown",
-            "slug": "kyle-brown"
-          },
-          {
-            "name": "Rep. Mandy Lindsey",
-            "slug": null
-          }
-        ],
         "location": "Governor's Desk",
         "enactmentDate": "07/01/2024",
         "officialUrl": "https://leg.colorado.gov/bills/sb24-131"
@@ -991,20 +625,6 @@
           "Rep. Monica Duran",
           "Rep. Marc Snyder",
           "Sen. Kyle Mullica"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Monica Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Rep. Marc Snyder",
-            "slug": "marc-snyder"
-          },
-          {
-            "name": "Sen. Kyle Mullica",
-            "slug": "kyle-mullica"
-          }
         ],
         "location": "Governor's Desk",
         "enactmentDate": "07/01/2025",
@@ -1021,20 +641,6 @@
           "Rep. Meg Froelich",
           "Rep. Javier Mabrey"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Tom Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Rep. Meg Froelich",
-            "slug": "meg-froelich"
-          },
-          {
-            "name": "Rep. Javier Mabrey",
-            "slug": "javier-mabrey"
-          }
-        ],
         "location": "Governor's Desk",
         "enactmentDate": "08/09/2024",
         "officialUrl": "https://leg.colorado.gov/bills/sb24-066"
@@ -1049,20 +655,6 @@
           "Sen. Tom Sullivan",
           "Rep. Meg Froelich",
           "Rep. Monica Duran"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Tom Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Rep. Meg Froelich",
-            "slug": "meg-froelich"
-          },
-          {
-            "name": "Rep. Monica Duran",
-            "slug": "monica-duran"
-          }
         ],
         "location": "Governor's Desk",
         "enactmentDate": "Fiscal Year 2024",
@@ -1080,24 +672,6 @@
           "Sen. Sonya Jaquez Lewis",
           "Sen. Rhonda Fields"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Elizabeth Velasco",
-            "slug": "elizabeth-velasco"
-          },
-          {
-            "name": "Rep. Lorena Garcia",
-            "slug": null
-          },
-          {
-            "name": "Sen. Sonya Jaquez Lewis",
-            "slug": "sonya-jaquez-lewis"
-          },
-          {
-            "name": "Sen. Rhonda Fields",
-            "slug": "rhonda-fields"
-          }
-        ],
         "location": "Governor's Desk",
         "enactmentDate": "01/01/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1348"
@@ -1113,24 +687,6 @@
           "Sen. Janet Buckner",
           "Rep. Monica Duran",
           "Rep. Meg Froelich"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Chris Hansen",
-            "slug": "chris-hansen"
-          },
-          {
-            "name": "Sen. Janet Buckner",
-            "slug": "janet-buckner"
-          },
-          {
-            "name": "Rep. Monica Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Rep. Meg Froelich",
-            "slug": "meg-froelich"
-          }
         ],
         "location": "Governor's Desk",
         "enactmentDate": "04/01/2025",
@@ -1148,24 +704,6 @@
           "Sen. Jeff Bridges",
           "Sen. Dafna Michaelson Jenet"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Emily Sirota",
-            "slug": "emily-sirota"
-          },
-          {
-            "name": "Rep. Andrew Boesenecker",
-            "slug": "andrew-boesenecker"
-          },
-          {
-            "name": "Sen. Jeff Bridges",
-            "slug": "jeff-bridges"
-          },
-          {
-            "name": "Sen. Dafna Michaelson Jenet",
-            "slug": "dafna-michaelson-jenet"
-          }
-        ],
         "location": "Governor's Desk",
         "enactmentDate": "07/01/2025",
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1353"
@@ -1181,20 +719,6 @@
           "Rep. Tim Hernandez",
           "Rep. Elizabeth Epps"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Julie Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
-            "name": "Rep. Tim Hernandez",
-            "slug": "tim-hernandez"
-          },
-          {
-            "name": "Rep. Elizabeth Epps",
-            "slug": "elisabeth-epps"
-          }
-        ],
         "location": "Senate State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1292"
       },
@@ -1209,20 +733,6 @@
           "Rep. Iman Jodeh",
           "Sen. Chris Hansen"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Steven Woodrow",
-            "slug": "steven-woodrow"
-          },
-          {
-            "name": "Rep. Iman Jodeh",
-            "slug": "iman-jodeh"
-          },
-          {
-            "name": "Sen. Chris Hansen",
-            "slug": "chris-hansen"
-          }
-        ],
         "location": "Senate Floor",
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1270"
       },
@@ -1236,16 +746,6 @@
           "Rep. Jennifer Parenti",
           "Rep. Eliza Hamrick"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Jennifer Parenti",
-            "slug": "jennifer-parenti"
-          },
-          {
-            "name": "Rep. Eliza Hamrick",
-            "slug": "eliza-hamrick"
-          }
-        ],
         "location": "House Education Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1310"
       },
@@ -1257,12 +757,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Rose Pugliese"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Rose Pugliese",
-            "slug": "rose-pugliese"
-          }
         ],
         "location": "House State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hjr24-1024"
@@ -1276,16 +770,6 @@
         "sponsors": [
           "Rep. Ken DeGraff",
           "Sen. Mark Baisley"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ken DeGraff",
-            "slug": null
-          },
-          {
-            "name": "Sen. Mark Baisley",
-            "slug": "mark-baisley"
-          }
         ],
         "location": "House Judiciary<br>Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1023"
@@ -1306,20 +790,6 @@
           "Rep. Karen McCormick",
           "Sen. Sonya Jaquez Lewis"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Judy Amabile",
-            "slug": "judy-amabile"
-          },
-          {
-            "name": "Rep. Karen McCormick",
-            "slug": "karen-mccormick"
-          },
-          {
-            "name": "Sen. Sonya Jaquez Lewis",
-            "slug": "sonya-jaquez-lewis"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/HB23-1165"
       },
@@ -1334,24 +804,6 @@
           "Sen. Jessie Danielson",
           "Rep. Monica Duran",
           "Rep. Eliza Hamrick"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Kyle Mullica",
-            "slug": "kyle-mullica"
-          },
-          {
-            "name": "Sen. Jessie Danielson",
-            "slug": "jessie-danielson"
-          },
-          {
-            "name": "Rep. Monica Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Rep. Eliza Hamrick",
-            "slug": "eliza-hamrick"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb23-169"
@@ -1368,24 +820,6 @@
           "Rep. Jennifer Bacon",
           "Rep. Mike Weissman"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Tom Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Sen. Stephen Fenberg",
-            "slug": "steve-fenberg"
-          },
-          {
-            "name": "Rep. Jennifer Bacon",
-            "slug": "jennifer-bacon"
-          },
-          {
-            "name": "Rep. Mike Weissman",
-            "slug": "mike-weissman"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb23-170"
       },
@@ -1401,24 +835,6 @@
           "Sen. Tom Sullivan",
           "Sen. Chris Hansen"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Meg Froelich",
-            "slug": "meg-froelich"
-          },
-          {
-            "name": "Rep. Julie Amabile",
-            "slug": "judy-amabile"
-          },
-          {
-            "name": "Sen. Tom Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Sen. Chris Hansen",
-            "slug": "chris-hansen"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb23-1219"
       },
@@ -1433,24 +849,6 @@
           "Sen. Chris Hansen",
           "Rep. Andrew Boesenecker",
           "Rep. Junie Joseph"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Rhonda Fields",
-            "slug": "rhonda-fields"
-          },
-          {
-            "name": "Sen. Chris Hansen",
-            "slug": "chris-hansen"
-          },
-          {
-            "name": "Rep. Andrew Boesenecker",
-            "slug": "andrew-boesenecker"
-          },
-          {
-            "name": "Rep. Junie Joseph",
-            "slug": "junie-joseph"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb23-279"
@@ -1479,16 +877,6 @@
           "Rep. Elisabeth Epps",
           "Sen. Rhonda Fields"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Elisabeth Epps",
-            "slug": "elisabeth-epps"
-          },
-          {
-            "name": "Sen. Rhonda Fields",
-            "slug": "rhonda-fields"
-          }
-        ],
         "location": "House Judiciary Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb23-1230"
       },
@@ -1502,16 +890,6 @@
           "Sen. Barbara Kirkmeyer",
           "Rep. Mary Bradfield"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Barbara Kirkmeyer",
-            "slug": "barbara-kirkmeyer"
-          },
-          {
-            "name": "Rep. Mary Bradfield",
-            "slug": "mary-bradfield"
-          }
-        ],
         "location": "Senate State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/sb23-101"
       },
@@ -1524,16 +902,6 @@
         "sponsors": [
           "Sen. Nick Hinrichsen",
           "Rep. Shannon Bird"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Nick Hinrichsen",
-            "slug": "nick-hinrichsen"
-          },
-          {
-            "name": "Rep. Shannon Bird",
-            "slug": "shannon-bird"
-          }
         ],
         "location": "Senate Judiciary Committee",
         "officialUrl": "https://leg.colorado.gov/bills/sb23-022"
@@ -1550,24 +918,6 @@
           "Sen. Mark Baisley",
           "Sen. Faith Winter"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ken DeGraaf",
-            "slug": "ken-degraaf"
-          },
-          {
-            "name": "Rep. Julie Joseph",
-            "slug": "junie-joseph"
-          },
-          {
-            "name": "Sen. Mark Baisley",
-            "slug": "mark-baisley"
-          },
-          {
-            "name": "Sen. Faith Winter",
-            "slug": "faith-winter"
-          }
-        ],
         "location": "House<br>Judiciary Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb23-1086"
       },
@@ -1580,12 +930,6 @@
         "sponsors": [
           "Rep. Ken DeGraaf"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ken DeGraaf",
-            "slug": "ken-degraaf"
-          }
-        ],
         "location": "House<br>State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb23-1044"
       },
@@ -1597,12 +941,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Ty Winter"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ty Winter",
-            "slug": "ty-winter"
-          }
         ],
         "location": "House<br>State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb23-1050"
@@ -1621,24 +959,6 @@
         "sponsors": [
           "Rep. M. Weissman, Rep. M. Soper, Sen. J. Gonzales, Sen. B. Gardner"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. M. Weissman",
-            "slug": "mike-weissman"
-          },
-          {
-            "name": "Rep. M. Soper",
-            "slug": "matt-soper"
-          },
-          {
-            "name": "Sen. J. Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
-            "name": "Sen. B. Gardner",
-            "slug": "bob-gardner"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1257"
       },
@@ -1650,24 +970,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. T. Sullivan, Rep. J. Bacon, Sen. R. Fields, Sen. S. J. Lewis"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. T. Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Rep. J. Bacon",
-            "slug": "jennifer-bacon"
-          },
-          {
-            "name": "Sen. R. Fields",
-            "slug": "rhonda-fields"
-          },
-          {
-            "name": "Sen. S. J. Lewis",
-            "slug": "sonya-jaquez-lewis"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1086"
@@ -1681,12 +983,6 @@
         "sponsors": [
           "Sen. S. J. Lewis"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. S. J. Lewis",
-            "slug": "sonya-jaquez-lewis"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb22-031"
       },
@@ -1698,12 +994,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. M. Weissman"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. M. Weissman",
-            "slug": "mike-weissman"
-          }
         ],
         "location": "House State Affairs",
         "officialUrl": "https://leg.colorado.gov/bills/hcr22-1002"
@@ -1717,16 +1007,6 @@
         "sponsors": [
           "Rep. R. Holtorf, Sen. J. Sonnenburg"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. R. Holtorf",
-            "slug": "richard-holtorf"
-          },
-          {
-            "name": "Sen. J. Sonnenburg",
-            "slug": null
-          }
-        ],
         "location": "House State Affairs",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1045"
       },
@@ -1738,24 +1018,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. K. V. Winkle, Rep. P. Neville, Sen. R. Woodward, Sen. J. Bridges"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. K. V. Winkle",
-            "slug": "kevin-van-winkle"
-          },
-          {
-            "name": "Rep. P. Neville",
-            "slug": "patrick-neville"
-          },
-          {
-            "name": "Sen. R. Woodward",
-            "slug": "rob-woodward"
-          },
-          {
-            "name": "Sen. J. Bridges",
-            "slug": "jeff-bridges"
-          }
         ],
         "location": "Governors Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1120"
@@ -1769,12 +1031,6 @@
         "sponsors": [
           "Rep. R. Hanks"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. R. Hanks",
-            "slug": "ron-hanks"
-          }
-        ],
         "location": "House Human Services",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1033"
       },
@@ -1786,12 +1042,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. P. Neville"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. P. Neville",
-            "slug": "patrick-neville"
-          }
         ],
         "location": "House State Affairs",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1106"
@@ -1805,12 +1055,6 @@
         "sponsors": [
           "Rep. S. Sandridge"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. S. Sandridge",
-            "slug": "shane-sandridge"
-          }
-        ],
         "location": "House State Affairs",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1105"
       },
@@ -1823,12 +1067,6 @@
         "sponsors": [
           "Rep. P. Will"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. P. Will",
-            "slug": "perry-will"
-          }
-        ],
         "location": "House State Affairs",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1145"
       },
@@ -1840,24 +1078,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. H. McKean, Rep. K. Mullica, Sen. R. Woodward, Sen. J. Ginal"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. H. McKean",
-            "slug": "hugh-mckean"
-          },
-          {
-            "name": "Rep. K. Mullica",
-            "slug": "kyle-mullica"
-          },
-          {
-            "name": "Sen. R. Woodward",
-            "slug": "rob-woodward"
-          },
-          {
-            "name": "Sen. J. Ginal",
-            "slug": "joann-ginal"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1168"
@@ -1876,24 +1096,6 @@
         "sponsors": [
           "Rep. M. Duran, Rep. K. Mullica, Sen. C. Hansen, Sen. J. Bridges"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. M. Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Rep. K. Mullica",
-            "slug": "kyle-mullica"
-          },
-          {
-            "name": "Sen. C. Hansen",
-            "slug": "chris-hansen"
-          },
-          {
-            "name": "Sen. J. Bridges",
-            "slug": "jeff-bridges"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1106"
       },
@@ -1905,24 +1107,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Sen. S. J. Lewis, Sen. J. Danielson, Rep. T. Sullivan, Rep. L. Herod"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. S. J. Lewis",
-            "slug": "sonya-jaquez-lewis"
-          },
-          {
-            "name": "Sen. J. Danielson",
-            "slug": "jessie-danielson"
-          },
-          {
-            "name": "Rep. T. Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Rep. L. Herod",
-            "slug": "leslie-herod"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb21-078"
@@ -1936,24 +1120,6 @@
         "sponsors": [
           "Rep. M. Duran, Rep. M. Gray, Sen. S. J. Lewis, Sen. B. Petterson"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. M. Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Rep. M. Gray",
-            "slug": "matt-gray"
-          },
-          {
-            "name": "Sen. S. J. Lewis",
-            "slug": "sonya-jaquez-lewis"
-          },
-          {
-            "name": "Sen. B. Petterson",
-            "slug": null
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1255"
       },
@@ -1965,24 +1131,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Sen. S. Fenberg, Sen. D. Moreno, Rep. E. Hooton, Rep. L. Daughtery"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. S. Fenberg",
-            "slug": "steve-fenberg"
-          },
-          {
-            "name": "Sen. D. Moreno",
-            "slug": "dominick-moreno"
-          },
-          {
-            "name": "Rep. E. Hooton",
-            "slug": "edie-hooton"
-          },
-          {
-            "name": "Rep. L. Daughtery",
-            "slug": null
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb21-256"
@@ -1996,24 +1144,6 @@
         "sponsors": [
           "Rep. J. Amabile, Rep. S. Woodrow, Sen. J. Gonzales, Sen. B. Pettersen"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. J. Amabile",
-            "slug": "judy-amabile"
-          },
-          {
-            "name": "Rep. S. Woodrow",
-            "slug": "steven-woodrow"
-          },
-          {
-            "name": "Sen. J. Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
-            "name": "Sen. B. Pettersen",
-            "slug": "brittany-pettersen"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1298"
       },
@@ -2025,24 +1155,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. T. Sullivan, Rep. J. Bacon, Sen. R. Fields, Sen. C. Hansen"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. T. Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Rep. J. Bacon",
-            "slug": "jennifer-bacon"
-          },
-          {
-            "name": "Sen. R. Fields",
-            "slug": "rhonda-fields"
-          },
-          {
-            "name": "Sen. C. Hansen",
-            "slug": "chris-hansen"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1299"
@@ -2056,20 +1168,6 @@
         "sponsors": [
           "Rep. C. Kennedy, Sen. S. Fenburg, Sen. F. Winter"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. C. Kennedy",
-            "slug": "chris-degruy-kennedy"
-          },
-          {
-            "name": "Sen. S. Fenburg",
-            "slug": null
-          },
-          {
-            "name": "Sen. F. Winter",
-            "slug": "faith-winter"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1071"
       },
@@ -2081,16 +1179,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. J. Arndt, Sen. J. Ginal"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. J. Arndt",
-            "slug": "jeni-james-arndt"
-          },
-          {
-            "name": "Sen. J. Ginal",
-            "slug": "joann-ginal"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1025"
@@ -2104,31 +1192,27 @@
         "sponsors": [
           "Sen. L. Garcia, Sen. J. Cooke, Rep. K. Mullica"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. L. Garcia",
-            "slug": null
-          },
-          {
-            "name": "Sen. J. Cooke",
-            "slug": null
-          },
-          {
-            "name": "Rep. K. Mullica",
-            "slug": null
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb21-064"
       },
       {
         "billNumber": "SB21-081",
         "title": "Measures To Prevent The Misuse Of Safe2Tell",
-        "summary": "SB21-081 is a monitor bill that measures to prevent the misuse of safe2tell. The bill governor's desk with a status of signed into law. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "summary": "SB21-081 (Measures To Prevent The Misuse Of Safe2Tell) is a monitor bill that modifies Second Amendment rights in Colorado. The act allows the attorney general to disclose to law enforcement personnel any materials or information obtained through the implementation or operation of the safe2tell program (program) if the attorney general reasonably deems such disclosure necessary for the prevention of imminent physical harm or serious bodily injury to one or more persons. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently signed into law.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
           "Sen. C. Kolker, Rep. D. M. Jenet"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. C. Kolker",
+            "slug": "chris-kolker"
+          },
+          {
+            "name": "Rep. D. M. Jenet",
+            "slug": "dafna-michaelson-jenet"
+          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb21-081"
@@ -2136,11 +1220,29 @@
       {
         "billNumber": "HB21-1001",
         "title": "Remote Participation In Party Committee Meetings",
-        "summary": "HB21-1001 is a support bill that remote participation in party committee meetings. The bill governor's desk with a status of signed into law. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "summary": "HB21-1001 (Remote Participation In Party Committee Meetings) is a support bill that supports and protects Second Amendment rights in Colorado. Through the end of 2021, the act allows members of a party central committee or vacancy committee to participate in a committee meeting remotely, including by casting the member's vote by e-mail, mail, telephone, or through an internet-based application if allowed by the party's rules. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently signed into law.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
           "Sen. C. Holbert, Sen. S. Fenberg, Rep. H. McKean, Rep. D. Esgar"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. C. Holbert",
+            "slug": "chris-holbert"
+          },
+          {
+            "name": "Sen. S. Fenberg",
+            "slug": "steve-fenberg"
+          },
+          {
+            "name": "Rep. H. McKean",
+            "slug": "hugh-mckean"
+          },
+          {
+            "name": "Rep. D. Esgar",
+            "slug": "daneya-esgar"
+          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1001"
@@ -2148,47 +1250,71 @@
       {
         "billNumber": "HB21-1098",
         "title": "Civil Liability For Extreme Risk Protection Orders",
-        "summary": "HB21-1098 is a support bill that civil liability for extreme risk protection orders. The bill house judiciary committee with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB21-1098 (Civil Liability For Extreme Risk Protection Orders) is a support bill that supports and protects Second Amendment rights in Colorado. The bill creates a civil cause of action for a person who suffers injury or damages as a result of not being able to use a firearm to defend himself, herself, or his or her family as a result of a temporary extreme risk protection order or an ongoing extreme risk protection order. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. D. Woog"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. D. Woog",
+            "slug": "dan-woog"
+          }
         ],
         "location": "House Judiciary Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1098"
       },
       {
         "billNumber": "HB21-1038",
-        "title": "Concealed Carry on School Grounds",
-        "summary": "HB21-1038 is a support bill that concealed carry on school grounds. The bill house state affairs committee with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Handguns On School Grounds",
+        "summary": "HB21-1038 (Concealed Handguns On School Grounds) is a support bill that supports and protects Second Amendment rights in Colorado. With certain exceptions, current law prohibits a concealed carry permit holder from carrying a concealed handgun on public elementary, middle, junior high, or high school grounds. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. P. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. P. Neville",
+            "slug": "patrick-neville"
+          }
         ],
         "location": "House State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1038"
       },
       {
         "billNumber": "HB21-1070",
-        "title": "Repeal the 2013 Mag Ban",
-        "summary": "HB21-1070 is a support bill that repeal the 2013 mag ban. The bill house state affairs committee with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Ammunition Magazine Prohibition",
+        "summary": "HB21-1070 (Repeal Ammunition Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the sale, transfer, or possession of certain large-capacity ammunition magazines; and Requiring each large-capacity ammunition magazine manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. R. Hanks"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. R. Hanks",
+            "slug": "ron-hanks"
+          }
         ],
         "location": "House State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1070"
       },
       {
         "billNumber": "HB21-1185",
-        "title": "Repeal Government Firearms Regulations and Training Class Regulation",
-        "summary": "HB21-1185 is a support bill that repeal government firearms regulations and training class regulation. The bill house state affairs committee with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Government Firearms Regulations And Training Class Regulation",
+        "summary": "HB21-1185 (Repeal Government Firearms Regulations And Training Class Regulation) is a support bill that supports and protects Second Amendment rights in Colorado. Under existing law, during a disaster emergency the governor may suspend or limit the sale, dispensing, or transportation of firearms, explosives, and combustibles. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. P. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. P. Neville",
+            "slug": "patrick-neville"
+          }
         ],
         "location": "House State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1185"
@@ -2200,12 +1326,30 @@
     "bills": [
       {
         "billNumber": "HB20-1355",
-        "title": "Firearm Storage Requirements",
-        "summary": "HB20-1355 is a oppose bill that firearm storage requirements. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Secure Storage Of Firearms",
+        "summary": "HB20-1355 (Secure Storage Of Firearms) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. The bill creates the offense of unlawful storage of a firearm if a person stores a firearm in a manner that the person knows, or should know: That a juvenile can gain access to the firearm without the permission of the juvenile's parent or guardian; or A resident of the premises is ineligible to possess a firearm under state or federal law. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Bridges, Hansen, Duran, and Mullica"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Bridges",
+            "slug": "jeff-bridges"
+          },
+          {
+            "name": "Hansen",
+            "slug": "chris-hansen"
+          },
+          {
+            "name": "Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Mullica",
+            "slug": "kyle-mullica"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1355"
@@ -2213,11 +1357,53 @@
       {
         "billNumber": "HB20-1099",
         "title": "Repeal Ammunition Magazine Prohibition",
-        "summary": "HB20-1099 is a support bill that repeal ammunition magazine prohibition. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB20-1099 (Repeal Ammunition Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of certain ammunition magazines; and Requiring each of certain ammunition magazines that are manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Saine and Humphrey, Williams D., Neville, Geitner, Sandridge, Buck, Baisley, Van Winkle, Marble"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Williams D.",
+            "slug": "dave-williams"
+          },
+          {
+            "name": "Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Geitner",
+            "slug": "tim-geitner"
+          },
+          {
+            "name": "Sandridge",
+            "slug": "shane-sandridge"
+          },
+          {
+            "name": "Buck",
+            "slug": "perry-buck"
+          },
+          {
+            "name": "Baisley",
+            "slug": "mark-baisley"
+          },
+          {
+            "name": "Van Winkle",
+            "slug": "kevin-van-winkle"
+          },
+          {
+            "name": "Marble",
+            "slug": "vicki-marble"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1099"
@@ -2225,35 +1411,57 @@
       {
         "billNumber": "HB20-1121",
         "title": "Retaliation Against An Elected Official",
-        "summary": "HB20-1121 is a oppose bill that retaliation against an elected official. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB20-1121 (Retaliation Against An Elected Official) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Under current law, there is a crime of retaliation against a judge if an individual makes a credible threat or commits an act of harassment or an act of harm or injury upon a person or property as retaliation or retribution against a judge. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Mullica and Soper"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Mullica",
+            "slug": "kyle-mullica"
+          },
+          {
+            "name": "Soper",
+            "slug": "matt-soper"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1121"
       },
       {
         "billNumber": "HB20-1152",
-        "title": "2020 School Shooter Protection Act",
-        "summary": "HB20-1152 is a monitor bill that 2020 school shooter protection act. The bill out of session with a status of dead. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Penalty For Weapons Possession Offenses",
+        "summary": "HB20-1152 (Penalty For Weapons Possession Offenses) is a monitor bill that modifies Second Amendment rights in Colorado. The bill requires a court to sentence an adult or a juvenile who is convicted as an adult who commits the felony offenses of possession of a weapon by a previous offender or unlawfully carrying a weapon on school grounds to the department of corrections for a term of incarceration. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
           "Liston"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Liston",
+            "slug": "larry-liston"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1152"
       },
       {
         "billNumber": "HB20-1040",
-        "title": "Concealed Carry on School Grounds",
-        "summary": "HB20-1040 is a support bill that concealed carry on school grounds. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Handguns On School Grounds",
+        "summary": "HB20-1040 (Concealed Handguns On School Grounds) is a support bill that supports and protects Second Amendment rights in Colorado. With certain exceptions, current law limits the authority of a person who holds a valid permit to carry a concealed handgun by prohibiting a permit holder from carrying a concealed handgun on public elementary, middle, junior high, or high school grounds. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Neville",
+            "slug": "patrick-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1040"
@@ -2261,11 +1469,25 @@
       {
         "billNumber": "HB20-1271",
         "title": "Repeal Red Flag And Amend 72-hour Hold",
-        "summary": "HB20-1271 is a support bill that repeal red flag and amend 72-hour hold. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB20-1271 (Repeal Red Flag And Amend 72-hour Hold) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals the laws relating to extreme risk protection orders. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Saine, Cooke, Smallwood"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Smallwood",
+            "slug": "jim-smallwood"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1271"
@@ -2273,11 +1495,25 @@
       {
         "billNumber": "HB20-1287",
         "title": "Colorado Rights Act",
-        "summary": "HB20-1287 is a monitor bill that colorado rights act. The bill out of session with a status of dead. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB20-1287 (Colorado Rights Act) is a monitor bill that modifies Second Amendment rights in Colorado. The bill allows a person who has a right, privilege, or immunity secured by the Colorado constitution that is infringed upon to bring a civil action for the violation. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
           "Marble, Lee, Soper"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Lee",
+            "slug": "pete-lee"
+          },
+          {
+            "name": "Soper",
+            "slug": "matt-soper"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1287"
@@ -2285,23 +1521,51 @@
       {
         "billNumber": "HB20-1278",
         "title": "Protection Orders Issued Against Domestic Abusers",
-        "summary": "HB20-1278 is a oppose bill that protection orders issued against domestic abusers. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB20-1278 (Protection Orders Issued Against Domestic Abusers) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Upon the issuance of a protection order, the court shall: Require the person to state in court or complete an affidavit in court stating the number of firearms in the person's immediate possession or control and the location of all firearms in the person's immediate possession or control; Require the person to complete a firearm information form that states the number of firearms in the person's immediate possession or control or subject to the person's immediate possession or control, the type of each firearm, and the location of each firearm; and Transmit a copy of the protection order and the firearm information form to the sheriff of the county of the person's residence. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Duran, Singer, and Fields"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Singer",
+            "slug": "jonathan-singer"
+          },
+          {
+            "name": "Fields",
+            "slug": "rhonda-fields"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1278"
       },
       {
         "billNumber": "HB20-1356",
-        "title": "Required Reporting of Lost/Stolen Firearms",
-        "summary": "HB20-1356 is a oppose bill that required reporting of lost/stolen firearms. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Lost Or Stolen Firearms",
+        "summary": "HB20-1356 (Lost Or Stolen Firearms) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. The bill requires an individual who owns a firearm to report the loss or theft of that firearm to a law enforcement agency within 48 hours after discovering that the firearm was lost or stolen. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Sullivan, Jaquez Lewis, and Danielson"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Jaquez Lewis",
+            "slug": "sonya-jaquez-lewis"
+          },
+          {
+            "name": "Danielson",
+            "slug": "jessie-danielson"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1356"
@@ -2309,11 +1573,17 @@
       {
         "billNumber": "HB20-1168",
         "title": "Deadly Force Against Intruder At A Business",
-        "summary": "HB20-1168 is a support bill that deadly force against intruder at a business. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB20-1168 (Deadly Force Against Intruder At A Business) is a support bill that supports and protects Second Amendment rights in Colorado. The bill extends the right to use deadly physical force against an intruder under certain conditions to include owners, managers, and employees of a business. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sandridge"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sandridge",
+            "slug": "shane-sandridge"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1168"
@@ -2321,11 +1591,25 @@
       {
         "billNumber": "HB20-1028",
         "title": "Need For Juvenile Behavioral Health Treatment",
-        "summary": "HB20-1028 is a monitor bill that need for juvenile behavioral health treatment. The bill out of session with a status of dead. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB20-1028 (Need For Juvenile Behavioral Health Treatment) is a monitor bill that modifies Second Amendment rights in Colorado. School Safety Committee. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
           "Gonzales, Beckman, Jennet"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Beckman",
+            "slug": "susan-beckman"
+          },
+          {
+            "name": "Jennet",
+            "slug": null
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1028"
@@ -2333,23 +1617,59 @@
       {
         "billNumber": "SB20-023",
         "title": "Colorado Working Group On School Safety",
-        "summary": "SB20-023 is a monitor bill that colorado working group on school safety. The bill passed with a status of signed into law. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "summary": "SB20-023 (Colorado Working Group On School Safety) is a monitor bill that modifies Second Amendment rights in Colorado. The act creates the Colorado interagency working group on school safety. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently signed into law.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
           "Gardner Gonzales, Fields, Lundeen, Jenet, Van Winkle, Beckman, Sirota"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Gardner Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Fields",
+            "slug": "rhonda-fields"
+          },
+          {
+            "name": "Lundeen",
+            "slug": "paul-lundeen"
+          },
+          {
+            "name": "Jenet",
+            "slug": "dafna-michaelson-jenet"
+          },
+          {
+            "name": "Van Winkle",
+            "slug": "kevin-van-winkle"
+          },
+          {
+            "name": "Beckman",
+            "slug": null
+          },
+          {
+            "name": "Sirota",
+            "slug": "emily-sirota"
+          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/sb20-023"
       },
       {
         "billNumber": "SB20-027",
-        "title": "School District School Safety Plan s",
-        "summary": "SB20-027 is a monitor bill that school district school safety plan s. The bill out of session with a status of dead. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "School District School Safety Plans",
+        "summary": "SB20-027 (School District School Safety Plans) is a monitor bill that modifies Second Amendment rights in Colorado. The bill directs each district school board to issue a request for proposal for a district-wide school safety assessment. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
           "Crowder"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Crowder",
+            "slug": "larry-crowder"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb20-027"
@@ -2361,12 +1681,22 @@
     "bills": [
       {
         "billNumber": "HB19-1073",
-        "title": "Colorado Brady-NICS Reporting System",
-        "summary": "HB19-1073 is a oppose bill that colorado brady-nics reporting system. The bill passed with a status of signed into law. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "title": "Law Enforcement Information Sharing Grant Program",
+        "summary": "HB19-1073 (Law Enforcement Information Sharing Grant Program) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Law enforcement, public safety, and criminal justice information sharing grant program - creation - grant requirements - appropriation. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently signed into law.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
           "Rep. Adrienne Benavidez, Sen. Rhonda Fields"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Adrienne Benavidez",
+            "slug": "adrienne-benavidez"
+          },
+          {
+            "name": "Sen. Rhonda Fields",
+            "slug": "rhonda-fields"
+          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1073"
@@ -2387,24 +1717,48 @@
       },
       {
         "billNumber": "SB19-068",
-        "title": "Incumbent Protection Act",
-        "summary": "SB19-068 is a oppose bill that incumbent protection act. The bill passed with a status of signed into law. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "title": "Expand Disclosure Electioneering Communications",
+        "summary": "SB19-068 (Expand Disclosure Electioneering Communications) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Electioneering communications - disclosure during period between primary and general election - disclaimer requirement. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently signed into law.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
           "Sen. Rachel Zenzinger, Sen. Jack Tate, Rep. Mike Weissman"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Rachel Zenzinger",
+            "slug": "rachel-zenzinger"
+          },
+          {
+            "name": "Sen. Jack Tate",
+            "slug": "jack-tate"
+          },
+          {
+            "name": "Rep. Mike Weissman",
+            "slug": "mike-weissman"
+          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/sb19-068"
       },
       {
         "billNumber": "SB19-093",
-        "title": "Firearms Rights of Medical Marijuana Users",
-        "summary": "SB19-093 is a support bill that firearms rights of medical marijuana users. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Firearms Rights Of Medical Marijuana Users",
+        "summary": "SB19-093 (Firearms Rights Of Medical Marijuana Users) is a support bill that supports and protects Second Amendment rights in Colorado. Current law prohibits a person from carrying a firearm if the person has a prior conviction for a felony or conspiracy to commit a felony pursuant to Colorado law, the law of any other state, or federal law. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Vicki Marble, Rep. Bri Buentello"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Vicki Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Rep. Bri Buentello",
+            "slug": "bri-buentello"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb19-093"
@@ -2412,24 +1766,44 @@
       {
         "billNumber": "HB19-1021",
         "title": "Repeal Ammunition Magazine Prohibition",
-        "summary": "HB19-1021 is a support bill that repeal ammunition magazine prohibition. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB19-1021 (Repeal Ammunition Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of certain ammunition magazines; and Requiring each of certain ammunition magazines that are manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Lori Saine",
           "Rep. Stephen Humphrey"
         ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Lori Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Stephen Humphrey",
+            "slug": "stephen-humphrey"
+          }
+        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1021"
       },
       {
         "billNumber": "HB19-1026",
-        "title": "Increased Fees & Fines For Hunters",
-        "summary": "HB19-1026 is a oppose bill that increased fees & fines for hunters. The bill passed with a status of signed into law. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "title": "Parks And Wildlife Violations Of Law",
+        "summary": "HB19-1026 (Parks And Wildlife Violations Of Law) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Parks and wildlife - increased fines - disposition of fines collected. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently signed into law.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
           "Rep. Marc Catlin, Sen. Don Coram"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Marc Catlin",
+            "slug": "marc-catlin"
+          },
+          {
+            "name": "Sen. Don Coram",
+            "slug": "don-coram"
+          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1026"
@@ -2437,11 +1811,17 @@
       {
         "billNumber": "HB19-1049",
         "title": "Concealed Handguns On School Grounds",
-        "summary": "HB19-1049 is a support bill that concealed handguns on school grounds. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB19-1049 (Concealed Handguns On School Grounds) is a support bill that supports and protects Second Amendment rights in Colorado. With certain exceptions, current law limits the authority of a person who holds a valid permit to carry a concealed handgun by prohibiting a permit holder from carrying a concealed handgun on public elementary, middle, junior high, or high school grounds. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Patrick Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Patrick Neville",
+            "slug": "patrick-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1049"
@@ -2449,11 +1829,17 @@
       {
         "billNumber": "HB19-1022",
         "title": "Deadly Force Against Intruder At A Business",
-        "summary": "HB19-1022 is a support bill that deadly force against intruder at a business. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB19-1022 (Deadly Force Against Intruder At A Business) is a support bill that supports and protects Second Amendment rights in Colorado. The bill extends the right to use deadly physical force against an intruder under certain conditions to include owners, managers, and employees of a business. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Shane Sandridge"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Shane Sandridge",
+            "slug": "shane-sandridge"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1022"
@@ -2465,96 +1851,180 @@
     "bills": [
       {
         "billNumber": "SB18-051",
-        "title": "Bump Stock Ban",
-        "summary": "SB18-051 is a oppose bill that bump stock ban. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Prohibit Multi-burst Trigger Activators",
+        "summary": "SB18-051 (Prohibit Multi-burst Trigger Activators) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Under current law, possession of a dangerous weapon is a class 5 felony for a first offense and a class 4 felony for each subsequent offense. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Sen. Merrifield"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Merrifield",
+            "slug": "michael-merrifield"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-051"
       },
       {
         "billNumber": "SB18-052",
-        "title": "Magazine Ban Repeal",
-        "summary": "SB18-052 is a support bill that magazine ban repeal. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Ammunition Magazine Prohibition",
+        "summary": "SB18-052 (Repeal Ammunition Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of certain ammunition magazines; and Requiring each of certain ammunition magazines that are manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Hill, Rep. Saine, Rep. Humphrey"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Hill",
+            "slug": "owen-hill"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-052"
       },
       {
         "billNumber": "SB18-097",
-        "title": "Constitutional Carry",
-        "summary": "SB18-097 is a support bill that constitutional carry. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Handgun Carry With No Permit",
+        "summary": "SB18-097 (Concealed Handgun Carry With No Permit) is a support bill that supports and protects Second Amendment rights in Colorado. The bill allows a person who legally possesses a handgun under state and federal law to carry a concealed handgun in Colorado. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Neville, Rep. Van Winkle"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Van Winkle",
+            "slug": "kevin-van-winkle"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-097"
       },
       {
         "billNumber": "SB18-185",
-        "title": "Deadly Force Against an Intruder in a Business",
-        "summary": "SB18-185 is a support bill that deadly force against an intruder in a business. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Deadly Force Against Intruder At A Business",
+        "summary": "SB18-185 (Deadly Force Against Intruder At A Business) is a support bill that supports and protects Second Amendment rights in Colorado. The bill extends the right to use deadly force against an intruder under certain conditions to include owners, managers, and employees of a business. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Smallwood, Rep. Everett"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Smallwood",
+            "slug": "jim-smallwood"
+          },
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-185"
       },
       {
         "billNumber": "HB18-1015",
-        "title": "Magazine Ban Repeal",
-        "summary": "HB18-1015 is a support bill that magazine ban repeal. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Ammunition Magazine Prohibition",
+        "summary": "HB18-1015 (Repeal Ammunition Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of certain ammunition magazines; and Requiring each of certain ammunition magazines that are manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Humphrey, Rep. Saine, Sen. Hill"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Sen. Hill",
+            "slug": "owen-hill"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1015"
       },
       {
         "billNumber": "HB18-1037",
-        "title": "Concealed Carry on School Grounds",
-        "summary": "HB18-1037 is a support bill that concealed carry on school grounds. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Handguns On School Grounds",
+        "summary": "HB18-1037 (Concealed Handguns On School Grounds) is a support bill that supports and protects Second Amendment rights in Colorado. With certain exceptions, current law limits the authority of a person who holds a valid permit to carry a concealed handgun by prohibiting a permit holder from carrying a concealed handgun on public elementary, middle, junior high, or high school grounds. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Neville, Sen. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1037"
       },
       {
         "billNumber": "HB18-1074",
-        "title": "Deadly Force Against an Intruder in a Business",
-        "summary": "HB18-1074 is a support bill that deadly force against an intruder in a business. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Deadly Force Against Intruder At A Business",
+        "summary": "HB18-1074 (Deadly Force Against Intruder At A Business) is a support bill that supports and protects Second Amendment rights in Colorado. The bill extends the right to use deadly force against an intruder under certain conditions to include owners, managers, and employees of a business. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Everett, Sen. Marble"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1074"
       },
       {
         "billNumber": "SB18-128",
-        "title": "Legislative Approval for State Agency Fee Increases",
-        "summary": "SB18-128 is a support bill that legislative approval for state agency fee increases. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Legislative Approval For State Agency Fee Increase",
+        "summary": "SB18-128 (Legislative Approval For State Agency Fee Increase) is a support bill that supports and protects Second Amendment rights in Colorado. Beginning September 1, 2018, the bill requires all state agency fee increases to start on July 1 of a given year, with the exception of an emergency fee increase. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Gardner, Rep. Liston"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Gardner",
+            "slug": "bob-gardner"
+          },
+          {
+            "name": "Rep. Liston",
+            "slug": "larry-liston"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-128"
@@ -2562,11 +2032,25 @@
       {
         "billNumber": "SB18-116",
         "title": "Capitol Identification Card",
-        "summary": "SB18-116 is a monitor bill that capitol identification card. The bill out of session with a status of dead. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "SB18-116 (Capitol Identification Card) is a monitor bill that modifies Second Amendment rights in Colorado. On and after January 1, 2019, the bill authorizes security personnel at the state capitol building, including the Colorado state patrol (CSP), to allow any member of the public who holds a capitol identification card (card) to enter the capitol building, the state services building, or the legislative services building without submitting to a search of his or her person or property by security personnel, electronic weapons screening devices, or other means. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
           "Sen. Cooke, Rep. Van Winkle, Rep. Williams"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. Van Winkle",
+            "slug": "kevin-van-winkle"
+          },
+          {
+            "name": "Rep. Williams",
+            "slug": "dave-williams"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-116"
@@ -2574,35 +2058,73 @@
       {
         "billNumber": "SB18-032",
         "title": "Title 12 Relocation",
-        "summary": "SB18-032 is a monitor bill that title 12 relocation. The bill passed with a status of signed into law. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "summary": "SB18-032 (Title 12 Relocation) is a monitor bill that modifies Second Amendment rights in Colorado. Parental notification - firearms dealers - unsworn declarations - title 12 recodification study - relocation. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently signed into law.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
           "Sen. Cooke, Sen. Gardner, Rep. Herod, Rep. Foote"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Sen. Gardner",
+            "slug": "bob-gardner"
+          },
+          {
+            "name": "Rep. Herod",
+            "slug": "leslie-herod"
+          },
+          {
+            "name": "Rep. Foote",
+            "slug": "mike-foote"
+          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-032"
       },
       {
         "billNumber": "HB18-1077",
-        "title": "Penalty for Burglary of Firearms",
-        "summary": "HB18-1077 is a monitor bill that penalty for burglary of firearms. The bill passed with a status of signed into law. From a 2A perspective, this bill modifies Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "title": "Penalty For Burglary Of Firearms",
+        "summary": "HB18-1077 (Penalty For Burglary Of Firearms) is a monitor bill that modifies Second Amendment rights in Colorado. Second degree burglary of firearms - penalty - appropriation. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently signed into law.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
           "Rep. Valdez, Rep. Liston"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Valdez",
+            "slug": "donald-valdez"
+          },
+          {
+            "name": "Rep. Liston",
+            "slug": "larry-liston"
+          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1077"
       },
       {
         "billNumber": "HB18-1436",
-        "title": "Red Flag Gun Confiscation",
-        "summary": "HB18-1436 is a oppose bill that red flag gun confiscation. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Extreme Risk Protection Orders",
+        "summary": "HB18-1436 (Extreme Risk Protection Orders) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. The bill creates the ability for a family or household member or a law enforcement officer to petition the court for a temporary extreme risk protection order (ERPO). From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Rep. Alec Garnett and Rep. Cole Wist"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Alec Garnett",
+            "slug": "alec-garnett"
+          },
+          {
+            "name": "Rep. Cole Wist",
+            "slug": "cole-wist"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1436"
@@ -2615,11 +2137,21 @@
       {
         "billNumber": "SB17-005",
         "title": "Handgun Safety Training For School Employees",
-        "summary": "SB17-005 is a support bill that handgun safety training for school employees. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "SB17-005 (Handgun Safety Training For School Employees) is a support bill that supports and protects Second Amendment rights in Colorado. The bill allows a county sheriff to provide a handgun safety training course to any employee of any public elementary, middle, junior high, or high school who also possesses a permit to carry a concealed handgun. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Holbert, Rep. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Holbert",
+            "slug": "chris-holbert"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-005"
@@ -2627,11 +2159,21 @@
       {
         "billNumber": "SB17-006",
         "title": "Concealed Carry For Military Under Twenty-one Years Of Age",
-        "summary": "SB17-006 is a support bill that concealed carry for military under twenty-one years of age. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "SB17-006 (Concealed Carry For Military Under Twenty-one Years Of Age) is a support bill that supports and protects Second Amendment rights in Colorado. Under current law, an applicant for a concealed handgun permit must satisfy certain criteria, including a requirement that the he or she is at least 21 years of age. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Cooke, Rep. Nordberg"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. Nordberg",
+            "slug": "dan-nordberg"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-006"
@@ -2639,11 +2181,25 @@
       {
         "billNumber": "SB17-007",
         "title": "Repeal Ammunition Magazine Prohibition",
-        "summary": "SB17-007 is a support bill that repeal ammunition magazine prohibition. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "SB17-007 (Repeal Ammunition Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of certain ammunition magazines; and Requiring certain ammunition magazines that are manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Marble, Rep. Humphrey, Rep. Saine"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-007"
@@ -2651,11 +2207,21 @@
       {
         "billNumber": "SB17-008",
         "title": "Legalize Gravity Knives And Switchblades",
-        "summary": "SB17-008 is a support bill that legalize gravity knives and switchblades. The bill out of session with a status of signed into law. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "summary": "SB17-008 (Legalize Gravity Knives And Switchblades) is a support bill that supports and protects Second Amendment rights in Colorado. The bill legalizes the possession of a gravity knife or switchblade knife by removing such knives from the definition of 'illegal weapon'. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently signed into law.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
           "Sen. Hill, Rep. Lebsock"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Hill",
+            "slug": "owen-hill"
+          },
+          {
+            "name": "Rep. Lebsock",
+            "slug": "steve-lebsock"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-008"
@@ -2663,11 +2229,25 @@
       {
         "billNumber": "HB17-1036",
         "title": "Concealed Carry In Public Schools",
-        "summary": "HB17-1036 is a support bill that concealed carry in public schools. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB17-1036 (Concealed Carry In Public Schools) is a support bill that supports and protects Second Amendment rights in Colorado. With certain exceptions, current law limits the authority of a person who holds a valid permit to carry a concealed handgun by prohibiting permit holders from carrying a concealed handgun on public elementary, middle, junior high, or high school grounds. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Neville, Rep. Ransom, Sen. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Rep. Ransom",
+            "slug": "kim-ransom"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1036"
@@ -2675,11 +2255,21 @@
       {
         "billNumber": "HB17-1037",
         "title": "Deadly Force Against An Intruder At A Business",
-        "summary": "HB17-1037 is a support bill that deadly force against an intruder at a business. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB17-1037 (Deadly Force Against An Intruder At A Business) is a support bill that supports and protects Second Amendment rights in Colorado. The bill extends the right to use deadly force against an intruder under certain conditions to include owners, managers, and employees of businesses. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Everett, Sen. Marble"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1037"
@@ -2687,11 +2277,29 @@
       {
         "billNumber": "HB17-1097",
         "title": "Repeal Ammunition Magazine Prohibition",
-        "summary": "HB17-1097 is a support bill that repeal ammunition magazine prohibition. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "summary": "HB17-1097 (Repeal Ammunition Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of certain ammunition magazines; and Requiring certain ammunition magazines that are manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Saine, Rep. Humphrey, Sen. Neville, Sen. Marble"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1097"
@@ -2703,140 +2311,254 @@
     "bills": [
       {
         "billNumber": "HB16-1023",
-        "title": "Make My Day for Businesses",
-        "summary": "HB16-1023 is a support bill that make my day for businesses. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Deadly Force Against An Intruder At A Business",
+        "summary": "HB16-1023 (Deadly Force Against An Intruder At A Business) is a support bill that supports and protects Second Amendment rights in Colorado. The bill extends the right to use deadly force against an intruder under certain conditions to include owners, managers, and employees of businesses. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Everett"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1023"
       },
       {
         "billNumber": "HB16-1024",
-        "title": "Repeal Magazine Ban",
-        "summary": "HB16-1024 is a support bill that repeal magazine ban. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Ammo Magazine Prohibition",
+        "summary": "HB16-1024 (Repeal Ammo Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of large-capacity ammunition magazines; and Requiring each large-capacity magazine that is manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Saine, Rep. Humphrey, Sen. Marble"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1024"
       },
       {
         "billNumber": "HB16-1179",
-        "title": "Concealed Carry for Military Personnel",
-        "summary": "HB16-1179 is a support bill that concealed carry for military personnel. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Carry For Military Personnel",
+        "summary": "HB16-1179 (Concealed Carry For Military Personnel) is a support bill that supports and protects Second Amendment rights in Colorado. For the existing criminal offense of unlawfully carrying a concealed weapon, the bill creates a new exemption that applies when: The person is on active duty and serving in the armed forces of the United States military; and The weapon in question is a concealed handgun. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Rep. Buck, Sen. Sonnenberg"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Buck",
+            "slug": "perry-buck"
+          },
+          {
+            "name": "Sen. Sonnenberg",
+            "slug": "jerry-sonnenberg"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1179"
       },
       {
         "billNumber": "HB16-1204",
-        "title": "School Carry",
-        "summary": "HB16-1204 is a support bill that school carry. The bill out of session with a status of signed into law. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "title": "Allow Concealed Carry On Public School Grounds",
+        "summary": "HB16-1204 (Allow Concealed Carry On Public School Grounds) is a support bill that supports and protects Second Amendment rights in Colorado. With certain exceptions, current law limits the authority of a person who holds a valid permit to carry a concealed handgun by prohibiting permit holders from carrying a concealed handgun on public elementary, middle, junior high, and high school grounds. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently signed into law.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
           "Rep. Neville, Sen. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1204"
       },
       {
         "billNumber": "SB16-017",
-        "title": "Constitutional Carry",
-        "summary": "SB16-017 is a support bill that constitutional carry. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Handgun Carry Without Permit",
+        "summary": "SB16-017 (Concealed Handgun Carry Without Permit) is a support bill that supports and protects Second Amendment rights in Colorado. Concealed Handgun Carry Without Permit. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Neville, Rep. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-017"
       },
       {
         "billNumber": "SB16-113",
-        "title": "Repeal Magazine Ban",
-        "summary": "SB16-113 is a support bill that repeal magazine ban. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Large Ammo Magazine Ban",
+        "summary": "SB16-113 (Repeal Large Ammo Magazine Ban) is a support bill that supports and protects Second Amendment rights in Colorado. Repeal Large Ammo Magazine Ban. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Marble, Rep. Saine & Rep. Humphrey"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-113"
       },
       {
         "billNumber": "SB16-144",
-        "title": "Concealed Carry for Military Personnel Under 21 Years Old",
-        "summary": "SB16-144 is a support bill that concealed carry for military personnel under 21 years old. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Carry Weapon Permits For Military Personnel",
+        "summary": "SB16-144 (Concealed Carry Weapon Permits For Military Personnel) is a support bill that supports and protects Second Amendment rights in Colorado. Concealed Carry Weapon Permits For Military Personnel. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Cooke, Rep. Sais"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. Sais",
+            "slug": null
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-144"
       },
       {
         "billNumber": "SB16-176",
-        "title": "Eliminate authority of Governor to regulate firearms during emergencies",
-        "summary": "SB16-176 is a support bill that eliminate authority of governor to regulate firearms during emergencies. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "No Governor Authority Over Firearms In Emergencies",
+        "summary": "SB16-176 (No Governor Authority Over Firearms In Emergencies) is a support bill that supports and protects Second Amendment rights in Colorado. No Governor Authority Over Firearms In Emergencies. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
           "Sen. Neville, Rep. Neville"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-176"
       },
       {
         "billNumber": "HB16-1063",
-        "title": "Disclosure of threats against schools by a mental health professional",
-        "summary": "HB16-1063 is a oppose bill that disclosure of threats against schools by a mental health professional. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Mental Hlth Professional Disclosure School Safety",
+        "summary": "HB16-1063 (Mental Hlth Professional Disclosure School Safety) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Except under limited circumstances, current law prohibits a licensed, registered, or certified mental health professional from disclosing, without the client's consent, confidential communications made by, or advice given to, the client in the course of the professional relationship. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Rep. Foote and Rep. Duran"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Foote",
+            "slug": "mike-foote"
+          },
+          {
+            "name": "Rep. Duran",
+            "slug": "crisanta-duran"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1063"
       },
       {
         "billNumber": "HB16-1341",
-        "title": "Prohibit Sale of Certain Animal Parts",
-        "summary": "HB16-1341 is a oppose bill that prohibit sale of certain animal parts. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Protection Endangered Animals Poaching Trafficking",
+        "summary": "HB16-1341 (Protection Endangered Animals Poaching Trafficking) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. The bill prohibits the sale, purchase, trade, or distribution (sale) of any covered animal species part or product, with limited exceptions. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Rep. Ginal and Rep. McCann"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ginal",
+            "slug": "joann-ginal"
+          },
+          {
+            "name": "Rep. McCann",
+            "slug": "elizabeth-mccann"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1341"
       },
       {
         "billNumber": "SJR16-040",
-        "title": "Call for an Article V Convention for Congressional term limits",
-        "summary": "SJR16-040 is a oppose bill that call for an article v convention for congressional term limits. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Application For An Amendment-proposing Convention",
+        "summary": "SJR16-040 (Application For An Amendment-proposing Convention) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Application For An Amendment-proposing Convention. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
           "Sen. Lundberg, Rep. Singer"
+        ],
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lundberg",
+            "slug": "kevin-lundberg"
+          },
+          {
+            "name": "Rep. Singer",
+            "slug": "jonathan-singer"
+          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sjr16-040"
       },
       {
         "billNumber": "HB16-1023",
-        "title": "Make My Day for Businesses",
-        "summary": "HB16-1023 is a support bill that make my day for businesses. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Deadly Force Against An Intruder At A Business",
+        "summary": "HB16-1023 (Deadly Force Against An Intruder At A Business) is a support bill that supports and protects Second Amendment rights in Colorado. The bill extends the right to use deadly force against an intruder under certain conditions to include owners, managers, and employees of businesses. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -2847,8 +2569,8 @@
       },
       {
         "billNumber": "HB16-1024",
-        "title": "Repeal Magazine Ban",
-        "summary": "HB16-1024 is a support bill that repeal magazine ban. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Ammo Magazine Prohibition",
+        "summary": "HB16-1024 (Repeal Ammo Magazine Prohibition) is a support bill that supports and protects Second Amendment rights in Colorado. The bill repeals statutory provisions: Prohibiting the possession of large-capacity ammunition magazines; and Requiring each large-capacity magazine that is manufactured in Colorado on or after July 1, 2013, to include a permanent stamp or marking indicating that the magazine was manufactured or assembled after July 1, 2013. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -2859,8 +2581,8 @@
       },
       {
         "billNumber": "HB16-1179",
-        "title": "Concealed Carry for Military Personnel",
-        "summary": "HB16-1179 is a support bill that concealed carry for military personnel. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Carry For Military Personnel",
+        "summary": "HB16-1179 (Concealed Carry For Military Personnel) is a support bill that supports and protects Second Amendment rights in Colorado. For the existing criminal offense of unlawfully carrying a concealed weapon, the bill creates a new exemption that applies when: The person is on active duty and serving in the armed forces of the United States military; and The weapon in question is a concealed handgun. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -2871,8 +2593,8 @@
       },
       {
         "billNumber": "HB16-1204",
-        "title": "School Carry",
-        "summary": "HB16-1204 is a support bill that school carry. The bill out of session with a status of signed into law. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently signed into law and would take effect TBD if enacted.",
+        "title": "Allow Concealed Carry On Public School Grounds",
+        "summary": "HB16-1204 (Allow Concealed Carry On Public School Grounds) is a support bill that supports and protects Second Amendment rights in Colorado. With certain exceptions, current law limits the authority of a person who holds a valid permit to carry a concealed handgun by prohibiting permit holders from carrying a concealed handgun on public elementary, middle, junior high, and high school grounds. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently signed into law.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -2883,8 +2605,8 @@
       },
       {
         "billNumber": "SB16-017",
-        "title": "Constitutional Carry",
-        "summary": "SB16-017 is a support bill that constitutional carry. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Handgun Carry Without Permit",
+        "summary": "SB16-017 (Concealed Handgun Carry Without Permit) is a support bill that supports and protects Second Amendment rights in Colorado. Concealed Handgun Carry Without Permit. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -2895,8 +2617,8 @@
       },
       {
         "billNumber": "SB16-113",
-        "title": "Repeal Magazine Ban",
-        "summary": "SB16-113 is a support bill that repeal magazine ban. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Repeal Large Ammo Magazine Ban",
+        "summary": "SB16-113 (Repeal Large Ammo Magazine Ban) is a support bill that supports and protects Second Amendment rights in Colorado. Repeal Large Ammo Magazine Ban. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -2907,8 +2629,8 @@
       },
       {
         "billNumber": "SB16-144",
-        "title": "Concealed Carry for Military Personnel Under 21 Years Old",
-        "summary": "SB16-144 is a support bill that concealed carry for military personnel under 21 years old. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Concealed Carry Weapon Permits For Military Personnel",
+        "summary": "SB16-144 (Concealed Carry Weapon Permits For Military Personnel) is a support bill that supports and protects Second Amendment rights in Colorado. Concealed Carry Weapon Permits For Military Personnel. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -2919,8 +2641,8 @@
       },
       {
         "billNumber": "SB16-176",
-        "title": "Eliminate authority of Governor to regulate firearms during emergencies",
-        "summary": "SB16-176 is a support bill that eliminate authority of governor to regulate firearms during emergencies. The bill out of session with a status of dead. From a 2A perspective, this bill strengthens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "No Governor Authority Over Firearms In Emergencies",
+        "summary": "SB16-176 (No Governor Authority Over Firearms In Emergencies) is a support bill that supports and protects Second Amendment rights in Colorado. No Governor Authority Over Firearms In Emergencies. From a 2A perspective, this legislation advances firearm freedoms. The bill is currently dead.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -2931,8 +2653,8 @@
       },
       {
         "billNumber": "HB16-1063",
-        "title": "Disclosure of threats against schools by a mental health professional",
-        "summary": "HB16-1063 is a oppose bill that disclosure of threats against schools by a mental health professional. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Mental Hlth Professional Disclosure School Safety",
+        "summary": "HB16-1063 (Mental Hlth Professional Disclosure School Safety) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Except under limited circumstances, current law prohibits a licensed, registered, or certified mental health professional from disclosing, without the client's consent, confidential communications made by, or advice given to, the client in the course of the professional relationship. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -2943,8 +2665,8 @@
       },
       {
         "billNumber": "HB16-1341",
-        "title": "Prohibit Sale of Certain Animal Parts",
-        "summary": "HB16-1341 is a oppose bill that prohibit sale of certain animal parts. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Protection Endangered Animals Poaching Trafficking",
+        "summary": "HB16-1341 (Protection Endangered Animals Poaching Trafficking) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. The bill prohibits the sale, purchase, trade, or distribution (sale) of any covered animal species part or product, with limited exceptions. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -2955,8 +2677,8 @@
       },
       {
         "billNumber": "SJR16-040",
-        "title": "Call for an Article V Convention for Congressional term limits",
-        "summary": "SJR16-040 is a oppose bill that call for an article v convention for congressional term limits. The bill out of session with a status of dead. From a 2A perspective, this bill threatens Second Amendment rights in Colorado. The bill is currently dead and would take effect TBD if enacted.",
+        "title": "Application For An Amendment-proposing Convention",
+        "summary": "SJR16-040 (Application For An Amendment-proposing Convention) is a oppose bill that threatens and undermines Second Amendment rights in Colorado. Application For An Amendment-proposing Convention. From a 2A perspective, this legislation endangers firearm freedoms. The bill is currently dead.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
