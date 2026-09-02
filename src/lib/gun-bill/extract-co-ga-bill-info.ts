@@ -323,7 +323,7 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
         rmgoBill.position,
         rmgoBill.status
       );
-      setCachedCoGaData(cacheKey, title, summary);
+      setCachedCoGaData(cacheKey, title, summary, coGaSponsors);
       sponsorLinks = coGaSponsors;
     } else {
       title = rmgoBill.subject.replace(/\*\*/g, "");
