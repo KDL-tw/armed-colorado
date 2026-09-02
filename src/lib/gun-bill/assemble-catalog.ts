@@ -5,6 +5,7 @@ import type {
   GunBillCatalogEntry,
   GunBillCatalogYear,
   RmgoBill,
+  SponsorLink,
 } from './types';
 import { rmgoToCatalogEntryWithCoGaExtraction } from './extract-co-ga-bill-info';
 
@@ -35,7 +36,10 @@ export function generate2ASummary(bill: RmgoBill): string {
 /**
  * Convert RMGO bill to catalog entry
  */
-export function rmgoToCatalogEntry(rmgoBill: RmgoBill): GunBillCatalogEntry {
+export function rmgoToCatalogEntry(
+  rmgoBill: RmgoBill,
+  sponsorLinks?: SponsorLink[]
+): GunBillCatalogEntry {
   const title = rmgoBill.subject.replace(/\*\*/g, '');
   const summary = generate2ASummary(rmgoBill);
 
@@ -46,6 +50,7 @@ export function rmgoToCatalogEntry(rmgoBill: RmgoBill): GunBillCatalogEntry {
     position: rmgoBill.position,
     status: rmgoBill.status,
     sponsors: rmgoBill.sponsors,
+    sponsorLinks,
     location: rmgoBill.location,
     enactmentDate: rmgoBill.enactmentDate || undefined,
     officialUrl: rmgoBill.subjectUrl || undefined,
