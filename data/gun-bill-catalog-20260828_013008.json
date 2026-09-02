@@ -15,7 +15,21 @@
         ],
         "location": "Law",
         "enactmentDate": "08/12/26",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1126"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1126",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Emily Sirota",
+            "slug": "emily-sirota"
+          },
+          {
+            "name": "Rep. Steven Woodrow",
+            "slug": "steven-woodrow"
+          },
+          {
+            "name": "Sen. Cathy Kipp",
+            "slug": "cathy-kipp"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1265",
@@ -31,7 +45,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/12/26",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1265"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1265",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Manny Rutinel",
+            "slug": "manny-rutinel"
+          },
+          {
+            "name": "Rep. Chad Clifford",
+            "slug": "chad-clifford"
+          },
+          {
+            "name": "Sen. Katie Wallace",
+            "slug": "katie-wallace"
+          },
+          {
+            "name": "Sen. William Lindstedt",
+            "slug": "william-lindstedt"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1302",
@@ -48,7 +80,29 @@
         ],
         "location": "Law",
         "enactmentDate": "08/12/26",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1302"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1302",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Anthony Hartsook",
+            "slug": null
+          },
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
+          },
+          {
+            "name": "Sen. John Carson",
+            "slug": null
+          },
+          {
+            "name": "Sen. Cathy Kipp",
+            "slug": "cathy-kipp"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1144",
@@ -64,7 +118,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/12/26",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1144"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1144",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Linsday Gilchrist",
+            "slug": "lindsay-gilchrist"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
+          },
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Sen. Katie Wallace",
+            "slug": "katie-wallace"
+          }
+        ]
       },
       {
         "billNumber": "SB26-004",
@@ -80,7 +152,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/12/26",
-        "officialUrl": "https://leg.colorado.gov/bills/SB26-004"
+        "officialUrl": "https://leg.colorado.gov/bills/SB26-004",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Sen. Julie Gonzalez",
+            "slug": null
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          },
+          {
+            "name": "Rep. Jenny Wilford",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB26-1250",
@@ -96,7 +186,25 @@
         ],
         "location": "Law",
         "enactmentDate": "07/01/26",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1250"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1250",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ken DeGraaf",
+            "slug": "ken-degraaf"
+          },
+          {
+            "name": "Rep. Jennifer Bacon",
+            "slug": "jennifer-bacon"
+          },
+          {
+            "name": "Sen. Scott Bright",
+            "slug": "scott-bright"
+          },
+          {
+            "name": "Sen. Katie Wallace",
+            "slug": "katie-wallace"
+          }
+        ]
       },
       {
         "billNumber": "SB26-043",
@@ -110,7 +218,21 @@
           "Rep. Kyle Brown"
         ],
         "location": "House Floor",
-        "officialUrl": "https://leg.colorado.gov/bills/sb26-043"
+        "officialUrl": "https://leg.colorado.gov/bills/sb26-043",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          },
+          {
+            "name": "Rep. Kyle Brown",
+            "slug": "kyle-brown"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1321",
@@ -124,7 +246,21 @@
           "Sen. Lisa Cutter"
         ],
         "location": "Senate Education Committee",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1321"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1321",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Rebekah Stewart",
+            "slug": null
+          },
+          {
+            "name": "Rep. Eliza Hamrick",
+            "slug": "eliza-hamrick"
+          },
+          {
+            "name": "Sen. Lisa Cutter",
+            "slug": "lisa-cutter"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1108",
@@ -139,7 +275,25 @@
           "Sen. Janice Rich"
         ],
         "location": "House Judiciary Committee",
-        "officialUrl": "https://leg.colorado.gov/bills/hb26-1108"
+        "officialUrl": "https://leg.colorado.gov/bills/hb26-1108",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Meg Lukens",
+            "slug": "meghan-lukens"
+          },
+          {
+            "name": "Rep. Anthony Hartsook",
+            "slug": "anthony-hartsook"
+          },
+          {
+            "name": "Sen. Dafna Michaelson Jenet",
+            "slug": "dafna-michaelson-jenet"
+          },
+          {
+            "name": "Sen. Janice Rich",
+            "slug": "janice-rich"
+          }
+        ]
       },
       {
         "billNumber": "SB26-070",
@@ -154,7 +308,25 @@
           "Rep. Kenny Nguyen"
         ],
         "location": "Senate Floor",
-        "officialUrl": "https://leg.colorado.gov/bills/SB26-070"
+        "officialUrl": "https://leg.colorado.gov/bills/SB26-070",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lynda Zamora Wilson",
+            "slug": "lynda-zamora-wilson"
+          },
+          {
+            "name": "Sen. Judy Amabile",
+            "slug": "judy-amabile"
+          },
+          {
+            "name": "Rep. Yara Zokaie",
+            "slug": "yara-zokaie"
+          },
+          {
+            "name": "Rep. Kenny Nguyen",
+            "slug": "kenny-nguyen"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1037",
@@ -168,7 +340,21 @@
           "Sen. Lisa Cutter"
         ],
         "location": "House Judiciary Committee",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1037"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1037",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Jennifer Bacon",
+            "slug": "jennifer-bacon"
+          },
+          {
+            "name": "Rep. Ken DeGraaf",
+            "slug": "ken-degraaf"
+          },
+          {
+            "name": "Sen. Lisa Cutter",
+            "slug": "lisa-cutter"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1212",
@@ -181,7 +367,17 @@
           "Rep. Carlos Barron"
         ],
         "location": "House Judiciary Committee",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1212"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1212",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ava Flanell",
+            "slug": "ava-flanell"
+          },
+          {
+            "name": "Rep. Carlos Barron",
+            "slug": "carlos-barron"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1072",
@@ -193,7 +389,13 @@
           "Rep. Scott Slaugh"
         ],
         "location": "House State Affairs Committee",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1072"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1072",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Scott Slaugh",
+            "slug": "scott-slaugh"
+          }
+        ]
       },
       {
         "billNumber": "HB26-1021",
@@ -206,7 +408,17 @@
           "Rep. Max Brooks"
         ],
         "location": "House Judiciary Committee",
-        "officialUrl": "https://leg.colorado.gov/bills/HB26-1021"
+        "officialUrl": "https://leg.colorado.gov/bills/HB26-1021",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Brandi Bradley",
+            "slug": "brandi-bradley"
+          },
+          {
+            "name": "Rep. Max Brooks",
+            "slug": "max-brooks"
+          }
+        ]
       },
       {
         "billNumber": "SB26-147",
@@ -221,7 +433,25 @@
           "Rep. Meg Froelich"
         ],
         "location": "Governor's Desk",
-        "officialUrl": "https://leg.colorado.gov/bills/SB26-147"
+        "officialUrl": "https://leg.colorado.gov/bills/SB26-147",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lisa Cutter",
+            "slug": "lisa-cutter"
+          },
+          {
+            "name": "Sen. Rod Pelton",
+            "slug": "rod-pelton"
+          },
+          {
+            "name": "Rep. Dusty Johnson",
+            "slug": "dusty-johnson"
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          }
+        ]
       },
       {
         "billNumber": "SB26-071",
@@ -233,7 +463,13 @@
           "Sen. Lynda Zamora Wilson"
         ],
         "location": "Senate Judiciary Committee",
-        "officialUrl": "https://leg.colorado.gov/bills/SB26-071"
+        "officialUrl": "https://leg.colorado.gov/bills/SB26-071",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lynda Zamora Wilson",
+            "slug": "lynda-zamora-wilson"
+          }
+        ]
       }
     ]
   },
@@ -254,7 +490,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/01/2026",
-        "officialUrl": "https://leg.colorado.gov/bills/sb25-003"
+        "officialUrl": "https://leg.colorado.gov/bills/sb25-003",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Sen. Julie Gonzalez",
+            "slug": null
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          },
+          {
+            "name": "Rep. Andrew Boesnecker",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB25-1171",
@@ -270,7 +524,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1171"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1171",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Shannon Bird",
+            "slug": "shannon-bird"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
+          },
+          {
+            "name": "Sen. Nick Hinrichsen",
+            "slug": "nick-hinrichsen"
+          },
+          {
+            "name": "Sen. Dafna Michaelson Jenet",
+            "slug": "dafna-michaelson-jenet"
+          }
+        ]
       },
       {
         "billNumber": "SB25-034",
@@ -285,7 +557,21 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/sb25-034"
+        "officialUrl": "https://leg.colorado.gov/bills/sb25-034",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cathy Kipp",
+            "slug": "cathy-kipp"
+          },
+          {
+            "name": "Rep. Andrew Boesnecker",
+            "slug": null
+          },
+          {
+            "name": "Rep. Jamie Jackson",
+            "slug": "jamie-jackson"
+          }
+        ]
       },
       {
         "billNumber": "SB25-295",
@@ -301,7 +587,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/sb25-295"
+        "officialUrl": "https://leg.colorado.gov/bills/sb25-295",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Judy Amabile",
+            "slug": "judy-amabile"
+          },
+          {
+            "name": "Sen. Jeff Bridges",
+            "slug": "jeff-bridges"
+          },
+          {
+            "name": "Rep. Shannon Bird",
+            "slug": "shannon-bird"
+          },
+          {
+            "name": "Rep. Emily Sirota",
+            "slug": "emily-sirota"
+          }
+        ]
       },
       {
         "billNumber": "SB25-158",
@@ -317,7 +621,25 @@
         ],
         "location": "Law",
         "enactmentDate": "01/01/2026",
-        "officialUrl": "https://leg.colorado.gov/bills/sb25-158"
+        "officialUrl": "https://leg.colorado.gov/bills/sb25-158",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Sen. Julie Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          },
+          {
+            "name": "Rep. Kyle Brown",
+            "slug": "kyle-brown"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1098",
@@ -333,7 +655,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1098"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1098",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Rebekah Stewart",
+            "slug": "rebekah-stewart"
+          },
+          {
+            "name": "Rep. Matt Soper",
+            "slug": "matt-soper"
+          },
+          {
+            "name": "Sen. Dafna Michaelson Jenet",
+            "slug": "dafna-michaelson-jenet"
+          },
+          {
+            "name": "Sen. Julie Gonzales",
+            "slug": "julie-gonzales"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1225",
@@ -349,7 +689,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1225"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1225",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Steven Woodrow",
+            "slug": "steven-woodrow"
+          },
+          {
+            "name": "Rep. Elizabeth Velasco",
+            "slug": "elizabeth-velasco"
+          },
+          {
+            "name": "Sen. Nick Hinrichsen",
+            "slug": "nick-hinrichsen"
+          },
+          {
+            "name": "Sen. Lindsey Daugherty",
+            "slug": "lindsey-daugherty"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1250",
@@ -364,7 +722,21 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1250"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1250",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Eliza Hamrick",
+            "slug": "eliza-hamrick"
+          },
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Sen. Lisa Cutter",
+            "slug": "lisa-cutter"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1314",
@@ -379,7 +751,21 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1314"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1314",
+        "sponsorLinks": [
+          {
+            "name": "Rep. William Lindstedt",
+            "slug": "william-lindstedt"
+          },
+          {
+            "name": "Rep. Emily Sirota",
+            "slug": "emily-sirota"
+          },
+          {
+            "name": "Sen. Cathy Kipp",
+            "slug": "cathy-kipp"
+          }
+        ]
       },
       {
         "billNumber": "SB25-205",
@@ -394,7 +780,21 @@
         ],
         "location": "Law",
         "enactmentDate": "07/01/2026",
-        "officialUrl": "https://leg.colorado.gov/bills/sb25-205"
+        "officialUrl": "https://leg.colorado.gov/bills/sb25-205",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Nick Hinrichsen",
+            "slug": "nick-hinrichsen"
+          },
+          {
+            "name": "Rep. Cecelia Espenoza",
+            "slug": "cecelia-espenoza"
+          },
+          {
+            "name": "Rep. William Lindstedt",
+            "slug": "william-lindstedt"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1132",
@@ -410,7 +810,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1132"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1132",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Sean Camacho",
+            "slug": "sean-camacho"
+          },
+          {
+            "name": "Rep. Rebekah Stewart",
+            "slug": null
+          },
+          {
+            "name": "Sen. Nick Hinrichsen",
+            "slug": "nick-hinrichsen"
+          },
+          {
+            "name": "Sen. Jeff Bridges",
+            "slug": "jeff-bridges"
+          }
+        ]
       },
       {
         "billNumber": "SB25-059",
@@ -425,7 +843,21 @@
         ],
         "location": "Law",
         "enactmentDate": "08/08/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/sb25-059"
+        "officialUrl": "https://leg.colorado.gov/bills/sb25-059",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Rep. Steven Woodrow",
+            "slug": "steven-woodrow"
+          },
+          {
+            "name": "Rep. Michael Carter",
+            "slug": "michael-carter"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1238",
@@ -441,7 +873,25 @@
         ],
         "location": "Law",
         "enactmentDate": "07/01/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1238"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1238",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Junie Joseph",
+            "slug": "junie-joseph"
+          },
+          {
+            "name": "Rep. Sean Camacho",
+            "slug": "sean-camacho"
+          },
+          {
+            "name": "Sen. Cathy Kipp",
+            "slug": "cathy-kipp"
+          },
+          {
+            "name": "Sen. Jessie Danielson",
+            "slug": "jessie-danielson"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1133",
@@ -457,7 +907,25 @@
         ],
         "location": "Law",
         "enactmentDate": "08/06/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1133"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1133",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Rep. Lindsay Gilchrist",
+            "slug": "lindsay-gilchrist"
+          },
+          {
+            "name": "Sen. Judie Amabile",
+            "slug": "judy-amabile"
+          },
+          {
+            "name": "Sen. Cathy Kipp",
+            "slug": "cathy-kipp"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1062",
@@ -473,7 +941,25 @@
         ],
         "location": "House Floor",
         "enactmentDate": "08/08/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1062"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1062",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ryan Armagost",
+            "slug": "ryan-armagost"
+          },
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Sen. Nick Hinrichsen",
+            "slug": "nick-hinrichsen"
+          },
+          {
+            "name": "Sen. Byron Pelton",
+            "slug": "byron-pelton"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1258",
@@ -487,7 +973,17 @@
         ],
         "location": "Agriculture, Water & Natural Resources",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1258"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1258",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Tammy Story",
+            "slug": "tammy-story"
+          },
+          {
+            "name": "Rep. Elizabeth Velasco",
+            "slug": "elizabeth-velasco"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1128",
@@ -502,7 +998,21 @@
         ],
         "location": "Finance Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1128"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1128",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Cecelia Espinoza",
+            "slug": null
+          },
+          {
+            "name": "Rep. Ryan Armagost",
+            "slug": "ryan-armagost"
+          },
+          {
+            "name": "Sen. Kyle Mullica",
+            "slug": "kyle-mullica"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1262",
@@ -516,7 +1026,17 @@
         ],
         "location": "Finance Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1262"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1262",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Javier Mabrey",
+            "slug": "javier-mabrey"
+          },
+          {
+            "name": "Sen. Mike Weissman",
+            "slug": "mike-weissman"
+          }
+        ]
       },
       {
         "billNumber": "SB25-086",
@@ -532,7 +1052,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb25-086"
+        "officialUrl": "https://leg.colorado.gov/bills/sb25-086",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lisa Frizell",
+            "slug": "lisa-frizell"
+          },
+          {
+            "name": "Sen. Lindsey Daugherty",
+            "slug": "lindsey-daugherty"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
+          },
+          {
+            "name": "Rep. Anthony Hartsook",
+            "slug": "anthony-hartsook"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1067",
@@ -546,7 +1084,17 @@
         ],
         "location": "Judiciary Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1067"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1067",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ken Degraaf",
+            "slug": "ken-degraaf"
+          },
+          {
+            "name": "Sen. Mark Baisley",
+            "slug": "mark-baisley"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1164",
@@ -559,7 +1107,13 @@
         ],
         "location": "State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1164"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1164",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ron Weinberg",
+            "slug": "ron-weinberg"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1055",
@@ -573,7 +1127,17 @@
         ],
         "location": "Business Affairs and Labor Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1055"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1055",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Max Brooks",
+            "slug": "max-brooks"
+          },
+          {
+            "name": "Sen. Mark Baisley",
+            "slug": "mark-baisley"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1232",
@@ -586,7 +1150,13 @@
         ],
         "location": "Judiciary Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1232"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1232",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Stephanie Luck",
+            "slug": "stephanie-luck"
+          }
+        ]
       },
       {
         "billNumber": "HB25-1170",
@@ -601,7 +1171,21 @@
         ],
         "location": "Appropriations Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb25-1170"
+        "officialUrl": "https://leg.colorado.gov/bills/hb25-1170",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Eliza Hamrick",
+            "slug": "eliza-hamrick"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
+          },
+          {
+            "name": "Sen. Faith Winter",
+            "slug": "faith-winter"
+          }
+        ]
       }
     ]
   },
@@ -622,7 +1206,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": "07/01/2024",
-        "officialUrl": "https://leg.colorado.gov/bills/sb24-131"
+        "officialUrl": "https://leg.colorado.gov/bills/sb24-131",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Sonya Jaquez Lewis",
+            "slug": "sonya-jaquez-lewis"
+          },
+          {
+            "name": "Sen. Chris Kolker",
+            "slug": "chris-kolker"
+          },
+          {
+            "name": "Rep. Kyle Brown",
+            "slug": "kyle-brown"
+          },
+          {
+            "name": "Rep. Mandy Lindsey",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB24-1174",
@@ -637,7 +1239,21 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": "07/01/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1174"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1174",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Rep. Marc Snyder",
+            "slug": "marc-snyder"
+          },
+          {
+            "name": "Sen. Kyle Mullica",
+            "slug": "kyle-mullica"
+          }
+        ]
       },
       {
         "billNumber": "SB24-066",
@@ -652,7 +1268,21 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": "08/09/2024",
-        "officialUrl": "https://leg.colorado.gov/bills/sb24-066"
+        "officialUrl": "https://leg.colorado.gov/bills/sb24-066",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          },
+          {
+            "name": "Rep. Javier Mabrey",
+            "slug": "javier-mabrey"
+          }
+        ]
       },
       {
         "billNumber": "SB24-003",
@@ -667,7 +1297,21 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": "Fiscal Year 2024",
-        "officialUrl": "https://leg.colorado.gov/bills/sb24-003"
+        "officialUrl": "https://leg.colorado.gov/bills/sb24-003",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          },
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          }
+        ]
       },
       {
         "billNumber": "HB24-1348",
@@ -683,7 +1327,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": "01/01/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1348"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1348",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Elizabeth Velasco",
+            "slug": "elizabeth-velasco"
+          },
+          {
+            "name": "Rep. Lorena Garcia",
+            "slug": null
+          },
+          {
+            "name": "Sen. Sonya Jaquez Lewis",
+            "slug": "sonya-jaquez-lewis"
+          },
+          {
+            "name": "Sen. Rhonda Fields",
+            "slug": "rhonda-fields"
+          }
+        ]
       },
       {
         "billNumber": "HB24-1349",
@@ -699,7 +1361,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": "04/01/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1349"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1349",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Chris Hansen",
+            "slug": "chris-hansen"
+          },
+          {
+            "name": "Sen. Janet Buckner",
+            "slug": "janet-buckner"
+          },
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          }
+        ]
       },
       {
         "billNumber": "HB24-1353",
@@ -715,7 +1395,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": "07/01/2025",
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1353"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1353",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Emily Sirota",
+            "slug": "emily-sirota"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
+          },
+          {
+            "name": "Sen. Jeff Bridges",
+            "slug": "jeff-bridges"
+          },
+          {
+            "name": "Sen. Dafna Michaelson Jenet",
+            "slug": "dafna-michaelson-jenet"
+          }
+        ]
       },
       {
         "billNumber": "HB24-1292",
@@ -730,7 +1428,21 @@
         ],
         "location": "Senate State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1292"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1292",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Julie Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Rep. Tim Hernandez",
+            "slug": "tim-hernandez"
+          },
+          {
+            "name": "Rep. Elizabeth Epps",
+            "slug": "elisabeth-epps"
+          }
+        ]
       },
       {
         "billNumber": "HB24-1270",
@@ -745,7 +1457,21 @@
         ],
         "location": "Senate Floor",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1270"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1270",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Steven Woodrow",
+            "slug": "steven-woodrow"
+          },
+          {
+            "name": "Rep. Iman Jodeh",
+            "slug": "iman-jodeh"
+          },
+          {
+            "name": "Sen. Chris Hansen",
+            "slug": "chris-hansen"
+          }
+        ]
       },
       {
         "billNumber": "HB24-1310",
@@ -759,7 +1485,17 @@
         ],
         "location": "House Education Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1310"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1310",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Jennifer Parenti",
+            "slug": "jennifer-parenti"
+          },
+          {
+            "name": "Rep. Eliza Hamrick",
+            "slug": "eliza-hamrick"
+          }
+        ]
       },
       {
         "billNumber": "HJR24-1024",
@@ -772,7 +1508,13 @@
         ],
         "location": "House State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hjr24-1024"
+        "officialUrl": "https://leg.colorado.gov/bills/hjr24-1024",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Rose Pugliese",
+            "slug": "rose-pugliese"
+          }
+        ]
       },
       {
         "billNumber": "HB24-1023",
@@ -786,7 +1528,17 @@
         ],
         "location": "House Judiciary<br>Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb24-1023"
+        "officialUrl": "https://leg.colorado.gov/bills/hb24-1023",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ken DeGraff",
+            "slug": null
+          },
+          {
+            "name": "Sen. Mark Baisley",
+            "slug": "mark-baisley"
+          }
+        ]
       }
     ]
   },
@@ -806,7 +1558,21 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/HB23-1165"
+        "officialUrl": "https://leg.colorado.gov/bills/HB23-1165",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Judy Amabile",
+            "slug": "judy-amabile"
+          },
+          {
+            "name": "Rep. Karen McCormick",
+            "slug": "karen-mccormick"
+          },
+          {
+            "name": "Sen. Sonya Jaquez Lewis",
+            "slug": "sonya-jaquez-lewis"
+          }
+        ]
       },
       {
         "billNumber": "SB23-169",
@@ -822,7 +1588,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb23-169"
+        "officialUrl": "https://leg.colorado.gov/bills/sb23-169",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Kyle Mullica",
+            "slug": "kyle-mullica"
+          },
+          {
+            "name": "Sen. Jessie Danielson",
+            "slug": "jessie-danielson"
+          },
+          {
+            "name": "Rep. Monica Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Rep. Eliza Hamrick",
+            "slug": "eliza-hamrick"
+          }
+        ]
       },
       {
         "billNumber": "SB23-170",
@@ -838,7 +1622,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb23-170"
+        "officialUrl": "https://leg.colorado.gov/bills/sb23-170",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Sen. Stephen Fenberg",
+            "slug": "steve-fenberg"
+          },
+          {
+            "name": "Rep. Jennifer Bacon",
+            "slug": "jennifer-bacon"
+          },
+          {
+            "name": "Rep. Mike Weissman",
+            "slug": "mike-weissman"
+          }
+        ]
       },
       {
         "billNumber": "HB23-1219",
@@ -854,7 +1656,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb23-1219"
+        "officialUrl": "https://leg.colorado.gov/bills/hb23-1219",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Meg Froelich",
+            "slug": "meg-froelich"
+          },
+          {
+            "name": "Rep. Julie Amabile",
+            "slug": "judy-amabile"
+          },
+          {
+            "name": "Sen. Tom Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Sen. Chris Hansen",
+            "slug": "chris-hansen"
+          }
+        ]
       },
       {
         "billNumber": "SB23-279",
@@ -870,7 +1690,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb23-279"
+        "officialUrl": "https://leg.colorado.gov/bills/sb23-279",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Rhonda Fields",
+            "slug": "rhonda-fields"
+          },
+          {
+            "name": "Sen. Chris Hansen",
+            "slug": "chris-hansen"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
+          },
+          {
+            "name": "Rep. Junie Joseph",
+            "slug": "junie-joseph"
+          }
+        ]
       },
       {
         "billNumber": "HB23-1165",
@@ -885,7 +1723,21 @@
         ],
         "location": "Senate Local Government Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/HB23-1165"
+        "officialUrl": "https://leg.colorado.gov/bills/HB23-1165",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Julie Amabile",
+            "slug": "judy-amabile"
+          },
+          {
+            "name": "Sen. Karen McGormick",
+            "slug": null
+          },
+          {
+            "name": "Sen. Sonya Jaques Lewis",
+            "slug": "sonya-jaquez-lewis"
+          }
+        ]
       },
       {
         "billNumber": "HB23-1230",
@@ -899,7 +1751,17 @@
         ],
         "location": "House Judiciary Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb23-1230"
+        "officialUrl": "https://leg.colorado.gov/bills/hb23-1230",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Elisabeth Epps",
+            "slug": "elisabeth-epps"
+          },
+          {
+            "name": "Sen. Rhonda Fields",
+            "slug": "rhonda-fields"
+          }
+        ]
       },
       {
         "billNumber": "SB23-101",
@@ -913,7 +1775,17 @@
         ],
         "location": "Senate State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb23-101"
+        "officialUrl": "https://leg.colorado.gov/bills/sb23-101",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Barbara Kirkmeyer",
+            "slug": "barbara-kirkmeyer"
+          },
+          {
+            "name": "Rep. Mary Bradfield",
+            "slug": "mary-bradfield"
+          }
+        ]
       },
       {
         "billNumber": "SB23-022",
@@ -927,7 +1799,17 @@
         ],
         "location": "Senate Judiciary Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb23-022"
+        "officialUrl": "https://leg.colorado.gov/bills/sb23-022",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Nick Hinrichsen",
+            "slug": "nick-hinrichsen"
+          },
+          {
+            "name": "Rep. Shannon Bird",
+            "slug": "shannon-bird"
+          }
+        ]
       },
       {
         "billNumber": "HB23-1086",
@@ -943,7 +1825,25 @@
         ],
         "location": "House<br>Judiciary Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb23-1086"
+        "officialUrl": "https://leg.colorado.gov/bills/hb23-1086",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ken DeGraaf",
+            "slug": "ken-degraaf"
+          },
+          {
+            "name": "Rep. Julie Joseph",
+            "slug": "junie-joseph"
+          },
+          {
+            "name": "Sen. Mark Baisley",
+            "slug": "mark-baisley"
+          },
+          {
+            "name": "Sen. Faith Winter",
+            "slug": "faith-winter"
+          }
+        ]
       },
       {
         "billNumber": "HB23-1044",
@@ -956,7 +1856,13 @@
         ],
         "location": "House<br>State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb23-1044"
+        "officialUrl": "https://leg.colorado.gov/bills/hb23-1044",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ken DeGraaf",
+            "slug": "ken-degraaf"
+          }
+        ]
       },
       {
         "billNumber": "HB23-1050",
@@ -969,7 +1875,13 @@
         ],
         "location": "House<br>State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb23-1050"
+        "officialUrl": "https://leg.colorado.gov/bills/hb23-1050",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ty Winter",
+            "slug": "ty-winter"
+          }
+        ]
       }
     ]
   },
@@ -987,7 +1899,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1257"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1257",
+        "sponsorLinks": [
+          {
+            "name": "Rep. M. Weissman",
+            "slug": "mike-weissman"
+          },
+          {
+            "name": "Rep. M. Soper",
+            "slug": "matt-soper"
+          },
+          {
+            "name": "Sen. J. Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Sen. B. Gardner",
+            "slug": "bob-gardner"
+          }
+        ]
       },
       {
         "billNumber": "HB22-1086",
@@ -1000,7 +1930,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1086"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1086",
+        "sponsorLinks": [
+          {
+            "name": "Rep. T. Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Rep. J. Bacon",
+            "slug": "jennifer-bacon"
+          },
+          {
+            "name": "Sen. R. Fields",
+            "slug": "rhonda-fields"
+          },
+          {
+            "name": "Sen. S. J. Lewis",
+            "slug": "sonya-jaquez-lewis"
+          }
+        ]
       },
       {
         "billNumber": "SB22-031",
@@ -1013,7 +1961,13 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb22-031"
+        "officialUrl": "https://leg.colorado.gov/bills/sb22-031",
+        "sponsorLinks": [
+          {
+            "name": "Sen. S. J. Lewis",
+            "slug": "sonya-jaquez-lewis"
+          }
+        ]
       },
       {
         "billNumber": "HCR22-1002",
@@ -1026,7 +1980,13 @@
         ],
         "location": "House State Affairs",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hcr22-1002"
+        "officialUrl": "https://leg.colorado.gov/bills/hcr22-1002",
+        "sponsorLinks": [
+          {
+            "name": "Rep. M. Weissman",
+            "slug": "mike-weissman"
+          }
+        ]
       },
       {
         "billNumber": "HB22-1045",
@@ -1039,7 +1999,17 @@
         ],
         "location": "House State Affairs",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1045"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1045",
+        "sponsorLinks": [
+          {
+            "name": "Rep. R. Holtorf",
+            "slug": "richard-holtorf"
+          },
+          {
+            "name": "Sen. J. Sonnenburg",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB22-1120",
@@ -1052,7 +2022,25 @@
         ],
         "location": "Governors Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1120"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1120",
+        "sponsorLinks": [
+          {
+            "name": "Rep. K. V. Winkle",
+            "slug": "kevin-van-winkle"
+          },
+          {
+            "name": "Rep. P. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Sen. R. Woodward",
+            "slug": "rob-woodward"
+          },
+          {
+            "name": "Sen. J. Bridges",
+            "slug": "jeff-bridges"
+          }
+        ]
       },
       {
         "billNumber": "HB22-1033",
@@ -1065,7 +2053,13 @@
         ],
         "location": "House Human Services",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1033"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1033",
+        "sponsorLinks": [
+          {
+            "name": "Rep. R. Hanks",
+            "slug": "ron-hanks"
+          }
+        ]
       },
       {
         "billNumber": "HB22-1106",
@@ -1078,7 +2072,13 @@
         ],
         "location": "House State Affairs",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1106"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1106",
+        "sponsorLinks": [
+          {
+            "name": "Rep. P. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB22-1105",
@@ -1091,7 +2091,13 @@
         ],
         "location": "House State Affairs",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1105"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1105",
+        "sponsorLinks": [
+          {
+            "name": "Rep. S. Sandridge",
+            "slug": "shane-sandridge"
+          }
+        ]
       },
       {
         "billNumber": "HB22-1145",
@@ -1104,7 +2110,13 @@
         ],
         "location": "House State Affairs",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1145"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1145",
+        "sponsorLinks": [
+          {
+            "name": "Rep. P. Will",
+            "slug": "perry-will"
+          }
+        ]
       },
       {
         "billNumber": "HB22-1168",
@@ -1117,7 +2129,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb22-1168"
+        "officialUrl": "https://leg.colorado.gov/bills/hb22-1168",
+        "sponsorLinks": [
+          {
+            "name": "Rep. H. McKean",
+            "slug": "hugh-mckean"
+          },
+          {
+            "name": "Rep. K. Mullica",
+            "slug": "kyle-mullica"
+          },
+          {
+            "name": "Sen. R. Woodward",
+            "slug": "rob-woodward"
+          },
+          {
+            "name": "Sen. J. Ginal",
+            "slug": "joann-ginal"
+          }
+        ]
       }
     ]
   },
@@ -1135,7 +2165,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1106"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1106",
+        "sponsorLinks": [
+          {
+            "name": "Rep. M. Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Rep. K. Mullica",
+            "slug": "kyle-mullica"
+          },
+          {
+            "name": "Sen. C. Hansen",
+            "slug": "chris-hansen"
+          },
+          {
+            "name": "Sen. J. Bridges",
+            "slug": "jeff-bridges"
+          }
+        ]
       },
       {
         "billNumber": "SB21-078",
@@ -1148,7 +2196,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb21-078"
+        "officialUrl": "https://leg.colorado.gov/bills/sb21-078",
+        "sponsorLinks": [
+          {
+            "name": "Sen. S. J. Lewis",
+            "slug": "sonya-jaquez-lewis"
+          },
+          {
+            "name": "Sen. J. Danielson",
+            "slug": "jessie-danielson"
+          },
+          {
+            "name": "Rep. T. Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Rep. L. Herod",
+            "slug": "leslie-herod"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1255",
@@ -1161,7 +2227,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1255"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1255",
+        "sponsorLinks": [
+          {
+            "name": "Rep. M. Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Rep. M. Gray",
+            "slug": "matt-gray"
+          },
+          {
+            "name": "Sen. S. J. Lewis",
+            "slug": "sonya-jaquez-lewis"
+          },
+          {
+            "name": "Sen. B. Petterson",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB21-256",
@@ -1174,7 +2258,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb21-256"
+        "officialUrl": "https://leg.colorado.gov/bills/sb21-256",
+        "sponsorLinks": [
+          {
+            "name": "Sen. S. Fenberg",
+            "slug": "steve-fenberg"
+          },
+          {
+            "name": "Sen. D. Moreno",
+            "slug": "dominick-moreno"
+          },
+          {
+            "name": "Rep. E. Hooton",
+            "slug": "edie-hooton"
+          },
+          {
+            "name": "Rep. L. Daughtery",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB21-1298",
@@ -1187,7 +2289,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1298"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1298",
+        "sponsorLinks": [
+          {
+            "name": "Rep. J. Amabile",
+            "slug": "judy-amabile"
+          },
+          {
+            "name": "Rep. S. Woodrow",
+            "slug": "steven-woodrow"
+          },
+          {
+            "name": "Sen. J. Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Sen. B. Pettersen",
+            "slug": "brittany-pettersen"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1299",
@@ -1200,7 +2320,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1299"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1299",
+        "sponsorLinks": [
+          {
+            "name": "Rep. T. Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Rep. J. Bacon",
+            "slug": "jennifer-bacon"
+          },
+          {
+            "name": "Sen. R. Fields",
+            "slug": "rhonda-fields"
+          },
+          {
+            "name": "Sen. C. Hansen",
+            "slug": "chris-hansen"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1071",
@@ -1213,7 +2351,21 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1071"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1071",
+        "sponsorLinks": [
+          {
+            "name": "Rep. C. Kennedy",
+            "slug": "chris-degruy-kennedy"
+          },
+          {
+            "name": "Sen. S. Fenburg",
+            "slug": null
+          },
+          {
+            "name": "Sen. F. Winter",
+            "slug": "faith-winter"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1025",
@@ -1226,7 +2378,17 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1025"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1025",
+        "sponsorLinks": [
+          {
+            "name": "Rep. J. Arndt",
+            "slug": "jeni-james-arndt"
+          },
+          {
+            "name": "Sen. J. Ginal",
+            "slug": "joann-ginal"
+          }
+        ]
       },
       {
         "billNumber": "SB21-064",
@@ -1239,7 +2401,21 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb21-064"
+        "officialUrl": "https://leg.colorado.gov/bills/sb21-064",
+        "sponsorLinks": [
+          {
+            "name": "Sen. L. Garcia",
+            "slug": "leroy-garcia"
+          },
+          {
+            "name": "Sen. J. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. K. Mullica",
+            "slug": "kyle-mullica"
+          }
+        ]
       },
       {
         "billNumber": "SB21-081",
@@ -1252,7 +2428,17 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb21-081"
+        "officialUrl": "https://leg.colorado.gov/bills/sb21-081",
+        "sponsorLinks": [
+          {
+            "name": "Sen. C. Kolker",
+            "slug": "chris-kolker"
+          },
+          {
+            "name": "Rep. D. M. Jenet",
+            "slug": "dafna-michaelson-jenet"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1001",
@@ -1265,7 +2451,25 @@
         ],
         "location": "Governor's Desk",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1001"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1001",
+        "sponsorLinks": [
+          {
+            "name": "Sen. C. Holbert",
+            "slug": "chris-holbert"
+          },
+          {
+            "name": "Sen. S. Fenberg",
+            "slug": "steve-fenberg"
+          },
+          {
+            "name": "Rep. H. McKean",
+            "slug": "hugh-mckean"
+          },
+          {
+            "name": "Rep. D. Esgar",
+            "slug": "daneya-esgar"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1098",
@@ -1278,7 +2482,13 @@
         ],
         "location": "House Judiciary Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1098"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1098",
+        "sponsorLinks": [
+          {
+            "name": "Rep. D. Woog",
+            "slug": "dan-woog"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1038",
@@ -1291,7 +2501,13 @@
         ],
         "location": "House State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1038"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1038",
+        "sponsorLinks": [
+          {
+            "name": "Rep. P. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1070",
@@ -1304,7 +2520,13 @@
         ],
         "location": "House State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1070"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1070",
+        "sponsorLinks": [
+          {
+            "name": "Rep. R. Hanks",
+            "slug": "ron-hanks"
+          }
+        ]
       },
       {
         "billNumber": "HB21-1185",
@@ -1317,7 +2539,13 @@
         ],
         "location": "House State Affairs Committee",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb21-1185"
+        "officialUrl": "https://leg.colorado.gov/bills/hb21-1185",
+        "sponsorLinks": [
+          {
+            "name": "Rep. P. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       }
     ]
   },
@@ -1335,7 +2563,25 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1355"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1355",
+        "sponsorLinks": [
+          {
+            "name": "Bridges",
+            "slug": "jeff-bridges"
+          },
+          {
+            "name": "Hansen",
+            "slug": "chris-hansen"
+          },
+          {
+            "name": "Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Mullica",
+            "slug": "kyle-mullica"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1099",
@@ -1348,7 +2594,49 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1099"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1099",
+        "sponsorLinks": [
+          {
+            "name": "Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Williams D.",
+            "slug": "dave-williams"
+          },
+          {
+            "name": "Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Geitner",
+            "slug": "tim-geitner"
+          },
+          {
+            "name": "Sandridge",
+            "slug": "shane-sandridge"
+          },
+          {
+            "name": "Buck",
+            "slug": "perry-buck"
+          },
+          {
+            "name": "Baisley",
+            "slug": "mark-baisley"
+          },
+          {
+            "name": "Van Winkle",
+            "slug": "kevin-van-winkle"
+          },
+          {
+            "name": "Marble",
+            "slug": "vicki-marble"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1121",
@@ -1361,7 +2649,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1121"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1121",
+        "sponsorLinks": [
+          {
+            "name": "Mullica",
+            "slug": "kyle-mullica"
+          },
+          {
+            "name": "Soper",
+            "slug": "matt-soper"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1152",
@@ -1374,7 +2672,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1152"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1152",
+        "sponsorLinks": [
+          {
+            "name": "Liston",
+            "slug": "larry-liston"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1040",
@@ -1387,7 +2691,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1040"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1040",
+        "sponsorLinks": [
+          {
+            "name": "Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1271",
@@ -1400,7 +2710,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1271"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1271",
+        "sponsorLinks": [
+          {
+            "name": "Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Smallwood",
+            "slug": "jim-smallwood"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1287",
@@ -1413,7 +2737,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1287"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1287",
+        "sponsorLinks": [
+          {
+            "name": "Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Lee",
+            "slug": "pete-lee"
+          },
+          {
+            "name": "Soper",
+            "slug": "matt-soper"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1278",
@@ -1426,7 +2764,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1278"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1278",
+        "sponsorLinks": [
+          {
+            "name": "Duran",
+            "slug": "monica-duran"
+          },
+          {
+            "name": "Singer",
+            "slug": "jonathan-singer"
+          },
+          {
+            "name": "Fields",
+            "slug": "rhonda-fields"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1356",
@@ -1439,7 +2791,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1356"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1356",
+        "sponsorLinks": [
+          {
+            "name": "Sullivan",
+            "slug": "tom-sullivan"
+          },
+          {
+            "name": "Jaquez Lewis",
+            "slug": "sonya-jaquez-lewis"
+          },
+          {
+            "name": "Danielson",
+            "slug": "jessie-danielson"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1168",
@@ -1452,7 +2818,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1168"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1168",
+        "sponsorLinks": [
+          {
+            "name": "Sandridge",
+            "slug": "shane-sandridge"
+          }
+        ]
       },
       {
         "billNumber": "HB20-1028",
@@ -1465,7 +2837,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb20-1028"
+        "officialUrl": "https://leg.colorado.gov/bills/hb20-1028",
+        "sponsorLinks": [
+          {
+            "name": "Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Beckman",
+            "slug": "susan-beckman"
+          },
+          {
+            "name": "Jennet",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB20-023",
@@ -1478,7 +2864,37 @@
         ],
         "location": "Passed",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb20-023"
+        "officialUrl": "https://leg.colorado.gov/bills/sb20-023",
+        "sponsorLinks": [
+          {
+            "name": "Gardner Gonzales",
+            "slug": "julie-gonzales"
+          },
+          {
+            "name": "Fields",
+            "slug": "rhonda-fields"
+          },
+          {
+            "name": "Lundeen",
+            "slug": "paul-lundeen"
+          },
+          {
+            "name": "Jenet",
+            "slug": "dafna-michaelson-jenet"
+          },
+          {
+            "name": "Van Winkle",
+            "slug": "kevin-van-winkle"
+          },
+          {
+            "name": "Beckman",
+            "slug": null
+          },
+          {
+            "name": "Sirota",
+            "slug": "emily-sirota"
+          }
+        ]
       },
       {
         "billNumber": "SB20-027",
@@ -1491,7 +2907,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb20-027"
+        "officialUrl": "https://leg.colorado.gov/bills/sb20-027",
+        "sponsorLinks": [
+          {
+            "name": "Crowder",
+            "slug": "larry-crowder"
+          }
+        ]
       }
     ]
   },
@@ -1509,7 +2931,17 @@
         ],
         "location": "Passed",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb19-1073"
+        "officialUrl": "https://leg.colorado.gov/bills/hb19-1073",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Adrienne Benavidez",
+            "slug": "adrienne-benavidez"
+          },
+          {
+            "name": "Sen. Rhonda Fields",
+            "slug": "rhonda-fields"
+          }
+        ]
       },
       {
         "billNumber": "HB19-1177",
@@ -1525,7 +2957,25 @@
         ],
         "location": "Passed",
         "enactmentDate": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "sponsorLinks": [
+          {
+            "name": "Rep. Tom Sullivan",
+            "slug": null
+          },
+          {
+            "name": "Rep. Alec Garnett",
+            "slug": null
+          },
+          {
+            "name": "Sen. Lois Court",
+            "slug": null
+          },
+          {
+            "name": "Sen. Brittany Pettersen",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB19-068",
@@ -1538,7 +2988,21 @@
         ],
         "location": "Passed",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb19-068"
+        "officialUrl": "https://leg.colorado.gov/bills/sb19-068",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Rachel Zenzinger",
+            "slug": "rachel-zenzinger"
+          },
+          {
+            "name": "Sen. Jack Tate",
+            "slug": "jack-tate"
+          },
+          {
+            "name": "Rep. Mike Weissman",
+            "slug": "mike-weissman"
+          }
+        ]
       },
       {
         "billNumber": "SB19-093",
@@ -1551,7 +3015,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb19-093"
+        "officialUrl": "https://leg.colorado.gov/bills/sb19-093",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Vicki Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Rep. Bri Buentello",
+            "slug": "bri-buentello"
+          }
+        ]
       },
       {
         "billNumber": "HB19-1021",
@@ -1565,7 +3039,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb19-1021"
+        "officialUrl": "https://leg.colorado.gov/bills/hb19-1021",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Lori Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Stephen Humphrey",
+            "slug": "stephen-humphrey"
+          }
+        ]
       },
       {
         "billNumber": "HB19-1026",
@@ -1578,7 +3062,17 @@
         ],
         "location": "Passed",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb19-1026"
+        "officialUrl": "https://leg.colorado.gov/bills/hb19-1026",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Marc Catlin",
+            "slug": "marc-catlin"
+          },
+          {
+            "name": "Sen. Don Coram",
+            "slug": "don-coram"
+          }
+        ]
       },
       {
         "billNumber": "HB19-1049",
@@ -1591,7 +3085,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb19-1049"
+        "officialUrl": "https://leg.colorado.gov/bills/hb19-1049",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Patrick Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB19-1022",
@@ -1604,7 +3104,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb19-1022"
+        "officialUrl": "https://leg.colorado.gov/bills/hb19-1022",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Shane Sandridge",
+            "slug": "shane-sandridge"
+          }
+        ]
       }
     ]
   },
@@ -1622,7 +3128,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb18-051"
+        "officialUrl": "https://leg.colorado.gov/bills/sb18-051",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Merrifield",
+            "slug": "michael-merrifield"
+          }
+        ]
       },
       {
         "billNumber": "SB18-052",
@@ -1635,7 +3147,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb18-052"
+        "officialUrl": "https://leg.colorado.gov/bills/sb18-052",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Hill",
+            "slug": "owen-hill"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          }
+        ]
       },
       {
         "billNumber": "SB18-097",
@@ -1648,7 +3174,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb18-097"
+        "officialUrl": "https://leg.colorado.gov/bills/sb18-097",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Van Winkle",
+            "slug": "kevin-van-winkle"
+          }
+        ]
       },
       {
         "billNumber": "SB18-185",
@@ -1661,7 +3197,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb18-185"
+        "officialUrl": "https://leg.colorado.gov/bills/sb18-185",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Smallwood",
+            "slug": "jim-smallwood"
+          },
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          }
+        ]
       },
       {
         "billNumber": "HB18-1015",
@@ -1674,7 +3220,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb18-1015"
+        "officialUrl": "https://leg.colorado.gov/bills/hb18-1015",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Sen. Hill",
+            "slug": "owen-hill"
+          }
+        ]
       },
       {
         "billNumber": "HB18-1037",
@@ -1687,7 +3247,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb18-1037"
+        "officialUrl": "https://leg.colorado.gov/bills/hb18-1037",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB18-1074",
@@ -1700,7 +3270,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb18-1074"
+        "officialUrl": "https://leg.colorado.gov/bills/hb18-1074",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
+        ]
       },
       {
         "billNumber": "SB18-128",
@@ -1713,7 +3293,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb18-128"
+        "officialUrl": "https://leg.colorado.gov/bills/sb18-128",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Gardner",
+            "slug": "bob-gardner"
+          },
+          {
+            "name": "Rep. Liston",
+            "slug": "larry-liston"
+          }
+        ]
       },
       {
         "billNumber": "SB18-116",
@@ -1726,7 +3316,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb18-116"
+        "officialUrl": "https://leg.colorado.gov/bills/sb18-116",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. Van Winkle",
+            "slug": "kevin-van-winkle"
+          },
+          {
+            "name": "Rep. Williams",
+            "slug": "dave-williams"
+          }
+        ]
       },
       {
         "billNumber": "SB18-032",
@@ -1739,7 +3343,25 @@
         ],
         "location": "Passed",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb18-032"
+        "officialUrl": "https://leg.colorado.gov/bills/sb18-032",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Sen. Gardner",
+            "slug": "bob-gardner"
+          },
+          {
+            "name": "Rep. Herod",
+            "slug": "leslie-herod"
+          },
+          {
+            "name": "Rep. Foote",
+            "slug": "mike-foote"
+          }
+        ]
       },
       {
         "billNumber": "HB18-1077",
@@ -1752,7 +3374,17 @@
         ],
         "location": "Passed",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb18-1077"
+        "officialUrl": "https://leg.colorado.gov/bills/hb18-1077",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Valdez",
+            "slug": "donald-valdez"
+          },
+          {
+            "name": "Rep. Liston",
+            "slug": "larry-liston"
+          }
+        ]
       },
       {
         "billNumber": "HB18-1436",
@@ -1765,7 +3397,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb18-1436"
+        "officialUrl": "https://leg.colorado.gov/bills/hb18-1436",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Alec Garnett",
+            "slug": "alec-garnett"
+          },
+          {
+            "name": "Rep. Cole Wist",
+            "slug": "cole-wist"
+          }
+        ]
       }
     ]
   },
@@ -1783,7 +3425,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb17-005"
+        "officialUrl": "https://leg.colorado.gov/bills/sb17-005",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Holbert",
+            "slug": "chris-holbert"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "SB17-006",
@@ -1796,7 +3448,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb17-006"
+        "officialUrl": "https://leg.colorado.gov/bills/sb17-006",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. Nordberg",
+            "slug": "dan-nordberg"
+          }
+        ]
       },
       {
         "billNumber": "SB17-007",
@@ -1809,7 +3471,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb17-007"
+        "officialUrl": "https://leg.colorado.gov/bills/sb17-007",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          }
+        ]
       },
       {
         "billNumber": "SB17-008",
@@ -1822,7 +3498,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb17-008"
+        "officialUrl": "https://leg.colorado.gov/bills/sb17-008",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Hill",
+            "slug": "owen-hill"
+          },
+          {
+            "name": "Rep. Lebsock",
+            "slug": "steve-lebsock"
+          }
+        ]
       },
       {
         "billNumber": "HB17-1036",
@@ -1835,7 +3521,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb17-1036"
+        "officialUrl": "https://leg.colorado.gov/bills/hb17-1036",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Rep. Ransom",
+            "slug": "kim-ransom"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB17-1037",
@@ -1848,7 +3548,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb17-1037"
+        "officialUrl": "https://leg.colorado.gov/bills/hb17-1037",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
+        ]
       },
       {
         "billNumber": "HB17-1097",
@@ -1861,7 +3571,25 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb17-1097"
+        "officialUrl": "https://leg.colorado.gov/bills/hb17-1097",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
+        ]
       }
     ]
   },
@@ -1879,7 +3607,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1023"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1023",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1024",
@@ -1892,7 +3626,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1024"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1024",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1179",
@@ -1905,7 +3653,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1179"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1179",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Buck",
+            "slug": "perry-buck"
+          },
+          {
+            "name": "Sen. Sonnenberg",
+            "slug": "jerry-sonnenberg"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1204",
@@ -1918,7 +3676,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1204"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1204",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          }
+        ]
       },
       {
         "billNumber": "SB16-017",
@@ -1931,7 +3699,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-017"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-017",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "SB16-113",
@@ -1944,7 +3722,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-113"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-113",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          }
+        ]
       },
       {
         "billNumber": "SB16-144",
@@ -1957,7 +3749,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-144"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-144",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. Sais",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB16-176",
@@ -1970,7 +3772,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-176"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-176",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1063",
@@ -1983,7 +3795,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1063"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1063",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Foote",
+            "slug": "mike-foote"
+          },
+          {
+            "name": "Rep. Duran",
+            "slug": "crisanta-duran"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1341",
@@ -1996,7 +3818,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1341"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1341",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ginal",
+            "slug": "joann-ginal"
+          },
+          {
+            "name": "Rep. McCann",
+            "slug": "elizabeth-mccann"
+          }
+        ]
       },
       {
         "billNumber": "SJR16-040",
@@ -2009,7 +3841,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sjr16-040"
+        "officialUrl": "https://leg.colorado.gov/bills/sjr16-040",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lundberg",
+            "slug": "kevin-lundberg"
+          },
+          {
+            "name": "Rep. Singer",
+            "slug": "jonathan-singer"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1023",
@@ -2022,7 +3864,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1023"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1023",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": "justin-everett"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1024",
@@ -2035,7 +3883,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1024"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1024",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          },
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1179",
@@ -2048,7 +3910,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1179"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1179",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Buck",
+            "slug": "perry-buck"
+          },
+          {
+            "name": "Sen. Sonnenberg",
+            "slug": "jerry-sonnenberg"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1204",
@@ -2061,7 +3933,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1204"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1204",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          },
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          }
+        ]
       },
       {
         "billNumber": "SB16-017",
@@ -2074,7 +3956,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-017"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-017",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "SB16-113",
@@ -2087,7 +3979,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-113"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-113",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Marble",
+            "slug": "vicki-marble"
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": "lori-saine"
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": "stephen-humphrey"
+          }
+        ]
       },
       {
         "billNumber": "SB16-144",
@@ -2100,7 +4006,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-144"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-144",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Cooke",
+            "slug": "john-cooke"
+          },
+          {
+            "name": "Rep. Sais",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB16-176",
@@ -2113,7 +4029,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sb16-176"
+        "officialUrl": "https://leg.colorado.gov/bills/sb16-176",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Neville",
+            "slug": "tim-neville"
+          },
+          {
+            "name": "Rep. Neville",
+            "slug": "patrick-neville"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1063",
@@ -2126,7 +4052,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1063"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1063",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Foote",
+            "slug": "mike-foote"
+          },
+          {
+            "name": "Rep. Duran",
+            "slug": "crisanta-duran"
+          }
+        ]
       },
       {
         "billNumber": "HB16-1341",
@@ -2139,7 +4075,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/hb16-1341"
+        "officialUrl": "https://leg.colorado.gov/bills/hb16-1341",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ginal",
+            "slug": "joann-ginal"
+          },
+          {
+            "name": "Rep. McCann",
+            "slug": "elizabeth-mccann"
+          }
+        ]
       },
       {
         "billNumber": "SJR16-040",
@@ -2152,7 +4098,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://leg.colorado.gov/bills/sjr16-040"
+        "officialUrl": "https://leg.colorado.gov/bills/sjr16-040",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lundberg",
+            "slug": "kevin-lundberg"
+          },
+          {
+            "name": "Rep. Singer",
+            "slug": "jonathan-singer"
+          }
+        ]
       }
     ]
   },
@@ -2170,7 +4126,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/40B61E453EF6AB5187257D900079462D?open&file=006_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/40B61E453EF6AB5187257D900079462D?open&file=006_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Woods",
+            "slug": null
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB15-032",
@@ -2183,7 +4149,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/16509E7ECFA7560A87257DA200626D2A?Open&file=032_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/16509E7ECFA7560A87257DA200626D2A?Open&file=032_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Marble",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB15-086",
@@ -2196,7 +4168,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/939C7B3C946A868487257DA200620645?Open&file=086_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/939C7B3C946A868487257DA200620645?Open&file=086_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lambert",
+            "slug": null
+          },
+          {
+            "name": "Rep. Joshi",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB15-175",
@@ -2209,7 +4191,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/04A8999CD8214F1587257D9000781424?Open&file=175_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/04A8999CD8214F1587257D9000781424?Open&file=175_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Holbert",
+            "slug": null
+          },
+          {
+            "name": "Sen. Cooke",
+            "slug": null
+          },
+          {
+            "name": "Rep. Humphrey",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1009",
@@ -2222,7 +4218,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/EC5D2CD33A7C558387257D9000776992?Open&file=1009_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/EC5D2CD33A7C558387257D9000776992?Open&file=1009_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep.Humphrey",
+            "slug": null
+          },
+          {
+            "name": "Sen. Holbert",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1049",
@@ -2235,7 +4241,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/E49720CA54168F5A87257D900078059D?Open&file=1049_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/E49720CA54168F5A87257D900078059D?Open&file=1049_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": null
+          },
+          {
+            "name": "Sen. Grantham",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1050",
@@ -2248,7 +4264,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/5FE417ABE5313F6787257D9000780403?Open&file=1050_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/5FE417ABE5313F6787257D9000780403?Open&file=1050_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Joshi",
+            "slug": null
+          },
+          {
+            "name": "Sen. Woods",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1086",
@@ -2261,7 +4287,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/61AFE625DB3B619987257DA40002D1D3?Open&file=1086_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/61AFE625DB3B619987257DA40002D1D3?Open&file=1086_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. P. Neville",
+            "slug": null
+          },
+          {
+            "name": "Sen. T. Neville",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1127",
@@ -2274,7 +4310,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/F0FC216AFB02A13387257DB10065EBAB?Open&file=1127_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/F0FC216AFB02A13387257DB10065EBAB?Open&file=1127_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Klingenschmidtt",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1138",
@@ -2287,7 +4329,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/7412E40BC0E4D73587257DCC0058512A?Open&file=1138_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/7412E40BC0E4D73587257DCC0058512A?Open&file=1138_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Ransom",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1152",
@@ -2300,7 +4348,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/1DFF6C2498FF146C87257D9000794E5B?Open&file=1152_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/1DFF6C2498FF146C87257D9000794E5B?Open&file=1152_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Nordberg",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB15-1168",
@@ -2313,7 +4367,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/C5E757A1885CDA5987257DA200617C78?Open&file=1168_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2015a/csl.nsf/fsbillcont3/C5E757A1885CDA5987257DA200617C78?Open&file=1168_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. P.Neville",
+            "slug": null
+          },
+          {
+            "name": "Sen. T.Neville",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2331,7 +4395,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "http://no%20disorderly%20conduct%20for%20blanks%20fired%20at%20funerals/"
+        "officialUrl": "http://no%20disorderly%20conduct%20for%20blanks%20fired%20at%20funerals/",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Garcia",
+            "slug": null
+          },
+          {
+            "name": "Sen. Crowder",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB14-1097",
@@ -2344,7 +4418,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/CB17680A568F5CB187257C30000652C3?Open&file=1097_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/CB17680A568F5CB187257C30000652C3?Open&file=1097_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Navarro",
+            "slug": null
+          },
+          {
+            "name": "Sen. Rivera",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB14-1230",
@@ -2357,7 +4441,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "http://restoration%20of%20firearm%20carry%20right%20for%20some%20felons/"
+        "officialUrl": "http://restoration%20of%20firearm%20carry%20right%20for%20some%20felons/",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Buck",
+            "slug": null
+          },
+          {
+            "name": "Sen. Steadman",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB14-038",
@@ -2370,7 +4464,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/987911F4F4FF5E4687257C360078D9F8?Open&file=038_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/987911F4F4FF5E4687257C360078D9F8?Open&file=038_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Renfroe",
+            "slug": null
+          },
+          {
+            "name": "Rep. Everett",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB14-090",
@@ -2383,7 +4487,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/252C8662F0460B4087257C300005E1C4?Open&file=090_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/252C8662F0460B4087257C300005E1C4?Open&file=090_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Baumgardner",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB14-094",
@@ -2396,7 +4506,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/1BD22E1E7BF9D30D87257C30000650F6?Open&file=094_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/1BD22E1E7BF9D30D87257C30000650F6?Open&file=094_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Rivera",
+            "slug": null
+          },
+          {
+            "name": "Rep. Wright",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB14-163",
@@ -2409,7 +4529,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/75C37D38A2C6772487257C3600755384?open&file=135_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2014a/csl.nsf/fsbillcont3/75C37D38A2C6772487257C3600755384?open&file=135_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Brophy",
+            "slug": null
+          },
+          {
+            "name": "Rep. Wright",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2427,7 +4557,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/B27A6A9AC874B85687257AEE0057DF35?Open&file=009_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/B27A6A9AC874B85687257AEE0057DF35?Open&file=009_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Renfroe",
+            "slug": null
+          },
+          {
+            "name": "Sen. Harvey",
+            "slug": null
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB13-062",
@@ -2440,7 +4584,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/F1B84FA04583BC4187257AEE0057BD45?Open&file=062_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/F1B84FA04583BC4187257AEE0057BD45?Open&file=062_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lambert",
+            "slug": null
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1043",
@@ -2453,7 +4607,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/A1381F329604BCFB87257AEE0057E410?Open&file=1043_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/A1381F329604BCFB87257AEE0057E410?Open&file=1043_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Mike Foote",
+            "slug": null
+          },
+          {
+            "name": "Sen. Rollie Heath",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1048",
@@ -2466,7 +4630,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/CE863EA413973E8187257AEE0056F6A8?Open&file=1048_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/CE863EA413973E8187257AEE0056F6A8?Open&file=1048_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Everett",
+            "slug": null
+          },
+          {
+            "name": "Sen. Grantham",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1085",
@@ -2479,7 +4653,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/CC77A1E0FD3C252687257AEE0057134E?Open&file=1085_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/CC77A1E0FD3C252687257AEE0057134E?Open&file=1085_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Perry Buck",
+            "slug": null
+          },
+          {
+            "name": "Sen. Renfroe",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1169",
@@ -2492,7 +4676,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont2/7B601F1B6CD3348B87257AEE005E8836?Open"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont2/7B601F1B6CD3348B87257AEE005E8836?Open",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Brophy",
+            "slug": null
+          },
+          {
+            "name": "Rep. Steve Humphrey",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB13-140",
@@ -2505,7 +4699,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/165251F74BE0DD8587257AF30072BAFD?Open&file=140_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/165251F74BE0DD8587257AF30072BAFD?Open&file=140_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Marble",
+            "slug": null
+          },
+          {
+            "name": "Rep. Saine",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1162",
@@ -2518,7 +4722,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/2C1F5C90491513F987257A8E0073C327?Open&file=1162_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/2C1F5C90491513F987257A8E0073C327?Open&file=1162_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Holbert",
+            "slug": null
+          },
+          {
+            "name": "Sen. Hill",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1170",
@@ -2531,7 +4745,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/E572B822DE1CBDD487257AF40064A20D?Open&file=1170_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/E572B822DE1CBDD487257AF40064A20D?Open&file=1170_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Humphrey",
+            "slug": null
+          },
+          {
+            "name": "Sen. Hill",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1187",
@@ -2544,7 +4768,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/EBE4A91E9E40792C87257AF30060B1BE?Open&file=1187_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/EBE4A91E9E40792C87257AF30060B1BE?Open&file=1187_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Landgraf",
+            "slug": null
+          },
+          {
+            "name": "Sen. Lundberg",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1226",
@@ -2557,7 +4791,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/7A2AA2783B54E1CF87257AEE005704A0?Open&file=1226_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/7A2AA2783B54E1CF87257AEE005704A0?Open&file=1226_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Claire Levy",
+            "slug": null
+          },
+          {
+            "name": "Sen. Heath",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1229",
@@ -2570,7 +4814,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/590C29B4C02AFC2F87257A8E0073C303?Open&file=1229_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/590C29B4C02AFC2F87257A8E0073C303?Open&file=1229_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Rhonda Fields",
+            "slug": null
+          },
+          {
+            "name": "Sen. Morgan Carroll",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1306",
@@ -2583,7 +4837,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/577EB16FDBA61F2087257A8E0073C485?Open&file=1306_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/577EB16FDBA61F2087257A8E0073C485?Open&file=1306_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Beth McCann",
+            "slug": null
+          },
+          {
+            "name": "Sen. Todd",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB13-197",
@@ -2596,7 +4860,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/24B586DC34FB057F87257B08007A98F7?Open&file=197_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/24B586DC34FB057F87257B08007A98F7?Open&file=197_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Evie Hudak",
+            "slug": null
+          },
+          {
+            "name": "Rep. Beth McCann",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB13-195",
@@ -2609,7 +4883,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/24B586DC34FB057F87257B08007A98F7?Open&file=197_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/24B586DC34FB057F87257B08007A98F7?Open&file=197_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lois Tochtrop",
+            "slug": null
+          },
+          {
+            "name": "Rep. Jenise May",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1228",
@@ -2622,7 +4906,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/04005C2BDBC54E4087257AEE00585D19?Open&file=1228_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/04005C2BDBC54E4087257AEE00585D19?Open&file=1228_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Lois Court",
+            "slug": null
+          },
+          {
+            "name": "Sen. Rollie Heath",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB13-1224",
@@ -2635,7 +4929,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/7E6713B015E62E6F87257B0100813CB5?Open&file=1224_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/7E6713B015E62E6F87257B0100813CB5?Open&file=1224_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Rhonda Fields",
+            "slug": null
+          },
+          {
+            "name": "Sen. Mary Hodge",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB13-196",
@@ -2648,7 +4952,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/28EB8FECB7D3F79387257B03007B8F72?Open&file=196_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/28EB8FECB7D3F79387257B03007B8F72?Open&file=196_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. John Morse",
+            "slug": null
+          },
+          {
+            "name": "Rep. Beth McCann",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB19-1022",
@@ -2661,7 +4975,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/79D915E94E9CD28F87257AEE0054A84C?Open&file=013_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2013a/csl.nsf/fsbillcont3/79D915E94E9CD28F87257AEE0054A84C?Open&file=013_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Shane Sandridge",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2679,7 +4999,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/192D8885E8DFA02187257981007F190E/$FILE/025_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/192D8885E8DFA02187257981007F190E/$FILE/025_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tim Neville",
+            "slug": null
+          },
+          {
+            "name": "Rep. Randy Baumgardner",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB12-1048",
@@ -2692,7 +5022,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/commsumm.nsf/CommByBillSumm/AC9AAE6B1ABE57BC872579A0000455C5"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/commsumm.nsf/CommByBillSumm/AC9AAE6B1ABE57BC872579A0000455C5",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Waller",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB12-1064",
@@ -2705,7 +5041,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/E02212357C1248D187257981007F40BA/$FILE/HB1064_00.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/E02212357C1248D187257981007F40BA/$FILE/HB1064_00.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Amy Stephens",
+            "slug": null
+          },
+          {
+            "name": "Sen. Steve King",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB12-1088",
@@ -2718,7 +5064,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/CLICS/CLICS2012A/csl.nsf/fsbillcont3/EFA884A19FFF45B387257981007DAA0E?Open&file=1088_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/CLICS/CLICS2012A/csl.nsf/fsbillcont3/EFA884A19FFF45B387257981007DAA0E?Open&file=1088_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Holbert",
+            "slug": null
+          },
+          {
+            "name": "Sen. Kevin Grantham",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB12-1092",
@@ -2731,7 +5087,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/8AE6996E9CB0788287257981007F511C/$FILE/1092_eng.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/8AE6996E9CB0788287257981007F511C/$FILE/1092_eng.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Priola",
+            "slug": null
+          },
+          {
+            "name": "Sen. Brophy",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2749,7 +5115,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/192D8885E8DFA02187257981007F190E/%24FILE/025_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2012a/csl.nsf/billcontainers/192D8885E8DFA02187257981007F190E/%24FILE/025_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Holbert",
+            "slug": null
+          },
+          {
+            "name": "Sen. Brophy",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB11-077",
@@ -2762,7 +5138,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2011a/csl.nsf/fsbillcont3/69927AF4ADC701DA8725781C00628B16?Open&file=077_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2011a/csl.nsf/fsbillcont3/69927AF4ADC701DA8725781C00628B16?Open&file=077_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Grantham",
+            "slug": null
+          },
+          {
+            "name": "Rep. Becker",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB11-053",
@@ -2775,7 +5161,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2011a/csl.nsf/fsbillcont3/B0DC5F2810D7D28D8725780800803BBC?Open&file=053_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2011a/csl.nsf/fsbillcont3/B0DC5F2810D7D28D8725780800803BBC?Open&file=053_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Renfroe",
+            "slug": null
+          },
+          {
+            "name": "Rep. Sonnenberg",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB11-1073",
@@ -2788,7 +5184,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2011a/csl.nsf/fsbillcont3/FE1A03A9E0EB9374872578080080434F?Open&file=1073_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2011a/csl.nsf/fsbillcont3/FE1A03A9E0EB9374872578080080434F?Open&file=1073_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Barker",
+            "slug": null
+          },
+          {
+            "name": "Sen. Morse",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2806,7 +5212,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2010a/csl.nsf/fsbillcont3/845A92C5F145E31B872576A80027B772?Open&file=051_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2010a/csl.nsf/fsbillcont3/845A92C5F145E31B872576A80027B772?Open&file=051_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Scott Renfroe",
+            "slug": null
+          },
+          {
+            "name": "Rep. Jerry Sonnenberg",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB10-092",
@@ -2819,7 +5235,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2010a/csl.nsf/fsbillcont3/2D5FE3C68F88F2DC872576A80027B78E?Open&file=092_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2010a/csl.nsf/fsbillcont3/2D5FE3C68F88F2DC872576A80027B78E?Open&file=092_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Dave Schultheis",
+            "slug": null
+          },
+          {
+            "name": "Rep. Steve King",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB10-1094",
@@ -2832,7 +5258,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2010a/csl.nsf/fsbillcont3/68BD0E9414E69334872576A80027B22C?Open&file=1094_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2010a/csl.nsf/fsbillcont3/68BD0E9414E69334872576A80027B22C?Open&file=1094_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Cory Gardner",
+            "slug": null
+          },
+          {
+            "name": "Sen. Ted Harvey",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2850,7 +5286,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2009a/csl.nsf/fsbillcont3/0CCEBB17C7B80D548725753800635131?Open&file=1180_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2009a/csl.nsf/fsbillcont3/0CCEBB17C7B80D548725753800635131?Open&file=1180_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Steven King",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB09-008",
@@ -2863,7 +5305,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2009a/csl.nsf/fsbillcont3/B91AF789C5C08B3187257537001D6810?Open&file=008_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2009a/csl.nsf/fsbillcont3/B91AF789C5C08B3187257537001D6810?Open&file=008_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Ted Harvey",
+            "slug": null
+          },
+          {
+            "name": "Rep. Cory Gardner",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB09-074",
@@ -2876,7 +5328,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2009a/csl.nsf/fsbillcont3/1C55463E36931623872575370071C046?Open&file=074_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2009a/csl.nsf/fsbillcont3/1C55463E36931623872575370071C046?Open&file=074_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Greg Brophy",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2894,7 +5352,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/2B692131807A4AF1872573680052EB4E?Open&file=049_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/2B692131807A4AF1872573680052EB4E?Open&file=049_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Sue Windels",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB08-1066",
@@ -2907,7 +5371,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/D360E5ACF4E0A781872573680053ED5B?Open&file=1066_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/D360E5ACF4E0A781872573680053ED5B?Open&file=1066_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Cary Gardner",
+            "slug": null
+          },
+          {
+            "name": "Sen. Ted Harvey",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB08-1069",
@@ -2920,7 +5394,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/D508774ECCE5E987872573680057F5C0?Open&file=1069_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/D508774ECCE5E987872573680057F5C0?Open&file=1069_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Kathleen Curry",
+            "slug": null
+          },
+          {
+            "name": "Sen. Lois Tochtrop",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB08-1096",
@@ -2933,7 +5417,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/CB70E479BFE902A78725738C006A334D?Open&file=1096_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/CB70E479BFE902A78725738C006A334D?Open&file=1096_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Debbie Stafford",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB08-1190",
@@ -2946,7 +5436,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/1217E8C0EAA7ECA6872573680054F1E3?Open&file=1190_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/1217E8C0EAA7ECA6872573680054F1E3?Open&file=1190_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Jim Kerr",
+            "slug": null
+          },
+          {
+            "name": "Sen. Jack Taylor",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB08-048",
@@ -2959,7 +5459,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/002FA95092926D0B872573680053EE67?Open&file=048_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/002FA95092926D0B872573680053EE67?Open&file=048_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Moe Keller",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB08-115",
@@ -2972,7 +5478,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/87370B9ABC9BCD0C872573B000776288?Open&file=115_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2008a/csl.nsf/fsbillcont3/87370B9ABC9BCD0C872573B000776288?Open&file=115_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Greg Brophy",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -2990,7 +5502,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/2FF2281D159DF18087257251007C51CE?Open&file=034_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/2FF2281D159DF18087257251007C51CE?Open&file=034_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Morse",
+            "slug": null
+          },
+          {
+            "name": "Rep. Madden",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB07-069",
@@ -3003,7 +5525,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/38ABB358D99728CF87257251007D5A0F?Open&file=069_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/38ABB358D99728CF87257251007D5A0F?Open&file=069_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Renfroe",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB07-1011",
@@ -3016,7 +5544,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/2909DE770F8692B387257251007B67DF?Open&file=1011_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/2909DE770F8692B387257251007B67DF?Open&file=1011_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Gardner",
+            "slug": null
+          },
+          {
+            "name": "Sen. Ted Harvey",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB07-1174",
@@ -3029,7 +5567,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/B8164A7EED081096872572640063E1AE?Open&file=1174_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics/clics2007a/csl.nsf/fsbillcont3/B8164A7EED081096872572640063E1AE?Open&file=1174_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Al White",
+            "slug": null
+          },
+          {
+            "name": "Sen. Bacon",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3047,7 +5595,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2006a/csl.nsf/fsbillcont3/D6E012DFC73DFC56872570DD0066C773?Open&file=1179_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2006a/csl.nsf/fsbillcont3/D6E012DFC73DFC56872570DD0066C773?Open&file=1179_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Dale Hall",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB06-1246",
@@ -3060,7 +5614,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2006a/csl.nsf/fsbillcont3/0086AC370FC4E826872570ED006D1090?Open&file=1246_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2006a/csl.nsf/fsbillcont3/0086AC370FC4E826872570ED006D1090?Open&file=1246_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Cory Gardner",
+            "slug": null
+          },
+          {
+            "name": "Sen. Doug Lamborn",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB06-157",
@@ -3073,7 +5637,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2006a/csl.nsf/fsbillcont3/0C570F5E4DB318C0872570F50067C019?Open&file=157_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2006a/csl.nsf/fsbillcont3/0C570F5E4DB318C0872570F50067C019?Open&file=157_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Ken Kester",
+            "slug": null
+          },
+          {
+            "name": "Rep. Tom Massey",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3091,7 +5665,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2005a/csl.nsf/fsbillcont3/B43FB77DC0A765BF87256F6B007AAE65?Open&file=1266_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2005a/csl.nsf/fsbillcont3/B43FB77DC0A765BF87256F6B007AAE65?Open&file=1266_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Dale Hall",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB05-1023",
@@ -3104,7 +5684,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2005a/csl.nsf/fsbillcont3/A0AE09314723833E87256F46007889BA?Open&file=1023_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2005a/csl.nsf/fsbillcont3/A0AE09314723833E87256F46007889BA?Open&file=1023_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Cory Gardner",
+            "slug": null
+          },
+          {
+            "name": "Sen. Doug Lamborn",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3122,7 +5712,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/E4436D7A1BF4BCB687256D79005317CD?Open&file=1003_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/E4436D7A1BF4BCB687256D79005317CD?Open&file=1003_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. McCluskey",
+            "slug": null
+          },
+          {
+            "name": "Sen. Johnson",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB04-1012",
@@ -3135,7 +5735,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/B178FDC89F3D157087256DC10062A991?Open&file=1012_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/B178FDC89F3D157087256DC10062A991?Open&file=1012_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Rose",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB04-1170",
@@ -3148,7 +5754,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/19956651D2FFD4B687256DF8005C7997?Open&file=1170_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/19956651D2FFD4B687256DF8005C7997?Open&file=1170_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Cloer",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB04-1205",
@@ -3161,7 +5773,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/BB6D8BD4EB9B0EAF87256E0D0001AE80?Open&file=1205_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/BB6D8BD4EB9B0EAF87256E0D0001AE80?Open&file=1205_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Crane",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB04-1208",
@@ -3174,7 +5792,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/C5CD73A0F5EACF8187256DC20064AC11?Open&file=1208_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/C5CD73A0F5EACF8187256DC20064AC11?Open&file=1208_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep.Stengel",
+            "slug": null
+          },
+          {
+            "name": "Sen. Teck",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB04-1263",
@@ -3187,7 +5815,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/132BE74E9B01DB8687256E1A0000A8B1?Open&file=1263_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/132BE74E9B01DB8687256E1A0000A8B1?Open&file=1263_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Lundberg",
+            "slug": null
+          },
+          {
+            "name": "Rep. Schultheis",
+            "slug": null
+          },
+          {
+            "name": "Sen. Cairns",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB04-1281",
@@ -3200,7 +5842,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "sponsorLinks": [
+          {
+            "name": "Rep. Brophy",
+            "slug": null
+          },
+          {
+            "name": "Sen. Hillman",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB04-158",
@@ -3213,7 +5865,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/4B54DC5AA398403587256E19007EE650?Open&file=158_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/clics2004a/csl.nsf/fsbillcont3/4B54DC5AA398403587256E19007EE650?Open&file=158_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Gordon",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3231,7 +5889,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/D6D2AD9E8974917C87256C6B005D4177?Open&file=024_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/D6D2AD9E8974917C87256C6B005D4177?Open&file=024_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Chlouber",
+            "slug": null
+          },
+          {
+            "name": "Rep. White",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB03-025",
@@ -3244,7 +5912,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/BA709BADBE9A9A2987256C9200612B89?Open&file=025_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/BA709BADBE9A9A2987256C9200612B89?Open&file=025_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Dyer",
+            "slug": null
+          },
+          {
+            "name": "Rep. Hefley",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB03-063",
@@ -3257,7 +5935,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/D9941D4711B45C0A87256C7500640730?Open&file=063_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/D9941D4711B45C0A87256C7500640730?Open&file=063_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Lamborn",
+            "slug": null
+          },
+          {
+            "name": "Rep. Schultheis",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB03-1119",
@@ -3270,7 +5958,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/66DFA3441473480287256C780069E1C9?Open&file=1119_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/66DFA3441473480287256C780069E1C9?Open&file=1119_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Rose",
+            "slug": null
+          },
+          {
+            "name": "Sen. Jones",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB03-1148",
@@ -3283,7 +5981,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/B5A6A00CF9DEE33887256C780069E685?Open&file=1148_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/B5A6A00CF9DEE33887256C780069E685?Open&file=1148_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Cloer",
+            "slug": null
+          },
+          {
+            "name": "Sen. Hillman",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB03-1290",
@@ -3296,7 +6004,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/7EAB289C50AD65FD87256CA900823178?Open&file=1290_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2003a/inetcbill.nsf/fsbillcont/7EAB289C50AD65FD87256CA900823178?Open&file=1290_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Lee",
+            "slug": null
+          },
+          {
+            "name": "Sen. Cairns",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3314,7 +6032,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/675373A1CE04486387256B4200626EF5?Open&file=1287_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/675373A1CE04486387256B4200626EF5?Open&file=1287_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Veiga",
+            "slug": null
+          },
+          {
+            "name": "Sen. Phillips",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB02-116",
@@ -3327,7 +6055,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/6CBE96DE4D6FA7AB87256B3D00642ACB?Open&file=116_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/6CBE96DE4D6FA7AB87256B3D00642ACB?Open&file=116_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Hillman",
+            "slug": null
+          },
+          {
+            "name": "Rep. Hefley",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB07-1264",
@@ -3340,7 +6078,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/E4F25F14CC789EA487256B420058C153?Open&file=1264_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/E4F25F14CC789EA487256B420058C153?Open&file=1264_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Borodkin",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB02-1410",
@@ -3353,7 +6097,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/6A17F7A9A352EDE887256B840056922D?Open&file=1410_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2002a/inetcbill.nsf/fsbillcont/6A17F7A9A352EDE887256B840056922D?Open&file=1410_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Tochtrop",
+            "slug": null
+          },
+          {
+            "name": "Sen. Chlouber",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3371,7 +6125,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/DE05A2197E8B48BF872569BC00590AD1?Open&file=1190_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/DE05A2197E8B48BF872569BC00590AD1?Open&file=1190_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Lee",
+            "slug": null
+          },
+          {
+            "name": "Sen. Chlouber",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB01-1327",
@@ -3384,7 +6148,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/1068401B71651AAB872569BC005CE86D?Open&file=1327_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/1068401B71651AAB872569BC005CE86D?Open&file=1327_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Fritz",
+            "slug": null
+          },
+          {
+            "name": "Sen. Owen",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB01-017",
@@ -3397,7 +6171,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/D79DD29115318FE087256954005EDDE3?Open&file=017_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/D79DD29115318FE087256954005EDDE3?Open&file=017_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Evans",
+            "slug": null
+          },
+          {
+            "name": "Rep. Young",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB01-032",
@@ -3410,7 +6194,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/F771917F2671604F872569BC005DA022?Open&file=032_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/F771917F2671604F872569BC005DA022?Open&file=032_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Linkhart",
+            "slug": null
+          },
+          {
+            "name": "Rep. Alexander",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB01-083",
@@ -3423,7 +6217,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/879E654181BCFE8D872569D200605162?Open&file=083_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/879E654181BCFE8D872569D200605162?Open&file=083_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Chlouber",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB01-160",
@@ -3436,7 +6236,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/271BEFEFCD617B41872569D6004F266A?Open&file=160jud_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2001/inetcbill.nsf/fsbillcont/271BEFEFCD617B41872569D6004F266A?Open&file=160jud_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Gordon",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3454,7 +6260,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/ACC8B418F2C33810872568390053B136?Open&file=1098_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/ACC8B418F2C33810872568390053B136?Open&file=1098_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Johnson",
+            "slug": null
+          },
+          {
+            "name": "Sen. Dennis",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1114",
@@ -3467,7 +6283,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/1775AF5B8730320A8725684D004D0AFC?Open&file=1114_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/1775AF5B8730320A8725684D004D0AFC?Open&file=1114_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Lee",
+            "slug": null
+          },
+          {
+            "name": "Sen. Chlouber",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1197",
@@ -3480,7 +6306,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/B216F8665E8883938725685D00675BF4?Open&file=1197_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/B216F8665E8883938725685D00675BF4?Open&file=1197_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Williams S.",
+            "slug": null
+          },
+          {
+            "name": "Sen. Perlmutter",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1201",
@@ -3493,7 +6329,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/770A4833964354DE87256833006594C5?Open&file=1201_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/770A4833964354DE87256833006594C5?Open&file=1201_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. McElhany",
+            "slug": null
+          },
+          {
+            "name": "Sen. Epps",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1208",
@@ -3506,7 +6352,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/7EBE3F347A42ED6B8725685F0056F047?Open&file=1208_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/7EBE3F347A42ED6B8725685F0056F047?Open&file=1208_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Clapp",
+            "slug": null
+          },
+          {
+            "name": "Sen. Teck",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1214",
@@ -3519,7 +6375,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/B2E89E000B0ED40E8725685E00821811?Open&file=1214_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/B2E89E000B0ED40E8725685E00821811?Open&file=1214_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Decker",
+            "slug": null
+          },
+          {
+            "name": "Sen. Sullivant",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1220",
@@ -3532,7 +6398,21 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/D23A802FFCAA7E39872568460071DDB0?Open&file=1220_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/D23A802FFCAA7E39872568460071DDB0?Open&file=1220_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Zimmerman",
+            "slug": null
+          },
+          {
+            "name": "Sen. Phillips",
+            "slug": null
+          },
+          {
+            "name": "Sen. Weddig",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1242",
@@ -3545,7 +6425,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/474FD75CF2DB89EB8725685E004C1300?Open&file=1242_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/474FD75CF2DB89EB8725685E004C1300?Open&file=1242_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Gordon",
+            "slug": null
+          },
+          {
+            "name": "Rep. Morrison",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1272",
@@ -3558,7 +6448,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/37412AD5B048B7FB872568640056A550?Open&file=1272_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/37412AD5B048B7FB872568640056A550?Open&file=1272_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Gotlieb",
+            "slug": null
+          },
+          {
+            "name": "Sen. Blickensderfer",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1289",
@@ -3571,7 +6471,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/7E8AE38FE67411A38725686B004F29D6?Open&file=1289_ren.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/7E8AE38FE67411A38725686B004F29D6?Open&file=1289_ren.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Hefley",
+            "slug": null
+          },
+          {
+            "name": "Sen. Hillman",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB00-1008",
@@ -3584,7 +6494,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/13ABE1B8017DD84B8725688800549C5E?Open&file=HJR1008_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/13ABE1B8017DD84B8725688800549C5E?Open&file=HJR1008_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Clapp",
+            "slug": null
+          },
+          {
+            "name": "Sen. Musgrave",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB00-010",
@@ -3597,7 +6517,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/5A430208954A9729872568560079C9CF?Open&file=010_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/5A430208954A9729872568560079C9CF?Open&file=010_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Teck",
+            "slug": null
+          },
+          {
+            "name": "Rep. Clapp",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB00-089",
@@ -3610,7 +6540,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/DB283B73DB69AC078725685E0060C46D?Open&file=089_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/DB283B73DB69AC078725685E0060C46D?Open&file=089_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Hernandez",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB00-125",
@@ -3623,7 +6559,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/6C070DB4B9F8CF7E87256866004F1D2B?Open&file=125_enr.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/6C070DB4B9F8CF7E87256866004F1D2B?Open&file=125_enr.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Owen",
+            "slug": null
+          },
+          {
+            "name": "Rep. Tool",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB00-152",
@@ -3636,7 +6582,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/5D7E083A1F25AA240725685F00761A47?Open&file=152_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/5D7E083A1F25AA240725685F00761A47?Open&file=152_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tebedo",
+            "slug": null
+          },
+          {
+            "name": "Rep. Dean",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SCR00-009",
@@ -3649,7 +6605,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/C2B7A9C3EDC3C7E8872568BA006AFF87?Open&file=SCR009_01.pdf"
+        "officialUrl": "https://www.leg.state.co.us/2000/inetcbill.nsf/fsbillcont/C2B7A9C3EDC3C7E8872568BA006AFF87?Open&file=SCR009_01.pdf",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Pascoe",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3667,7 +6629,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1305.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1305.htm",
+        "sponsorLinks": [
+          {
+            "name": "Rep. McPherson",
+            "slug": null
+          },
+          {
+            "name": "Sen. Dennis",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB99-1316",
@@ -3680,7 +6652,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1316.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1316.htm",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Dean",
+            "slug": null
+          },
+          {
+            "name": "Sen. Chlouber",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "HB99-1379",
@@ -3693,7 +6675,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1379.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1379.htm",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Decker",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB99-053",
@@ -3706,7 +6694,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1999/sbills99/sb053.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1999/sbills99/sb053.htm",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Pascoe",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB99-058",
@@ -3719,7 +6713,13 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1999/sbills99/sb058.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1999/sbills99/sb058.htm",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Owen",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB99-108",
@@ -3732,7 +6732,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1999/sbills99/sb108.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1999/sbills99/sb108.htm",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Tebedo",
+            "slug": null
+          },
+          {
+            "name": "Rep. McElhany",
+            "slug": null
+          }
+        ]
       }
     ]
   },
@@ -3750,7 +6760,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1305.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1999/hbills99/hb1305.htm",
+        "sponsorLinks": [
+          {
+            "name": "Rep. Salaz",
+            "slug": null
+          },
+          {
+            "name": "Sen. B. Alexander",
+            "slug": null
+          }
+        ]
       },
       {
         "billNumber": "SB98-081",
@@ -3763,7 +6783,17 @@
         ],
         "location": "Out of Session",
         "enactmentDate": null,
-        "officialUrl": "https://www.leg.state.co.us/preclics/1998/sbills98/sb081.htm"
+        "officialUrl": "https://www.leg.state.co.us/preclics/1998/sbills98/sb081.htm",
+        "sponsorLinks": [
+          {
+            "name": "Sen. Chlouber",
+            "slug": null
+          },
+          {
+            "name": "Rep. George",
+            "slug": null
+          }
+        ]
       }
     ]
   }
