@@ -45,6 +45,8 @@ async function main() {
           ? "RMGO"
           : "CO-GA";
       console.log(` ${titleSource}: "${entry.title.substring(0, 50)}..."`);
+      // Politeness delay: 250ms between bills to avoid throttling
+      await new Promise((resolve) => setTimeout(resolve, 250));
     }
 
     catalog.push({ year, bills: catalogBills });

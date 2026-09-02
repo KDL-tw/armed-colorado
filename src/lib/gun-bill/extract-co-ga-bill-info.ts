@@ -1,6 +1,6 @@
 import type { GunBillCatalogEntry, RmgoBill } from './types';
 import { loadBillTextCache, saveBillTextCache } from './bill-text-cache';
-import { extractCoGaSponsorLinks, splitSponsorString, type SponsorLink } from './sponsor-links';
+import { extractCoGaSponsorLinks, type SponsorLink } from './sponsor-links';
 
 /**
  * Decode common HTML entities in extracted text
@@ -16,6 +16,35 @@ function decodeHtmlEntities(text: string): string {
 }
 
 /**
+ * Fetch with timeout and retry on failure
+ */
+async function fetchWithRetry(
+  url: string,
+  options: RequestInit = {},
+  maxRetries = 1
+): Promise<Response> {
+  let lastError: Error | undefined;
+  for (let retry = 0; retry <= maxRetries; retry++) {
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 15000);
+      const res = await fetch(url, {
+        ...options,
+        signal: controller.signal,
+      });
+      clearTimeout(timeoutId);
+      return res;
+    } catch (error) {
+      lastError = error as Error;
+      if (retry < maxRetries) {
+        await new Promise((resolve) => setTimeout(resolve, 1000 * (retry + 1))); // Exponential backoff
+      }
+    }
+  }
+  throw lastError;
+}
+
+/**
  * Extract bill title from CO GA bill page using real HTTP fetch
  * Returns the official title from the Colorado General Assembly website
  * Selector verified on https://leg.colorado.gov/bills/HB26-1126: .full-bill-topic h1
@@ -25,7 +54,7 @@ export async function extractCoGaBillTitle(
   billUrl: string
 ): Promise<string> {
   try {
-    const res = await fetch(billUrl, {
+    const res = await fetchWithRetry(billUrl, {
       redirect: "follow",
       headers: { "User-Agent": "ArmedColorado-BillCatalog/1.0" },
     });
@@ -57,7 +86,7 @@ export async function extractCoGaBillSummary(
   billUrl: string
 ): Promise<string> {
   try {
-    const res = await fetch(billUrl, {
+    const res = await fetchWithRetry(billUrl, {
       redirect: "follow",
       headers: { "User-Agent": "ArmedColorado-BillCatalog/1.0" },
     });
@@ -94,7 +123,7 @@ export async function extractCoGaBillPdfUrl(
   billUrl: string
 ): Promise<string | null> {
   try {
-    const res = await fetch(billUrl, { redirect: "follow" });
+    const res = await fetchWithRetry(billUrl, { redirect: "follow" });
     if (!res.ok) return null;
     const html = await res.text();
 
