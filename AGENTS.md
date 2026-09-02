@@ -11,7 +11,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 Verify DOM structure by examining real pages — never assumptions or documentation. Use `web_extract` to fetch actual page content and identify exact CSS selectors (e.g., `h1`, `h2:contains('Bill Summary:') + p`). Extraction logic must match the real structure, not an assumed one.
 
 ## 2. Cache Key Design with Full URLs
-Use full URLs as cache keys: unique across bill pages, traceable to source, no ID mapping needed, no collisions. Store extracted data (title, summary) as JSON objects keyed by URL in `.cache/bill-text/cache.json`.
+Use full URLs as cache keys: unique across bill pages, traceable to source, no ID mapping needed, no collisions. Store extracted data (ALL extracted fields — title, summary, sponsorLinks, …) as JSON objects keyed by URL in `.cache/bill-text/cache.json`; never write a cache entry that drops fields another task populated.
 
 ## 3. Graceful Degradation Pattern
 New data sources (e.g., CO GA extraction) must fall back to existing data (e.g., RMGO): no data loss if extraction fails, continuous functionality during development, errors logged for debugging without breaking the user experience.
@@ -27,7 +27,7 @@ Browser automation and scraping must include: try/catch for network/browser erro
 When working with external websites, document the exact DOM structure used for extraction: CSS selectors for each data point, example URLs where the structure was verified, and any differences between pages or sections.
 
 ## 7. Cache Structure Design
-Cache files use JSON with a clear key-value structure (URL → extracted data), multiple data points (title, summary) embedded per entry, simple read/write helper functions, and error handling for corrupted files.
+Cache files use JSON with a clear key-value structure (URL → extracted data), multiple data points (title, summary, sponsorLinks, …) embedded per entry, simple read/write helper functions, and error handling for corrupted files.
 
 ## 8. Rollback Procedures in Plans
 Every implementation plan must include: specific git checkout commands for reverting, file paths for manual recovery, cache clearing commands, backup procedures for data files, and clear identification of what each task changes.
@@ -79,7 +79,9 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 # Billwatch Data Pipeline
 
 ## Known project facts
-- Catalog: `data/gun-bill-catalog-*.json`, 269 bills across 29 years (2026->1998); ~265 have valid URLs.
+- Catalog: `data/gun-bill-catalog-*.json`, 269 bills across 29 years (2026->1998); ~265 have URLs,
+  but only ~151 (2016–2026) have live CO GA pages — pre-2016 URLs return 403 (the site only serves
+  2016+). Pre-2016 bills stay on RMGO fallback by design; do not retry their extraction.
 - Page `src/app/billwatch/page.tsx` is a SERVER component that reads the file directly via
   `src/lib/gun-bill/catalog-client.ts` (path is portable via `process.cwd()`).
 - `/api/gun-bill-catalog` route exists for external use; the page does NOT use it (direct file read).
@@ -87,7 +89,11 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
   attaches listeners to `#search-input`/`#year-filter`, filters `tr[data-search]`/`section[data-year]`).
 - `scripts/assemble-catalog.ts` regenerates the catalog from RMGO scraped data + CO GA extraction.
   Run `npx tsx scripts/assemble-catalog.ts --year 2026` for a single-year sample.
-  Run `npx tsx scripts/assemble-catalog.ts` for the full catalog (fetches all 269 bills from CO GA).
+  Run `npx tsx scripts/assemble-catalog.ts` for the full catalog.
+  WARNING: the catalog file is SHARED by multiple features. A title-extraction regeneration once
+  wiped the `sponsorLinks` populated by the sponsor-hyperlinks feature (2026-09-02 incident; fixed
+  by caching links per URL, but regeneration still rewrites every entry). Any task that regenerates
+  the catalog MUST verify `sponsorLinks` survived before committing.
 
 ## Data sources (do NOT mix up)
 - RMGO billwatch: source of position, status, bill number, sponsors, and the bill URL.
@@ -107,19 +113,23 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 
 ## Cache structure
 - Location: `.cache/bill-text/cache.json` (JSON object keyed by full bill URL).
-- Each entry: `{ "title": "...", "summary": "..." }` (JSON-stringified within the cache Map).
-- Use `loadBillTextCache()` / `saveBillTextCache()` / `setCachedCoGaData(url, title, summary)`.
-- 2026 bills (16) are cached as of 2026-08-28. Remaining 253 bills (1998-2025) need extraction.
+- Each entry: `{ "title": "...", "summary": "...", "sponsorLinks": "..." }` (JSON-stringified within
+  the cache Map; `sponsorLinks` is optional per entry, added 2026-09-02 — never write a cache entry
+  that drops fields another task populated).
+- Use `loadBillTextCache()` / `saveBillTextCache()` / `setCachedCoGaData(url, title, summary, sponsorLinks?)`.
 
 ## Graceful degradation (plan-crafting-principles #3)
 - If CO GA extraction fails (network, parse, missing selector), fall back to RMGO subject for the title
   and the templated `generate2ASummary()` for the summary. Log the failure. Never lose a bill row.
 
 ## Hermes agent handoff (remaining work)
-- The remaining 253 bills (1998-2025) require CO GA title + summary extraction.
-- Run: `npx tsx scripts/assemble-catalog.ts` (will fetch all bills, using cache for 2026).
-- For genuine 2A-POV summaries (not template-based), the hermes agent should use its LLM + browser
-  tool to read bill PDFs and generate ≤4-sentence summaries per the prompts.
+- CO GA title/summary extraction for 1998-2025 is DONE (2026-09-02): 139 cache entries, CO GA titles
+  for the recoverable 2016-2026 bills; pre-2016 bills have no live pages and use RMGO fallback.
+  Do NOT re-run the full extraction — it regenerates the shared catalog file (see the WARNING in
+  Known project facts above).
+- Remaining: genuine 2A-POV summaries (not template-based) — use the LLM + browser tool to read bill
+  PDFs and generate ≤4-sentence summaries per the prompts/ directory. This READS PDFs; it does not
+  regenerate the catalog.
 - Bounded execution: 72h max, 3h per-table timeout, 3 revision cycles max, escalate after 3 cycles.
 
 ## HTML entity decoding
