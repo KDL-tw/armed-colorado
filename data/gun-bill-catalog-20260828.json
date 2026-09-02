@@ -1204,16 +1204,6 @@
         "sponsors": [
           "Sen. C. Kolker, Rep. D. M. Jenet"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. C. Kolker",
-            "slug": "chris-kolker"
-          },
-          {
-            "name": "Rep. D. M. Jenet",
-            "slug": "dafna-michaelson-jenet"
-          }
-        ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/sb21-081"
       },
@@ -1225,24 +1215,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Sen. C. Holbert, Sen. S. Fenberg, Rep. H. McKean, Rep. D. Esgar"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. C. Holbert",
-            "slug": "chris-holbert"
-          },
-          {
-            "name": "Sen. S. Fenberg",
-            "slug": "steve-fenberg"
-          },
-          {
-            "name": "Rep. H. McKean",
-            "slug": "hugh-mckean"
-          },
-          {
-            "name": "Rep. D. Esgar",
-            "slug": "daneya-esgar"
-          }
         ],
         "location": "Governor's Desk",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1001"
@@ -1256,12 +1228,6 @@
         "sponsors": [
           "Rep. D. Woog"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. D. Woog",
-            "slug": "dan-woog"
-          }
-        ],
         "location": "House Judiciary Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1098"
       },
@@ -1273,12 +1239,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. P. Neville"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. P. Neville",
-            "slug": "patrick-neville"
-          }
         ],
         "location": "House State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1038"
@@ -1292,12 +1252,6 @@
         "sponsors": [
           "Rep. R. Hanks"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. R. Hanks",
-            "slug": "ron-hanks"
-          }
-        ],
         "location": "House State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1070"
       },
@@ -1309,12 +1263,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. P. Neville"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. P. Neville",
-            "slug": "patrick-neville"
-          }
         ],
         "location": "House State Affairs Committee",
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1185"
@@ -1333,24 +1281,6 @@
         "sponsors": [
           "Bridges, Hansen, Duran, and Mullica"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Bridges",
-            "slug": "jeff-bridges"
-          },
-          {
-            "name": "Hansen",
-            "slug": "chris-hansen"
-          },
-          {
-            "name": "Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Mullica",
-            "slug": "kyle-mullica"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1355"
       },
@@ -1362,48 +1292,6 @@
         "status": "Dead",
         "sponsors": [
           "Saine and Humphrey, Williams D., Neville, Geitner, Sandridge, Buck, Baisley, Van Winkle, Marble"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Humphrey",
-            "slug": "stephen-humphrey"
-          },
-          {
-            "name": "Williams D.",
-            "slug": "dave-williams"
-          },
-          {
-            "name": "Neville",
-            "slug": "patrick-neville"
-          },
-          {
-            "name": "Geitner",
-            "slug": "tim-geitner"
-          },
-          {
-            "name": "Sandridge",
-            "slug": "shane-sandridge"
-          },
-          {
-            "name": "Buck",
-            "slug": "perry-buck"
-          },
-          {
-            "name": "Baisley",
-            "slug": "mark-baisley"
-          },
-          {
-            "name": "Van Winkle",
-            "slug": "kevin-van-winkle"
-          },
-          {
-            "name": "Marble",
-            "slug": "vicki-marble"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1099"
@@ -1417,16 +1305,6 @@
         "sponsors": [
           "Mullica and Soper"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Mullica",
-            "slug": "kyle-mullica"
-          },
-          {
-            "name": "Soper",
-            "slug": "matt-soper"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1121"
       },
@@ -1438,12 +1316,6 @@
         "status": "Dead",
         "sponsors": [
           "Liston"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Liston",
-            "slug": "larry-liston"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1152"
@@ -1457,12 +1329,6 @@
         "sponsors": [
           "Neville"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Neville",
-            "slug": "patrick-neville"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1040"
       },
@@ -1474,20 +1340,6 @@
         "status": "Dead",
         "sponsors": [
           "Saine, Cooke, Smallwood"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Cooke",
-            "slug": "john-cooke"
-          },
-          {
-            "name": "Smallwood",
-            "slug": "jim-smallwood"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1271"
@@ -1501,20 +1353,6 @@
         "sponsors": [
           "Marble, Lee, Soper"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Marble",
-            "slug": "vicki-marble"
-          },
-          {
-            "name": "Lee",
-            "slug": "pete-lee"
-          },
-          {
-            "name": "Soper",
-            "slug": "matt-soper"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1287"
       },
@@ -1526,20 +1364,6 @@
         "status": "Dead",
         "sponsors": [
           "Duran, Singer, and Fields"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Duran",
-            "slug": "monica-duran"
-          },
-          {
-            "name": "Singer",
-            "slug": "jonathan-singer"
-          },
-          {
-            "name": "Fields",
-            "slug": "rhonda-fields"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1278"
@@ -1553,20 +1377,6 @@
         "sponsors": [
           "Sullivan, Jaquez Lewis, and Danielson"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sullivan",
-            "slug": "tom-sullivan"
-          },
-          {
-            "name": "Jaquez Lewis",
-            "slug": "sonya-jaquez-lewis"
-          },
-          {
-            "name": "Danielson",
-            "slug": "jessie-danielson"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1356"
       },
@@ -1578,12 +1388,6 @@
         "status": "Dead",
         "sponsors": [
           "Sandridge"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sandridge",
-            "slug": "shane-sandridge"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1168"
@@ -1597,20 +1401,6 @@
         "sponsors": [
           "Gonzales, Beckman, Jennet"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
-            "name": "Beckman",
-            "slug": "susan-beckman"
-          },
-          {
-            "name": "Jennet",
-            "slug": null
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1028"
       },
@@ -1623,36 +1413,6 @@
         "sponsors": [
           "Gardner Gonzales, Fields, Lundeen, Jenet, Van Winkle, Beckman, Sirota"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Gardner Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
-            "name": "Fields",
-            "slug": "rhonda-fields"
-          },
-          {
-            "name": "Lundeen",
-            "slug": "paul-lundeen"
-          },
-          {
-            "name": "Jenet",
-            "slug": "dafna-michaelson-jenet"
-          },
-          {
-            "name": "Van Winkle",
-            "slug": "kevin-van-winkle"
-          },
-          {
-            "name": "Beckman",
-            "slug": null
-          },
-          {
-            "name": "Sirota",
-            "slug": "emily-sirota"
-          }
-        ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/sb20-023"
       },
@@ -1664,12 +1424,6 @@
         "status": "Dead",
         "sponsors": [
           "Crowder"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Crowder",
-            "slug": "larry-crowder"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb20-027"
@@ -1687,16 +1441,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. Adrienne Benavidez, Sen. Rhonda Fields"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Adrienne Benavidez",
-            "slug": "adrienne-benavidez"
-          },
-          {
-            "name": "Sen. Rhonda Fields",
-            "slug": "rhonda-fields"
-          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1073"
@@ -1724,20 +1468,6 @@
         "sponsors": [
           "Sen. Rachel Zenzinger, Sen. Jack Tate, Rep. Mike Weissman"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Rachel Zenzinger",
-            "slug": "rachel-zenzinger"
-          },
-          {
-            "name": "Sen. Jack Tate",
-            "slug": "jack-tate"
-          },
-          {
-            "name": "Rep. Mike Weissman",
-            "slug": "mike-weissman"
-          }
-        ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/sb19-068"
       },
@@ -1749,16 +1479,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Vicki Marble, Rep. Bri Buentello"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Vicki Marble",
-            "slug": "vicki-marble"
-          },
-          {
-            "name": "Rep. Bri Buentello",
-            "slug": "bri-buentello"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb19-093"
@@ -1773,16 +1493,6 @@
           "Rep. Lori Saine",
           "Rep. Stephen Humphrey"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Lori Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Rep. Stephen Humphrey",
-            "slug": "stephen-humphrey"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1021"
       },
@@ -1794,16 +1504,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. Marc Catlin, Sen. Don Coram"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Marc Catlin",
-            "slug": "marc-catlin"
-          },
-          {
-            "name": "Sen. Don Coram",
-            "slug": "don-coram"
-          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1026"
@@ -1817,12 +1517,6 @@
         "sponsors": [
           "Rep. Patrick Neville"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Patrick Neville",
-            "slug": "patrick-neville"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1049"
       },
@@ -1834,12 +1528,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Shane Sandridge"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Shane Sandridge",
-            "slug": "shane-sandridge"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb19-1022"
@@ -1858,12 +1546,6 @@
         "sponsors": [
           "Sen. Merrifield"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Merrifield",
-            "slug": "michael-merrifield"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-051"
       },
@@ -1875,20 +1557,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Hill, Rep. Saine, Rep. Humphrey"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Hill",
-            "slug": "owen-hill"
-          },
-          {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-052"
@@ -1902,16 +1570,6 @@
         "sponsors": [
           "Sen. Neville, Rep. Van Winkle"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
-          },
-          {
-            "name": "Rep. Van Winkle",
-            "slug": "kevin-van-winkle"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-097"
       },
@@ -1923,16 +1581,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Smallwood, Rep. Everett"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Smallwood",
-            "slug": "jim-smallwood"
-          },
-          {
-            "name": "Rep. Everett",
-            "slug": "justin-everett"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-185"
@@ -1946,20 +1594,6 @@
         "sponsors": [
           "Rep. Humphrey, Rep. Saine, Sen. Hill"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
-          },
-          {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Sen. Hill",
-            "slug": "owen-hill"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1015"
       },
@@ -1971,16 +1605,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Neville, Sen. Neville"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Neville",
-            "slug": "patrick-neville"
-          },
-          {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1037"
@@ -1994,16 +1618,6 @@
         "sponsors": [
           "Rep. Everett, Sen. Marble"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Everett",
-            "slug": "justin-everett"
-          },
-          {
-            "name": "Sen. Marble",
-            "slug": "vicki-marble"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1074"
       },
@@ -2015,16 +1629,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Gardner, Rep. Liston"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Gardner",
-            "slug": "bob-gardner"
-          },
-          {
-            "name": "Rep. Liston",
-            "slug": "larry-liston"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-128"
@@ -2038,20 +1642,6 @@
         "sponsors": [
           "Sen. Cooke, Rep. Van Winkle, Rep. Williams"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Cooke",
-            "slug": "john-cooke"
-          },
-          {
-            "name": "Rep. Van Winkle",
-            "slug": "kevin-van-winkle"
-          },
-          {
-            "name": "Rep. Williams",
-            "slug": "dave-williams"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-116"
       },
@@ -2063,24 +1653,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Sen. Cooke, Sen. Gardner, Rep. Herod, Rep. Foote"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Cooke",
-            "slug": "john-cooke"
-          },
-          {
-            "name": "Sen. Gardner",
-            "slug": "bob-gardner"
-          },
-          {
-            "name": "Rep. Herod",
-            "slug": "leslie-herod"
-          },
-          {
-            "name": "Rep. Foote",
-            "slug": "mike-foote"
-          }
         ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/sb18-032"
@@ -2094,16 +1666,6 @@
         "sponsors": [
           "Rep. Valdez, Rep. Liston"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Valdez",
-            "slug": "donald-valdez"
-          },
-          {
-            "name": "Rep. Liston",
-            "slug": "larry-liston"
-          }
-        ],
         "location": "Passed",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1077"
       },
@@ -2115,16 +1677,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Alec Garnett and Rep. Cole Wist"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Alec Garnett",
-            "slug": "alec-garnett"
-          },
-          {
-            "name": "Rep. Cole Wist",
-            "slug": "cole-wist"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1436"
@@ -2143,16 +1695,6 @@
         "sponsors": [
           "Sen. Holbert, Rep. Neville"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Holbert",
-            "slug": "chris-holbert"
-          },
-          {
-            "name": "Rep. Neville",
-            "slug": "patrick-neville"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-005"
       },
@@ -2164,16 +1706,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Cooke, Rep. Nordberg"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Cooke",
-            "slug": "john-cooke"
-          },
-          {
-            "name": "Rep. Nordberg",
-            "slug": "dan-nordberg"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-006"
@@ -2187,20 +1719,6 @@
         "sponsors": [
           "Sen. Marble, Rep. Humphrey, Rep. Saine"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Marble",
-            "slug": "vicki-marble"
-          },
-          {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
-          },
-          {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-007"
       },
@@ -2212,16 +1730,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Sen. Hill, Rep. Lebsock"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Hill",
-            "slug": "owen-hill"
-          },
-          {
-            "name": "Rep. Lebsock",
-            "slug": "steve-lebsock"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb17-008"
@@ -2235,20 +1743,6 @@
         "sponsors": [
           "Rep. Neville, Rep. Ransom, Sen. Neville"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Neville",
-            "slug": "patrick-neville"
-          },
-          {
-            "name": "Rep. Ransom",
-            "slug": "kim-ransom"
-          },
-          {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1036"
       },
@@ -2261,16 +1755,6 @@
         "sponsors": [
           "Rep. Everett, Sen. Marble"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Everett",
-            "slug": "justin-everett"
-          },
-          {
-            "name": "Sen. Marble",
-            "slug": "vicki-marble"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1037"
       },
@@ -2282,24 +1766,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Saine, Rep. Humphrey, Sen. Neville, Sen. Marble"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
-          },
-          {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
-          },
-          {
-            "name": "Sen. Marble",
-            "slug": "vicki-marble"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1097"
@@ -2318,12 +1784,6 @@
         "sponsors": [
           "Rep. Everett"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Everett",
-            "slug": "justin-everett"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1023"
       },
@@ -2335,20 +1795,6 @@
         "status": "Dead",
         "sponsors": [
           "Rep. Saine, Rep. Humphrey, Sen. Marble"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
-          },
-          {
-            "name": "Sen. Marble",
-            "slug": "vicki-marble"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1024"
@@ -2362,16 +1808,6 @@
         "sponsors": [
           "Rep. Buck, Sen. Sonnenberg"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Buck",
-            "slug": "perry-buck"
-          },
-          {
-            "name": "Sen. Sonnenberg",
-            "slug": "jerry-sonnenberg"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1179"
       },
@@ -2383,16 +1819,6 @@
         "status": "Signed into Law",
         "sponsors": [
           "Rep. Neville, Sen. Neville"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Neville",
-            "slug": "patrick-neville"
-          },
-          {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1204"
@@ -2406,16 +1832,6 @@
         "sponsors": [
           "Sen. Neville, Rep. Neville"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
-          },
-          {
-            "name": "Rep. Neville",
-            "slug": "patrick-neville"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-017"
       },
@@ -2427,20 +1843,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Marble, Rep. Saine & Rep. Humphrey"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Marble",
-            "slug": "vicki-marble"
-          },
-          {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
-          },
-          {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-113"
@@ -2454,16 +1856,6 @@
         "sponsors": [
           "Sen. Cooke, Rep. Sais"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Cooke",
-            "slug": "john-cooke"
-          },
-          {
-            "name": "Rep. Sais",
-            "slug": null
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-144"
       },
@@ -2475,16 +1867,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Neville, Rep. Neville"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
-          },
-          {
-            "name": "Rep. Neville",
-            "slug": "patrick-neville"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sb16-176"
@@ -2498,16 +1880,6 @@
         "sponsors": [
           "Rep. Foote and Rep. Duran"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Foote",
-            "slug": "mike-foote"
-          },
-          {
-            "name": "Rep. Duran",
-            "slug": "crisanta-duran"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1063"
       },
@@ -2520,16 +1892,6 @@
         "sponsors": [
           "Rep. Ginal and Rep. McCann"
         ],
-        "sponsorLinks": [
-          {
-            "name": "Rep. Ginal",
-            "slug": "joann-ginal"
-          },
-          {
-            "name": "Rep. McCann",
-            "slug": "elizabeth-mccann"
-          }
-        ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1341"
       },
@@ -2541,16 +1903,6 @@
         "status": "Dead",
         "sponsors": [
           "Sen. Lundberg, Rep. Singer"
-        ],
-        "sponsorLinks": [
-          {
-            "name": "Sen. Lundberg",
-            "slug": "kevin-lundberg"
-          },
-          {
-            "name": "Rep. Singer",
-            "slug": "jonathan-singer"
-          }
         ],
         "location": "Out of Session",
         "officialUrl": "https://leg.colorado.gov/bills/sjr16-040"
