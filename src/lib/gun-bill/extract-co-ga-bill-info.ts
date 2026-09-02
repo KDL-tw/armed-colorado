@@ -199,13 +199,36 @@ export function getCachedCoGaSummary(url: string): string | undefined {
 }
 
 /**
+ * Get cached CO GA sponsor links for a bill URL
+ */
+export function getCachedCoGaSponsorLinks(
+  url: string,
+  rmgoSponsors: string[]
+): SponsorLink[] | undefined {
+  const cache = loadBillTextCache();
+  const data = cache.get(url);
+  if (!data) return undefined;
+  try {
+    const parsed = JSON.parse(data);
+    return parsed.sponsorLinks ? JSON.parse(parsed.sponsorLinks) : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/**
  * Cache both title and summary for a bill URL
  */
-export function setCachedCoGaData(url: string, title: string, summary: string): void {
+export function setCachedCoGaData(
+  url: string,
+  title: string,
+  summary: string,
+  sponsorLinks?: SponsorLink[]
+): void {
   const cache = loadBillTextCache();
   const existingData = cache.get(url);
   let data: Record<string, string> = {};
-  
+
   if (existingData) {
     try {
       data = JSON.parse(existingData);
@@ -213,9 +236,12 @@ export function setCachedCoGaData(url: string, title: string, summary: string): 
       data = {};
     }
   }
-  
+
   data.title = title;
   data.summary = summary;
+  if (sponsorLinks) {
+    data.sponsorLinks = JSON.stringify(sponsorLinks);
+  }
   cache.set(url, JSON.stringify(data));
   saveBillTextCache(cache);
 }
@@ -282,6 +308,7 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
   if (cachedTitle && cachedSummary && validateCoGaExtraction(cachedTitle, cachedSummary, rmgoBill.billNumber)) {
     title = cachedTitle;
     summary = cachedSummary;
+    sponsorLinks = getCachedCoGaSponsorLinks(cacheKey, rmgoBill.sponsors);
   } else if (rmgoBill.subjectUrl) {
     const extractedTitle = await extractCoGaBillTitle(rmgoBill.billNumber, rmgoBill.subjectUrl);
     const coGaSummaryRef = await extractCoGaBillSummary(rmgoBill.billNumber, rmgoBill.subjectUrl);
