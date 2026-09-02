@@ -309,6 +309,7 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
     title = cachedTitle;
     summary = cachedSummary;
     sponsorLinks = getCachedCoGaSponsorLinks(cacheKey, rmgoBill.sponsors);
+    setCachedCoGaData(cacheKey, title, summary, sponsorLinks);
   } else if (rmgoBill.subjectUrl) {
     const extractedTitle = await extractCoGaBillTitle(rmgoBill.billNumber, rmgoBill.subjectUrl);
     const coGaSummaryRef = await extractCoGaBillSummary(rmgoBill.billNumber, rmgoBill.subjectUrl);
