@@ -295,6 +295,7 @@ function generate2ASummary(billNumber: string, position: string, subject: string
 export async function rmgoToCatalogEntryWithCoGaExtraction(
   rmgoBill: RmgoBill
 ): Promise<GunBillCatalogEntry> {
+  // Use CO GA bill URL as cache key (the page we fetched for title/summary/sponsors)
   const cacheKey = rmgoBill.subjectUrl || '';
   
   // Check if we have cached CO GA title/summary
