@@ -6,8 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Cache directory is relative to project root
-const PROJECT_ROOT = path.join(__dirname, '../../..//');
-const CACHE_DIR = path.join(PROJECT_ROOT, '.cache/crs-links');
+const PROJECT_ROOT = path.join(__dirname, '../../..');
+const CACHE_DIR = path.join(PROJECT_ROOT, '.cache', 'crs-links');
 const CACHE_FILE = path.join(CACHE_DIR, 'cache.json');
 
 // Ensure cache directory exists
