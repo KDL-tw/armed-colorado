@@ -42,6 +42,8 @@ export type GunBillCatalogEntry = {
   location?: string;
   enactmentDate?: string | null;
   officialUrl?: string;
+  crsCitation?: string;
+  crsUrl?: string;
 };
 
 export type GunBillCatalogYear = {
