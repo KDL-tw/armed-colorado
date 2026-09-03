@@ -94,6 +94,11 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
   wiped the `sponsorLinks` populated by the sponsor-hyperlinks feature (2026-09-02 incident; fixed
   by caching links per URL, but regeneration still rewrites every entry). Any task that regenerates
   the catalog MUST verify `sponsorLinks` survived before committing.
+- Sponsor-coverage invariant: any change to sponsor resolution must verify AGGREGATE coverage
+  before claiming done — bills with live slugs must not fall below the baseline recorded in
+  `.cache/regression-baselines.json` (auto-ratcheted upward by the regression-guard hook, which
+  blocks "done" claims while an uncommitted catalog regresses it). A named fix (e.g. specific
+  legislators) and the aggregate are BOTH acceptance criteria; verify both.
 
 ## Data sources (do NOT mix up)
 - RMGO billwatch: source of position, status, bill number, sponsors, and the bill URL.
