@@ -168,8 +168,12 @@ async function extractBillSponsorAnchors(billUrl: string): Promise<Array<{ name:
   }
   
   console.log(`  Debug: Found ${count} anchors`);
-  return Array.from(anchors.entries()).map(([name, slug]) => ({ name, slug: slug.startsWith('/') ? slug.slice(1) : slug }));
+  return Array.from(anchors.entries()).map(([name, slug]) => ({ name, slug: slug.startsWith('/legislators/') ? slug.slice(12) : slug }));
 }
+
+/** Normalize slug: strip leading /legislators/ if present. */
+
+/** Normalize slug: strip leading /legislators/ if present. */
 
 function findLegislatorByName(token: string, legislators: LegislatorsDict): { slug: string; name: string } | null {
   const tokens = token.toLowerCase().split(/\s+/).filter(Boolean);
