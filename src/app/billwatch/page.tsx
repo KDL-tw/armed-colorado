@@ -159,7 +159,16 @@ export default async function BillwatchPage() {
                               </span>
                             </td>
                             <td className="w-28 py-3">
-                              {isValidUrl && bill.officialUrl ? (
+                              {bill.crsUrl ? (
+                                <Link
+                                  href={bill.crsUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-600 underline hover:text-blue-800"
+                                >
+                                  {bill.billNumber}
+                                </Link>
+                              ) : isValidUrl && bill.officialUrl ? (
                                 <Link
                                   href={bill.officialUrl}
                                   target="_blank"
@@ -173,7 +182,16 @@ export default async function BillwatchPage() {
                               )}
                             </td>
                             <td className="min-w-[280px] py-3 pr-6">
-                              {isValidUrl && bill.officialUrl ? (
+                              {bill.crsUrl ? (
+                                <Link
+                                  href={bill.crsUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-navy hover:text-oxblood font-medium"
+                                >
+                                  {bill.title}
+                                </Link>
+                              ) : isValidUrl && bill.officialUrl ? (
                                 <Link
                                   href={bill.officialUrl}
                                   target="_blank"
