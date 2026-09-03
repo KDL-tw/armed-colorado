@@ -2,8 +2,8 @@
 
 ## Agent System
 
-Your agentic system is a hermes agent running glm 4.7 flash BF16 as an unsloth quant. The unsloth writeup can be found here:
-- https://unsloth.ai/docs/models/tutorials/glm-4.7-flash
+Your agentic system is a hermes agent running qwen 3 code next as an unsloth quant. The unsloth writeup can be found here:
+- https://unsloth.ai/docs/models/qwen3-coder-next
 
 and the hermes agent writeup can be found here:
 - https://hermes-agent.nousresearch.com/docs/assets/files/llms-7240021af84670c2a79f9fdaf65e9e8f.txt

@@ -25,6 +25,8 @@ export type SponsorLink = {
  * @returns Array of non-empty, trimmed tokens
  */
 export function splitSponsorString(raw: string): string[] {
+  if (!raw) return [];
+  
   // Normalize separators: & → comma, / → comma, ' and ' → comma
   const normalized = raw
     .replace(/&/g, ',')

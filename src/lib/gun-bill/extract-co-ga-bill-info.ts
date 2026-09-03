@@ -176,7 +176,7 @@ export function getCachedCoGaTitle(url: string): string | undefined {
   const data = cache.get(url);
   if (!data) return undefined;
   try {
-    const parsed = JSON.parse(data);
+    const parsed: { title: string } = JSON.parse(data);
     return parsed.title;
   } catch {
     return undefined;
@@ -191,7 +191,7 @@ export function getCachedCoGaSummary(url: string): string | undefined {
   const data = cache.get(url);
   if (!data) return undefined;
   try {
-    const parsed = JSON.parse(data);
+    const parsed: { summary: string } = JSON.parse(data);
     return parsed.summary;
   } catch {
     return undefined;
@@ -209,7 +209,7 @@ export function getCachedCoGaSponsorLinks(
   const data = cache.get(url);
   if (!data) return undefined;
   try {
-    const parsed = JSON.parse(data);
+    const parsed: { sponsorLinks: string } = JSON.parse(data);
     return parsed.sponsorLinks ? JSON.parse(parsed.sponsorLinks) : undefined;
   } catch {
     return undefined;
@@ -227,7 +227,7 @@ export function setCachedCoGaData(
 ): void {
   const cache = loadBillTextCache();
   const existingData = cache.get(url);
-  let data: Record<string, string> = {};
+  let data: Record<string, string | undefined> = {};
 
   if (existingData) {
     try {

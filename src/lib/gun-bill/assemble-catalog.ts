@@ -1,16 +1,12 @@
 import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
 import type {
   GunBillCatalogEntry,
   GunBillCatalogYear,
   RmgoBill,
   SponsorLink,
 } from './types';
+export { type GunBillCatalogYear } from './types';
 import { rmgoToCatalogEntryWithCoGaExtraction } from './extract-co-ga-bill-info';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 /**
  * Generate a 4-sentence summary for a bill from RMGO data
@@ -71,6 +67,14 @@ export function loadRmgoScrapedData(filePath: string): { years: Record<string, R
 export function saveCatalog(catalog: GunBillCatalogYear[], filePath: string): void {
   const content = JSON.stringify(catalog, null, 2);
   fs.writeFileSync(filePath, content, 'utf8');
+}
+
+/**
+ * Load catalog from JSON file
+ */
+export function loadCatalog(filePath: string): GunBillCatalogYear[] {
+  const content = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(content);
 }
 
 /**
