@@ -82,19 +82,32 @@ export function parseSponsorToken(token: string): { chamber: Chamber | null; sur
 
 /**
  * Extract sponsor links from a CO GA bill page HTML.
- * Parses all /legislators/{slug} anchors and deduplicates by slug.
+ * Parses only /legislators/{slug} anchors under the "Prime Sponsor" section
+ * and deduplicates by slug.
  *
  * @param html - HTML content from CO GA bill page
- * @returns Array of PageSponsor objects
+ * @returns Array of PageSponsor objects (only prime sponsors)
  */
 export function extractPageSponsors(html: string): PageSponsor[] {
-  const sponsorLinks: PageSponsor[] = [];
+  const primeSponsors: PageSponsor[] = [];
 
-  // Extract all /legislators/{slug} anchors from CO GA bill page
+  // Find the "Sponsors" section and "Prime Sponsor" heading
+  // Extract only links that appear under "Prime Sponsor" before next heading
+  const sponsorsSectionRegex = /<h3[^>]*>Sponsors<\/h3>[\s\S]*?<h4[^>]*>Prime Sponsor<\/h4>[\s\S]*?(?=<h4[^>]*>Sponsor<\/h4>|<h4[^>]*>Co-Sponsor<\/h4>|<h3[^>]*>)/;
+  const sponsorsMatch = html.match(sponsorsSectionRegex);
+
+  if (!sponsorsMatch) {
+    // Fallback: return empty array if Prime Sponsor section not found
+    return [];
+  }
+
+  const primeSponsorSection = sponsorsMatch[0];
+
+  // Extract all /legislators/{slug} anchors from the Prime Sponsor section
   const slugRegex = /<a[^>]*href=["']\/legislators\/([^"']+)["'][^>]*>(.*?)<\/a>/gi;
   let match;
 
-  while ((match = slugRegex.exec(html)) !== null) {
+  while ((match = slugRegex.exec(primeSponsorSection)) !== null) {
     const slug = match[1];
     const displayName = match[2]?.trim() || slug;
     const displayText = displayName.toLowerCase();
@@ -121,7 +134,7 @@ export function extractPageSponsors(html: string): PageSponsor[] {
       }
     }
 
-    sponsorLinks.push({
+    primeSponsors.push({
       chamber,
       surname,
       displayName,
@@ -132,7 +145,7 @@ export function extractPageSponsors(html: string): PageSponsor[] {
   // Deduplicate by slug (keep first occurrence)
   const seenSlugs = new Set<string>();
   const uniqueSponsors: PageSponsor[] = [];
-  for (const sponsor of sponsorLinks) {
+  for (const sponsor of primeSponsors) {
     if (!seenSlugs.has(sponsor.slug)) {
       seenSlugs.add(sponsor.slug);
       uniqueSponsors.push(sponsor);
@@ -204,7 +217,7 @@ export async function extractCoGaSponsorLinks(
   catalogSponsors: string[]
 ): Promise<SponsorLink[]> {
   const fallback = (): SponsorLink[] =>
-    catalogSponsors.flatMap(splitSponsorString).map((name) => ({ name, slug: null }));
+    catalogSponsors.map((name) => ({ name, slug: null }));
   try {
     const res = await fetch(billUrl, {
       redirect: "follow",

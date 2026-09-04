@@ -135,7 +135,7 @@ export default async function BillwatchPage() {
                           Summary
                         </th>
                         <th className="w-48 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
-                          Sponsors
+                          Prime Sponsors
                         </th>
                       </tr>
                     </thead>
