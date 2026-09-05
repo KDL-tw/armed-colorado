@@ -5,7 +5,7 @@ import { extractCoGaSponsorLinks, type SponsorLink } from './sponsor-links';
 /**
  * Decode common HTML entities in extracted text
  */
-function decodeHtmlEntities(text: string): string {
+export function decodeHtmlEntities(text: string): string {
   return text
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
@@ -140,10 +140,15 @@ export async function extractCoGaBillPdfUrl(
 }
 
 /**
- * Generate a 2A-POV summary from the CO GA title and reference summary.
- * This is a template-based approach that proves the pipeline.
- * The hermes agent should replace this with LLM-generated summaries
- * based on the actual bill text (PDF), per the prompts.
+ * Neutral factual fallback summary from the CO GA title.
+ *
+ * The billwatch Summary spec (AGENTS.md): summaries describe only what the
+ * bill does — no bill number, no title quote, no position, no status, no
+ * 2A opinion. The CO GA summary text is reference-only and must not be
+ * copied verbatim, so the fallback frames the title factually. The cache
+ * (populated by scripts/fetch-bill-summaries.ts + apply-bill-summaries.ts)
+ * normally supplies full LLM-written summaries; this only fires for
+ * uncached bills.
  */
 export function generate2ASummaryFromCoGa(
   billNumber: string,
@@ -152,20 +157,12 @@ export function generate2ASummaryFromCoGa(
   position: string,
   status: string
 ): string {
-  const positionLower = position.toLowerCase();
-  const statusLower = status.toLowerCase();
-  const impact =
-    position === "Support"
-      ? "supports and protects"
-      : position === "Oppose"
-        ? "threatens and undermines"
-        : "modifies";
-
-  const summaryExcerpt = coGaSummary
-    ? coGaSummary.split(".")[0].trim() + "."
-    : `${coGaTitle}.`;
-
-  return `${billNumber} (${coGaTitle}) is a ${positionLower} bill that ${impact} Second Amendment rights in Colorado. ${summaryExcerpt} From a 2A perspective, this legislation ${position === "Support" ? "advances" : "endangers"} firearm freedoms. The bill is currently ${statusLower}.`;
+  void billNumber;
+  void coGaSummary;
+  void position;
+  void status;
+  const lower = coGaTitle.charAt(0).toLowerCase() + coGaTitle.slice(1);
+  return `Concerns ${lower.replace(/\.$/, "")}.`;
 }
 
 /**
@@ -270,22 +267,14 @@ export function validateCoGaExtraction(
 }
 
 /**
- * Generate a 4-sentence summary from RMGO data (fallback)
+ * Neutral factual fallback summary from the RMGO subject, mirroring the
+ * pre-2016 title-derived style. No bill number, position, status, or 2A
+ * opinion — see the billwatch Summary spec in AGENTS.md.
  */
-function generate2ASummary(billNumber: string, position: string, subject: string, status: string, location: string, enactmentDate?: string | null): string {
-  const positionText = position === 'Support' ? 'support' : position === 'Oppose' ? 'oppose' : 'amend';
-  const title = subject.replace(/\*\*/g, '');
-  const statusText = status;
-  const statusLower = statusText.toLowerCase();
-  const positionLower = position.toLowerCase();
-
-  // Build the 4 sentences
-  const sentence1 = `${billNumber} is a ${positionLower} bill that ${title.toLowerCase()}.`;
-  const sentence2 = `The bill ${location.toLowerCase()} with a status of ${statusLower}.`;
-  const sentence3 = `From a 2A perspective, this bill ${positionText === 'support' ? 'strengthens' : positionText === 'oppose' ? 'threatens' : 'modifies'} Second Amendment rights in Colorado.`;
-  const sentence4 = `The bill is currently ${statusLower} and would take effect ${enactmentDate || 'TBD'} if enacted.`;
-
-  return `${sentence1} ${sentence2} ${sentence3} ${sentence4}`;
+function generate2ASummary(subject: string): string {
+  const title = subject.replace(/\*\*/g, '').trim();
+  const lower = title.charAt(0).toLowerCase() + title.slice(1);
+  return `Concerns ${lower.replace(/\.$/, '')}.`;
 }
 
 /**
@@ -329,26 +318,12 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
       sponsorLinks = coGaSponsors;
     } else {
       title = rmgoBill.subject.replace(/\*\*/g, "");
-      summary = generate2ASummary(
-        rmgoBill.billNumber,
-        rmgoBill.position,
-        rmgoBill.subject,
-        rmgoBill.status,
-        rmgoBill.location,
-        rmgoBill.enactmentDate
-      );
+      summary = generate2ASummary(rmgoBill.subject);
     }
   } else {
     // No URL available, use RMGO data
     title = rmgoBill.subject.replace(/\*\*/g, '');
-    summary = generate2ASummary(
-      rmgoBill.billNumber,
-      rmgoBill.position,
-      rmgoBill.subject,
-      rmgoBill.status,
-      rmgoBill.location,
-      rmgoBill.enactmentDate
-    );
+    summary = generate2ASummary(rmgoBill.subject);
   }
   
   return {

@@ -9,24 +9,14 @@ export { type GunBillCatalogYear } from './types';
 import { rmgoToCatalogEntryWithCoGaExtraction } from './extract-co-ga-bill-info';
 
 /**
- * Generate a 4-sentence summary for a bill from RMGO data
+ * Neutral factual fallback summary from the RMGO subject, mirroring the
+ * pre-2016 title-derived style. No bill number, position, status, or 2A
+ * opinion — see the billwatch Summary spec in AGENTS.md.
  */
 export function generate2ASummary(bill: RmgoBill): string {
-  const positionText = bill.position === 'Support' ? 'support' : bill.position === 'Oppose' ? 'oppose' : 'amend';
-  const billNumber = bill.billNumber;
-  const title = bill.subject.replace(/\*\*/g, ''); // Remove markdown bold
-
-  // Extract key info from the bill data
-  const statusText = bill.status;
-  const location = bill.location;
-
-  // Build the 4 sentences
-  const sentence1 = `${billNumber} is a ${bill.position.toLowerCase()} bill that ${title.toLowerCase()}.`;
-  const sentence2 = `The bill ${location.toLowerCase()} with a status of ${statusText.toLowerCase()}.`;
-  const sentence3 = `From a 2A perspective, this bill ${positionText === 'support' ? 'strengthens' : positionText === 'oppose' ? 'threatens' : 'modifies'} Second Amendment rights in Colorado.`;
-  const sentence4 = `The bill is currently ${statusText.toLowerCase()} and would take effect ${bill.enactmentDate || 'TBD'} if enacted.`;
-
-  return `${sentence1} ${sentence2} ${sentence3} ${sentence4}`;
+  const title = bill.subject.replace(/\*\*/g, '').trim();
+  const lower = title.charAt(0).toLowerCase() + title.slice(1);
+  return `Concerns ${lower.replace(/\.$/, '')}.`;
 }
 
 /**

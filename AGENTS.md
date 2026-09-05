@@ -143,10 +143,30 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 
 ## Cache structure
 - Location: `.cache/bill-text/cache.json` (JSON object keyed by full bill URL).
-- Each entry: `{ "title": "...", "summary": "...", "sponsorLinks": "..." }` (JSON-stringified within
-  the cache Map; `sponsorLinks` is optional per entry, added 2026-09-02 — never write a cache entry
-  that drops fields another task populated).
+- Each entry: `{ "title": "...", "summary": "...", "sponsorLinks": "...", "coGaSummaryRaw": "...", "coGaLongTitle": "..." }`
+  (JSON-stringified within the cache Map; `sponsorLinks`, `coGaSummaryRaw`, `coGaLongTitle` are optional per
+  entry — never write a cache entry that drops fields another task populated).
 - Use `loadBillTextCache()` / `saveBillTextCache()` / `setCachedCoGaData(url, title, summary, sponsorLinks?)`.
+
+## Bill summaries (spec, 2026-09-04)
+- Content: ONLY what the bill does — mechanisms, scope, definitions, exemptions, penalties, and
+  effect-timing ("takes effect upon enactment" is allowed; legislative outcome/status is not).
+- Banned from summaries: bill numbers, the bill title verbatim, position language ("is a support/
+  oppose/amend bill"), status phrases ("signed into law", "is currently", "status of"), and 2A opinion
+  ("Second Amendment", "2A perspective", "firearm freedoms"). The Status column already shows status;
+  the Title column already shows titles.
+- Length: 3-4 sentences strictly for live-page bills (2016-2026 year groups); 1-2 sentences for
+  pre-2016 bills (RMGO subject is the only source — no live pages, no CRS links, dead legacy URLs).
+- Prose: original, informed by the reference material — never verbatim copies of the CO GA summary
+  (the CO GA summary is reference only per "Data sources" below).
+- Pipeline: `scripts/fetch-bill-summaries.ts` fetches + caches the raw reference per URL
+  (`coGaSummaryRaw` + `coGaLongTitle`; cache-first, `--refresh` to force). LLM-written summaries are
+  applied by `scripts/apply-bill-summaries.ts`, which machine-validates every entry against the bans
+  above plus sentence count and length, writes the catalog `summary` field AND the cache `summary`
+  field (so catalog regeneration preserves them), and supports a `year` field to disambiguate
+  billNumbers duplicated across year groups (RMGO mis-listing: HB19-1022 exists in both 2019 and 2013).
+- Fallbacks: `generate2ASummary()` / `generate2ASummaryFromCoGa()` emit neutral title-frame sentences
+  ("Concerns ...") for uncached bills — never the old 2A-POV template (retired 2026-09-04).
 
 ## Graceful degradation (plan-crafting-principles #3)
 - If CO GA extraction fails (network, parse, missing selector), fall back to RMGO subject for the title
