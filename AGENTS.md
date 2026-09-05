@@ -99,11 +99,15 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
   `.cache/regression-baselines.json` (auto-ratcheted upward by the regression-guard hook, which
   blocks "done" claims while an uncommitted catalog regresses it). A named fix (e.g. specific
   legislators) and the aggregate are BOTH acceptance criteria; verify both.
-  Baseline 2026-09-04 (intentional prime-only reduction by `scripts/filter-prime-sponsors.ts`):
-  157 bills with live slugs / 402 live slugs / 269 rows. The billwatch Sponsors column shows
-  PRIME sponsors only; RMGO `sponsors` holds exactly the prime list, and the filter script
-  resolves slugs from the existing sponsorLinks (surname + fuzzy match for RMGO spelling
-  variants like Sonnenburg/Sonnenberg) — a LOCAL transform, no network, no regeneration.
+  Baseline 2026-09-04 (evening): 157 bills with live slugs / 419 live slugs / 269 rows.
+  Source of truth for the Sponsors column (prime sponsors only): the CO GA bill page's
+  `<h2>Prime Sponsors</h2>` tiles, fetched + cached per URL by
+  `scripts/fetch-prime-sponsors.ts` (primes land in `.cache/bill-text/cache.json` entries —
+  re-runs are cache-first, `--refresh` forces re-fetch; the cache entry format preserves
+  title/summary). Pre-2016 bills have no live pages and keep RMGO's sponsors (fallback by
+  design). `scripts/filter-prime-sponsors.ts` (the earlier RMGO-derived pass) is retained as
+  a local surname/fuzzy matcher but is NOT the source of truth — RMGO lists sometimes include
+  non-prime sponsors (HB20-1099: RMGO listed 10, CO GA lists 3 primes).
 
 ## Scratch-file rule (learned from the 2026-09-04 litter incident)
 - One-off verification/diagnostic scripts go in `/tmp` (e.g. `/tmp/opencode/`), NEVER in the

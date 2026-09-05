@@ -83,20 +83,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/HB26-1302",
         "sponsorLinks": [
           {
-            "name": "Rep. Anthony Hartsook",
-            "slug": null
-          },
-          {
             "name": "Rep. Monica Duran",
             "slug": "monica-duran"
           },
           {
             "name": "Rep. Andrew Boesenecker",
             "slug": "andrew-boesenecker"
-          },
-          {
-            "name": "Sen. John Carson",
-            "slug": "john-carson"
           },
           {
             "name": "Sen. Cathy Kipp",
@@ -121,7 +113,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/HB26-1144",
         "sponsorLinks": [
           {
-            "name": "Rep. Linsday Gilchrist",
+            "name": "Rep. Lindsay Gilchrist",
             "slug": "lindsay-gilchrist"
           },
           {
@@ -159,7 +151,7 @@
             "slug": "tom-sullivan"
           },
           {
-            "name": "Sen. Julie Gonzalez",
+            "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
           },
           {
@@ -167,7 +159,7 @@
             "slug": "meg-froelich"
           },
           {
-            "name": "Rep. Jenny Wilford",
+            "name": "Rep. Jenny Willford",
             "slug": "jenny-willford"
           }
         ]
@@ -278,7 +270,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb26-1108",
         "sponsorLinks": [
           {
-            "name": "Rep. Meg Lukens",
+            "name": "Rep. Meghan Lukens",
             "slug": "meghan-lukens"
           },
           {
@@ -311,12 +303,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/SB26-070",
         "sponsorLinks": [
           {
-            "name": "Sen. Lynda Zamora Wilson",
-            "slug": "lynda-zamora-wilson"
-          },
-          {
             "name": "Sen. Judy Amabile",
             "slug": "judy-amabile"
+          },
+          {
+            "name": "Sen. Lynda Zamora Wilson",
+            "slug": "lynda-zamora-wilson"
           },
           {
             "name": "Rep. Yara Zokaie",
@@ -417,6 +409,14 @@
           {
             "name": "Rep. Max Brooks",
             "slug": "max-brooks"
+          },
+          {
+            "name": "Sen. Mark Baisley",
+            "slug": "mark-baisley"
+          },
+          {
+            "name": "Sen. Lynda Zamora Wilson",
+            "slug": "lynda-zamora-wilson"
           }
         ]
       },
@@ -498,16 +498,16 @@
             "slug": "tom-sullivan"
           },
           {
-            "name": "Sen. Julie Gonzalez",
+            "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
+          },
+          {
+            "name": "Rep. Andrew Boesenecker",
+            "slug": "andrew-boesenecker"
           },
           {
             "name": "Rep. Meg Froelich",
             "slug": "meg-froelich"
-          },
-          {
-            "name": "Rep. Andrew Boesnecker",
-            "slug": "andrew-boesenecker"
           }
         ]
       },
@@ -565,7 +565,7 @@
             "slug": "cathy-kipp"
           },
           {
-            "name": "Rep. Andrew Boesnecker",
+            "name": "Rep. Andrew Boesenecker",
             "slug": "andrew-boesenecker"
           },
           {
@@ -919,7 +919,7 @@
             "slug": "lindsay-gilchrist"
           },
           {
-            "name": "Sen. Judie Amabile",
+            "name": "Sen. Judy Amabile",
             "slug": "judy-amabile"
           },
           {
@@ -1002,7 +1002,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1128",
         "sponsorLinks": [
           {
-            "name": "Rep. Cecelia Espinoza",
+            "name": "Rep. Cecelia Espenoza",
             "slug": "cecelia-espenoza"
           },
           {
@@ -1088,7 +1088,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb25-1067",
         "sponsorLinks": [
           {
-            "name": "Rep. Ken Degraaf",
+            "name": "Rep. Ken DeGraaf",
             "slug": "ken-degraaf"
           },
           {
@@ -1223,7 +1223,7 @@
             "slug": "kyle-brown"
           },
           {
-            "name": "Rep. Mandy Lindsey",
+            "name": "Rep. Mandy Lindsay",
             "slug": "mandy-lindsay"
           }
         ]
@@ -1336,7 +1336,7 @@
             "slug": "elizabeth-velasco"
           },
           {
-            "name": "Rep. Lorena Garcia",
+            "name": "Rep. Lorena García",
             "slug": "lorena-garcia"
           },
           {
@@ -1366,20 +1366,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1349",
         "sponsorLinks": [
           {
-            "name": "Sen. Chris Hansen",
-            "slug": "chris-hansen"
-          },
-          {
-            "name": "Sen. Janet Buckner",
-            "slug": "janet-buckner"
-          },
-          {
             "name": "Rep. Monica Duran",
             "slug": "monica-duran"
           },
           {
             "name": "Rep. Meg Froelich",
             "slug": "meg-froelich"
+          },
+          {
+            "name": "Sen. Chris Hansen",
+            "slug": "chris-hansen"
+          },
+          {
+            "name": "Sen. Janet Buckner",
+            "slug": "janet-buckner"
           }
         ]
       },
@@ -1433,16 +1433,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1292",
         "sponsorLinks": [
           {
-            "name": "Sen. Julie Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
             "name": "Rep. Tim Hernandez",
             "slug": "tim-hernandez"
           },
           {
-            "name": "Rep. Elizabeth Epps",
+            "name": "Rep. Elisabeth Epps",
             "slug": "elisabeth-epps"
+          },
+          {
+            "name": "Sen. Julie Gonzales",
+            "slug": "julie-gonzales"
           }
         ]
       },
@@ -1533,7 +1533,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb24-1023",
         "sponsorLinks": [
           {
-            "name": "Rep. Ken DeGraff",
+            "name": "Rep. Ken DeGraaf",
             "slug": "ken-degraaf"
           },
           {
@@ -1666,7 +1666,7 @@
             "slug": "meg-froelich"
           },
           {
-            "name": "Rep. Julie Amabile",
+            "name": "Rep. Judy Amabile",
             "slug": "judy-amabile"
           },
           {
@@ -1729,15 +1729,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/HB23-1165",
         "sponsorLinks": [
           {
-            "name": "Rep. Julie Amabile",
+            "name": "Rep. Judy Amabile",
             "slug": "judy-amabile"
           },
           {
-            "name": "Sen. Karen McGormick",
+            "name": "Rep. Karen McCormick",
             "slug": "karen-mccormick"
           },
           {
-            "name": "Sen. Sonya Jaques Lewis",
+            "name": "Sen. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           }
         ]
@@ -1835,7 +1835,7 @@
             "slug": "ken-degraaf"
           },
           {
-            "name": "Rep. Julie Joseph",
+            "name": "Rep. Junie Joseph",
             "slug": "junie-joseph"
           },
           {
@@ -1906,19 +1906,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1257",
         "sponsorLinks": [
           {
-            "name": "Rep. M. Weissman",
+            "name": "Rep. Mike Weissman",
             "slug": "mike-weissman"
           },
           {
-            "name": "Rep. M. Soper",
+            "name": "Rep. Matt Soper",
             "slug": "matt-soper"
           },
           {
-            "name": "Sen. J. Gonzales",
+            "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
           },
           {
-            "name": "Sen. B. Gardner",
+            "name": "Sen. Bob Gardner",
             "slug": "bob-gardner"
           }
         ]
@@ -1937,19 +1937,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1086",
         "sponsorLinks": [
           {
-            "name": "Rep. T. Sullivan",
+            "name": "Rep. Tom Sullivan",
             "slug": "tom-sullivan"
           },
           {
-            "name": "Rep. J. Bacon",
+            "name": "Rep. Jennifer Bacon",
             "slug": "jennifer-bacon"
           },
           {
-            "name": "Sen. R. Fields",
+            "name": "Sen. Rhonda Fields",
             "slug": "rhonda-fields"
           },
           {
-            "name": "Sen. S. J. Lewis",
+            "name": "Sen. Sonya Juaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           }
         ]
@@ -1968,7 +1968,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb22-031",
         "sponsorLinks": [
           {
-            "name": "Sen. S. J. Lewis",
+            "name": "Sen. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           }
         ]
@@ -1987,7 +1987,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hcr22-1002",
         "sponsorLinks": [
           {
-            "name": "Rep. M. Weissman",
+            "name": "Rep. Mike Weissman",
             "slug": "mike-weissman"
           }
         ]
@@ -2006,11 +2006,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1045",
         "sponsorLinks": [
           {
-            "name": "Rep. R. Holtorf",
+            "name": "Rep. Richard Holtorf",
             "slug": "richard-holtorf"
           },
           {
-            "name": "Sen. J. Sonnenburg",
+            "name": "Sen. Jerry Sonnenberg",
             "slug": "jerry-sonnenberg"
           }
         ]
@@ -2029,19 +2029,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1120",
         "sponsorLinks": [
           {
-            "name": "Rep. K. V. Winkle",
+            "name": "Rep. Kevin Van Winkle",
             "slug": "kevin-van-winkle"
           },
           {
-            "name": "Rep. P. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           },
           {
-            "name": "Sen. R. Woodward",
+            "name": "Sen. Rob Woodward",
             "slug": "rob-woodward"
           },
           {
-            "name": "Sen. J. Bridges",
+            "name": "Sen. Jeff Bridges",
             "slug": "jeff-bridges"
           }
         ]
@@ -2060,7 +2060,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1033",
         "sponsorLinks": [
           {
-            "name": "Rep. R. Hanks",
+            "name": "Rep. Ron Hanks",
             "slug": "ron-hanks"
           }
         ]
@@ -2079,7 +2079,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1106",
         "sponsorLinks": [
           {
-            "name": "Rep. P. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
         ]
@@ -2098,7 +2098,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1105",
         "sponsorLinks": [
           {
-            "name": "Rep. S. Sandridge",
+            "name": "Rep. Shane Sandridge",
             "slug": "shane-sandridge"
           }
         ]
@@ -2117,7 +2117,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1145",
         "sponsorLinks": [
           {
-            "name": "Rep. P. Will",
+            "name": "Rep. Perry Will",
             "slug": "perry-will"
           }
         ]
@@ -2136,19 +2136,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb22-1168",
         "sponsorLinks": [
           {
-            "name": "Rep. H. McKean",
+            "name": "Rep. Hugh McKean",
             "slug": "hugh-mckean"
           },
           {
-            "name": "Rep. K. Mullica",
+            "name": "Rep. Kyle Mullica",
             "slug": "kyle-mullica"
           },
           {
-            "name": "Sen. R. Woodward",
+            "name": "Sen. Rob Woodward",
             "slug": "rob-woodward"
           },
           {
-            "name": "Sen. J. Ginal",
+            "name": "Sen. Joann Ginal",
             "slug": "joann-ginal"
           }
         ]
@@ -2173,20 +2173,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1106",
         "sponsorLinks": [
           {
-            "name": "Rep. M. Duran",
+            "name": "Rep. Monica Duran",
             "slug": "monica-duran"
           },
           {
-            "name": "Rep. K. Mullica",
+            "name": "Rep. Kyle Mullica",
             "slug": "kyle-mullica"
           },
           {
-            "name": "Sen. C. Hansen",
-            "slug": "chris-hansen"
+            "name": "Sen. Jeff Bridges",
+            "slug": "jeff-bridges"
           },
           {
-            "name": "Sen. J. Bridges",
-            "slug": "jeff-bridges"
+            "name": "Sen. Chris Hansen",
+            "slug": "chris-hansen"
           }
         ]
       },
@@ -2204,19 +2204,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb21-078",
         "sponsorLinks": [
           {
-            "name": "Sen. S. J. Lewis",
+            "name": "Sen. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           },
           {
-            "name": "Sen. J. Danielson",
+            "name": "Sen. Jessie Danielson",
             "slug": "jessie-danielson"
           },
           {
-            "name": "Rep. T. Sullivan",
+            "name": "Rep. Tom Sullivan",
             "slug": "tom-sullivan"
           },
           {
-            "name": "Rep. L. Herod",
+            "name": "Rep. Leslie Herod",
             "slug": "leslie-herod"
           }
         ]
@@ -2235,19 +2235,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1255",
         "sponsorLinks": [
           {
-            "name": "Rep. M. Duran",
+            "name": "Rep. Monica Duran",
             "slug": "monica-duran"
           },
           {
-            "name": "Rep. M. Gray",
+            "name": "Rep. Matt Gray",
             "slug": "matt-gray"
           },
           {
-            "name": "Sen. S. J. Lewis",
+            "name": "Sen. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           },
           {
-            "name": "Sen. B. Petterson",
+            "name": "Sen. Brittany Pettersen",
             "slug": "brittany-pettersen"
           }
         ]
@@ -2266,19 +2266,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb21-256",
         "sponsorLinks": [
           {
-            "name": "Sen. S. Fenberg",
+            "name": "Sen. Stephen Fenberg",
             "slug": "steve-fenberg"
           },
           {
-            "name": "Sen. D. Moreno",
+            "name": "Sen. Dominick Moreno",
             "slug": "dominick-moreno"
           },
           {
-            "name": "Rep. E. Hooton",
+            "name": "Rep. Edie Hooton",
             "slug": "edie-hooton"
           },
           {
-            "name": "Rep. L. Daughtery",
+            "name": "Rep. Lindsey Daugherty",
             "slug": "lindsey-daugherty"
           }
         ]
@@ -2297,19 +2297,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1298",
         "sponsorLinks": [
           {
-            "name": "Rep. J. Amabile",
+            "name": "Rep. Judy Amabile",
             "slug": "judy-amabile"
           },
           {
-            "name": "Rep. S. Woodrow",
+            "name": "Rep. Steven Woodrow",
             "slug": "steven-woodrow"
           },
           {
-            "name": "Sen. J. Gonzales",
+            "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
           },
           {
-            "name": "Sen. B. Pettersen",
+            "name": "Sen. Brittany Pettersen",
             "slug": "brittany-pettersen"
           }
         ]
@@ -2328,19 +2328,19 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1299",
         "sponsorLinks": [
           {
-            "name": "Rep. T. Sullivan",
+            "name": "Rep. Tom Sullivan",
             "slug": "tom-sullivan"
           },
           {
-            "name": "Rep. J. Bacon",
+            "name": "Rep. Jennifer Bacon",
             "slug": "jennifer-bacon"
           },
           {
-            "name": "Sen. R. Fields",
+            "name": "Sen. Rhonda Fields",
             "slug": "rhonda-fields"
           },
           {
-            "name": "Sen. C. Hansen",
+            "name": "Sen. Chris Hansen",
             "slug": "chris-hansen"
           }
         ]
@@ -2359,15 +2359,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1071",
         "sponsorLinks": [
           {
-            "name": "Rep. C. Kennedy",
+            "name": "Rep. Chris Kennedy",
             "slug": "chris-degruy-kennedy"
           },
           {
-            "name": "Sen. S. Fenburg",
+            "name": "Sen. Stephen Fenberg",
             "slug": "steve-fenberg"
           },
           {
-            "name": "Sen. F. Winter",
+            "name": "Sen. Faith Winter",
             "slug": "faith-winter"
           }
         ]
@@ -2386,11 +2386,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1025",
         "sponsorLinks": [
           {
-            "name": "Rep. J. Arndt",
+            "name": "Rep. Jeni Arndt",
             "slug": "jeni-james-arndt"
           },
           {
-            "name": "Sen. J. Ginal",
+            "name": "Sen. Joann Ginal",
             "slug": "joann-ginal"
           }
         ]
@@ -2409,15 +2409,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb21-064",
         "sponsorLinks": [
           {
-            "name": "Sen. L. Garcia",
+            "name": "Sen. Leroy Garcia",
             "slug": "leroy-garcia"
           },
           {
-            "name": "Sen. J. Cooke",
+            "name": "Sen. John Cooke",
             "slug": "john-cooke"
           },
           {
-            "name": "Rep. K. Mullica",
+            "name": "Rep. Kyle Mullica",
             "slug": "kyle-mullica"
           }
         ]
@@ -2436,11 +2436,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb21-081",
         "sponsorLinks": [
           {
-            "name": "Sen. C. Kolker",
+            "name": "Sen. Chris Kolker",
             "slug": "chris-kolker"
           },
           {
-            "name": "Rep. D. M. Jenet",
+            "name": "Rep. Dafna Michaelson Jenet",
             "slug": "dafna-michaelson-jenet"
           }
         ]
@@ -2459,20 +2459,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1001",
         "sponsorLinks": [
           {
-            "name": "Sen. C. Holbert",
-            "slug": "chris-holbert"
+            "name": "Rep. Daneya Esgar",
+            "slug": "daneya-esgar"
           },
           {
-            "name": "Sen. S. Fenberg",
-            "slug": "steve-fenberg"
-          },
-          {
-            "name": "Rep. H. McKean",
+            "name": "Rep. Hugh McKean",
             "slug": "hugh-mckean"
           },
           {
-            "name": "Rep. D. Esgar",
-            "slug": "daneya-esgar"
+            "name": "Sen. Stephen Fenberg",
+            "slug": "steve-fenberg"
+          },
+          {
+            "name": "Sen. Chris Holbert",
+            "slug": "chris-holbert"
           }
         ]
       },
@@ -2490,7 +2490,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1098",
         "sponsorLinks": [
           {
-            "name": "Rep. D. Woog",
+            "name": "Rep. Dan Woog",
             "slug": "dan-woog"
           }
         ]
@@ -2509,7 +2509,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1038",
         "sponsorLinks": [
           {
-            "name": "Rep. P. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
         ]
@@ -2528,7 +2528,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1070",
         "sponsorLinks": [
           {
-            "name": "Rep. R. Hanks",
+            "name": "Rep. Ron Hanks",
             "slug": "ron-hanks"
           }
         ]
@@ -2547,7 +2547,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb21-1185",
         "sponsorLinks": [
           {
-            "name": "Rep. P. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
         ]
@@ -2572,20 +2572,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1355",
         "sponsorLinks": [
           {
-            "name": "Bridges",
-            "slug": "jeff-bridges"
-          },
-          {
-            "name": "Hansen",
-            "slug": "chris-hansen"
-          },
-          {
-            "name": "Duran",
+            "name": "Rep. Monica Duran",
             "slug": "monica-duran"
           },
           {
-            "name": "Mullica",
+            "name": "Rep. Kyle Mullica",
             "slug": "kyle-mullica"
+          },
+          {
+            "name": "Sen. Jeff Bridges",
+            "slug": "jeff-bridges"
+          },
+          {
+            "name": "Sen. Chris Hansen",
+            "slug": "chris-hansen"
           }
         ]
       },
@@ -2603,43 +2603,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1099",
         "sponsorLinks": [
           {
-            "name": "Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Humphrey",
+            "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           },
           {
-            "name": "Williams D.",
-            "slug": "dave-williams"
-          },
-          {
-            "name": "Neville",
-            "slug": "patrick-neville"
-          },
-          {
-            "name": "Geitner",
-            "slug": "tim-geitner"
-          },
-          {
-            "name": "Sandridge",
-            "slug": "shane-sandridge"
-          },
-          {
-            "name": "Buck",
-            "slug": "perry-buck"
-          },
-          {
-            "name": "Baisley",
-            "slug": "mark-baisley"
-          },
-          {
-            "name": "Van Winkle",
-            "slug": "kevin-van-winkle"
-          },
-          {
-            "name": "Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
         ]
@@ -2658,11 +2630,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1121",
         "sponsorLinks": [
           {
-            "name": "Mullica",
+            "name": "Rep. Kyle Mullica",
             "slug": "kyle-mullica"
           },
           {
-            "name": "Soper",
+            "name": "Rep. Matt Soper",
             "slug": "matt-soper"
           }
         ]
@@ -2681,7 +2653,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1152",
         "sponsorLinks": [
           {
-            "name": "Liston",
+            "name": "Rep. Larry Liston",
             "slug": "larry-liston"
           }
         ]
@@ -2700,7 +2672,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1040",
         "sponsorLinks": [
           {
-            "name": "Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
         ]
@@ -2719,15 +2691,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1271",
         "sponsorLinks": [
           {
-            "name": "Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Cooke",
+            "name": "Sen. John Cooke",
             "slug": "john-cooke"
           },
           {
-            "name": "Smallwood",
+            "name": "Sen. Jim Smallwood",
             "slug": "jim-smallwood"
           }
         ]
@@ -2746,16 +2718,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1287",
         "sponsorLinks": [
           {
-            "name": "Marble",
+            "name": "Rep. Matt Soper",
+            "slug": "matt-soper"
+          },
+          {
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           },
           {
-            "name": "Lee",
+            "name": "Sen. Pete Lee",
             "slug": "pete-lee"
-          },
-          {
-            "name": "Soper",
-            "slug": "matt-soper"
           }
         ]
       },
@@ -2773,15 +2745,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1278",
         "sponsorLinks": [
           {
-            "name": "Duran",
+            "name": "Rep. Monica Duran",
             "slug": "monica-duran"
           },
           {
-            "name": "Singer",
+            "name": "Rep. Jonathan Singer",
             "slug": "jonathan-singer"
           },
           {
-            "name": "Fields",
+            "name": "Sen. Rhonda Fields",
             "slug": "rhonda-fields"
           }
         ]
@@ -2800,15 +2772,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1356",
         "sponsorLinks": [
           {
-            "name": "Sullivan",
+            "name": "Rep. Tom Sullivan",
             "slug": "tom-sullivan"
           },
           {
-            "name": "Jaquez Lewis",
+            "name": "Rep. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           },
           {
-            "name": "Danielson",
+            "name": "Sen. Jessie Danielson",
             "slug": "jessie-danielson"
           }
         ]
@@ -2827,7 +2799,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1168",
         "sponsorLinks": [
           {
-            "name": "Sandridge",
+            "name": "Rep. Shane Sandridge",
             "slug": "shane-sandridge"
           }
         ]
@@ -2846,16 +2818,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb20-1028",
         "sponsorLinks": [
           {
-            "name": "Gonzales",
-            "slug": "julie-gonzales"
-          },
-          {
-            "name": "Beckman",
+            "name": "Rep. Susan Beckman",
             "slug": "susan-beckman"
           },
           {
-            "name": "Jennet",
+            "name": "Rep. Dafna Michaelson Jenet",
             "slug": "dafna-michaelson-jenet"
+          },
+          {
+            "name": "Sen. Julie Gonzales",
+            "slug": "julie-gonzales"
           }
         ]
       },
@@ -2873,32 +2845,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb20-023",
         "sponsorLinks": [
           {
-            "name": "Gardner Gonzales",
+            "name": "Sen. Bob Gardner",
+            "slug": "bob-gardner"
+          },
+          {
+            "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
           },
           {
-            "name": "Fields",
-            "slug": "rhonda-fields"
-          },
-          {
-            "name": "Lundeen",
-            "slug": "paul-lundeen"
-          },
-          {
-            "name": "Jenet",
+            "name": "Rep. Dafna Michaelson Jenet",
             "slug": "dafna-michaelson-jenet"
           },
           {
-            "name": "Van Winkle",
+            "name": "Rep. Kevin Van Winkle",
             "slug": "kevin-van-winkle"
-          },
-          {
-            "name": "Beckman",
-            "slug": null
-          },
-          {
-            "name": "Sirota",
-            "slug": "emily-sirota"
           }
         ]
       },
@@ -2916,7 +2876,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb20-027",
         "sponsorLinks": [
           {
-            "name": "Crowder",
+            "name": "Sen. Larry Crowder",
             "slug": "larry-crowder"
           }
         ]
@@ -3008,6 +2968,10 @@
           {
             "name": "Rep. Mike Weissman",
             "slug": "mike-weissman"
+          },
+          {
+            "name": "Rep. Lisa Cutter",
+            "slug": "lisa-cutter"
           }
         ]
       },
@@ -3076,8 +3040,16 @@
             "slug": "marc-catlin"
           },
           {
+            "name": "Rep. Julie McCluskie",
+            "slug": "julie-mccluskie"
+          },
+          {
             "name": "Sen. Don Coram",
             "slug": "don-coram"
+          },
+          {
+            "name": "Sen. Kerry Donovan",
+            "slug": "kerry-donovan"
           }
         ]
       },
@@ -3139,7 +3111,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb18-051",
         "sponsorLinks": [
           {
-            "name": "Sen. Merrifield",
+            "name": "Sen. Michael Merrifield",
             "slug": "michael-merrifield"
           }
         ]
@@ -3158,16 +3130,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb18-052",
         "sponsorLinks": [
           {
-            "name": "Sen. Hill",
+            "name": "Sen. Owen Hill",
             "slug": "owen-hill"
           },
           {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
+            "name": "Rep. Stephen Humphrey",
+            "slug": "stephen-humphrey"
           },
           {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
+            "name": "Rep. Lori Saine",
+            "slug": "lori-saine"
           }
         ]
       },
@@ -3185,11 +3157,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb18-097",
         "sponsorLinks": [
           {
-            "name": "Sen. Neville",
+            "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           },
           {
-            "name": "Rep. Van Winkle",
+            "name": "Rep. Kevin Van Winkle",
             "slug": "kevin-van-winkle"
           }
         ]
@@ -3208,12 +3180,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb18-185",
         "sponsorLinks": [
           {
-            "name": "Sen. Smallwood",
+            "name": "Sen. Jim Smallwood",
             "slug": "jim-smallwood"
           },
           {
-            "name": "Rep. Everett",
+            "name": "Rep. Justin Everett",
             "slug": "justin-everett"
+          },
+          {
+            "name": "Rep. Shane Sandridge",
+            "slug": "shane-sandridge"
           }
         ]
       },
@@ -3231,15 +3207,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1015",
         "sponsorLinks": [
           {
-            "name": "Rep. Humphrey",
+            "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           },
           {
-            "name": "Rep. Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Sen. Hill",
+            "name": "Sen. Owen Hill",
             "slug": "owen-hill"
           }
         ]
@@ -3258,12 +3234,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1037",
         "sponsorLinks": [
           {
-            "name": "Rep. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           },
           {
-            "name": "Sen. Neville",
-            "slug": null
+            "name": "Sen. Tim Neville",
+            "slug": "tim-neville"
           }
         ]
       },
@@ -3281,11 +3257,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1074",
         "sponsorLinks": [
           {
-            "name": "Rep. Everett",
+            "name": "Rep. Justin Everett",
             "slug": "justin-everett"
           },
           {
-            "name": "Sen. Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
         ]
@@ -3304,11 +3280,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb18-128",
         "sponsorLinks": [
           {
-            "name": "Sen. Gardner",
+            "name": "Sen. Bob Gardner",
             "slug": "bob-gardner"
           },
           {
-            "name": "Rep. Liston",
+            "name": "Rep. Larry Liston",
             "slug": "larry-liston"
           }
         ]
@@ -3327,16 +3303,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb18-116",
         "sponsorLinks": [
           {
-            "name": "Sen. Cooke",
+            "name": "Sen. John Cooke",
             "slug": "john-cooke"
           },
           {
-            "name": "Rep. Van Winkle",
-            "slug": "kevin-van-winkle"
+            "name": "Rep. Dave Williams",
+            "slug": "dave-williams"
           },
           {
-            "name": "Rep. Williams",
-            "slug": "dave-williams"
+            "name": "Rep. Kevin Van Winkle",
+            "slug": "kevin-van-winkle"
           }
         ]
       },
@@ -3354,20 +3330,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb18-032",
         "sponsorLinks": [
           {
-            "name": "Sen. Cooke",
-            "slug": "john-cooke"
-          },
-          {
-            "name": "Sen. Gardner",
+            "name": "Sen. Bob Gardner",
             "slug": "bob-gardner"
           },
           {
-            "name": "Rep. Herod",
-            "slug": "leslie-herod"
+            "name": "Sen. John Cooke",
+            "slug": "john-cooke"
           },
           {
-            "name": "Rep. Foote",
-            "slug": null
+            "name": "Rep. Mike Foote",
+            "slug": "mike-foote"
+          },
+          {
+            "name": "Rep. Leslie Herod",
+            "slug": "leslie-herod"
           }
         ]
       },
@@ -3385,12 +3361,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb18-1077",
         "sponsorLinks": [
           {
-            "name": "Rep. Valdez",
+            "name": "Rep. Liston",
+            "slug": "larry-liston"
+          },
+          {
+            "name": "Rep. Donald Valdez",
             "slug": "donald-valdez"
           },
           {
-            "name": "Rep. Liston",
-            "slug": "larry-liston"
+            "name": "Sen. Leroy Garcia",
+            "slug": "leroy-garcia"
+          },
+          {
+            "name": "Sen. Ray Scott",
+            "slug": "ray-scott"
           }
         ]
       },
@@ -3414,6 +3398,10 @@
           {
             "name": "Rep. Cole Wist",
             "slug": "cole-wist"
+          },
+          {
+            "name": "Sen. Lois Court",
+            "slug": "lois-court"
           }
         ]
       }
@@ -3437,11 +3425,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb17-005",
         "sponsorLinks": [
           {
-            "name": "Sen. Holbert",
+            "name": "Sen. Chris Holbert",
             "slug": "chris-holbert"
           },
           {
-            "name": "Rep. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
         ]
@@ -3460,12 +3448,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb17-006",
         "sponsorLinks": [
           {
-            "name": "Sen. Cooke",
+            "name": "Sen. John Cooke",
             "slug": "john-cooke"
           },
           {
-            "name": "Rep. Nordberg",
+            "name": "Rep. Dan Nordberg",
             "slug": "dan-nordberg"
+          },
+          {
+            "name": "Rep. Lang Sias",
+            "slug": "lang-sias"
           }
         ]
       },
@@ -3483,16 +3475,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb17-007",
         "sponsorLinks": [
           {
-            "name": "Sen. Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           },
           {
-            "name": "Rep. Humphrey",
-            "slug": "stephen-humphrey"
+            "name": "Rep. Lori Saine",
+            "slug": "lori-saine"
           },
           {
-            "name": "Rep. Saine",
-            "slug": "lori-saine"
+            "name": "Rep. Stephen Humphrey",
+            "slug": "stephen-humphrey"
           }
         ]
       },
@@ -3510,11 +3502,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb17-008",
         "sponsorLinks": [
           {
-            "name": "Sen. Hill",
+            "name": "Sen. Owen Hill",
             "slug": "owen-hill"
           },
           {
-            "name": "Rep. Lebsock",
+            "name": "Rep. Steve Lebsock",
             "slug": "steve-lebsock"
           }
         ]
@@ -3533,16 +3525,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1036",
         "sponsorLinks": [
           {
-            "name": "Rep. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           },
           {
-            "name": "Rep. Ransom",
+            "name": "Rep. Kim Ransom",
             "slug": "kim-ransom"
           },
           {
-            "name": "Sen. Neville",
-            "slug": null
+            "name": "Sen. Tim Neville",
+            "slug": "tim-neville"
           }
         ]
       },
@@ -3560,11 +3552,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1037",
         "sponsorLinks": [
           {
-            "name": "Rep. Everett",
+            "name": "Rep. Justin Everett",
             "slug": "justin-everett"
           },
           {
-            "name": "Sen. Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
         ]
@@ -3583,20 +3575,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb17-1097",
         "sponsorLinks": [
           {
-            "name": "Rep. Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Rep. Humphrey",
+            "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           },
           {
-            "name": "Sen. Neville",
-            "slug": "tim-neville"
+            "name": "Sen. Vicki Marble",
+            "slug": "vicki-marble"
           },
           {
-            "name": "Sen. Marble",
-            "slug": "vicki-marble"
+            "name": "Sen. Tim Neville",
+            "slug": "tim-neville"
           }
         ]
       }
@@ -3620,7 +3612,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1023",
         "sponsorLinks": [
           {
-            "name": "Rep. Everett",
+            "name": "Rep. Justin Everett",
             "slug": "justin-everett"
           }
         ]
@@ -3639,15 +3631,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1024",
         "sponsorLinks": [
           {
-            "name": "Rep. Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Rep. Humphrey",
+            "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           },
           {
-            "name": "Sen. Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
         ]
@@ -3666,11 +3658,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1179",
         "sponsorLinks": [
           {
-            "name": "Rep. Buck",
+            "name": "Rep. Perry Buck",
             "slug": "perry-buck"
           },
           {
-            "name": "Sen. Sonnenberg",
+            "name": "Sen. Jerry Sonnenberg",
             "slug": "jerry-sonnenberg"
           }
         ]
@@ -3689,12 +3681,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1204",
         "sponsorLinks": [
           {
-            "name": "Rep. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           },
           {
-            "name": "Sen. Neville",
-            "slug": null
+            "name": "Sen. Tim Neville",
+            "slug": "tim-neville"
           }
         ]
       },
@@ -3712,12 +3704,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-017",
         "sponsorLinks": [
           {
-            "name": "Sen. Neville",
+            "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           },
           {
-            "name": "Rep. Neville",
-            "slug": null
+            "name": "Rep. Patrick Neville",
+            "slug": "patrick-neville"
           }
         ]
       },
@@ -3735,15 +3727,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-113",
         "sponsorLinks": [
           {
-            "name": "Sen. Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           },
           {
-            "name": "Rep. Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Rep. Humphrey",
+            "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           }
         ]
@@ -3762,12 +3754,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-144",
         "sponsorLinks": [
           {
-            "name": "Sen. Cooke",
+            "name": "Sen. John Cooke",
             "slug": "john-cooke"
           },
           {
-            "name": "Rep. Sais",
-            "slug": null
+            "name": "Rep. Lang Sias",
+            "slug": "lang-sias"
           }
         ]
       },
@@ -3785,12 +3777,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-176",
         "sponsorLinks": [
           {
-            "name": "Sen. Neville",
+            "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           },
           {
-            "name": "Rep. Neville",
-            "slug": null
+            "name": "Rep. Patrick Neville",
+            "slug": "patrick-neville"
           }
         ]
       },
@@ -3808,12 +3800,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1063",
         "sponsorLinks": [
           {
-            "name": "Rep. Foote",
+            "name": "Rep. Mike Foote",
             "slug": "mike-foote"
           },
           {
-            "name": "Rep. Duran",
+            "name": "Rep. Crisanta Duran",
             "slug": "crisanta-duran"
+          },
+          {
+            "name": "Sen. Mark Scheffel",
+            "slug": "mark-scheffel"
+          },
+          {
+            "name": "Sen. Bill Cadman",
+            "slug": "bill-cadman"
           }
         ]
       },
@@ -3831,12 +3831,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1341",
         "sponsorLinks": [
           {
-            "name": "Rep. Ginal",
+            "name": "Rep. Joann Ginal",
             "slug": "joann-ginal"
           },
           {
-            "name": "Rep. McCann",
+            "name": "Rep. Beth McCann",
             "slug": "elizabeth-mccann"
+          },
+          {
+            "name": "Sen. Jessie Ulibarri",
+            "slug": "jessie-ulibarri"
           }
         ]
       },
@@ -3854,11 +3858,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/sjr16-040",
         "sponsorLinks": [
           {
-            "name": "Sen. Lundberg",
+            "name": "Sen. Kevin Lundberg",
             "slug": "kevin-lundberg"
           },
           {
-            "name": "Rep. Singer",
+            "name": "Rep. Jonathan Singer",
             "slug": "jonathan-singer"
           }
         ]
@@ -3877,7 +3881,7 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1023",
         "sponsorLinks": [
           {
-            "name": "Rep. Everett",
+            "name": "Rep. Justin Everett",
             "slug": "justin-everett"
           }
         ]
@@ -3896,15 +3900,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1024",
         "sponsorLinks": [
           {
-            "name": "Rep. Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Rep. Humphrey",
+            "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           },
           {
-            "name": "Sen. Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
         ]
@@ -3923,11 +3927,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1179",
         "sponsorLinks": [
           {
-            "name": "Rep. Buck",
+            "name": "Rep. Perry Buck",
             "slug": "perry-buck"
           },
           {
-            "name": "Sen. Sonnenberg",
+            "name": "Sen. Jerry Sonnenberg",
             "slug": "jerry-sonnenberg"
           }
         ]
@@ -3946,12 +3950,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1204",
         "sponsorLinks": [
           {
-            "name": "Rep. Neville",
+            "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           },
           {
-            "name": "Sen. Neville",
-            "slug": null
+            "name": "Sen. Tim Neville",
+            "slug": "tim-neville"
           }
         ]
       },
@@ -3969,12 +3973,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-017",
         "sponsorLinks": [
           {
-            "name": "Sen. Neville",
+            "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           },
           {
-            "name": "Rep. Neville",
-            "slug": null
+            "name": "Rep. Patrick Neville",
+            "slug": "patrick-neville"
           }
         ]
       },
@@ -3992,15 +3996,15 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-113",
         "sponsorLinks": [
           {
-            "name": "Sen. Marble",
+            "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           },
           {
-            "name": "Rep. Saine",
+            "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           },
           {
-            "name": "Rep. Humphrey",
+            "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           }
         ]
@@ -4019,12 +4023,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-144",
         "sponsorLinks": [
           {
-            "name": "Sen. Cooke",
+            "name": "Sen. John Cooke",
             "slug": "john-cooke"
           },
           {
-            "name": "Rep. Sais",
-            "slug": null
+            "name": "Rep. Lang Sias",
+            "slug": "lang-sias"
           }
         ]
       },
@@ -4042,12 +4046,12 @@
         "officialUrl": "https://leg.colorado.gov/bills/sb16-176",
         "sponsorLinks": [
           {
-            "name": "Sen. Neville",
+            "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           },
           {
-            "name": "Rep. Neville",
-            "slug": null
+            "name": "Rep. Patrick Neville",
+            "slug": "patrick-neville"
           }
         ]
       },
@@ -4065,12 +4069,20 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1063",
         "sponsorLinks": [
           {
-            "name": "Rep. Foote",
+            "name": "Rep. Mike Foote",
             "slug": "mike-foote"
           },
           {
-            "name": "Rep. Duran",
+            "name": "Rep. Crisanta Duran",
             "slug": "crisanta-duran"
+          },
+          {
+            "name": "Sen. Mark Scheffel",
+            "slug": "mark-scheffel"
+          },
+          {
+            "name": "Sen. Bill Cadman",
+            "slug": "bill-cadman"
           }
         ]
       },
@@ -4088,12 +4100,16 @@
         "officialUrl": "https://leg.colorado.gov/bills/hb16-1341",
         "sponsorLinks": [
           {
-            "name": "Rep. Ginal",
+            "name": "Rep. Joann Ginal",
             "slug": "joann-ginal"
           },
           {
-            "name": "Rep. McCann",
+            "name": "Rep. Beth McCann",
             "slug": "elizabeth-mccann"
+          },
+          {
+            "name": "Sen. Jessie Ulibarri",
+            "slug": "jessie-ulibarri"
           }
         ]
       },
@@ -4111,11 +4127,11 @@
         "officialUrl": "https://leg.colorado.gov/bills/sjr16-040",
         "sponsorLinks": [
           {
-            "name": "Sen. Lundberg",
+            "name": "Sen. Kevin Lundberg",
             "slug": "kevin-lundberg"
           },
           {
-            "name": "Rep. Singer",
+            "name": "Rep. Jonathan Singer",
             "slug": "jonathan-singer"
           }
         ]

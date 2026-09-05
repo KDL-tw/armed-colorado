@@ -82,8 +82,15 @@ export function parseSponsorToken(token: string): { chamber: Chamber | null; sur
 
 /**
  * Extract sponsor links from a CO GA bill page HTML.
- * Parses only /legislators/{slug} anchors under the "Prime Sponsor" section
+ * Parses only /legislators/{slug} anchors under the "Prime Sponsors" section
  * and deduplicates by slug.
+ *
+ * Verified structure (2026-09-04, live curl of HB26-1126): the page top has
+ * <h2>Prime Sponsors</h2> followed directly by prime sponsor tiles. Each tile
+ * is an /legislators/{slug} anchor whose inner HTML holds the chamber in a
+ * preceding <p> (e.g. "Representative") and the display name in
+ * <p class='prime-sponsor-name'>. The all-sponsors area (Prime Sponsor /
+ * Sponsor / Co-Sponsor category labels) sits much further down the page.
  *
  * @param html - HTML content from CO GA bill page
  * @returns Array of PageSponsor objects (only prime sponsors)
@@ -91,9 +98,10 @@ export function parseSponsorToken(token: string): { chamber: Chamber | null; sur
 export function extractPageSponsors(html: string): PageSponsor[] {
   const primeSponsors: PageSponsor[] = [];
 
-  // Find the "Prime Sponsor" section and extract only links under it
-  // The structure is: <h2>Prime Sponsors</h2> → <a> → <div> → <p class="prime-sponsor-name">Name</p> → </div> → </a> → <p>Prime Sponsor</p>
-  const primeSponsorRegex = /<h2[^>]*>Prime Sponsors<\/h2>[\s\S]*?(?=(<p>Prime Sponsor<\/p>|<p>Sponsor<\/p>|<p>Co-Sponsor<\/p>|<h2|$))/;
+  // Capture from <h2>Prime Sponsors</h2> up to the next <h2> (e.g.
+  // Committees) or a sponsor-category <p>. The prime tiles sit directly
+  // under this heading, so the capture contains exactly the prime anchors.
+  const primeSponsorRegex = /<h2[^>]*>Prime Sponsors<\/h2>([\s\S]*?)(?=(<h2|<p>\s*(?:Prime Sponsor|Sponsor|Co-Sponsor)\s*<\/p>|$))/;
   const primeSponsorMatch = html.match(primeSponsorRegex);
 
   if (!primeSponsorMatch) {
@@ -101,44 +109,35 @@ export function extractPageSponsors(html: string): PageSponsor[] {
     return [];
   }
 
-  const primeSponsorSection = primeSponsorMatch[0];
+  const primeSponsorSection = primeSponsorMatch[1];
 
-  // Extract all /legislators/{slug} anchors from the Prime Sponsor section
-  // The name is in the nested <p class="prime-sponsor-name"> element inside the anchor
+  // Extract all /legislators/{slug} anchors from the Prime Sponsor section.
+  // Each anchor's inner HTML contains the chamber in a preceding <p>
+  // ("Representative"/"Senator") and the name in <p class='prime-sponsor-name'>.
   const anchorRegex = /<a[^>]*href="\/legislators\/([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
   let match;
 
   while ((match = anchorRegex.exec(primeSponsorSection)) !== null) {
     const slug = match[1];
     const innerHtml = match[2];
-    
-    // Extract the name from <p class="prime-sponsor-name"> inside the anchor
-    const nameMatch = innerHtml.match(/prime-sponsor-name'>([\s\S]*?)</);
-    const displayName = nameMatch ? nameMatch[1].trim().replace(/\s+/g, ' ') : slug;
-    
-    const displayText = displayName.toLowerCase();
-    // Extract surname from display name (format: "Last, First" or "First Last")
-    const surname = displayName
-      .split(/\s+/)
-      .filter(w => !/^[A-Za-z]\.$/.test(w))
-      .pop() || displayName;
 
-    // Parse chamber from display text (Rep./Sen./Representative/Senator)
-    let chamber: 'House' | 'Senate';
-    if (/senate|sen\./i.test(displayText)) {
-      chamber = 'Senate';
-    } else if (/house|rep\.|representative|rep/i.test(displayText)) {
-      chamber = 'House';
-    } else {
-      // Fallback: infer from slug pattern (e.g., "house-123" or "senate-456")
-      if (slug.startsWith('house-')) {
-        chamber = 'House';
-      } else if (slug.startsWith('senate-')) {
-        chamber = 'Senate';
-      } else {
-        chamber = 'House'; // Default to House
-      }
-    }
+    // Extract the name from <p class='prime-sponsor-name'> inside the anchor
+    const nameMatch = innerHtml.match(/prime-sponsor-name'?>\s*([\s\S]*?)\s*</);
+    if (!nameMatch) continue;
+    const displayName = nameMatch[1].trim().replace(/\s+/g, ' ');
+
+    // Chamber from the preceding <p> (Representative/Senator) inside the tile.
+    // NB: prefix test — "Representative" contains the substring "sen".
+    const chamberMatch = innerHtml.match(/<p>\s*(Representative|Senator|Rep\.|Sen\.)\s*<\/p>/i);
+    const chamber: Chamber =
+      chamberMatch && /^sen/i.test(chamberMatch[1].trim()) ? 'Senate' : 'House';
+
+    // Surname: last non-initial word (handles "First Last" and "Last, First")
+    const surname =
+      displayName
+        .split(/[\s,]+/)
+        .filter((w) => w.length > 0 && !/^[A-Za-z]\.$/.test(w))
+        .pop() || displayName;
 
     primeSponsors.push({
       chamber,
