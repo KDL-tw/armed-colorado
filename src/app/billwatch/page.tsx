@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { loadGunBillCatalog } from "@/lib/gun-bill/catalog-client";
-import { splitSponsorString } from "@/lib/gun-bill/sponsor-links";
 import { ContentShell } from "@/components/ContentShell";
 import { BillTableClient } from "./BillTableClient";
 import Link from "next/link";
@@ -210,7 +209,7 @@ export default async function BillwatchPage() {
                             <td className="w-56 py-3 pl-2 text-muted text-sm">
                               <ul className="list-none space-y-1 p-0 m-0">
                                 {(bill.sponsorLinks ??
-                                  bill.sponsors.flatMap(splitSponsorString).map((name) => ({ name, slug: null }))
+                                  bill.sponsors.map((name) => ({ name, slug: null }))
                                 ).map((s, index) => (
                                   <li key={`${s.name}-${index}`}>
                                     {s.slug ? (

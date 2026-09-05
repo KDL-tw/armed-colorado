@@ -99,6 +99,20 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
   `.cache/regression-baselines.json` (auto-ratcheted upward by the regression-guard hook, which
   blocks "done" claims while an uncommitted catalog regresses it). A named fix (e.g. specific
   legislators) and the aggregate are BOTH acceptance criteria; verify both.
+  Baseline 2026-09-04 (intentional prime-only reduction by `scripts/filter-prime-sponsors.ts`):
+  157 bills with live slugs / 402 live slugs / 269 rows. The billwatch Sponsors column shows
+  PRIME sponsors only; RMGO `sponsors` holds exactly the prime list, and the filter script
+  resolves slugs from the existing sponsorLinks (surname + fuzzy match for RMGO spelling
+  variants like Sonnenburg/Sonnenberg) — a LOCAL transform, no network, no regeneration.
+
+## Scratch-file rule (learned from the 2026-09-04 litter incident)
+- One-off verification/diagnostic scripts go in `/tmp` (e.g. `/tmp/opencode/`), NEVER in the
+  repo root or `data/`. Delete them when done. The repo root accumulated 18 throwaway
+  `check_*`/`test_extract*` scripts in one session before this rule existed.
+- Reusable pipeline utilities belong in `scripts/` with a doc comment and `npx tsx` usage line.
+- The project has no test framework; verification = `npx tsc --noEmit`, `npm run lint`,
+  `npm run build`, then `npm run preview` + curl counts (rows, anchors) on localhost AND
+  the LAN IP before claiming rendering success.
 
 ## Data sources (do NOT mix up)
 - RMGO billwatch: source of position, status, bill number, sponsors, and the bill URL.
@@ -106,12 +120,19 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 - CO GA bill page (https://leg.colorado.gov/bills/{billNumber}): ground truth for titles and bill text.
 - CO GA bill summary (`.bill-summary-content`): reference only, must NOT be copied verbatim.
 
-## CO GA DOM selectors (verified 2026-08-28 on https://leg.colorado.gov/bills/HB26-1126)
+## CO GA DOM selectors (verified 2026-08-28 and 2026-09-04 on https://leg.colorado.gov/bills/HB26-1126)
 - Official title: `.full-bill-topic h1` (regex: `/<div class='full-bill-topic[^']*'>\s*<h1>\s*([\s\S]*?)\s*<\/h1>/`)
 - Long title: `.bill-long-title`
 - Bill number tag: `.bill-detail-bill-number-tag`
 - CO GA summary (reference only): `.bill-summary-content` (regex: `/<div class='bill-summary-content'>([\s\S]*?)<\/div>/`)
-- Prime Sponsors: `.prime-sponsor-block .prime-sponsor-tile` -> `.prime-sponsor-name` + preceding `<p>` (chamber)
+- Prime Sponsors (verified 2026-09-04 via live curl): the page top has `<h2>Prime Sponsors</h2>`
+  followed by prime sponsor tiles — each an `/legislators/{slug}` anchor containing
+  `.prime-sponsor-name` (display name) with the chamber in a preceding `<p>` (e.g. "Representative").
+  There is NO h3/h4 "Sponsors" section (a 2026-09-04 plan encoded that assumed structure and failed).
+  The all-sponsors list (prime + sponsor + co-sponsor, ~37 anchors on HB26-1126) lives further down
+  under `<p>Prime Sponsor</p>` / `<p>Sponsor</p>` / `<p>Co-Sponsor</p>` category labels.
+  `extractPageSponsors()` in `src/lib/gun-bill/sponsor-links.ts` captures h2→next-section and
+  extracts only prime anchors.
 - Status badge: `.final-status-badge-* p`
 - Most recent bill PDF: first `<a class="ext-link-pdf">` in `#bill-activity-bill-text` "All Versions" table
   -> relative `/bill_files/{id}/download` (resolve to https://leg.colorado.gov/bill_files/{id}/download)

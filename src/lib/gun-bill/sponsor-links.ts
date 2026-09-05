@@ -91,27 +91,33 @@ export function parseSponsorToken(token: string): { chamber: Chamber | null; sur
 export function extractPageSponsors(html: string): PageSponsor[] {
   const primeSponsors: PageSponsor[] = [];
 
-  // Find the "Sponsors" section and "Prime Sponsor" heading
-  // Extract only links that appear under "Prime Sponsor" before next heading
-  const sponsorsSectionRegex = /<h3[^>]*>Sponsors<\/h3>[\s\S]*?<h4[^>]*>Prime Sponsor<\/h4>[\s\S]*?(?=<h4[^>]*>Sponsor<\/h4>|<h4[^>]*>Co-Sponsor<\/h4>|<h3[^>]*>)/;
-  const sponsorsMatch = html.match(sponsorsSectionRegex);
+  // Find the "Prime Sponsor" section and extract only links under it
+  // The structure is: <h2>Prime Sponsors</h2> → <a> → <div> → <p class="prime-sponsor-name">Name</p> → </div> → </a> → <p>Prime Sponsor</p>
+  const primeSponsorRegex = /<h2[^>]*>Prime Sponsors<\/h2>[\s\S]*?(?=(<p>Prime Sponsor<\/p>|<p>Sponsor<\/p>|<p>Co-Sponsor<\/p>|<h2|$))/;
+  const primeSponsorMatch = html.match(primeSponsorRegex);
 
-  if (!sponsorsMatch) {
+  if (!primeSponsorMatch) {
     // Fallback: return empty array if Prime Sponsor section not found
     return [];
   }
 
-  const primeSponsorSection = sponsorsMatch[0];
+  const primeSponsorSection = primeSponsorMatch[0];
 
   // Extract all /legislators/{slug} anchors from the Prime Sponsor section
-  const slugRegex = /<a[^>]*href=["']\/legislators\/([^"']+)["'][^>]*>(.*?)<\/a>/gi;
+  // The name is in the nested <p class="prime-sponsor-name"> element inside the anchor
+  const anchorRegex = /<a[^>]*href="\/legislators\/([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
   let match;
 
-  while ((match = slugRegex.exec(primeSponsorSection)) !== null) {
+  while ((match = anchorRegex.exec(primeSponsorSection)) !== null) {
     const slug = match[1];
-    const displayName = match[2]?.trim() || slug;
+    const innerHtml = match[2];
+    
+    // Extract the name from <p class="prime-sponsor-name"> inside the anchor
+    const nameMatch = innerHtml.match(/prime-sponsor-name'>([\s\S]*?)</);
+    const displayName = nameMatch ? nameMatch[1].trim().replace(/\s+/g, ' ') : slug;
+    
     const displayText = displayName.toLowerCase();
-    // Extract surname from display name (format: "Last, First")
+    // Extract surname from display name (format: "Last, First" or "First Last")
     const surname = displayName
       .split(/\s+/)
       .filter(w => !/^[A-Za-z]\.$/.test(w))
