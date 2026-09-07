@@ -4,14 +4,14 @@
 You will create a gun bill catalog for the Armed Colorado website. This catalog will consist of tables on a single web page listed in reverse chronological order that displays information about the various gun bills for that year. 
 
 ## Agent System
-Your agentic system is a hermes agent running qwen3-coder-next as an unsloth UD-Q4-K_XL quant. The unsloth writeup can be found here: https://unsloth.ai/docs/models/qwen3-coder-next.md?displayAgentInstructions=false and the hermes agent writeup can be found here: https://hermes-agent.nousresearch.com/docs/assets/files/llms-7240021af84660c2a79f9fdaf65e9e8f.txt.
+Your agentic system is a hermes agent running Qwen3.8-27B as an unsloth UD-Q6_K_M quant. The unsloth writeup can be found here: https://unsloth.ai/docs/models/qwen3.8 and the hermes agent writeup can be found here: https://hermes-agent.nousresearch.com/docs/assets/files/llms-7240021af84660c2a79f9fdaf65e9e8f.txt.
 
-Fully review the hermes agent writeup and the qwen3-code-next writeup, understand your capabilities for both the model and hermes, and utilize your capabilities in the execution of this mission. You must do this first before writing any code. 
+Fully review the hermes agent writeup and the Qwen3.8 writeup, understand your capabilities for both the model and hermes, and utilize your capabilities in the execution of this mission. You must do this first before writing any code. 
 
 
 ---
 ## Reference Materials
-- [unsloth writeup of qwen3-coder-next](https://unsloth.ai/docs/models/qwen3-coder-next.md?displayAgentInstructions=false)
+- [unsloth writeup of Qwen3.8-27B](https://unsloth.ai/docs/models/qwen3.8)
 - [hermes agent writeup](https://hermes-agent.nousresearch.com/docs/assets/files/llms-7240021af84660c2a79f9fdaf65e9e8f.txt)
 - [rocky mountain gun owners (RMGO) billwatch]( https://hermes-agent.nousresearch.com/docs/assets/files/llms-7240021af84660c2a79f9fdaf65e9e8f.txt.)
 - [colorado general assembly bill search](https://leg.colorado.gov/bills/bill-search)
@@ -20,7 +20,7 @@ Fully review the hermes agent writeup and the qwen3-code-next writeup, understan
 ---
 ## Methodology
 ### Skills and Tools
-- [unsloth writeup of qwen3-coder-next](https://unsloth.ai/docs/models/qwen3-coder-next.md?displayAgentInstructions=false) for model tools.
+- [unsloth writeup of Qwen3.8-27B](https://unsloth.ai/docs/models/qwen3.8) for model tools.
 - [hermes agent writeup](https://hermes-agent.nousresearch.com/docs/assets/files/llms-7240021af84660c2a79f9fdaf65e9e8f.txt) for hermes agent tools, skills, and capabilities.
 - It is ok to copy data from RMGO website.
 - [colorado general assembly bill search](https://leg.colorado.gov/bills/bill-search) is the ground truth.

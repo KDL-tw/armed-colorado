@@ -2,13 +2,13 @@
 
 ## Agent System
 
-Your agentic system is a hermes agent running qwen 3 code next as an unsloth quant. The unsloth writeup can be found here:
-- https://unsloth.ai/docs/models/qwen3-coder-next
+Your agentic system is a hermes agent running Qwen3.8-27B as an unsloth UD-Q6_K_M quant. The unsloth writeup can be found here:
+- https://unsloth.ai/docs/models/qwen3.8
 
 and the hermes agent writeup can be found here:
 - https://hermes-agent.nousresearch.com/docs/assets/files/llms-7240021af84670c2a79f9fdaf65e9e8f.txt
 
-Fully review the hermes agent writeup and the glm 4.7 flash BF16 writeup, understand your capabilities for both the model and hermes, and utilize your capabilities in the execution of this mission. You must do this first before writing any code.
+Fully review the hermes agent writeup and the Qwen3.8 writeup, understand your capabilities for both the model and hermes, and utilize your capabilities in the execution of this mission. You must do this first before writing any code.
 
 ## Mission
 
