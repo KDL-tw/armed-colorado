@@ -4,7 +4,7 @@
     "bills": [
       {
         "billNumber": "HB26-1126",
-        "title": "Requirements for Firearms Dealers",
+        "title": "Concerning requirements for dealing firearms.",
         "summary": "Requires firearms dealers to hold a state dealer permit for any firearm transfer, and extends the permit's background qualifications and training obligations to responsible persons and to contractors who perform employee duties involving firearms. Expands retail record-keeping from pistols and revolvers to all firearm transactions, permits electronic records, and bars any state agency from using dealer records to build a firearm ownership registry. Authorizes the department of revenue to fine dealers up to $75,000 for repeat violations of dealer requirements committed on or after January 1, 2027. Dealers must also secure large-capacity magazines, implement department-approved security measures beginning October 1, 2027, and report any theft or loss of a firearm within 48 hours of discovering it.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -29,11 +29,12 @@
             "name": "Sen. Cathy Kipp",
             "slug": "cathy-kipp"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1265",
-        "title": "Law Enforcement National Electronic Tracing System & Share Program",
+        "title": "Concerning a law enforcement agency's use of the United States bureau of alcohol, tobacco, firearms, and explosives' national electronic tracing system.",
         "summary": "Requires every local law enforcement agency to register, on or before September 1, 2026, for the federal bureau of alcohol, tobacco, firearms, and explosives' national electronic tracing system. Each agency must then transmit information about every firearm it recovers or confiscates into that tracing system within 90 days of the recovery or confiscation. Certain exceptions apply to the transmission requirement.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -63,11 +64,12 @@
             "name": "Sen. William Lindstedt",
             "slug": "william-lindstedt"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1302",
-        "title": "Colorado Bureau of Investigation Firearms InstaCheck Unit Operating Hours",
+        "title": "Concerning the Colorado bureau of investigation's firearms background check operating hours.",
         "summary": "Removes the statutory mandate that the Colorado bureau of investigation's firearms background check unit remain open 12 hours a day, letting the bureau set operating hours that best meet its business needs for timely processing. Requires the bureau to place each background check request into the processing queue immediately and to accept requests every calendar day except Thanksgiving and Christmas. Also requires an annual report to the house and senate judiciary committees covering processing times, operating hours, system outages, and efficiency measures.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -94,11 +96,12 @@
             "name": "Sen. Cathy Kipp",
             "slug": "cathy-kipp"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1144",
-        "title": "Prohibit Three-Dimensional Printing Firearms & Components",
+        "title": "Concerning measures to prohibit the use of three-dimensional printing to manufacture firearms.",
         "summary": "Defines three-dimensional printing to include both additive and subtractive manufacturing. Prohibits knowingly manufacturing or producing a potentially functioning firearm, unfinished frame or receiver, large-capacity magazine, or rapid-fire device by three-dimensional printing, with exemptions for federally licensed firearm manufacturers and accredited gunsmithing programs, their instructors, and their students. Makes a first violation a class 1 misdemeanor and a second or subsequent offense a class 5 felony. The prohibitions reach only potentially functional firearms and firearm components.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -128,11 +131,12 @@
             "name": "Sen. Katie Wallace",
             "slug": "katie-wallace"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB26-004",
-        "title": "Expand List of Petitioners for Protection Order",
+        "title": "Concerning who may petition a court for an extreme risk protection order.",
         "summary": "Adds a co-responder who participates in a co-responder community response to the list of community members who may petition a court for an extreme risk protection order. Establishes health-care facilities, behavioral health treatment facilities, school districts, the state charter school institute, K-12 charter schools, private schools, and institutions of higher education as institutional petitioners. Institutional petitioners may petition a court for an extreme risk protection order in the same manner as other listed community members.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -162,11 +166,12 @@
             "name": "Rep. Jenny Willford",
             "slug": "jenny-willford"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1250",
-        "title": "Procedures Related to Civil Asset Forfeiture",
+        "title": "Concerning procedures relating to state action resulting in the relinquishment of private property, and, in connection therewith, making an appropriation.",
         "summary": "Requires one or more criminal charges to be brought against a property owner before any nuisance abatement or forfeiture proceeding, and tightens the noninnocent-owner exception so a conviction of the nonowner criminal defendant must come first. Gives indigent forfeiture defendants a right to appointed defense counsel, provided through a contracted legal-services vendor and paid from a new forfeiture defense counsel fund capped at $500,000. Changes the split of forfeited proceeds to 50% for the local government, 25% for the defense counsel fund, and 25% for the local behavioral health administrative services organization. Appropriates $556,750 to the judicial department for forfeiture defense contracting and $55,000 for forfeiture portal administration.",
         "position": "Support",
         "status": "Signed into Law",
@@ -196,11 +201,12 @@
             "name": "Sen. Katie Wallace",
             "slug": "katie-wallace"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB26-043",
-        "title": "Record Keeping & Regulation of Sale of Firearm Barrel",
+        "title": "Concerning the regulation of firearm barrel transfers, and, in connection therewith, creating a criminal penalty for the unlawful sale of a firearm barrel.",
         "summary": "Requires a firearm barrel to be sold or transferred in person by a federally licensed firearm dealer, and bars anyone else from possessing a barrel with the intent to sell or offer to transfer it. Makes unlawful sale of a firearm barrel and unlawful possession with intent to sell each an unclassified misdemeanor. Requires purchasers to be at least 18 years old and legally eligible to buy a firearm under state and federal law, subject to exceptions. Dealers must keep a record of every barrel sale or transfer for at least five years, using a form the Colorado bureau of investigation is directed to create.",
         "position": "Oppose",
         "status": "Dead",
@@ -224,11 +230,12 @@
             "name": "Rep. Kyle Brown",
             "slug": "kyle-brown"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1321",
-        "title": "Modify School Security Grant Program",
+        "title": "Concerning modification of the school security disbursement program.",
         "summary": "Narrows the definition of an eligible nonprofit organization under the school security disbursement program to organizations based in Colorado that provide school safety incident response, violence prevention, and behavioral health training at no cost to local education providers, law enforcement agencies, and other first responders. Requires the department of public safety to disburse all awarded grant money for the upcoming school year no later than August 1 of that year. Directs the department to give priority to applicants that commit to providing their training at no charge.",
         "position": "Oppose",
         "status": "Dead",
@@ -252,11 +259,12 @@
             "name": "Sen. Lisa Cutter",
             "slug": "lisa-cutter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1108",
-        "title": "Colorado Bureau of Investigation Access Federal Fingerprint Search Service",
+        "title": "Concerning authorizing the Colorado bureau of investigation to access the federal bureau of investigation's fingerprint search service allowing authorized agencies to receive notification of activity on individuals who have submitted to a background check.",
         "summary": "Authorizes the Colorado bureau of investigation to participate in the federal bureau of investigation's rap back service. That service lets authorized agencies receive notification of activity on individuals who have submitted to a fingerprint-based criminal history record check. Participation gives the bureau access to the federal notification system on behalf of those authorized agencies.",
         "position": "Oppose",
         "status": "Dead",
@@ -285,11 +293,12 @@
             "name": "Sen. Janice Rich",
             "slug": "janice-rich"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB26-070",
-        "title": "Ban Government Access Historical Location Information Database",
+        "title": "Concerning prohibiting a government entity from accessing a database that stores historical location information.",
         "summary": "Prohibits a government entity from accessing any database that reveals an individual's or a vehicle's historical location information, subject to exceptions. Bars sharing that information with third parties or with government agencies outside the entity's jurisdiction, and exempts historical location information from disclosure under the Colorado Open Records Act. Requires each collecting entity to adopt a compliance policy, and creates an enforcement action for the attorney general. Information obtained in violation of the prohibitions is inadmissible at trial.",
         "position": "Support",
         "status": "Dead",
@@ -318,11 +327,12 @@
             "name": "Rep. Kenny Nguyen",
             "slug": "kenny-nguyen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1037",
-        "title": "Ban Government Purchase of Personal Data from Third Party",
+        "title": "Concerning prohibiting a government entity from obtaining certain personal data from a third party for use by a government entity in exchange for anything of value.",
         "summary": "Prohibits law enforcement and other government entities from purchasing, or otherwise obtaining for anything of value, certain personal data from third parties, and bars such entities from sharing individuals' personal data with one another. Creates exceptions for data obtained under a judicial warrant, subpoena, or court order, for data an individual consents to share, and for emergencies involving a threat to life or physical safety. Establishes a private cause of action for anyone whose data is obtained or shared in violation of the prohibitions. Personal data obtained or shared unlawfully is excluded from trial and other court proceedings, subject to exceptions.",
         "position": "Support",
         "status": "Dead",
@@ -346,11 +356,12 @@
             "name": "Sen. Lisa Cutter",
             "slug": "lisa-cutter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1212",
-        "title": "Constitutional Carry of Handgun",
+        "title": "Concerning the authority to carry a handgun.",
         "summary": "Grants a person who is at least 18 years old and legally permitted to possess a handgun the same authority to carry a concealed handgun as a permit holder, without requiring a permit. Keeps permits available for use in other states that recognize Colorado permits, lowers the minimum permit age to 18, and lowers the recognition age for out-of-state permits from 21 to 18. Makes permits valid for the life of the holder, converts existing permits to lifetime permits, and repeals permit renewal provisions along with the temporary emergency permit. Repeals local authority to regulate open or concealed carry, including the authority of special districts and higher education governing boards.",
         "position": "Support",
         "status": "Dead",
@@ -369,11 +380,12 @@
             "name": "Rep. Carlos Barron",
             "slug": "carlos-barron"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1072",
-        "title": "Right to Firearm Possession & Elimination of Extreme Risk Protection Orders",
+        "title": "Concerning an individual's right to possess a firearm to the extent permitted by the constitution, and, in connection therewith, eliminating extreme risk protection orders.",
         "summary": "Codifies an individual's right to own, possess, and use a firearm. Frames that right as extending to the maximum extent permissible under the state and federal constitutions. Repeals both temporary extreme risk protection orders and standard extreme risk protection orders.",
         "position": "Support",
         "status": "Dead",
@@ -387,11 +399,12 @@
             "name": "Rep. Scott Slaugh",
             "slug": "scott-slaugh"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB26-1021",
-        "title": "Second Amendment Protection Act",
+        "title": "Concerning measures to protect second amendment rights.",
         "summary": "Repeals a broad range of state firearm and weapons laws, including restrictions on carrying firearms at polling places, drop boxes, government buildings, child care centers, and schools, along with the offense of unlawfully carrying a concealed weapon. Repeals the firearm industry responsible-conduct standards enacted in 2023 and restores the product liability rules that existed before them, and also repeals the 3-day waiting period, the minimum purchase age of 21, private-transfer background checks, storage requirements, unserialized firearm provisions, ammunition sales regulation, magazine prohibitions and marking rules, the state dealer permit system, and gun show regulations. Eliminates the office of gun violence prevention and the safe storage education campaign, and revokes local governments' authority to regulate the sale, purchase, transfer, or possession of firearms, ammunition, or firearm components. Directs the state treasurer to refund fees paid into the repealed firearms training cash fund and to return gifts and donations that funded the repealed voluntary purchase-waiver program.",
         "position": "Support",
         "status": "Dead",
@@ -418,11 +431,12 @@
             "name": "Sen. Lynda Zamora Wilson",
             "slug": "lynda-zamora-wilson"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB26-147",
-        "title": "Lobbyist Regulation",
+        "title": "Concerning the regulation of lobbyists, and, in connection therewith, making an appropriation.",
         "summary": "Requires volunteer lobbyists to register and file a statement attesting they are uncompensated, and exempts them from registration fees. Lets the judicial department designate judicial lobbyists, and requires legislative liaisons, judicial lobbyists, and governor's lobbyists to register annually with the secretary of state and file monthly disclosure statements identifying the bills they lobby on and their positions, with position changes due within 72 hours. Prohibits statewide elected officials and members of the general assembly from serving as a legislative liaison or governor's lobbyist for two years after leaving office. Appropriates $91,000 from the department of state cash fund to the department of state.",
         "position": "Amend",
         "status": "Dead",
@@ -451,11 +465,12 @@
             "name": "Rep. Meg Froelich",
             "slug": "meg-froelich"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB26-071",
-        "title": "Use of Surveillance Technology by Law Enforcement",
+        "title": "Concerning the regulation of law enforcement surveillance technologies to protect citizens.",
         "summary": "Establishes the Surveillance Accountability and Freedom Ensured Act, under which a law enforcement agency may use surveillance technology only for lawful purposes directly related to public safety or for an active investigation. Restricts specific technologies: facial recognition requires a warrant or an exigent imminent threat to public safety, traffic cameras and license plate readers are limited to public spaces and specific enforcement purposes, and drone cameras must follow federal aviation regulations. Limits how long collected data may be stored by technology type, prohibits selling surveillance data, allows sharing with another agency only for an active investigation, and requires permanent destruction of data at the end of the retention period. Creates civil penalties, entitles residents to request compliance information at no cost, and requires the attorney general to audit agencies every two years and to bring civil enforcement actions.",
         "position": "Amend",
         "status": "Dead",
@@ -469,7 +484,8 @@
             "name": "Sen. Lynda Zamora Wilson",
             "slug": "lynda-zamora-wilson"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -479,7 +495,7 @@
     "bills": [
       {
         "billNumber": "SB25-003",
-        "title": "P ermit to Purchase",
+        "title": "Concerning prohibited activity involving semiautomatic firearms, and, in connection therewith, prohibiting the manufacture, distribution, transfer, sale, and purchase of specified semiautomatic firearms, classifying a device that increases the rate of fire of a semiautomatic firearm as a dangerous weapon, and making an appropriation.",
         "summary": "Defines a specified semiautomatic firearm as a semiautomatic rifle or shotgun with a detachable magazine, or a gas-operated semiautomatic handgun with a detachable magazine, and excludes certain firearms and models from the definition. Prohibits knowingly manufacturing, distributing, transferring, selling, or purchasing such a firearm on or after August 1, 2026, while allowing transfers to residents of other states or to federally licensed dealers. Exempts transactions involving law enforcement, corrections, armored vehicle businesses, military forces, gunsmiths, educational programs, museums and historical societies, transfers by operation of law or upon death, film props, and purchasers who have completed hunter education plus qualifying firearm safety courses. Makes violations a class 2 misdemeanor, rising to a class 6 felony for a second or subsequent offense.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -509,11 +525,12 @@
             "name": "Rep. Meg Froelich",
             "slug": "meg-froelich"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1171",
-        "title": "NICS Expansion",
+        "title": "Concerning adding motor vehicle theft to the list of offenses that apply to the offense of possession of weapons by previous offenders.",
         "summary": "Under existing law, a person may not possess a firearm after conviction or adjudication for certain felonies. Adds motor vehicle theft in the first degree to the list of offenses that trigger the possession prohibition. Allows a person to petition a court for an order restoring the right to possess, use, or carry a firearm once 10 years have passed since the final disposition of the proceedings or release from supervision for that offense.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -543,11 +560,12 @@
             "name": "Sen. Dafna Michaelson Jenet",
             "slug": "dafna-michaelson-jenet"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB25-034",
-        "title": "\"Self Red Flag\"",
+        "title": "Concerning voluntarily waiving the right to purchase a firearm.",
         "summary": "Establishes a process for a person to voluntarily waive the right to purchase a firearm, and requires the Colorado bureau of investigation to deny transfers to that person while the waiver is in effect. Directs the bureau to build an online portal for filing, updating, and revoking waivers, to verify the filer's identity, and to enter waivers into the national instant criminal background check system and other purchaser-screening systems. A waiver can be revoked through the portal but stays in effect for 30 days after the revocation is accepted, and the filer may designate a contact to be notified of purchase attempts or revocations. Attempting to buy a firearm while under a waiver is a civil infraction with a $25 maximum fine, and the whole process is contingent on the department receiving $200,000 in gifts, grants, or donations to build and run the portal.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -572,11 +590,12 @@
             "name": "Rep. Jamie Jackson",
             "slug": "jamie-jackson"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB25-295",
-        "title": "Guns & Ammo Tax Money Transfer",
+        "title": "Concerning transferring money received through the firearms and ammunition excise tax into the mental and behavioral health excise tax cash fund, and, in connection therewith, making and reducing an appropriation.",
         "summary": "Creates a behavioral and mental health excise tax cash fund to hold revenue from the firearm and ammunition excise tax approved by Proposition KK for behavioral health purposes. Redirects the $8 million that current law moves from that tax into the older behavioral and mental health cash fund into the new fund instead. Requires the state treasurer to transfer the Proposition KK money already sitting in the old fund into the new fund. Advances the fund's repeal date from July 1, 2032 to July 1, 2027.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -606,11 +625,12 @@
             "name": "Rep. Emily Sirota",
             "slug": "emily-sirota"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB25-158",
-        "title": "State Disposal of Weapons",
+        "title": "Concerning creating state procurement policies for state agencies in the treatment of certain items related to weapons.",
         "summary": "Creates state procurement practices for firearms and items regulated under the federal National Firearms Act. Applies the practices to any contract the state sources, enters into, awards, amends, renews, or extends on or after January 1, 2026 for procuring those items. Requires contractors and bidders to comply with specified requirements, make disclosures, and provide documentation confirming they follow safe business practices during the contracting process, the sourcing process, or on request during a contract's term. Authorizes the attorney general to help the department of personnel implement the practices and allows the department to adopt rules.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -640,11 +660,12 @@
             "name": "Rep. Kyle Brown",
             "slug": "kyle-brown"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1098",
-        "title": "Protection Order Privacy Violation ",
+        "title": "Concerning establishing an automated protection order notification system in the division of criminal justice.",
         "summary": "Requires the division of criminal justice to establish an automated protection order notification system providing protected persons, their immediate family, and other registered users with information about criminal and civil protection orders. The system must deliver information in English and Spanish by telephone, email, text message, or mobile application, and the division may contract with a third party to provide the functionality. Public entities are immune from liability for releasing or failing to release information through the system. The division cannot launch the system until it receives enough money from gifts, grants, donations, including federal funds, or the Colorado crime victim services fund to operate it for at least a year.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -674,11 +695,12 @@
             "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1225",
-        "title": "2nd Amendment Gag Act ",
+        "title": "Concerning the creation of the \"Freedom From Intimidation In Elections Act\" to prohibit an individual from intimidating, threatening, or coercing any individual for engaging in certain election-related activities.",
         "summary": "Prohibits any individual from intimidating, threatening, or coercing, or attempting to intimidate, threaten, or coerce, a person for voting or attempting to vote, for urging or aiding someone to vote, for exercising election administration duties such as counting, canvassing, or certification, or for their past or present role in administering elections. Creates a presumption that a person carrying a visible firearm, imitation firearm, or toy firearm while interacting with or observing those activities is engaging in prohibited intimidation, rebuttable by a preponderance of the evidence, with carve-outs for law enforcement officers and uniformed security guards acting within their authority. Allows enforcement by an aggrieved individual, election officials, the secretary of state, or the attorney general, and permits contemporaneous private suits alongside government actions. Authorizes courts to enjoin a defendant's use or carrying of firearms beyond the existing prohibitions near polling locations, drop boxes, and certain government buildings.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -708,11 +730,12 @@
             "name": "Sen. Lindsey Daugherty",
             "slug": "lindsey-daugherty"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1250",
-        "title": "Mandatory Anti-Gun School Curriculum ",
+        "title": "Concerning providing materials about gun violence prevention to parents with students in K-12.",
         "summary": "Requires the office of gun violence prevention to post its prevention materials in an accessible format on its website so school districts, boards of cooperative services, charter schools, and the Colorado school for the deaf and the blind can distribute them. Requires each local education provider to give the materials to parents, guardians, and legal custodians of students in writing or electronically at the start of every school year and to post the materials or a link on its website. Beginning in January 2026, the department of public health and environment must include information about the materials in its annual SMART Act hearing presentation.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -737,11 +760,12 @@
             "name": "Sen. Lisa Cutter",
             "slug": "lisa-cutter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1314",
-        "title": "Gun Store Gestapo",
+        "title": "Concerning peace officer status for certain department of revenue employees.",
         "summary": "Expands the peace officer authority of the auto industry investigator and the auto industry division director in the department of revenue from limited investigative functions to enforcement of all state laws, and requires both to be certified by the peace officer standards and training board. Extends that full peace officer status and certification requirement to agents in charge, criminal investigator supervisors, and criminal investigators in the auto industry division. Designates the director and deputy directors of the new firearms dealer division as peace officers who may be certified. Makes the firearms dealer division's agents in charge, criminal investigator supervisors, and criminal investigators peace officers who must obtain that certification.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -766,11 +790,12 @@
             "name": "Sen. Cathy Kipp",
             "slug": "cathy-kipp"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB25-205",
-        "title": "Local Serial Number Database Mandate",
+        "title": "Concerning a firearm serial number check, and, in connection therewith, creating a standardized procedure for a federal firearms licensee to request a firearm serial number check and imposing a penalty under certain circumstances if a licensee does not file a report with law enforcement.",
         "summary": "Establishes a procedure letting a federal firearms licensee request a serial number check before purchasing a firearm from an individual, with the local police department or county sheriff's office required to complete the check within 3 days. The check must cover whether the firearm is stolen, lost, or involved in an open criminal investigation, and licensees inside city limits go to the police department while those in unincorporated areas go to the sheriff. Allows agencies to charge a reasonable fee and permits licensees to run the search themselves if the federal government grants them access to its firearm tracing program, subject to the same reporting duties. Imposes a penalty on licensees who fail to report to law enforcement when they know or should know that a person sold, or attempted to sell, a firearm that is stolen, lost, or under investigation.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -795,11 +820,12 @@
             "name": "Rep. William Lindstedt",
             "slug": "william-lindstedt"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1132",
-        "title": "Unsuspecting Veterans' Red Flag Scheme",
+        "title": "Concerning creating the military family behavioral health grant program in the veterans mental health services program, and, in connection therewith, reducing an appropriation.",
         "summary": "Expands the veterans mental health services program to award grants to local nonprofit organizations that establish or expand community behavioral health programs. The programs serve service members, veterans, and family members of service members and veterans. Reduces the appropriation for veterans mental health services in the long appropriations bill by $5 million, except where that line item is already smaller than $5 million or is absent entirely.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -829,11 +855,12 @@
             "name": "Sen. Jeff Bridges",
             "slug": "jeff-bridges"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB25-059",
-        "title": "Federal Gun Control Money Mandate",
+        "title": "Concerning measures to support the state's response to mass shootings, and, in connection therewith, to support services for victims of mass shootings.",
         "summary": "Requires the division of criminal justice in the department of public safety to apply for and accept federal and other available grant money. Directs that the money be used to improve the state's response to mass shootings. Grants under the act include funding to support services for victims of mass shootings.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -858,11 +885,12 @@
             "name": "Rep. Michael Carter",
             "slug": "michael-carter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1238",
-        "title": "Gun Show Strangulation Act ",
+        "title": "Concerning requirements for gun shows.",
         "summary": "Requires gun show promoters to prepare a security plan and submit it to every local law enforcement agency with jurisdiction over the show. Imposes promoter duties including liability insurance, monitored entrances and exits, video surveillance of the parking area and main entrance, barring minors under 18 unless accompanied by a parent, grandparent, or guardian, verifying that firearms leaving the show comply with the 3-day waiting period, and posting required notices. Makes violating any of these provisions unlawful gun show management, a class 2 misdemeanor that rises to a class 1 misdemeanor for repeat offenses and carries a 5-year ban on promoting shows. Requires vendors to be federally licensed dealers or state dealer permit holders who have completed the promoter's certification, with unlawful vendor participation punished the same way, while excluding collectors' shows limited to curios, relics, and antique firearms.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -892,11 +920,12 @@
             "name": "Sen. Jessie Danielson",
             "slug": "jessie-danielson"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1133",
-        "title": "Under 21 Ammo Ban",
+        "title": "Concerning requirements for the retail sale of ammunition for firearms, and, in connection therewith, establishing requirements for the delivery of ammunition sold at retail.",
         "summary": "Requires retail ammunition to be accessible to customers only with vendor assistance and prohibits selling ammunition at retail to anyone under 21. Carves out exceptions for 18-to-20-year-olds buying in person at shooting ranges, military members and veterans, people with hunter education certification, protection-order holders, those born on or before January 28, 2007, on-duty peace officers, and rimfire ammunition. Makes a violation a civil infraction, with a second or subsequent violation a class 1 misdemeanor. Requires shippers to use delivery services that verify the recipient is at least 21, and requires deliverers to verify age, obtain signed acknowledgment of receipt, and follow federal labeling and packaging rules, unless the sender failed to notify them that the package contains ammunition.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -926,11 +955,12 @@
             "name": "Sen. Cathy Kipp",
             "slug": "cathy-kipp"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1062",
-        "title": "Penalty for Theft of Firearms",
+        "title": "Concerning the penalty for theft of firearms, and, in connection therewith, making an appropriation.",
         "summary": "Removes firearm theft from the sentencing structure that scales theft penalties to the value of the stolen item. Makes theft of a firearm a class 6 felony regardless of the firearm's value. Appropriates $324,225 from the general fund to the judicial department to implement the change.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -960,11 +990,12 @@
             "name": "Sen. Byron Pelton",
             "slug": "byron-pelton"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1258",
-        "title": "Scientists' Right to Ban Hunting",
+        "title": "Concerning requiring the parks and wildlife commission to use the best available science to manage wildlife.",
         "summary": "Existing wildlife statutes commit the state to relying on hunting, trapping, and fishing as the primary methods for harvesting wildlife. Requires the parks and wildlife commission to instead use the best available wildlife and ecological science when adopting rules. Directs that those rules benefit wildlife, whole ecosystem health, and all Coloradans.",
         "position": "Oppose",
         "status": "Dead",
@@ -984,11 +1015,12 @@
             "name": "Rep. Elizabeth Velasco",
             "slug": "elizabeth-velasco"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1128",
-        "title": "Gun Safe Tax Credit Database",
+        "title": "Concerning the creation of an income tax credit for the purchase of a device capable of locking that safely stores firearms.",
         "summary": "Creates an income tax credit equal to the purchase price of a firearm safety device, capped at $200, for eligible taxpayers who buy the device from a federally licensed dealer. Defines a firearm safety device as lockable storage for a firearm that opens only by key, combination, or similar means. Makes the credit available for income tax years 2027 and 2028, with any excess credit carried forward for up to 5 years. Limits the aggregate credits claimable in any income tax year to $5 million.",
         "position": "Oppose",
         "status": "Dead",
@@ -1013,11 +1045,12 @@
             "name": "Sen. Kyle Mullica",
             "slug": "kyle-mullica"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1262",
-        "title": "Public Safety Obstruction Board",
+        "title": "Concerning the regulation of persons engaged in providing private security services.",
         "summary": "Creates a state board of private security services in the department of regulatory agencies to regulate private security individuals and businesses, with licenses for event and commercial security officers and registrations for employers required starting August 1, 2026. Allows only licensed commercial security officers to carry firearms or nonlethal weapons, and only after obtaining a board-issued weapon endorsement, while POST-certified law enforcement officers are exempt from both requirements. Sets qualification requirements including fingerprint-based criminal history checks for disqualifying offenses, completed training with a passed assessment, and minimum age, plus experience, liability insurance, and an employee-training policy for employer registrations. Lets the board issue provisional licenses allowing supervised work pending background check results, lets holders of substantially equivalent municipal licenses obtain state licenses without additional training, and authorizes the board to adopt rules, approve training, and issue and renew credentials.",
         "position": "Oppose",
         "status": "Dead",
@@ -1037,11 +1070,12 @@
             "name": "Sen. Mike Weissman",
             "slug": "mike-weissman"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB25-086",
-        "title": "Regulation On Posting About Guns",
+        "title": "Concerning protections for users of social media, and, in connection therewith, establishing certain requirements for social media companies.",
         "summary": "Establishes requirements for social media companies and their platforms to protect users, including publishing policies with mandated contents for each platform and relocating an existing minor-engagement disclosure function enacted in 2024. Requires annual reports to the department of law on the published policies and their violations, plus annual public reports with data on how minor users used each platform, with commercially reasonable efforts to identify users' age categories. Compels a company notified of a user's alleged violation of its policies or of state law to decide within 48 hours whether the violation occurred and to remove the user within 24 hours of that determination. Requires platforms with at least one million monthly users to give Colorado law enforcement a streamlined contact process and, under specified conditions, to comply with search warrants within 72 hours, and makes violations unfair or deceptive trade practices.",
         "position": "Oppose",
         "status": "Dead",
@@ -1071,11 +1105,12 @@
             "name": "Rep. Anthony Hartsook",
             "slug": "anthony-hartsook"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1067",
-        "title": "Civil Asset Forfeiture Reform ",
+        "title": "Concerning the \"Criminal Asset Forfeiture Act\".",
         "summary": "Replaces the existing public nuisance abatement statutes with a new criminal forfeiture framework. Permits forfeiture only when a defendant is convicted of unlawfully distributing, manufacturing, dispensing, or selling a controlled substance. Treats forfeiture as part of the defendant's criminal proceeding rather than a separate civil action. Specifies when personal property may be seized with or without process, sets duties and court procedures for seized property, allows disposition of assets and proceeds consistent with prior law, and limits seizures involving the federal government.",
         "position": "Support",
         "status": "Dead",
@@ -1095,11 +1130,12 @@
             "name": "Sen. Mark Baisley",
             "slug": "mark-baisley"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1164",
-        "title": "Constitutional Carry",
+        "title": "Concerning the authority to carry a handgun.",
         "summary": "Grants a person who is at least 18 years old and legally permitted to possess a handgun the same authority to carry a concealed handgun as a permit holder, without needing a permit. Keeps permits available for use in other states that recognize Colorado permits, sets the minimum permit age at 18, and lowers the recognition age for out-of-state permits from 21 to 18. Makes permits valid for the holder's lifetime, converts existing permits to lifetime permits, and repeals permit renewals along with the temporary emergency permit. Repeals local authority to regulate open or concealed carry, including the authority of special districts and higher education governing boards.",
         "position": "Support",
         "status": "Dead",
@@ -1114,11 +1150,12 @@
             "name": "Rep. Ron Weinberg",
             "slug": "ron-weinberg"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1055",
-        "title": "Gun Dealer Permit Repeal ",
+        "title": "Concerning repealing the requirements for dealing firearms, and, in connection therewith, repealing the requirement that a dealer have a state permit and repealing requirements for dealer employees.",
         "summary": "Repeals the firearms dealer requirements enacted in 2024, beginning with the state dealer permit needed to engage in the business of dealing firearms and the department of revenue's on-site inspections of permit holders. Eliminates the requirement that dealers secure firearms away from public access. Strikes the mandates to report suspected straw purchases and employee firearm thefts to law enforcement and the prohibitions on selling outside posted business hours or to persons under the influence. Also repeals annual training for dealers and firearm-handling employees, along with employee minimum qualifications and background checks.",
         "position": "Support",
         "status": "Dead",
@@ -1138,11 +1175,12 @@
             "name": "Sen. Mark Baisley",
             "slug": "mark-baisley"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1232",
-        "title": "Gun Free-Zone Accountability",
+        "title": "Concerning liability for harm suffered on another's property when a person is not allowed the means to defend themselves on the property.",
         "summary": "Makes an owner or person in control of property liable for damages when a person is harmed on the property in a way that person could have prevented had their arm of self-defense not been barred. Applies this liability rule to property that prohibits visitors from bringing arms of self-defense onto the premises. Waives sovereign immunity so that the same liability applies to public entities that own or control such property.",
         "position": "Support",
         "status": "Dead",
@@ -1157,11 +1195,12 @@
             "name": "Rep. Stephanie Luck",
             "slug": "stephanie-luck"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB25-1170",
-        "title": "Non-Profit Lobbying Regulation",
+        "title": "Concerning lobbying on behalf of a charitable tax-exempt nonprofit entity.",
         "summary": "Creates a new nonprofit lobbyist category, exempt from the registration and monthly disclosure requirements that apply to professional lobbyists, for lobbyists exclusively employed by a single nonprofit who lobby as an incidental part of their duties. Caps nonprofit lobbying at 30 days per state fiscal year, with no more than 20 of those days while the general assembly is in session. Requires the nonprofit entity to report to the secretary of state within 72 hours of lobbying, covering the lobbyist's name, the entity's legal name, the date, the matters lobbied, and the bill numbers involved along with the entity's position on them. Terminates the exemption for lobbyists or entities that stop meeting the qualification or timing limits.",
         "position": "Monitor",
         "status": "Dead",
@@ -1186,7 +1225,8 @@
             "name": "Sen. Faith Winter",
             "slug": "faith-winter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -1196,7 +1236,7 @@
     "bills": [
       {
         "billNumber": "SB24-131",
-        "title": "Expanding Gun Free Zones ( _Bruen_ Response Bill)",
+        "title": "Concerning prohibiting carrying a firearm in sensitive spaces recognized by the United States supreme court as places at which longstanding laws prohibited carrying firearms.",
         "summary": "Prohibits knowingly carrying a firearm, openly or concealed, in state legislative buildings, local government buildings, and courthouses, including their adjacent parking areas, making violations a class 1 misdemeanor. Exempts law enforcement officers, members of the armed forces and Colorado National Guard, security personnel, participants in lawful legal proceedings, and concealed handgun permit holders carrying in adjacent parking areas. Allows a local government to enact a law permitting carry in its own government buildings. Also prohibits knowingly carrying a firearm, openly or concealed, on the property of licensed child care centers other than family child care homes, public and private K-12 schools, and institutions of higher education, subject to exceptions.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1226,11 +1266,12 @@
             "name": "Rep. Mandy Lindsay",
             "slug": "mandy-lindsay"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1174",
-        "title": "Increased Requirements for Concealed Handgun Permits",
+        "title": "Concerning permits to carry a concealed handgun, and, in connection therewith, establishing standards for concealed handgun training classes.",
         "summary": "Tightens the training requirement for a concealed handgun permit: beginning July 1, 2025, a training class counts toward demonstrating competence only if it meets minimum standards and was completed within one year before the application, replacing the prior 10-year window. Allows a current peace officer certification to demonstrate competence instead. Defines an initial concealed handgun training class as an in-person law enforcement firearms safety course or a course taught by an instructor verified by a county sheriff, covering safe handling of firearms and ammunition, safe storage and child safety, shooting fundamentals, the laws governing purchase, ownership, transportation, use, and possession, the use of deadly force in self-defense, interacting with responding law enforcement, and avoiding and managing violent confrontations. Requires students to pass both a written competency exam and a live-fire exercise.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1255,11 +1296,12 @@
             "name": "Sen. Kyle Mullica",
             "slug": "kyle-mullica"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB24-066",
-        "title": "Gun Purchase Tracking",
+        "title": "Concerning a requirement that certain businesses with relationships with firearms merchants use the appropriate merchant category code.",
         "summary": "Requires payment networks that facilitate transactions to make the merchant category code for firearms and ammunition available to the merchant acquirers that process transactions for firearms merchants. Requires processors to assign that code to every firearms merchant they serve. Gives the attorney general's office exclusive enforcement authority, with a written notice of an alleged violation and a 30-day window to cure it under standards set by the act. If uncured, the attorney general may sue for a civil penalty of up to $10,000 per violation or for injunctive relief, with attorney fees and costs available to a prevailing plaintiff.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1284,11 +1326,12 @@
             "name": "Rep. Javier Mabrey",
             "slug": "javier-mabrey"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB24-003",
-        "title": "CBI Gestapo",
+        "title": "Concerning the authority of the Colorado bureau of investigation to investigate illegal activity involving firearms, and, in connection therewith, making an appropriation.",
         "summary": "Authorizes the Colorado bureau of investigation to investigate particular illegal activity involving firearms anywhere in the state. Requires the bureau to communicate with the appropriate local law enforcement agency before taking investigative or enforcement action, to deconflict operations and assign responsibilities, and to collaborate with the local district attorney in the early stages. Requires bureau agents and employees who are peace officers to wear and activate body-worn cameras during any public-facing part of those investigations. Appropriates $1,477,127 from the general fund to the department of public safety for the investigations.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1313,11 +1356,12 @@
             "name": "Rep. Monica Duran",
             "slug": "monica-duran"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1348",
-        "title": "\"Safe Storage\" Vehicle Requirement",
+        "title": "Concerning a requirement to securely store a firearm in a vehicle.",
         "summary": "Prohibits knowingly leaving a handgun in an unattended vehicle unless it is stored in a locked hard-sided container out of plain view inside a locked vehicle, its locked trunk, or a locked recreational vehicle. Allows non-handgun firearms to be kept in a locked soft-sided container under the same conditions, provided a locking device is installed on the firearm itself, and gives persons with disabilities an exception to the hard-container rule. Exempts antique firearms, non-handguns in vehicles used for farm or ranch operations, persons living in the vehicle, peace officers and active armed forces members, and activities tied to lawful hunting. Makes unsafe storage of a firearm in a vehicle a civil infraction.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1347,11 +1391,12 @@
             "name": "Sen. Rhonda Fields",
             "slug": "rhonda-fields"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1349",
-        "title": "Guns and Ammo Tax",
+        "title": "Concerning a new excise tax related to firearms, and, in connection therewith, contingent on voter approval of the new tax and the retention by the state of all revenue generated by the new tax at the 2024 general election, levying an excise tax on the net taxable sales of gun dealers, gun manufacturers, and ammunition vendors from the retail sale in this state of any firearm, firearm precursor part, or ammunition, requiring the excise tax revenue to be spent for mental health services, including for military veterans and at-risk youth, school safety and gun violence prevention, and support services for victims of domestic violence and other violent crimes, and making an appropriation.",
         "summary": "Refers a ballot issue to voters at the November 2024 general election for a 6.5% excise tax on the net taxable retail sales of firearms, firearm precursor parts, and ammunition by dealers, manufacturers, and vendors. Dedicates the revenue, estimated at $39 million in the first fiscal year, to mental health services including for veterans and at-risk youth, school safety and gun violence prevention, and support services for victims of domestic violence and other violent crimes. Requires every vendor to file returns and remit the tax monthly beginning April 1, 2025, while excusing vendors whose annual retail sales of covered items do not exceed $20,000 until they cross that threshold. Exempts sales to peace officers, law enforcement agencies, and active duty military personnel from the tax.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1381,11 +1426,12 @@
             "name": "Sen. Janet Buckner",
             "slug": "janet-buckner"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1353",
-        "title": "State Permitting for Gun Shops",
+        "title": "Concerning requirements to engage in the business of dealing in firearms, and, in connection therewith, establishing a state firearms dealer permit and making an appropriation.",
         "summary": "Requires firearms dealers, beginning July 1, 2025, to hold a state firearms dealer permit to engage in the business of dealing firearms other than destructive devices, with unpermitted dealing an unclassified felony carrying a fine of up to $250,000. Conditions permit issuance on holding a federal firearms license, having no firearm or ammunition license revoked, suspended, or denied in the prior 3 years, and no violations of firearm laws in the 3 years before applying. Sets a $400 issuance fee, adjustable annually, with permits valid for 3 years. Requires the department of revenue to inspect a random 10% of permit holders on-site each year, permits unannounced inspections, and lists grounds for revoking a permit, including losing the federal license, refusing a required inspection, or specified conviction offenses.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1415,11 +1461,12 @@
             "name": "Sen. Dafna Michaelson Jenet",
             "slug": "dafna-michaelson-jenet"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1292",
-        "title": "\"Assault Weapons\" Ban",
+        "title": "Concerning prohibitions on certain firearms used in public mass shootings.",
         "summary": "Defines the term assault weapon and prohibits manufacturing, importing, purchasing, selling, offering to sell, or transferring ownership of one. Prohibits possession of a rapid-fire trigger activator. Sets a $250,000 penalty for a first violation and $500,000 for each subsequent violation. Allows sales or transfers only to an heir by bequest or intestate succession or to a licensed dealer who renders the weapon inoperable within 90 days, imposes a $750 civil penalty for unpermitted private sales on or after July 1, 2025, and requires permitted sellers and Colorado manufacturers to be reported to the department of revenue.",
         "position": "Oppose",
         "status": "Dead",
@@ -1444,11 +1491,12 @@
             "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1270",
-        "title": "Require \"Gun Owner Liability Insurance\" coverage",
+        "title": "Concerning a requirement that firearm owners maintain liability insurance, and, in connection therewith, requiring insurers to make coverage available in homeowners and renters insurance policies for damages resulting from accidental or unintentional discharge of a firearm.",
         "summary": "Requires firearm owners to maintain liability insurance covering losses or damages to persons other than the policyholder who are injured on the insured property by an accidental or unintentional discharge. Makes failure to maintain the coverage a civil infraction, with a $500 minimum fine for a first offense, half of which can be suspended upon obtaining coverage, and a $1,000 minimum fine for a second offense within 5 years. Provides an affirmative defense, and a court petition process, for persons denied coverage by two or more insurers or unable to afford it, where the person is likely to store, carry, and use firearms prudently and safely and has a gun safe or other secure container. Requires insurers to offer qualifying coverage within homeowners and renters insurance policies.",
         "position": "Oppose",
         "status": "Dead",
@@ -1473,11 +1521,12 @@
             "name": "Sen. Chris Hansen",
             "slug": "chris-hansen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1310",
-        "title": "Firearms on School Grounds",
+        "title": "Concerning measures to improve school safety, and, in connection therewith, establishing qualifications for school security officers and regulating firearm storage on school grounds.",
         "summary": "Lets a school district, charter school, or board of cooperative services employ or contract a school security officer only when it has a policy governing officers' engagement with students and the person has completed school security or school resource officer training and undergone a background check and psychological evaluation. Permits a school security officer to carry a handgun on school property only if the officer holds a valid concealed handgun permit, completes firearms training including ongoing in-service training, and passes the peace officer standards and training board's firearms skills test or an equivalent. Repeals the prior exception allowing school employees to carry deadly weapons while performing duties and instead expressly authorizes these officers to carry. Prohibits a school or law enforcement agency from storing firearms on the grounds of an elementary, middle, junior high, or high school.",
         "position": "Oppose",
         "status": "Dead",
@@ -1497,11 +1546,12 @@
             "name": "Rep. Eliza Hamrick",
             "slug": "eliza-hamrick"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HJR24-1024",
-        "title": "Article V Convention Call",
+        "title": "Concerning an application to the United States Congress for an article V convention of the states for proposing amendments to the United States Constitution that impose fiscal restraints on the federal government, limit the power and jurisdiction of the federal government, and limit the terms of office for its officials and for members of Congress.",
         "summary": "Applies to the United States Congress for a convention of the states under Article V of the federal constitution. Restricts the convention's agenda to proposing amendments that impose fiscal restraints on the federal government and limit its power and jurisdiction. Also limits the agenda to amendments setting term limits on federal officials and members of Congress.",
         "position": "Oppose",
         "status": "Dead",
@@ -1516,11 +1566,12 @@
             "name": "Rep. Rose Pugliese",
             "slug": "rose-pugliese"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB24-1023",
-        "title": "Civil Asset Forfeiture Reform",
+        "title": "Concerning civil forfeitures.",
         "summary": "Bars entry of a forfeiture order unless the civil complaint is filed within 90 days of the seizure and the plaintiff proves the property is an instrumentality of, or proceeds directly from, the crime for which the owner was convicted. Stays forfeiture proceedings until a criminal conviction is obtained, except in specified cases, and directs that, when feasible, the court hearing the criminal case also hears the forfeiture action. Gives any interested party the right to a prompt post-seizure hearing within 14 days, allows indigent property owners appointed counsel, and routes 25% of forfeiture proceeds to a new forfeiture defense fund rather than the law enforcement community services grant program fund. Prohibits Colorado agencies from transferring seized property to federal authorities for forfeiture unless part of a joint task force and the property includes at least $50,000 in currency.",
         "position": "Support",
         "status": "Dead",
@@ -1540,7 +1591,8 @@
             "name": "Sen. Mark Baisley",
             "slug": "mark-baisley"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -1575,11 +1627,12 @@
             "name": "Sen. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB23-169",
-        "title": "Increasing Minimum Age To Purchase Firearms to 21",
+        "title": "Concerning increasing the legal age to purchase a firearm to twenty-one years of age, with limited exceptions.",
         "summary": "Raises the minimum age to legally purchase a firearm from 18 to 21 years old. Makes it a class 2 misdemeanor for a person under 21 to knowingly purchase a firearm and makes it unlawful for licensed or unlicensed dealers to facilitate such a sale. Exempts active members of the United States armed forces and peace officers or persons certified by the peace officer standards and training board.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1609,11 +1662,12 @@
             "name": "Rep. Eliza Hamrick",
             "slug": "eliza-hamrick"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB23-170",
-        "title": "\"Red Flag\" Gun Confiscation Expansion",
+        "title": "Concerning extreme risk protection orders, and, in connection therewith, making an appropriation.",
         "summary": "Repeals and reenacts the statutory article governing extreme risk protection orders. Expands the list of parties who may petition for an order beyond family or household members and law enforcement to include licensed medical care providers, licensed mental health-care providers, licensed educators, and district attorneys. Requires the office of gun violence prevention to spend funds annually on a public education campaign about the availability of and process for requesting such orders. Appropriates $140,462 to the judicial department and $238,846 to the department of public safety to implement the act.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1643,11 +1697,12 @@
             "name": "Rep. Mike Weissman",
             "slug": "mike-weissman"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB23-1219",
-        "title": "Minimum 3-Day Waiting Period on all firearm purchases",
+        "title": "Concerning establishing a minimum three-day waiting period prior to the delivery of a purchased firearm.",
         "summary": "Establishes a waiting period before a seller may deliver a purchased firearm, running to the later of 3 days after a required background check is initiated or the point when the purchase is approved following any background check. Makes delivery before the waiting period expires a civil infraction, with a $500 fine for a first offense and $500 to $5,000 for a second or subsequent offense. Exempts antique firearms and curios or relics, sales by an armed forces member deploying outside the country within 30 days to a family member, and transfers for which state or federal law requires no background check.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1677,11 +1732,12 @@
             "name": "Sen. Chris Hansen",
             "slug": "chris-hansen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB23-279",
-        "title": "Ban on \"Ghost Guns\"",
+        "title": "Concerning prohibited activity related to firearms, and, in connection therewith, regulating firearms and firearm frames and receivers that do not have serial numbers; prohibiting manufacture of firearms, frames, and receivers by unlicensed persons; establishing a process for serializing firearms, frames, and receivers; and designating machine gun conversion devices as dangerous weapons.",
         "summary": "Defines terms for firearm components, including frames and receivers and unfinished versions of each. Prohibits, on and after January 1, 2024, knowingly possessing or transporting an unfinished frame or receiver unless it bears the serial number required by federal law, bars selling, offering to sell, transferring, or purchasing unserialized unfinished frames or receivers, and prohibits possessing, purchasing, transporting, receiving, selling, or transferring firearms or frames and receivers lacking serial numbers. Restricts manufacture of frames and receivers to federally licensed firearm manufacturers, with exceptions including licensees and transfers done to serialize a component. Punishes violations as a class 1 misdemeanor, rising to a class 5 felony for a second or subsequent offense, and requires owners of previously self-manufactured unserialized firearms to have them serialized by a federal licensee.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1711,11 +1767,12 @@
             "name": "Rep. Junie Joseph",
             "slug": "junie-joseph"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB23-1165",
-        "title": "Allowing County Officials and Special Districts expanded authority to prohibit shooting on private property",
+        "title": "Concerning the authority of a board of county commissioners to prohibit discharge of firearms in unincorporated areas of a county.",
         "summary": "Broadens the authority of county boards of commissioners to designate unincorporated areas where firing a gun is illegal. Eliminates the carve-out for private property and swaps the 100-persons-per-square-mile density threshold for a 35-dwellings-per-square-mile standard. Preserves protections for discharge by peace officers, indoor shooting galleries in private residences, shooting ranges, wildlife management, and lawful hunting or livestock work. Also removes designated areas' exemption from the state liability rules covering property damage by protected wild animals.",
         "position": "Oppose",
         "status": "Dead",
@@ -1740,11 +1797,12 @@
             "name": "Sen. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB23-1230",
-        "title": "\"Assault Weapons\" Ban",
+        "title": "Concerning prohibitions on certain firearms used in public mass shootings.",
         "summary": "Defines the term assault weapon and prohibits a person from manufacturing, importing, purchasing, selling, offering to sell, or transferring ownership of one. Prohibits possession of a rapid-fire trigger activator. Makes violations a class 2 misdemeanor. Exempts armed forces members, peace officers, and other government agents acting within their duties, manufacturers selling to the armed forces or peace-officer employers, dealer and gunsmith repairs returned to lawful owners, securely housed museum collections, forensic laboratories, armored vehicle businesses, and licensed dealers disposing of pre-existing inventory only out of state to non-residents.",
         "position": "Oppose",
         "status": "Dead",
@@ -1764,11 +1822,12 @@
             "name": "Sen. Rhonda Fields",
             "slug": "rhonda-fields"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB23-101",
-        "title": "Candidate Ballot Access For Primary Elections",
+        "title": "Concerning candidate ballot access for primary elections.",
         "summary": "Eliminates nomination through the party assembly process as a route to the primary election ballot for both major and, via a later section, minor political party candidates, leaving petition signatures as the path. Changes the first day a major party candidate may circulate a petition to the day the secretary of state approves the petition as to form, and lifts the ban on unaffiliated voters signing major party candidate petitions. Aligns the signature requirements for minor party candidates with those for major party candidates. Also aligns the methods by which a minor party candidate may access the presidential primary ballot with those available to major party candidates.",
         "position": "Oppose",
         "status": "Dead",
@@ -1788,11 +1847,12 @@
             "name": "Rep. Mary Bradfield",
             "slug": "mary-bradfield"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB23-022",
-        "title": "Possession Of Weapon By Previous Offender Crimes",
+        "title": "Concerning adding aggravated motor vehicle theft to the list of convictions that apply to the offense of possession of weapons by previous offenders, and, in connection therewith, making an appropriation.",
         "summary": "Under existing law, a person may not possess a firearm after being convicted of or adjudicated for certain felonies. Adds aggravated motor vehicle theft to the list of disqualifying convictions. A conviction or adjudication for that offense therefore triggers the firearm possession prohibition.",
         "position": "Monitor",
         "status": "Dead",
@@ -1812,11 +1872,12 @@
             "name": "Rep. Shannon Bird",
             "slug": "shannon-bird"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB23-1086",
-        "title": "Due Process Asset Forfeiture Ac t",
+        "title": "Concerning enactment of the \"Due Process Asset Forfeiture Act\", and, in connection therewith, making an appropriation.",
         "summary": "Requires reports on property seizures and forfeitures to include the estimated value and equity of the seized property. Requires those reports to also state the outcome of the forfeiture proceeding. Appropriates $22,549 to the department of local affairs, reappropriated to the office of the governor for the office of information technology, and includes 0.2 FTE.",
         "position": "Support",
         "status": "Dead",
@@ -1846,11 +1907,12 @@
             "name": "Sen. Faith Winter",
             "slug": "faith-winter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB23-1044",
-        "title": "Second Amendment Preservation Act",
+        "title": "Concerning enacting the \"Second Amendment Preservation Act\", and, in connection therewith, prohibiting enforcement of federal laws that infringe on the right to bear arms.",
         "summary": "Declares that federal laws imposing a tax, levy, fee, or stamp not common to other goods on firearms, firearm accessories, or ammunition, any registration or tracking of those items or their ownership, prohibitions on their possession or transfer by law-abiding citizens, or orders confiscating them from law-abiding citizens are infringements on the right to bear arms in Colorado. Prohibits any entity or person from enforcing or attempting to enforce any such federal law. Makes the state or a political subdivision that enforces or attempts to enforce one liable to the injured party, with a civil penalty of up to $50,000 per occurrence. Also prohibits employing a person who, acting as a federal agent, knowingly enforced or materially aided enforcement of such a law, subject to a civil penalty of up to $50,000 per employee.",
         "position": "Support",
         "status": "Dead",
@@ -1865,11 +1927,12 @@
             "name": "Rep. Ken DeGraaf",
             "slug": "ken-degraaf"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB23-1050",
-        "title": "Make My Day (Better)",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against a person who has made an illegal entry, under certain conditions, beyond its prior scope. Extends that right to owners, managers, and employees of a business confronted with an unlawful intruder. Also extends it to any person in lawful possession of a firearm at a place of business.",
         "position": "Support",
         "status": "Dead",
@@ -1884,7 +1947,8 @@
             "name": "Rep. Ty Winter",
             "slug": "ty-winter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -1894,7 +1958,7 @@
     "bills": [
       {
         "billNumber": "HB22-1257",
-        "title": "Expanding the list of prohibitors to purchase, own, and carry a firearm.",
+        "title": "Concerning the adoption of 2022 recommendations of the Colorado criminal juvenile justice commission regarding sentencing provisions for offenses, and, in connection therewith, making an appropriation.",
         "summary": "Raises the penalty for practicing a listed profession, such as medicine, nursing, dentistry, pharmacy, engineering, or architecture, from a class 2 misdemeanor to a class 6 felony when the person intentionally lacks the license, registration, or certification and fraudulently claims to hold one. Restates the purposes of probation, including moderating and deterring future criminal behavior, supporting behavior change through individualized services, holding people accountable with supervision and restitution, serving as a cost-effective community option, and honoring victims' rights. Requires a probation officer to issue a summons when a probationer allegedly violates a condition of probation or revocation is sought, subject to exceptions.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1921,11 +1985,12 @@
             "name": "Sen. Bob Gardner",
             "slug": "bob-gardner"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1086",
-        "title": "Banning firearms at Public Polling Places and Ballot D rop Boxes",
+        "title": "Concerning prohibiting openly carrying firearms at a voting location.",
         "summary": "Prohibits openly carrying a firearm inside any polling location or central count facility, or within 100 feet of a ballot drop box or a building housing those sites, while an election or related election administration activity is in progress. Requires the designated election official to post visible signs notifying the public of the 100-foot no-open-carry zone. Exempts owners carrying on their own private property inside the buffer, peace officers acting within their duties, and uniformed contract security guards performing an applicable security agreement. Makes a violation a misdemeanor punishable by up to a $1,000 fine and 364 days in county jail, with a first offense capped at a $250 fine and 120 days.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1952,11 +2017,12 @@
             "name": "Sen. Sonya Juaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB22-031",
-        "title": "Prohibit Hunting Bobcat Lynx And Mountain Lion",
+        "title": "Concerning prohibitions against taking certain actions that may negatively affect certain native normally wild animals in the subfamily felinae.",
         "summary": "Prohibits shooting, wounding, killing, or trapping a bobcat, Canada lynx, or mountain lion. Allows those actions only within a defined set of circumstances, including when immediately necessary to protect a person from bodily harm, by peace officers or licensed veterinarians in their duties, by health departments protecting human safety, under scientific collecting, wildlife sanctuary, or zoological licenses, when expressly authorized by federal law, or by the wildlife division for protecting threatened or endangered species or for nonlethal relocation. Requires anyone who takes one of these animals to prevent bodily harm to notify the division within 24 hours. Bars removing, retaining, or transferring any part of the animal afterward without division authorization.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -1971,11 +2037,12 @@
             "name": "Sen. Sonya Jaquez Lewis",
             "slug": "sonya-jaquez-lewis"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HCR22-1002",
-        "title": "Eliminate Requirement That Bills Be Read At Length",
+        "title": "Submitting to the registered electors of the state of Colorado an amendment to the Colorado constitution concerning modernization of legislative business through elimination of the requirement that the full text of any bill being considered by the general assembly be read aloud upon the request of any legislator.",
         "summary": "The Colorado constitution requires every bill under consideration to be read at length on two different days in each chamber, though any reading at length may be dispensed with by unanimous consent of the legislators present. Refers a constitutional amendment to the 2022 general election ballot eliminating the two-day read-at-length requirement in each chamber. Upon approval by a majority of voters, the requirement is removed from the constitution.",
         "position": "Oppose",
         "status": "Dead",
@@ -1990,11 +2057,12 @@
             "name": "Rep. Mike Weissman",
             "slug": "mike-weissman"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1045",
-        "title": "Statutory Initiative Petition Signature Requirements",
+        "title": "Concerning a requirement that any petition for a citizen-initiated statutory change be signed by at least two percent of the registered electors who reside in each state senate district for the change to be placed on the ballot.",
         "summary": "The Colorado constitution currently requires petitions for citizen-initiated constitutional amendments to be signed by at least 2% of the registered electors in each state senate district. A constitutional amendment extending that signature requirement to citizen-initiated statutory changes was referred to voters at the 2022 general election. If voters approved that amendment, the bill makes the conforming change to statute extending the requirement to statutory initiative petitions.",
         "position": "Monitor",
         "status": "Dead",
@@ -2013,11 +2081,12 @@
             "name": "Sen. Jerry Sonnenberg",
             "slug": "jerry-sonnenberg"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1120",
-        "title": "School Security Disbursement Program Recreation",
+        "title": "Concerning the recreation of the school security disbursement program to provide funding for local education providers to implement school security improvements to prevent incidents of school violence.",
         "summary": "Recreates the school security disbursement program, which was repealed in 2021, within the department of public safety to fund security improvements that prevent incidents of school violence. Makes school districts, charter schools, boards of cooperative services, and eligible nonprofit organizations eligible to apply for disbursements. Allows recipients to spend the money on security-related capital construction, student threat assessment training, law enforcement training on student interactions, emergency response training, student resilience programs, and school safety incident response curricula, training, and best practices. Requires the department to review applications and disburse funds from the program's cash fund, subject to available appropriations.",
         "position": "Support",
         "status": "Signed into Law",
@@ -2044,11 +2113,12 @@
             "name": "Sen. Jeff Bridges",
             "slug": "jeff-bridges"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1033",
-        "title": "Constitutional Carry",
+        "title": "Concerning the authority to carry a handgun.",
         "summary": "Grants a person who is at least 21 years old and legally permitted to possess a handgun the same concealed carry authority as a permit holder, without requiring a permit. Keeps permits available for carry in other states that recognize Colorado permits. Makes permits valid for the holder's lifetime, converts existing permits to lifetime permits, and repeals permit renewals along with the temporary emergency permit. Repeals local authority to regulate open or concealed carry, including that of special districts and higher education governing boards.",
         "position": "Support",
         "status": "Dead",
@@ -2063,11 +2133,12 @@
             "name": "Rep. Ron Hanks",
             "slug": "ron-hanks"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1106",
-        "title": "Concealed Carry on School Grounds",
+        "title": "Concerning allowing concealed handgun permit holders to carry concealed handguns on school grounds.",
         "summary": "Current law, with certain exceptions, bars concealed handgun permit holders from carrying on public elementary, middle, junior high, or high school grounds. Removes that limitation. Prohibits a local government from barring a valid permit holder from carrying a concealed handgun on school grounds.",
         "position": "Support",
         "status": "Dead",
@@ -2082,11 +2153,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1105",
-        "title": "Deadly Force Against Intruder At A Business (Make My Day Better)",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against an unlawful intruder, under certain conditions, to a new set of actors. Covers owners of a business confronted with an illegal entry. Also covers managers and employees of the business.",
         "position": "Support",
         "status": "Dead",
@@ -2101,11 +2173,12 @@
             "name": "Rep. Shane Sandridge",
             "slug": "shane-sandridge"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1145",
-        "title": "Possess Large Ammunition Magazine For Competitions",
+        "title": "Concerning permitting possession of large-capacity ammunition magazines for participation in a shooting competition.",
         "summary": "Existing law makes it unlawful to sell, transfer, or possess large-capacity ammunition magazines, subject to exceptions. Adds an exception allowing a person to possess one for the purpose of participating in a shooting competition. Limits the exception to competitions sanctioned by, under the auspices of, or in coordination with a state agency.",
         "position": "Support",
         "status": "Dead",
@@ -2120,11 +2193,12 @@
             "name": "Rep. Perry Will",
             "slug": "perry-will"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB22-1168",
-        "title": "Public School Hunter Education Seventh Grade Course",
+        "title": "Concerning permitting public schools to provide a hunter education course to seventh grade students.",
         "summary": "Lets local education providers offer a hunter education course to seventh graders by contracting with an entity certified by the division of parks and wildlife. Requires the course to satisfy division certification standards, though hands-on activities are optional, and to be taught by a division-certified instructor. Requires parent or guardian permission for any hands-on activities and allows only inert firearms and dummy rounds on school grounds. Allows the parks and wildlife commission to count course completion toward a hunter education certificate, and permits the course as an elective in other grades.",
         "position": "Amend",
         "status": "Signed into Law",
@@ -2151,7 +2225,8 @@
             "name": "Sen. Joann Ginal",
             "slug": "joann-ginal"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -2161,7 +2236,7 @@
     "bills": [
       {
         "billNumber": "HB21-1106",
-        "title": "Mandatory Firearm Storage Requirements",
+        "title": "Concerning measures to secure firearms to prevent use by persons not lawfully permitted to possess firearms.",
         "summary": "Requires firearms to be responsibly and securely stored when not in use, to prevent access by unsupervised juveniles and other unauthorized users. Creates the class 2 misdemeanor of unlawful storage when a person fails to do so and knows or should know that a juvenile could access the firearm without permission or that an ineligible resident could reach it. Requires licensed dealers to provide a locking device with every firearm sale or transfer, with a violation punishable by up to a $500 fine. Requires annual reporting to the general assembly on storage-related charges and public education about the requirements through the office of suicide prevention.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2188,11 +2263,12 @@
             "name": "Sen. Chris Hansen",
             "slug": "chris-hansen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB21-078",
-        "title": "Required Gun Owner Registration (Lost/Stolen Firearms)",
+        "title": "Concerning the responsibility of an individual firearm owner to report a missing firearm.",
         "summary": "Requires an individual firearm owner to report a lost or stolen firearm to law enforcement within 5 days of discovering it missing. Makes a first failure a civil infraction with a $25 fine and a second or subsequent failure a misdemeanor with up to a $500 fine. Exempts licensed gun dealers from the reporting requirement and lets a family member or co-resident report instead, without that report constituting an acknowledgment of ownership. Grants reporters immunity from storage-related prosecution and requires receiving agencies to enter the firearm's information into the Colorado bureau of investigation crime information center database.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2219,11 +2295,12 @@
             "name": "Rep. Leslie Herod",
             "slug": "leslie-herod"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1255",
-        "title": "Protection Order Issued Against Domestic Abuser",
+        "title": "Concerning procedures for a domestic abuser upon the issuance of a protection order, and, in connection therewith, making an appropriation.",
         "summary": "Changes the procedures a person must follow with their firearms after a protection order involving an act or threatened act of domestic violence is issued. Requires an affidavit filed within 7 business days stating the number of firearms, each one's make and model, any reason the person still holds them, and their location, or stating nonpossession. Requires the court to hold a compliance hearing 8 to 12 business days after the order issues to confirm the affidavit was completed. Bars use of the compelled information against the person in a criminal case except for perjury, excludes weekends and legal holidays from the relinquishment window, and lets a court grant a limited additional period to relinquish a firearm.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2250,11 +2327,12 @@
             "name": "Sen. Brittany Pettersen",
             "slug": "brittany-pettersen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB21-256",
-        "title": "Repeal the 2003 Preemption Law",
+        "title": "Concerning permitting regulation of firearms by local governing bodies.",
         "summary": "Declares that regulation of firearms is a matter of both state and local concern. Authorizes local governments to enact ordinances or laws governing or prohibiting the sale, purchase, transfer, or possession of firearms, ammunition, or firearm components and accessories, provided they are no less restrictive than state law. Lets local governments, special districts, and higher education governing boards prohibit concealed carry by permittees in buildings or specific areas under their control, with violations carrying civil penalties capped at $50 for a first offense. Permits criminal penalties under local laws only against persons who knew or reasonably should have known their conduct was prohibited.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2281,11 +2359,12 @@
             "name": "Rep. Lindsey Daugherty",
             "slug": "lindsey-daugherty"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1298",
-        "title": "Expand Firearm Transfer Background Check Requirements",
+        "title": "Concerning the conditions under which a firearm transfer may be prohibited following a background check, and, in connection therewith, requiring approval of a firearm transfer prior to a transfer by a licensed dealer, establishing grounds for denying a transfer, and clarifying the process to appeal a denied transfer.",
         "summary": "Requires licensed gun dealers to obtain approval from the Colorado bureau of investigation before transferring a firearm, rather than transferring after a waiting period. Prohibits the bureau from approving transfers to persons convicted of specified misdemeanor offenses, or until its background investigation is complete and the transfer would violate no federal possession prohibition or state law. Allows denial where criminal proceedings lack a final disposition for offenses that would prohibit possession upon conviction, and permits continued denial when the bureau cannot obtain a final disposition for a case no longer pending. Establishes an appeal process for denied transferees, with a 60-day deadline for the bureau to review the denial and issue a final administrative decision.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2312,11 +2391,12 @@
             "name": "Sen. Brittany Pettersen",
             "slug": "brittany-pettersen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1299",
-        "title": "Establishing an “Office Of Gun Violence Prevention”",
+        "title": "Concerning establishing an office of gun violence prevention, and, in connection therewith, making an appropriation.",
         "summary": "Establishes an office of gun violence prevention within the department of public health and environment to coordinate and promote efforts to reduce gun violence. Requires the office to run public awareness campaigns about state and federal laws and existing prevention resources. Authorizes, subject to available money, a grant program for community-based violence intervention initiatives that interrupt cycles of gun violence, trauma, and retaliation using evidence-informed approaches that do not contribute to mass incarceration. Directs the office to maintain a resource bank of gun violence data and research, collaborate with researchers, and report to the general assembly every 5 years on local prevention measures, with a $3 million appropriation.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2343,11 +2423,12 @@
             "name": "Sen. Chris Hansen",
             "slug": "chris-hansen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1071",
-        "title": "Ranked Choice Voting In Nonpartisan Elections",
+        "title": "Concerning the use of ranked choice voting in nonpartisan elections.",
         "summary": "Beginning in 2023, allows a municipality to refer an election using instant runoff voting to be conducted as part of a coordinated election. Requires the secretary of state to promulgate minimum voting system requirements and specifications for instant runoff elections by the end of 2022, after which tested systems can be submitted for certification. Directs the secretary of state to negotiate a single annual statewide license for a certified system, with each using county paying its proportional share of the cost. Lets a statutory or home rule city in a single county that has formally adopted instant runoff voting refer its election for coordinated conduct by written notice to the county clerk, where the county's system is certified.",
         "position": "Monitor",
         "status": "Signed into Law",
@@ -2370,11 +2451,12 @@
             "name": "Sen. Faith Winter",
             "slug": "faith-winter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1025",
-        "title": "Nonsubstantive Emails And Open Meetings Law",
+        "title": "Concerning a clarification under the Colorado open meetings law of the requirements governing communication by electronic mail that does not relate to the substance of public business.",
         "summary": "Amends the Colorado Open Meetings Law to hinge its application on the exchange of electronic mail among elected officials, rather than the mere use of it, when discussing pending legislation or other public business. Clarifies that email not relating to the merits or substance of public business is not a meeting under the law, covering scheduling and availability messages, forwarded information, responses to inquiries from outside the public body, and questions posed for later discussion. Defines merits or substance to mean any discussion, debate, or exchange of ideas about the essence of a public policy proposition or matter under consideration.",
         "position": "Monitor",
         "status": "Signed into Law",
@@ -2393,11 +2475,12 @@
             "name": "Sen. Joann Ginal",
             "slug": "joann-ginal"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB21-064",
-        "title": "Retaliation Against An Elected Official",
+        "title": "Concerning criminalizing retaliation against an elected official, and, in connection therewith, making an appropriation.",
         "summary": "Creates a new retaliation crime covering elected officials, paralleling the existing crime of retaliation against a judge. Covers a person who knowingly makes a credible threat in retaliation or retribution toward an elected official or the official's family, or arising from the person's status as an elected official. Makes the crime a class 6 felony. Appropriates sums from the general fund to the department of corrections across fiscal years 2022-23 through 2025-26 to meet the 5-year corrections appropriation requirement, plus a capital construction fund transfer.",
         "position": "Monitor",
         "status": "Signed into Law",
@@ -2420,11 +2503,12 @@
             "name": "Rep. Kyle Mullica",
             "slug": "kyle-mullica"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB21-081",
-        "title": "Measures To Prevent The Misuse Of Safe2Tell",
+        "title": "Concerning procedural measures to prevent the misuse of the safe2tell program.",
         "summary": "Allows the attorney general to disclose Safe2Tell program materials to law enforcement when reasonably necessary to prevent imminent physical harm or serious bodily injury. Permits a court, after an in camera review and on a showing of probable cause that a reporter knowingly misused the program to falsely report an emergency, to order production of the reporting party's identity under seal. Limits lifting the seal to a district attorney's motion showing good cause after further in camera review, and provides that the seal automatically expires if charges relying on that information are filed. Requires the program's awareness and educational materials to explain the circumstances in which a student's report may not remain anonymous.",
         "position": "Monitor",
         "status": "Signed into Law",
@@ -2443,11 +2527,12 @@
             "name": "Rep. Dafna Michaelson Jenet",
             "slug": "dafna-michaelson-jenet"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1001",
-        "title": "Remote Participation In Party Committee Meetings",
+        "title": "Concerning authorization for remote participation in political party committee meetings.",
         "summary": "Through the end of 2021, allows members of a party central or vacancy committee to participate in meetings remotely, including voting by mail, telephone, email, or an internet-based application, where party rules permit. Lets a state senate, state house, or county commissioner district committee hold a separate meeting for organizational or administrative matters, with remote participation allowed upon approval of the committee's chair and vice-chair. Permits state central and executive committees to adopt rules or bylaws implementing the remote participation provisions, and allows members to participate remotely in the meetings where those rules are considered.",
         "position": "Support",
         "status": "Signed into Law",
@@ -2474,11 +2559,12 @@
             "name": "Sen. Chris Holbert",
             "slug": "chris-holbert"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1098",
-        "title": "Civil Liability For Extreme Risk Protection Orders",
+        "title": "Concerning civil liability for preventing a person from defending himself or herself using a firearm as a result of an order issued pursuant to article 14.5 of title 13, Colorado Revised Statutes.",
         "summary": "Creates a civil cause of action for a person injured by being unable to use a firearm in self-defense or defense of family because of a temporary or ongoing extreme risk protection order. Allows the suit to be brought against any person who drafted, proposed, promoted, or provided support, financial or otherwise, to pass, implement, or enforce the 2019 law creating extreme risk protection orders. Entitles a successful plaintiff to attorney fees and compensatory damages or liquidated damages.",
         "position": "Support",
         "status": "Dead",
@@ -2493,11 +2579,12 @@
             "name": "Rep. Dan Woog",
             "slug": "dan-woog"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1038",
-        "title": "Concealed Carry on School Grounds",
+        "title": "Concerning allowing concealed handgun permit holders to carry concealed handguns on school grounds.",
         "summary": "Current law, with certain exceptions, prohibits a concealed handgun permit holder from carrying on public school grounds. Removes that prohibition for elementary, middle, junior high, and high school grounds. Leaves the existing exceptions to the school-grounds carry prohibition intact.",
         "position": "Support",
         "status": "Dead",
@@ -2512,11 +2599,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1070",
-        "title": "Repeal the 2013 Mag Ban",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory prohibition on selling, transferring, or possessing large-capacity ammunition magazines. Also repeals the requirement that large-capacity magazines manufactured in Colorado on or after July 1, 2013 carry a permanent stamp or marking showing that manufacture date. Eliminates both provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -2531,11 +2619,12 @@
             "name": "Rep. Ron Hanks",
             "slug": "ron-hanks"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB21-1185",
-        "title": "Repeal Government Firearms Regulations and Training Class Regulation",
+        "title": "Concerning repealing regulations related to firearms, and, in connection therewith, promoting social distancing in handgun training classes.",
         "summary": "Repeals the governor's disaster-emergency authority to suspend or limit the sale, dispensing, or transportation of firearms, explosives, and combustibles. Clarifies that the governor may not suspend or limit the sale of firearms ammunition during a disaster emergency. Also repeals the prohibition on completing a handgun training class over the internet or away from the certified instructor's physical course location.",
         "position": "Support",
         "status": "Dead",
@@ -2550,7 +2639,8 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -2560,7 +2650,7 @@
     "bills": [
       {
         "billNumber": "HB20-1355",
-        "title": "Firearm Storage Requirements",
+        "title": "Concerning measures to secure firearms to prevent use by persons not lawfully permitted to possess firearms.",
         "summary": "Creates the class 2 misdemeanor of unlawful storage of a firearm when a person stores a gun in a way they know or should know lets a juvenile access it without a parent's or guardian's permission or lets an ineligible resident reach it. Requires licensed dealers to provide a locking device with every firearm sale or transfer, with violations punishable by up to a $500 fine. Requires the state court administrator to report annually to the general assembly on storage-related charges and their dispositions. Directs the department of public health and environment to run a firearms storage education campaign funded by a new treasury fund, which receives a voluntary donation line on state income tax returns for five years.",
         "position": "Oppose",
         "status": "Dead",
@@ -2587,11 +2677,12 @@
             "name": "Sen. Chris Hansen",
             "slug": "chris-hansen"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1099",
-        "title": "Repeal Ammunition Magazine Prohibition",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory prohibition on possessing certain ammunition magazines. Also repeals the requirement that covered magazines manufactured in Colorado on or after July 1, 2013 bear a permanent stamp or marking showing they were made or assembled after that date. Strikes both provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -2614,11 +2705,12 @@
             "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1121",
-        "title": "Retaliation Against An Elected Official",
+        "title": "Concerning criminalizing retaliation against an elected official.",
         "summary": "Existing law criminalizes retaliating against a judge through a credible threat or an act of harassment, harm, or injury, punishable as a class 4 felony. Extends that crime to cover elected officials and their families. The covered conduct includes credible threats and acts of harassment or harm committed in retaliation or retribution.",
         "position": "Oppose",
         "status": "Dead",
@@ -2637,11 +2729,12 @@
             "name": "Rep. Matt Soper",
             "slug": "matt-soper"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1152",
-        "title": "2020 School Shooter Protection Act",
+        "title": "Concerning requiring a sentence to the department of corrections for offenses related to weapons possession.",
         "summary": "Requires a court to sentence an adult, or a juvenile prosecuted as an adult, convicted of possession of a weapon by a previous offender or unlawfully carrying a weapon on school grounds to the department of corrections for a term of incarceration. Requires consecutive sentences for a second or subsequent possession-by-a-previous-offender offense when the weapon is a dangerous weapon or the prior conviction was for burglary, arson, or a felony involving force or a deadly weapon. Removes discretion to impose alternatives to incarceration for those offenses.",
         "position": "Monitor",
         "status": "Dead",
@@ -2656,11 +2749,12 @@
             "name": "Rep. Larry Liston",
             "slug": "larry-liston"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1040",
-        "title": "Concealed Carry on School Grounds",
+        "title": "Concerning allowing concealed handgun permit holders to carry concealed handguns on school grounds.",
         "summary": "Current law, with certain exceptions, bars concealed handgun permit holders from carrying on public elementary, middle, junior high, or high school grounds. Removes that limitation on permit holders' authority. Leaves the existing exceptions to the school-grounds prohibition in place.",
         "position": "Support",
         "status": "Dead",
@@ -2675,11 +2769,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1271",
-        "title": "Repeal Red Flag And Amend 72-hour Hold",
+        "title": "Concerning measures for persons who pose an extreme risk, and, in connection therewith, repealing the extreme risk protection order law, changing the standard for an involuntary seventy-two-hour mental health hold from imminent danger to extreme risk, and defining the term \"extreme risk\" as a credible and exigent threat of danger to self or others through actionable threats of violence or death as a result of a current mental health state.",
         "summary": "Repeals the laws creating extreme risk protection orders. Changes the standard for an involuntary 72-hour mental health hold from imminent danger to self or others to extreme risk. Defines extreme risk as a credible and exigent threat of danger to the person or others through actionable threats of violence or death resulting from a current mental health state. Together the changes eliminate the court-ordered firearm relinquishment process and tighten the criteria for emergency holds.",
         "position": "Support",
         "status": "Dead",
@@ -2702,11 +2797,12 @@
             "name": "Sen. Jim Smallwood",
             "slug": "jim-smallwood"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1287",
-        "title": "Colorado Rights Act",
+        "title": "Concerning enforcement of Colorado constitutional rights in Colorado state courts.",
         "summary": "Allows a person whose rights, privileges, or immunities under the Colorado constitution are infringed to bring a civil action for the violation, and gives the attorney general the same authority. Awards reasonable attorney fees to a prevailing plaintiff, and to a defendant who defeats frivolous claims. Bars qualified immunity and a good-faith but mistaken belief in the lawfulness of one's conduct as defenses. Sets a two-year statute of limitations and requires public entities to indemnify employees in such claims unless the employee is convicted of a related crime.",
         "position": "Monitor",
         "status": "Dead",
@@ -2729,11 +2825,12 @@
             "name": "Sen. Pete Lee",
             "slug": "pete-lee"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1278",
-        "title": "Protection Orders Issued Against Domestic Abusers",
+        "title": "Concerning procedures for a domestic abuser upon the issuance of a protection order.",
         "summary": "Requires a court, upon issuing a protection order, to have the person state in court or by affidavit the number of firearms in their immediate possession or control and their locations. Requires completion of a firearm information form covering the number, type, and location of each firearm, and requires the court to transmit the order and form to the sheriff of the person's county of residence. Prohibits use of full and truthful firearm statements against the person in any other civil or criminal proceedings. Excludes weekends and legal holidays from the relinquishment window and lets a court grant an additional 24 hours to comply where needed.",
         "position": "Oppose",
         "status": "Dead",
@@ -2756,11 +2853,12 @@
             "name": "Sen. Rhonda Fields",
             "slug": "rhonda-fields"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1356",
-        "title": "Required Reporting of Lost/Stolen Firearms",
+        "title": "Concerning the responsibility of an individual firearm owner to report an unaccounted-for firearm.",
         "summary": "Requires an individual firearm owner to report a lost or stolen firearm to a law enforcement agency within 48 hours of discovering it missing. Makes a first failure a petty offense with a $25 fine and a second or subsequent failure a class 3 misdemeanor. Exempts licensed gun dealers from the reporting requirement. Requires agencies receiving reports to enter the firearm's information into the national crime information center database.",
         "position": "Oppose",
         "status": "Dead",
@@ -2783,11 +2881,12 @@
             "name": "Sen. Jessie Danielson",
             "slug": "jessie-danielson"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1168",
-        "title": "Deadly Force Against Intruder At A Business",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against an intruder, under certain conditions, to additional actors. Covers owners of a business facing an illegal entry. Also covers the business's managers and employees.",
         "position": "Support",
         "status": "Dead",
@@ -2802,11 +2901,12 @@
             "name": "Rep. Shane Sandridge",
             "slug": "shane-sandridge"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB20-1028",
-        "title": "Need For Juvenile Behavioral Health Treatment",
+        "title": "Concerning the need for services for juveniles with severe behavioral health conditions in the context of school safety, including residential treatment.",
         "summary": "Directs the school safety resource center to convene a working group of stakeholders to assess school districts' needs regarding residential mental health treatment for children and youth identified by school personnel as having severe behavioral or mental health disorders. Has the working group gather information on the availability, need, and cost of residential treatment services for children and youth in Colorado. Requires the center to use the data to prepare a report with legislative recommendations addressing those mental health needs. Requires presentation of the report and recommendations at its January 2021 committee-of-reference hearing under the SMART Government Act.",
         "position": "Monitor",
         "status": "Dead",
@@ -2829,11 +2929,12 @@
             "name": "Sen. Julie Gonzales",
             "slug": "julie-gonzales"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB20-023",
-        "title": "Colorado Working Group On School Safety",
+        "title": "Concerning creating a multi-agency working group to address school safety.",
         "summary": "Creates the Colorado interagency working group on school safety, a 14-member body whose mission is enhancing school safety through cost-effective use of public resources. Assigns it to study and implement the September 2019 state auditor's school safety recommendations, consider program reorganization, identify shared effectiveness metrics, and improve interagency coordination and communication. Tasks it with increasing transparency and accessibility of state grants, including common applications and outreach for districts without grant writers, and with facilitating legally allowable data sharing. Lets the group contract for a consultant, funded by appropriations or gifts, though it meets only when the department of public safety identifies sufficient funding.",
         "position": "Monitor",
         "status": "Signed into Law",
@@ -2860,11 +2961,12 @@
             "name": "Rep. Kevin Van Winkle",
             "slug": "kevin-van-winkle"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB20-027",
-        "title": "School District School Safety Plan s",
+        "title": "Concerning school safety plans for all schools in each school district.",
         "summary": "Directs each district school board to issue a request for proposals for a district-wide school safety assessment. Requires the district to contract a school safety expert to evaluate every public school in the district and report recommendations to the board, which must vote on each one. Requires the board to present approved recommendations to the state board of education, which votes on them and provides funding for the approved items. Requires the state board to report to the legislature's education committees on the recommendations it receives, approves, and funds.",
         "position": "Monitor",
         "status": "Dead",
@@ -2879,7 +2981,8 @@
             "name": "Sen. Larry Crowder",
             "slug": "larry-crowder"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -2889,7 +2992,7 @@
     "bills": [
       {
         "billNumber": "HB19-1073",
-        "title": "Colorado Brady-NICS Reporting System",
+        "title": "Concerning the creation of the law enforcement, public safety, and criminal justice information sharing grant program, and, in connection therewith, making an appropriation.",
         "summary": "Creates the law enforcement, public safety, and criminal justice information sharing grant program within the division of homeland security and emergency management to help local law enforcement agencies access the Colorado information sharing consortium's system. Allows grant money to pay for computer hardware, software, and programming needed to connect to those systems. Conditions grants on compliance with federal data security requirements and federal rules governing criminal justice information systems. Creates the program fund, repeals the program on July 1, 2022, and appropriates $500,000 from the marijuana tax cash fund for implementation.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2908,7 +3011,8 @@
             "name": "Sen. Rhonda Fields",
             "slug": "rhonda-fields"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB19-1177",
@@ -2942,11 +3046,12 @@
             "name": "Sen. Brittany Pettersen",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB19-068",
-        "title": "Incumbent Protection Act",
+        "title": "Concerning expanded disclosure about electioneering communications.",
         "summary": "The state constitution defines electioneering communications as those referring unambiguously to a candidate within 30 days before a primary or 60 days before a general election. Expands the statutory definition for campaign finance disclosure to also capture qualifying communications disseminated between the primary and general elections. Requires any person spending $1,000 or more per calendar year on electioneering communications to state their name in the communication, following the existing requirements for independent expenditures.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -2973,11 +3078,12 @@
             "name": "Rep. Lisa Cutter",
             "slug": "lisa-cutter"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB19-093",
-        "title": "Firearms Rights of Medical Marijuana Users",
+        "title": "Concerning firearm possession by persons who lawfully use medical marijuana.",
         "summary": "Clarifies that a prior conviction for possessing or using marijuana lawfully under the Colorado constitution does not prohibit a person from carrying a firearm. Clarifies that lawful medical marijuana use does not make a person ineligible to possess firearms under federal law or an unlawful user of a controlled substance for concealed handgun permit purposes. Prohibits the department of public safety from sharing confidential medical marijuana registry information with law enforcement for firearm-transfer background checks. Leaves the existing prohibitions tied to other felony convictions intact.",
         "position": "Support",
         "status": "Dead",
@@ -2996,11 +3102,12 @@
             "name": "Rep. Bri Buentello",
             "slug": "bri-buentello"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB19-1021",
-        "title": "Repeal Ammunition Magazine Prohibition",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory prohibition on possessing certain ammunition magazines. Also strikes the requirement that covered magazines manufactured in Colorado on or after July 1, 2013 carry a permanent stamp or marking showing that manufacture date. Eliminates both provisions from the statute books.",
         "position": "Support",
         "status": "Dead",
@@ -3020,11 +3127,12 @@
             "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB19-1026",
-        "title": "Increased Fees & Fines For Hunters",
+        "title": "Concerning fines assessed for violations of laws administered by the division of parks and wildlife.",
         "summary": "Changes the fine amounts for violations of laws enforced by the division of parks and wildlife. Restructures how collected fines are distributed: when a parks and wildlife officer issues the citation, all of the fine now goes to the relevant division fund, rather than half to the general fund. When another Colorado peace officer issues the citation, half goes to the relevant division fund and half to the issuing local government or state agency. Applies these disposition changes across the affected fine provisions.",
         "position": "Oppose",
         "status": "Signed into Law",
@@ -3051,11 +3159,12 @@
             "name": "Sen. Kerry Donovan",
             "slug": "kerry-donovan"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB19-1049",
-        "title": "Concealed Handguns On School Grounds",
+        "title": "Concerning allowing concealed handgun permit holders to carry concealed handguns on school grounds.",
         "summary": "Current law, with exceptions, restricts concealed handgun permit holders by barring carry on public elementary, middle, junior high, or high school grounds. Removes that restriction. Keeps the existing exceptions to the school-grounds prohibition unchanged.",
         "position": "Support",
         "status": "Dead",
@@ -3070,11 +3179,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB19-1022",
-        "title": "Deadly Force Against Intruder At A Business",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against an unlawful intruder, under certain conditions, to additional actors. Adds owners of a place of business. Also adds the managers and employees of the business.",
         "position": "Support",
         "status": "Dead",
@@ -3089,7 +3199,8 @@
             "name": "Rep. Shane Sandridge",
             "slug": "shane-sandridge"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -3099,7 +3210,7 @@
     "bills": [
       {
         "billNumber": "SB18-051",
-        "title": "Bump Stock Ban",
+        "title": "Concerning crimes related to multi-burst trigger activators, and, in connection therewith, making an appropriation.",
         "summary": "Expands the definition of dangerous weapon to include a multi-burst trigger activator, defined as a device attached to a semiautomatic firearm that lets it discharge two or more shots in a burst, or a manual or power-driven trigger-activating device that increases the firearm's rate of fire. Subjects possession of such a device to the existing dangerous-weapon penalties, a class 5 felony for a first offense and a class 4 felony for each subsequent one. Makes selling a multi-burst trigger activator to another person, or purchasing one from another person, a class 5 felony. Raises repeat purchase-and-sale violations to a class 4 felony.",
         "position": "Oppose",
         "status": "Dead",
@@ -3114,11 +3225,12 @@
             "name": "Sen. Michael Merrifield",
             "slug": "michael-merrifield"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB18-052",
-        "title": "Magazine Ban Repeal",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory prohibition on possessing certain ammunition magazines. Also repeals the requirement that covered magazines manufactured in Colorado on or after July 1, 2013 carry a permanent stamp or marking showing they were made or assembled after that date. Strikes both provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -3141,11 +3253,12 @@
             "name": "Rep. Lori Saine",
             "slug": "lori-saine"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB18-097",
-        "title": "Constitutional Carry",
+        "title": "Concerning allowing a law-abiding person to carry a concealed handgun without a permit, and, in connection therewith, preserving current laws restricting the carrying of concealed handguns on certain property including public schools and reducing an appropriation.",
         "summary": "Allows a person who legally possesses a handgun under state and federal law to carry it concealed in Colorado without a permit. Gives a person carrying under that authority the same rights and the same limitations that apply to permit holders. Preserves the existing prohibitions on concealed carry in places such as public elementary, middle, junior high, and high school grounds, and reduces an appropriation.",
         "position": "Support",
         "status": "Dead",
@@ -3164,11 +3277,12 @@
             "name": "Rep. Kevin Van Winkle",
             "slug": "kevin-van-winkle"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB18-185",
-        "title": "Deadly Force Against an Intruder in a Business",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against an intruder, under certain conditions, to additional protected actors. Adds owners of a business. Also adds the managers and employees of the business.",
         "position": "Support",
         "status": "Dead",
@@ -3191,11 +3305,12 @@
             "name": "Rep. Shane Sandridge",
             "slug": "shane-sandridge"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB18-1015",
-        "title": "Magazine Ban Repeal",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory provisions prohibiting possession of certain ammunition magazines. Also eliminates the requirement that covered magazines made in Colorado on or after July 1, 2013 be permanently stamped or marked to show that manufacture date. Removes both provisions from the statutes.",
         "position": "Support",
         "status": "Dead",
@@ -3218,11 +3333,12 @@
             "name": "Sen. Owen Hill",
             "slug": "owen-hill"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB18-1037",
-        "title": "Concealed Carry on School Grounds",
+        "title": "Concerning allowing concealed handgun permit holders to carry concealed handguns on school grounds.",
         "summary": "Current law, with exceptions, bars concealed handgun permit holders from carrying on public elementary, middle, junior high, or high school grounds. Removes that limitation on permit holders. Leaves the existing exceptions to the school-grounds prohibition untouched.",
         "position": "Support",
         "status": "Dead",
@@ -3241,11 +3357,12 @@
             "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB18-1074",
-        "title": "Deadly Force Against an Intruder in a Business",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against an unlawful intruder, under certain conditions, to more actors. Covers owners of a business. Also covers the managers and employees of the business.",
         "position": "Support",
         "status": "Dead",
@@ -3264,11 +3381,12 @@
             "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB18-128",
-        "title": "Legislative Approval for State Agency Fee Increases",
+        "title": "Concerning a restriction on a state agency's authority to increase a fee.",
         "summary": "Requires every state agency fee increase, beginning September 1, 2018, to take effect on July 1 of a year, with an exception for emergency increases. Bars an agency from raising a fee unless it submits a proposal with specified information to the joint budget committee by the preceding February 1, a majority of the committee approves it without alteration, and authorizing legislation granting the increase is enacted. Lets agencies adopt emergency fee increases outside that process. Requires an agency adopting an emergency increase to submit the proposal to the committee by the next February 1.",
         "position": "Support",
         "status": "Dead",
@@ -3287,11 +3405,12 @@
             "name": "Rep. Larry Liston",
             "slug": "larry-liston"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB18-116",
-        "title": "Capitol Identification Card",
+        "title": "Concerning the issuance of capitol identification cards to members of the public to permit them entry to state buildings containing the legislative branch of state government without having to submit to personal security checks.",
         "summary": "Authorizes capitol security personnel, including the Colorado state patrol, to let holders of a state capitol ID card enter the capitol, state services, and legislative services buildings without a search of their person or property or weapons screening. Directs the secretary of the senate or the chief clerk of the house to issue the credential to any applicant who pays a fee and completes a fingerprint-based criminal history record check. Issues each credential for a 2-year period. Sets the initial fee at $100, with the amount set to cover the actual costs of administering the program.",
         "position": "Monitor",
         "status": "Dead",
@@ -3314,11 +3433,12 @@
             "name": "Rep. Kevin Van Winkle",
             "slug": "kevin-van-winkle"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB18-032",
-        "title": "Title 12 Relocation",
+        "title": "Concerning the nonsubstantive relocation of laws from title 12, Colorado Revised Statutes, as part of the organizational recodification of title 12.",
         "summary": "Implements the initial recommendations of the recodification study of title 12, which covers professions and occupations. Relocates the Colorado Parental Notification Act to a new part of title 13 and the firearms dealer laws to a new part of title 18. Moves the gun show background check laws to title 18 as well, along with the Uniform Unsworn Declarations Act to title 13. Makes conforming amendments and repeals the provisions at their former locations.",
         "position": "Monitor",
         "status": "Signed into Law",
@@ -3345,11 +3465,12 @@
             "name": "Rep. Leslie Herod",
             "slug": "leslie-herod"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB18-1077",
-        "title": "Penalty for Burglary of Firearms",
+        "title": "Concerning the penalty for a person who commits burglary to acquire firearms, and, in connection therewith, making an appropriation.",
         "summary": "Designates a third type of second-degree burglary as a class 3 felony, joining the two circumstances already elevated above the class 4 baseline. Covers burglary whose objective is the theft of one or more firearms or ammunition. Authorizes a fine of at least $5,000 and up to $750,000 in addition to any other sentence upon conviction. Makes the required 5-year statutory appropriation.",
         "position": "Monitor",
         "status": "Signed into Law",
@@ -3376,11 +3497,12 @@
             "name": "Sen. Ray Scott",
             "slug": "ray-scott"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB18-1436",
-        "title": "Red Flag Gun Confiscation",
+        "title": "Concerning creation of an extreme risk protection order.",
         "summary": "Creates a process for a family or household member or a law enforcement officer to petition a court for a temporary extreme risk protection order. Requires the petitioner to prove by a preponderance of the evidence that the person poses a significant risk to self or others by having a firearm in their custody or control or by acquiring one, backed by a sworn affidavit stating the supporting facts. Requires the temporary hearing in person or by telephone on the filing day or the next court day. Requires a second hearing within 7 days of the temporary order to decide whether a continuing order is warranted.",
         "position": "Oppose",
         "status": "Dead",
@@ -3403,7 +3525,8 @@
             "name": "Sen. Lois Court",
             "slug": "lois-court"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -3413,7 +3536,7 @@
     "bills": [
       {
         "billNumber": "SB17-005",
-        "title": "Handgun Safety Training For School Employees",
+        "title": "Concerning handgun safety training courses for school employees, and, in connection therewith, permitting certain school employees to carry concealed handguns in public schools.",
         "summary": "Allows a county sheriff to provide a handgun safety training course to employees of public elementary, middle, junior high, or high schools who hold concealed handgun permits. Requires the sheriff to consult with each school district board of education, and the state charter school institute where applicable, in setting the curriculum. Requires the curriculum to account for existing emergency response frameworks and to satisfy insurability standards for armed school employees.",
         "position": "Support",
         "status": "Dead",
@@ -3432,11 +3555,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB17-006",
-        "title": "Concealed Carry For Military Under Twenty-one Years Of Age",
+        "title": "Concerning allowing certain military personnel who are less than twenty-one years of age to obtain a permit to carry a concealed handgun.",
         "summary": "Existing law requires a concealed handgun permit applicant to be at least 21 years old. Amends the age requirement to accept applicants who are 18 or older and on active duty in, or honorably discharged from, any branch or reserve branch of the United States military, including the National Guard. Leaves the 21-year minimum in place for all other applicants.",
         "position": "Support",
         "status": "Dead",
@@ -3459,11 +3583,12 @@
             "name": "Rep. Lang Sias",
             "slug": "lang-sias"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB17-007",
-        "title": "Repeal Ammunition Magazine Prohibition",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory provisions barring possession of certain ammunition magazines. Also repeals the requirement that covered magazines manufactured in Colorado on or after July 1, 2013 bear a permanent stamp or marking of that manufacture date. Eliminates both provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -3486,11 +3611,12 @@
             "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB17-008",
-        "title": "Legalize Gravity Knives And Switchblades",
+        "title": "Concerning legalizing certain knives.",
         "summary": "Removes gravity knives and switchblade knives from the statutory definition of illegal weapon. Legalizes possession of those knives as a result. Leaves other categories of illegal weapons untouched.",
         "position": "Support",
         "status": "Signed into Law",
@@ -3509,11 +3635,12 @@
             "name": "Rep. Steve Lebsock",
             "slug": "steve-lebsock"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB17-1036",
-        "title": "Concealed Carry In Public Schools",
+        "title": "Concerning permitting the carrying of concealed handguns on public school grounds.",
         "summary": "Current law, with exceptions, restricts concealed handgun permit holders by prohibiting carry on public elementary, middle, junior high, or high school grounds. Removes that restriction. Keeps the existing exceptions to the school-grounds prohibition unchanged.",
         "position": "Support",
         "status": "Dead",
@@ -3536,11 +3663,12 @@
             "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB17-1037",
-        "title": "Deadly Force Against An Intruder At A Business",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against a person who makes an illegal entry, under certain conditions, to additional actors. Adds owners of businesses. Also adds managers and employees of businesses.",
         "position": "Support",
         "status": "Dead",
@@ -3559,11 +3687,12 @@
             "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB17-1097",
-        "title": "Repeal Ammunition Magazine Prohibition",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory prohibition on possessing certain ammunition magazines. Also strikes the requirement that covered magazines manufactured in Colorado on or after July 1, 2013 include a permanent stamp or marking showing that date. Removes both provisions from the code.",
         "position": "Support",
         "status": "Dead",
@@ -3590,7 +3719,8 @@
             "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -3600,7 +3730,7 @@
     "bills": [
       {
         "billNumber": "HB16-1023",
-        "title": "Make My Day for Businesses",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against an unlawful intruder, under certain conditions, to new actors. Adds owners of businesses. Also adds the managers and employees of businesses.",
         "position": "Support",
         "status": "Dead",
@@ -3615,11 +3745,12 @@
             "name": "Rep. Justin Everett",
             "slug": "justin-everett"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1024",
-        "title": "Repeal Magazine Ban",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory prohibition on possessing large-capacity ammunition magazines. Also repeals the requirement that large-capacity magazines made in Colorado on or after July 1, 2013 carry a permanent stamp or marking of that manufacture date. Strikes both provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -3642,11 +3773,12 @@
             "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1179",
-        "title": "Concealed Carry for Military Personnel",
+        "title": "Concerning the possession of concealed handguns by active duty military personnel.",
         "summary": "Creates a new exemption to the offense of unlawfully carrying a concealed weapon. Applies the exemption when the person is on active duty serving in the armed forces of the United States military. Limits the exemption to cases where the weapon is a concealed handgun.",
         "position": "Support",
         "status": "Dead",
@@ -3665,11 +3797,12 @@
             "name": "Sen. Jerry Sonnenberg",
             "slug": "jerry-sonnenberg"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1204",
-        "title": "School Carry",
+        "title": "Concerning permitting the carrying of concealed handguns on public elementary and secondary school properties.",
         "summary": "Current law, with exceptions, limits concealed handgun permit holders by barring carry on the grounds of public elementary, middle, junior high, and high schools. Removes that limitation for permit holders. Preserves the existing exceptions to the school-grounds prohibition.",
         "position": "Support",
         "status": "Signed into Law",
@@ -3688,11 +3821,12 @@
             "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-017",
-        "title": "Constitutional Carry",
+        "title": "Concerning allowing a law-abiding person to carry a concealed handgun without a permit, and, in connection therewith, preserving current laws restricting the carrying of concealed handguns on certain property including school grounds and reducing an appropriation.",
         "summary": "Allows a law-abiding person to carry a concealed handgun without a permit. Preserves the current restrictions on carrying concealed handguns on certain property, including school grounds. Reduces an appropriation in connection with the change.",
         "position": "Support",
         "status": "Dead",
@@ -3711,11 +3845,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-113",
-        "title": "Repeal Magazine Ban",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the state restrictions on large-capacity ammunition magazines. Eliminates the associated requirements imposed on such magazines under those provisions. Strikes the provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -3738,11 +3873,12 @@
             "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-144",
-        "title": "Concealed Carry for Military Personnel Under 21 Years Old",
+        "title": "Concerning allowing certain military personnel who are less than twenty-one years of age to obtain a permit to carry a concealed handgun.",
         "summary": "Opens concealed handgun permits to military personnel who are younger than 21. Applies to members of the military who would otherwise satisfy the permit criteria. Leaves the 21-year age requirement in place for non-military applicants.",
         "position": "Support",
         "status": "Dead",
@@ -3761,11 +3897,12 @@
             "name": "Rep. Lang Sias",
             "slug": "lang-sias"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-176",
-        "title": "Eliminate authority of Governor to regulate firearms during emergencies",
+        "title": "Concerning the governor's authority to restrict the distribution of firearms during a state of disaster emergency.",
         "summary": "Addresses the governor's authority over firearms during a state of disaster emergency. Removes the authority to restrict the distribution of firearms during such an emergency. Leaves other disaster-emergency powers unaffected.",
         "position": "Support",
         "status": "Dead",
@@ -3784,11 +3921,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1063",
-        "title": "Disclosure of threats against schools by a mental health professional",
+        "title": "Concerning an exception to the prohibition against disclosing confidential communications with a mental health professional when school safety is at risk.",
         "summary": "Current law generally bars mental health professionals from disclosing confidential client communications without consent. Creates an exception when the client makes an articulable and significant threat against a school or its occupants. Also creates an exception when the client exhibits behavior that, in the professional's reasonable judgment, creates an articulable and significant threat to students, teachers, administrators, or other school personnel. Limits any such disclosure to appropriate school or district personnel and law enforcement agencies, with the information otherwise kept confidential.",
         "position": "Oppose",
         "status": "Dead",
@@ -3815,11 +3953,12 @@
             "name": "Sen. Bill Cadman",
             "slug": "bill-cadman"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1341",
-        "title": "Prohibit Sale of Certain Animal Parts",
+        "title": "Concerning protecting animal species threatened with extinction by prohibiting trafficking.",
         "summary": "Prohibits the sale, purchase, trade, or distribution of parts and products of covered animal species, with limited exceptions. Excludes guns, knives, and musical instruments from the prohibition. Establishes an unclassified misdemeanor for a first offense and an unclassified felony for second and subsequent offenses, each with monetary penalties. Authorizes Colorado wildlife officers and other commissioned officers of the wildlife division to enforce the provisions.",
         "position": "Oppose",
         "status": "Dead",
@@ -3842,11 +3981,12 @@
             "name": "Sen. Jessie Ulibarri",
             "slug": "jessie-ulibarri"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SJR16-040",
-        "title": "Call for an Article V Convention for Congressional term limits",
+        "title": "Concerning an application to the United States Congress to call a convention under Article V of the Constitution of the United States with the sole agenda of proposing an amendment to the Constitution of the United States to set a limit on the number of terms that a person may be elected as a member of the United States House of Representatives and to set a limit on the number of terms that a person may be elected as a member of the United States Senate.",
         "summary": "Applies to the United States Congress to call a convention under Article V of the federal constitution. Limits the convention's sole agenda to proposing an amendment setting term limits for Congress. The contemplated amendment would cap the number of terms a person may be elected to the United States House of Representatives and to the United States Senate.",
         "position": "Oppose",
         "status": "Dead",
@@ -3865,11 +4005,12 @@
             "name": "Rep. Jonathan Singer",
             "slug": "jonathan-singer"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1023",
-        "title": "Make My Day for Businesses",
+        "title": "Concerning the use of deadly physical force against a person who has made an illegal entry into a place of business.",
         "summary": "Extends the existing right to use deadly physical force against an unlawful intruder, under certain conditions, to new actors. Adds owners of businesses. Also adds the managers and employees of businesses.",
         "position": "Support",
         "status": "Dead",
@@ -3884,11 +4025,12 @@
             "name": "Rep. Justin Everett",
             "slug": "justin-everett"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1024",
-        "title": "Repeal Magazine Ban",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the statutory prohibition on possessing large-capacity ammunition magazines. Also repeals the requirement that large-capacity magazines made in Colorado on or after July 1, 2013 carry a permanent stamp or marking of that manufacture date. Strikes both provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -3911,11 +4053,12 @@
             "name": "Sen. Vicki Marble",
             "slug": "vicki-marble"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1179",
-        "title": "Concealed Carry for Military Personnel",
+        "title": "Concerning the possession of concealed handguns by active duty military personnel.",
         "summary": "Creates a new exemption to the offense of unlawfully carrying a concealed weapon. Applies the exemption when the person is on active duty serving in the armed forces of the United States military. Limits the exemption to cases where the weapon is a concealed handgun.",
         "position": "Support",
         "status": "Dead",
@@ -3934,11 +4077,12 @@
             "name": "Sen. Jerry Sonnenberg",
             "slug": "jerry-sonnenberg"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1204",
-        "title": "School Carry",
+        "title": "Concerning permitting the carrying of concealed handguns on public elementary and secondary school properties.",
         "summary": "Current law, with exceptions, limits concealed handgun permit holders by barring carry on the grounds of public elementary, middle, junior high, and high schools. Removes that limitation for permit holders. Preserves the existing exceptions to the school-grounds prohibition.",
         "position": "Support",
         "status": "Signed into Law",
@@ -3957,11 +4101,12 @@
             "name": "Sen. Tim Neville",
             "slug": "tim-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-017",
-        "title": "Constitutional Carry",
+        "title": "Concerning allowing a law-abiding person to carry a concealed handgun without a permit, and, in connection therewith, preserving current laws restricting the carrying of concealed handguns on certain property including school grounds and reducing an appropriation.",
         "summary": "Allows a law-abiding person to carry a concealed handgun without a permit. Preserves the current restrictions on carrying concealed handguns on certain property, including school grounds. Reduces an appropriation in connection with the change.",
         "position": "Support",
         "status": "Dead",
@@ -3980,11 +4125,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-113",
-        "title": "Repeal Magazine Ban",
+        "title": "Concerning the repeal of certain provisions concerning ammunition magazines.",
         "summary": "Repeals the state restrictions on large-capacity ammunition magazines. Eliminates the associated requirements imposed on such magazines under those provisions. Strikes the provisions from state law.",
         "position": "Support",
         "status": "Dead",
@@ -4007,11 +4153,12 @@
             "name": "Rep. Stephen Humphrey",
             "slug": "stephen-humphrey"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-144",
-        "title": "Concealed Carry for Military Personnel Under 21 Years Old",
+        "title": "Concerning allowing certain military personnel who are less than twenty-one years of age to obtain a permit to carry a concealed handgun.",
         "summary": "Opens concealed handgun permits to military personnel who are younger than 21. Applies to members of the military who would otherwise satisfy the permit criteria. Leaves the 21-year age requirement in place for non-military applicants.",
         "position": "Support",
         "status": "Dead",
@@ -4030,11 +4177,12 @@
             "name": "Rep. Lang Sias",
             "slug": "lang-sias"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SB16-176",
-        "title": "Eliminate authority of Governor to regulate firearms during emergencies",
+        "title": "Concerning the governor's authority to restrict the distribution of firearms during a state of disaster emergency.",
         "summary": "Addresses the governor's authority over firearms during a state of disaster emergency. Removes the authority to restrict the distribution of firearms during such an emergency. Leaves other disaster-emergency powers unaffected.",
         "position": "Support",
         "status": "Dead",
@@ -4053,11 +4201,12 @@
             "name": "Rep. Patrick Neville",
             "slug": "patrick-neville"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1063",
-        "title": "Disclosure of threats against schools by a mental health professional",
+        "title": "Concerning an exception to the prohibition against disclosing confidential communications with a mental health professional when school safety is at risk.",
         "summary": "Current law generally bars mental health professionals from disclosing confidential client communications without consent. Creates an exception when the client makes an articulable and significant threat against a school or its occupants. Also creates an exception when the client exhibits behavior that, in the professional's reasonable judgment, creates an articulable and significant threat to students, teachers, administrators, or other school personnel. Limits any such disclosure to appropriate school or district personnel and law enforcement agencies, with the information otherwise kept confidential.",
         "position": "Oppose",
         "status": "Dead",
@@ -4084,11 +4233,12 @@
             "name": "Sen. Bill Cadman",
             "slug": "bill-cadman"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "HB16-1341",
-        "title": "Prohibit Sale of Certain Animal Parts",
+        "title": "Concerning protecting animal species threatened with extinction by prohibiting trafficking.",
         "summary": "Prohibits the sale, purchase, trade, or distribution of parts and products of covered animal species, with limited exceptions. Excludes guns, knives, and musical instruments from the prohibition. Establishes an unclassified misdemeanor for a first offense and an unclassified felony for second and subsequent offenses, each with monetary penalties. Authorizes Colorado wildlife officers and other commissioned officers of the wildlife division to enforce the provisions.",
         "position": "Oppose",
         "status": "Dead",
@@ -4111,11 +4261,12 @@
             "name": "Sen. Jessie Ulibarri",
             "slug": "jessie-ulibarri"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       },
       {
         "billNumber": "SJR16-040",
-        "title": "Call for an Article V Convention for Congressional term limits",
+        "title": "Concerning an application to the United States Congress to call a convention under Article V of the Constitution of the United States with the sole agenda of proposing an amendment to the Constitution of the United States to set a limit on the number of terms that a person may be elected as a member of the United States House of Representatives and to set a limit on the number of terms that a person may be elected as a member of the United States Senate.",
         "summary": "Applies to the United States Congress to call a convention under Article V of the federal constitution. Limits the convention's sole agenda to proposing an amendment setting term limits for Congress. The contemplated amendment would cap the number of terms a person may be elected to the United States House of Representatives and to the United States Senate.",
         "position": "Oppose",
         "status": "Dead",
@@ -4134,7 +4285,8 @@
             "name": "Rep. Jonathan Singer",
             "slug": "jonathan-singer"
           }
-        ]
+        ],
+        "titleSource": "co-ga-official"
       }
     ],
     "sponsorLinks": []
@@ -4163,7 +4315,8 @@
             "name": "Rep. Saine",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB15-032",
@@ -4182,7 +4335,8 @@
             "name": "Sen. Marble",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB15-086",
@@ -4205,7 +4359,8 @@
             "name": "Rep. Joshi",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB15-175",
@@ -4232,7 +4387,8 @@
             "name": "Rep. Humphrey",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1009",
@@ -4255,7 +4411,8 @@
             "name": "Sen. Holbert",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1049",
@@ -4278,7 +4435,8 @@
             "name": "Sen. Grantham",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1050",
@@ -4301,7 +4459,8 @@
             "name": "Sen. Woods",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1086",
@@ -4324,7 +4483,8 @@
             "name": "Sen. T. Neville",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1127",
@@ -4343,7 +4503,8 @@
             "name": "Rep. Klingenschmidtt",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1138",
@@ -4362,7 +4523,8 @@
             "name": "Rep. Ransom",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1152",
@@ -4381,7 +4543,8 @@
             "name": "Rep. Nordberg",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB15-1168",
@@ -4404,7 +4567,8 @@
             "name": "Sen. T.Neville",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -4433,7 +4597,8 @@
             "name": "Sen. Crowder",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB14-1097",
@@ -4456,7 +4621,8 @@
             "name": "Sen. Rivera",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB14-1230",
@@ -4479,7 +4645,8 @@
             "name": "Sen. Steadman",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB14-038",
@@ -4502,7 +4669,8 @@
             "name": "Rep. Everett",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB14-090",
@@ -4521,7 +4689,8 @@
             "name": "Sen. Baumgardner",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB14-094",
@@ -4544,7 +4713,8 @@
             "name": "Rep. Wright",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB14-163",
@@ -4567,7 +4737,8 @@
             "name": "Rep. Wright",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -4600,7 +4771,8 @@
             "name": "Rep. Saine",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB13-062",
@@ -4623,7 +4795,8 @@
             "name": "Rep. Saine",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1043",
@@ -4646,7 +4819,8 @@
             "name": "Sen. Rollie Heath",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1048",
@@ -4669,7 +4843,8 @@
             "name": "Sen. Grantham",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1085",
@@ -4692,7 +4867,8 @@
             "name": "Sen. Renfroe",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1169",
@@ -4715,7 +4891,8 @@
             "name": "Rep. Steve Humphrey",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB13-140",
@@ -4738,7 +4915,8 @@
             "name": "Rep. Saine",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1162",
@@ -4761,7 +4939,8 @@
             "name": "Sen. Hill",
             "slug": "jacque-phillips"
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1170",
@@ -4784,7 +4963,8 @@
             "name": "Sen. Hill",
             "slug": "jacque-phillips"
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1187",
@@ -4807,7 +4987,8 @@
             "name": "Sen. Lundberg",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1226",
@@ -4830,7 +5011,8 @@
             "name": "Sen. Heath",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1229",
@@ -4853,7 +5035,8 @@
             "name": "Sen. Morgan Carroll",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1306",
@@ -4876,7 +5059,8 @@
             "name": "Sen. Todd",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB13-197",
@@ -4899,7 +5083,8 @@
             "name": "Rep. Beth McCann",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB13-195",
@@ -4922,7 +5107,8 @@
             "name": "Rep. Jenise May",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1228",
@@ -4945,7 +5131,8 @@
             "name": "Sen. Rollie Heath",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB13-1224",
@@ -4968,7 +5155,8 @@
             "name": "Sen. Mary Hodge",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB13-196",
@@ -4991,7 +5179,8 @@
             "name": "Rep. Beth McCann",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB19-1022",
@@ -5010,7 +5199,8 @@
             "name": "Rep. Shane Sandridge",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5039,7 +5229,8 @@
             "name": "Rep. Randy Baumgardner",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB12-1048",
@@ -5058,7 +5249,8 @@
             "name": "Rep. Waller",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB12-1064",
@@ -5081,7 +5273,8 @@
             "name": "Sen. Steve King",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB12-1088",
@@ -5104,7 +5297,8 @@
             "name": "Sen. Kevin Grantham",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB12-1092",
@@ -5127,7 +5321,8 @@
             "name": "Sen. Brophy",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5156,7 +5351,8 @@
             "name": "Sen. Brophy",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB11-077",
@@ -5179,7 +5375,8 @@
             "name": "Rep. Becker",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB11-053",
@@ -5202,7 +5399,8 @@
             "name": "Rep. Sonnenberg",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB11-1073",
@@ -5225,7 +5423,8 @@
             "name": "Sen. Morse",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5254,7 +5453,8 @@
             "name": "Rep. Jerry Sonnenberg",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB10-092",
@@ -5277,7 +5477,8 @@
             "name": "Rep. Steve King",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB10-1094",
@@ -5300,7 +5501,8 @@
             "name": "Sen. Ted Harvey",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5325,7 +5527,8 @@
             "name": "Rep. Steven King",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB09-008",
@@ -5348,7 +5551,8 @@
             "name": "Rep. Cory Gardner",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB09-074",
@@ -5367,7 +5571,8 @@
             "name": "Sen. Greg Brophy",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5392,7 +5597,8 @@
             "name": "Sen. Sue Windels",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB08-1066",
@@ -5415,7 +5621,8 @@
             "name": "Sen. Ted Harvey",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB08-1069",
@@ -5438,7 +5645,8 @@
             "name": "Sen. Lois Tochtrop",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB08-1096",
@@ -5457,7 +5665,8 @@
             "name": "Rep. Debbie Stafford",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB08-1190",
@@ -5480,7 +5689,8 @@
             "name": "Sen. Jack Taylor",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB08-048",
@@ -5499,7 +5709,8 @@
             "name": "Sen. Moe Keller",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB08-115",
@@ -5518,7 +5729,8 @@
             "name": "Sen. Greg Brophy",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5547,7 +5759,8 @@
             "name": "Rep. Madden",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB07-069",
@@ -5566,7 +5779,8 @@
             "name": "Sen. Renfroe",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB07-1011",
@@ -5589,7 +5803,8 @@
             "name": "Sen. Ted Harvey",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB07-1174",
@@ -5612,7 +5827,8 @@
             "name": "Sen. Bacon",
             "slug": "jennifer-bacon"
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5637,7 +5853,8 @@
             "name": "Rep. Dale Hall",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB06-1246",
@@ -5660,7 +5877,8 @@
             "name": "Sen. Doug Lamborn",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB06-157",
@@ -5683,7 +5901,8 @@
             "name": "Rep. Tom Massey",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5708,7 +5927,8 @@
             "name": "Rep. Dale Hall",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB05-1023",
@@ -5731,7 +5951,8 @@
             "name": "Sen. Doug Lamborn",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5760,7 +5981,8 @@
             "name": "Sen. Johnson",
             "slug": "dusty-johnson"
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB04-1012",
@@ -5779,7 +6001,8 @@
             "name": "Rep. Rose",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB04-1170",
@@ -5798,7 +6021,8 @@
             "name": "Rep. Cloer",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB04-1205",
@@ -5817,7 +6041,8 @@
             "name": "Rep. Crane",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB04-1208",
@@ -5840,7 +6065,8 @@
             "name": "Sen. Teck",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB04-1263",
@@ -5867,7 +6093,8 @@
             "name": "Sen. Cairns",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB04-1281",
@@ -5890,7 +6117,8 @@
             "name": "Sen. Hillman",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB04-158",
@@ -5909,7 +6137,8 @@
             "name": "Sen. Gordon",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -5938,7 +6167,8 @@
             "name": "Rep. White",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB03-025",
@@ -5961,7 +6191,8 @@
             "name": "Rep. Hefley",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB03-063",
@@ -5984,7 +6215,8 @@
             "name": "Rep. Schultheis",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB03-1119",
@@ -6007,7 +6239,8 @@
             "name": "Sen. Jones",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB03-1148",
@@ -6030,7 +6263,8 @@
             "name": "Sen. Hillman",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB03-1290",
@@ -6053,7 +6287,8 @@
             "name": "Sen. Cairns",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -6082,7 +6317,8 @@
             "name": "Sen. Phillips",
             "slug": "jacque-phillips"
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB02-116",
@@ -6105,7 +6341,8 @@
             "name": "Rep. Hefley",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB07-1264",
@@ -6124,7 +6361,8 @@
             "name": "Sen. Borodkin",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB02-1410",
@@ -6147,7 +6385,8 @@
             "name": "Sen. Chlouber",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -6176,7 +6415,8 @@
             "name": "Sen. Chlouber",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB01-1327",
@@ -6199,7 +6439,8 @@
             "name": "Sen. Owen",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB01-017",
@@ -6222,7 +6463,8 @@
             "name": "Rep. Young",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB01-032",
@@ -6245,7 +6487,8 @@
             "name": "Rep. Alexander",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB01-083",
@@ -6264,7 +6507,8 @@
             "name": "Sen. Chlouber",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB01-160",
@@ -6283,7 +6527,8 @@
             "name": "Sen. Gordon",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -6312,7 +6557,8 @@
             "name": "Sen. Dennis",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1114",
@@ -6335,7 +6581,8 @@
             "name": "Sen. Chlouber",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1197",
@@ -6358,7 +6605,8 @@
             "name": "Sen. Perlmutter",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1201",
@@ -6381,7 +6629,8 @@
             "name": "Sen. Epps",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1208",
@@ -6404,7 +6653,8 @@
             "name": "Sen. Teck",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1214",
@@ -6427,7 +6677,8 @@
             "name": "Sen. Sullivant",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1220",
@@ -6454,7 +6705,8 @@
             "name": "Sen. Weddig",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1242",
@@ -6477,7 +6729,8 @@
             "name": "Rep. Morrison",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1272",
@@ -6500,7 +6753,8 @@
             "name": "Sen. Blickensderfer",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1289",
@@ -6523,7 +6777,8 @@
             "name": "Sen. Hillman",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB00-1008",
@@ -6546,7 +6801,8 @@
             "name": "Sen. Musgrave",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB00-010",
@@ -6569,7 +6825,8 @@
             "name": "Rep. Clapp",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB00-089",
@@ -6588,7 +6845,8 @@
             "name": "Sen. Hernandez",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB00-125",
@@ -6611,7 +6869,8 @@
             "name": "Rep. Tool",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB00-152",
@@ -6634,7 +6893,8 @@
             "name": "Rep. Dean",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SCR00-009",
@@ -6653,7 +6913,8 @@
             "name": "Sen. Pascoe",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -6682,7 +6943,8 @@
             "name": "Sen. Dennis",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB99-1316",
@@ -6705,7 +6967,8 @@
             "name": "Sen. Chlouber",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "HB99-1379",
@@ -6724,7 +6987,8 @@
             "name": "Rep. Decker",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB99-053",
@@ -6743,7 +7007,8 @@
             "name": "Sen. Pascoe",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB99-058",
@@ -6762,7 +7027,8 @@
             "name": "Sen. Owen",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB99-108",
@@ -6785,7 +7051,8 @@
             "name": "Rep. McElhany",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []
@@ -6814,7 +7081,8 @@
             "name": "Sen. B. Alexander",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       },
       {
         "billNumber": "SB98-081",
@@ -6837,7 +7105,8 @@
             "name": "Rep. George",
             "slug": null
           }
-        ]
+        ],
+        "titleSource": "rmgo-subject"
       }
     ],
     "sponsorLinks": []

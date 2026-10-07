@@ -44,6 +44,10 @@ export type GunBillCatalogEntry = {
   officialUrl?: string;
   crsCitation?: string;
   crsUrl?: string;
+  /** Provenance of `title`: "co-ga-official" = official long title from the
+   *  CO GA bill page (cache field coGaLongTitle / researched authoritative
+   *  source); "rmgo-subject" = RMGO's short subject (fallback). */
+  titleSource?: "co-ga-official" | "rmgo-subject";
 };
 
 export type GunBillCatalogYear = {
