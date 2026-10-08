@@ -181,6 +181,22 @@ export function getCachedCoGaTitle(url: string): string | undefined {
 }
 
 /**
+ * Get cached CO GA official long title for a bill URL (the "Concerning …"
+ * line from <p class='bill-long-title'>, cached by scripts/fetch-bill-summaries.ts).
+ */
+export function getCachedCoGaLongTitle(url: string): string | undefined {
+  const cache = loadBillTextCache();
+  const data = cache.get(url);
+  if (!data) return undefined;
+  try {
+    const parsed: { coGaLongTitle?: string } = JSON.parse(data);
+    return parsed.coGaLongTitle?.trim() || undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/**
  * Get cached CO GA summary for a bill URL
  */
 export function getCachedCoGaSummary(url: string): string | undefined {
@@ -287,6 +303,11 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
   // Use CO GA bill URL as cache key (the page we fetched for title/summary/sponsors)
   const cacheKey = rmgoBill.subjectUrl || '';
   
+  // Official long title ("Concerning …") wins over the h1 topic label —
+  // it is the actual name of the bill (2026-10-06 billwatch title fix).
+  let longTitle: string | undefined;
+  if (cacheKey) longTitle = getCachedCoGaLongTitle(cacheKey);
+  
   // Check if we have cached CO GA title/summary
   const cachedTitle = getCachedCoGaTitle(cacheKey);
   const cachedSummary = getCachedCoGaSummary(cacheKey);
@@ -300,6 +321,9 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
     summary = cachedSummary;
     sponsorLinks = getCachedCoGaSponsorLinks(cacheKey, rmgoBill.sponsors);
     setCachedCoGaData(cacheKey, title, summary, sponsorLinks);
+    if (longTitle) {
+      title = longTitle;
+    }
   } else if (rmgoBill.subjectUrl) {
     const extractedTitle = await extractCoGaBillTitle(rmgoBill.billNumber, rmgoBill.subjectUrl);
     const coGaSummaryRef = await extractCoGaBillSummary(rmgoBill.billNumber, rmgoBill.subjectUrl);
@@ -307,6 +331,9 @@ export async function rmgoToCatalogEntryWithCoGaExtraction(
 
     if (extractedTitle && extractedTitle !== rmgoBill.billNumber) {
       title = extractedTitle;
+      if (longTitle) {
+        title = longTitle;
+      }
       summary = generate2ASummaryFromCoGa(
         rmgoBill.billNumber,
         extractedTitle,
