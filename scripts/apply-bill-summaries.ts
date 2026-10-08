@@ -6,7 +6,8 @@
  * verbatim, template/stance/status artifacts ("Second Amendment", "2A
  * perspective", "firearm freedoms", "is a support/oppose/amend", "signed
  * into law", "is currently", "status of"), wrong sentence count (3-4 for
- * live 2016-2026 bills, 1-2 for pre-2016), empty/too-long text.
+ * every bill — pre-2016 now has bill text available, so it matches the
+ * post-2016 3-4 sentence size), empty/too-long text.
  * Soft warnings (applied but printed): stance/status-adjacent words that
  * could be legitimate ("supports", "passed", "enacted", ...).
  *
@@ -120,7 +121,7 @@ function main() {
     if (s.length < 30 || s.length > 1200) problems.push(`length ${s.length} outside 30-1200`);
     const sc = sentenceCount(s);
     if (isLive && (sc < 3 || sc > 4)) problems.push(`${sc} sentences (live bills need 3-4)`);
-    if (!isLive && (sc < 1 || sc > 2)) problems.push(`${sc} sentences (pre-2016 needs 1-2)`);
+    if (!isLive && (sc < 3 || sc > 4)) problems.push(`${sc} sentences (pre-2016 needs 3-4, matching post-2016)`);
     for (const [re, why] of HARD_BANS) {
       if (re.test(s)) problems.push(`banned pattern (${why})`);
     }

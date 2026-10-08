@@ -4297,7 +4297,7 @@
       {
         "billNumber": "SB15-006",
         "title": "Prohibit Forfeitures Without Criminal Conviction",
-        "summary": "Places limitations on civil forfeiture actions.",
+        "summary": "Requires that a court may not enter a judgment of forfeiture of property unless an owner of the property has been convicted of the underlying offense, with limited exceptions such as a plea agreement, an owner who evades the court's jurisdiction, or a settlement agreed to by all parties. It gives the person whose property was seized the right to a pretrial hearing or a writ of replevin to challenge the validity of the seizure or to require return of the property, with the court granting relief when return is likely, the property is not needed for the investigation, or the property is the only means to pay for legal representation. The act also bars state law enforcement agencies from participating in a federal forfeiture action unless the seized property is worth more than fifty thousand dollars and requires that any federal forfeiture proceeds they receive be credited to the state general fund.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4321,7 +4321,7 @@
       {
         "billNumber": "SB15-032",
         "title": "Lift Restrictions On Carrying Of Firearms",
-        "summary": "Allows a person who may legally possess a handgun to carry it concealed without a permit.",
+        "summary": "Allows a person who is at least twenty-one years old and who legally possesses a handgun under state and federal law to carry a concealed handgun in Colorado without a permit. The authority created is equal in all respects to that granted by a concealed handgun permit, so the carrier has the same rights and is subject to the same limitations, including the prohibition on carrying on the grounds of a public elementary, middle, junior high, or high school. The act also makes corresponding adjustments to state appropriations, reducing funding for the bureau's identification unit and the instant criminal background check cash fund, and it takes effect upon passage.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4341,7 +4341,7 @@
       {
         "billNumber": "SB15-086",
         "title": "Repeal Gun Transfer Background Check Rqmnt & Fee",
-        "summary": "Repeals the expanded background check requirements for firearm transfers.",
+        "summary": "Repeals the requirement that a person who is not a licensed gun dealer must obtain a criminal background check of the transferee and the approval of the Colorado bureau of investigation before transferring possession of a firearm. It also repeals the bureau's fee for performing an instant criminal background check and the associated instant criminal background check cash fund. The act makes conforming changes to the civil protection order, protection order, and domestic violence sentencing statutes, and it adjusts state appropriations by shifting the cost of background checks from the cash fund to the general fund.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4365,7 +4365,7 @@
       {
         "billNumber": "SB15-175",
         "title": "Ammunition Magazines",
-        "summary": "Repeals the state prohibition on large-capacity ammunition magazines.",
+        "summary": "Deletes the state's prohibitions on the possession of large-capacity magazines and the requirement that large-capacity magazines manufactured in Colorado carry identification markings. The change removes part 3 of article 12 of title 18 of the Colorado Revised Statutes, the part of the code that imposed those magazine rules. The act also carries a safety clause finding it necessary for the immediate preservation of public peace, health, and safety.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -4393,7 +4393,7 @@
       {
         "billNumber": "HB15-1009",
         "title": "Repeal Large Ammo Magazine Ban",
-        "summary": "Repeals the state prohibition on large-capacity ammunition magazines.",
+        "summary": "Repeals the statutory provisions that prohibit the possession of large-capacity ammunition magazines and that require identification markings to be placed on large-capacity magazines manufactured in the state. The act deletes part 3 of article 12 of title 18 of the Colorado Revised Statutes, the part of the code that contained those magazine restrictions. It includes a safety clause declaring the act necessary for the immediate preservation of public peace, health, and safety.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4417,7 +4417,7 @@
       {
         "billNumber": "HB15-1049",
         "title": "Deadly Force Against Intruders In Businesses",
-        "summary": "Expands Colorado's make-my-day doctrine governing the use of deadly force against intruders in the home.",
+        "summary": "Extends the right to use deadly physical force against an intruder beyond occupants of a dwelling to include owners, managers, and employees of a place of business. The force is justified when the person has made an unlawful entry and the owner, manager, or employee reasonably believes the intruder committed or intends to commit a crime and might use force, however slight, against anyone in the dwelling or business. A person acting under that authority is immune from criminal prosecution and from civil liability for injuries or death resulting from the force. The act also makes the defense-of-premises statute gender-neutral and permits deadly force to prevent an attempted first degree arson.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4441,7 +4441,7 @@
       {
         "billNumber": "HB15-1050",
         "title": "Repeal Gun Transfer Background Check Rqmnt & Fee",
-        "summary": "Repeals the expanded background check requirement for firearm transfers.",
+        "summary": "Repeals the requirement that a person who is not a licensed gun dealer must obtain a criminal background check of the transferee and the approval of the Colorado bureau of investigation before transferring possession of a firearm. It also repeals the bureau's fee for performing an instant criminal background check and the associated instant criminal background check cash fund. The act makes conforming changes to the civil protection order, protection order, and domestic violence sentencing statutes, replacing the prior receipt-and-background-check documentation with a single written receipt signed by both parties.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4465,7 +4465,7 @@
       {
         "billNumber": "HB15-1086",
         "title": "CBI Produce Certificates For Gun Transferees",
-        "summary": "Directs the Colorado bureau of investigation to produce a certificate for firearm transferees.",
+        "summary": "Requires the Colorado bureau of investigation to act within five days of a request for the certificate that federal law requires for transfers of machine guns, destructive devices, and certain other firearms. The bureau must either issue the certificate or deny it with a written explanation and an opportunity for the applicant to provide additional information. A denied applicant may seek judicial review, at which the bureau bears the burden of proving the applicant is ineligible by a preponderance of the evidence, and the court may award attorney fees to the prevailing party. When the bureau issues a certificate, it may not keep a record identifying the specific model or serial number of the firearm.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4489,7 +4489,7 @@
       {
         "billNumber": "HB15-1127",
         "title": "No Liability For Permitting Concealed Carry",
-        "summary": "Shields concealed carry permit holders from liability arising from their carry of a handgun.",
+        "summary": "Provides that the owner or operator of a place of business open to the public is not liable for damages in a civil action alleged to have resulted from the business adopting a policy that allows a person holding a concealed handgun permit to carry on its premises. The immunity applies only to businesses that adopt such a policy and does not affect the liability of other businesses or diminish rights available to them under existing law. The act takes effect on the day following the expiration of the ninety-day period after the general assembly's final adjournment, subject to a possible referendum petition.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
@@ -4509,7 +4509,7 @@
       {
         "billNumber": "HB15-1138",
         "title": "No Background Check Concealed Handgun Permittees",
-        "summary": "Eliminates the background check requirement for firearm transfers.",
+        "summary": "Allows a person holding a valid Colorado concealed handgun permit, issued or renewed on or after January 1, 2016, to satisfy the state and federal background check requirements for receiving a transferred firearm by presenting the permit and a valid government-issued identification card. The exemption applies whether the transferor is a gun show vendor or a licensed importer, manufacturer, or dealer. To make the permits verifiable, it requires the Colorado bureau of investigation to establish a uniform, tamper-resistant template that each sheriff must use when issuing permits on or after that date. It also adds citizenship and immigration details to the permit application so the application itself satisfies federal criminal background check requirements.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4529,7 +4529,7 @@
       {
         "billNumber": "HB15-1152",
         "title": "Concealed Handgun Carry No Permit",
-        "summary": "Allows a person who may legally possess a handgun to carry it concealed without a permit.",
+        "summary": "Allows a person who is at least twenty-one years old and who legally possesses a handgun under state and federal law to carry a concealed handgun in Colorado without a permit. The authority created is equal in all respects to that granted by a concealed handgun permit, so a person carrying under it has the same rights and is subject to the same limitations, including the prohibition on carrying on the grounds of a public elementary, middle, junior high, or high school. The act takes effect upon passage and applies to offenses committed on or after that date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4549,7 +4549,7 @@
       {
         "billNumber": "HB15-1168",
         "title": "Concealed Handgun Carry In Public Schools",
-        "summary": "Concerns protecting schools through armed security measures.",
+        "summary": "Removes the statutory prohibition that barred a person holding a valid concealed handgun permit from carrying a concealed handgun on the grounds of a public elementary, middle, junior high, or high school. Under the act, carrying a handgun on school grounds with a valid permit or temporary emergency permit is no longer an offense under the unlawful-carrying-on-school-grounds statute. The change applies to the real property of the school and any improvements erected on it, effectively treating school grounds like other public property for permit holders.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4579,7 +4579,7 @@
       {
         "billNumber": "HB14-1059",
         "title": "No Disorderly Conduct For Blanks Fired At Funerals",
-        "summary": "Exempts ceremonial blank gunfire at funerals from the disorderly conduct offense.",
+        "summary": "Clarifies that the ritual discharge of blank ammunition cartridges at a funeral for a deceased veteran of the armed forces of the United States does not constitute the criminal offense of disorderly conduct. The change adds that exception to the provision making it disorderly conduct to discharge a firearm in a public place, which already excludes lawful target practice and hunting. It therefore allows funeral attendees to fire blanks in honor of a fallen service member without risking a disorderly conduct charge.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -4603,7 +4603,7 @@
       {
         "billNumber": "HB14-1097",
         "title": "Sales & Use Tax Holiday Firearms Ammo Accessories",
-        "summary": "Creates a sales and use tax holiday for firearms, ammunition, and firearm accessories.",
+        "summary": "Creates a state sales and use tax exemption for firearms, ammunition, and firearm accessories sold on the first Friday and Saturday of August in 2014, 2015, and 2016. The exemption applies only to sales by a vendor that elects to participate for a given year, and a participating vendor may not apply the exemption selectively to only some of its sales. Firearm accessories are defined to include replacement parts and attachments as well as items used to carry or store a firearm, such as stocks, scopes, grips, magazines, cases, and holsters. A town, city, or county may adopt an identical local sales tax exemption for the same periods.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4627,7 +4627,7 @@
       {
         "billNumber": "HB14-1230",
         "title": "Restoration Of Firearm Carry Right For Some Felons",
-        "summary": "Establishes a process for restoring the right to carry firearms.",
+        "summary": "Creates a court process that allows a person convicted of certain nonviolent felonies to petition for restoration of the right to possess and carry a firearm after a five-year waiting period following completion of the sentence. The sentencing court may issue a certificate of restoration if, by a preponderance of the evidence, the petitioner has a lawful occupation or source of income, has had no new convictions and no pending charges, has shown lawful and substantial reasons, and poses no unreasonable risk to public safety. Eligibility is limited to a specified list of nonviolent offenses, excluding arson, certain burglaries, and robbery, and a denied petitioner may not refile for at least one year. The district attorney must notify the victim of the petition.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4651,7 +4651,7 @@
       {
         "billNumber": "SB14-038",
         "title": "Governor Cannot Restrict Firearms During Emergency",
-        "summary": "Bars the governor from restricting firearms during a state of disaster emergency.",
+        "summary": "Removes the governor's authority to suspend or limit the sale, dispensing, or transportation of firearms during a state of disaster emergency. The change strips firearms from the list of items the governor may restrict in an emergency, which continues to cover alcoholic beverages, explosives, and combustibles. The act takes effect on the day following the expiration of the ninety-day period after the general assembly's final adjournment, subject to a possible referendum petition.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -4675,7 +4675,7 @@
       {
         "billNumber": "SB14-090",
         "title": "No Background Check For Step-relations",
-        "summary": "Exempts firearm transfers between step-relatives from the background check requirement.",
+        "summary": "Expands the existing exceptions to the private firearms transfer background check requirement so that they also cover transfers between step-relatives. The first exception, for a bona fide gift or loan between immediate family members such as spouses, parents, children, siblings, grandparents, grandchildren, nieces, nephews, first cousins, aunts, and uncles, is broadened to include the step-relatives of those persons. The second exception, which covers a member of the armed forces who will be deployed outside the country within thirty days transferring to an immediate family member, is likewise extended to include a step-relative of that person.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4695,7 +4695,7 @@
       {
         "billNumber": "SB14-094",
         "title": "Background Checks And Fees For Gun Transfers",
-        "summary": "Repeals background check requirements and the fees that accompany them.",
+        "summary": "Repeals the statute that required a person who is not a licensed gun dealer to obtain a criminal background check of the transferee and the approval of the Colorado bureau of investigation before transferring possession of a firearm. It also repeals the bureau's fee for performing an instant criminal background check and the associated instant criminal background check cash fund. The repealed statute had contained a broad list of transfer exceptions, including gifts between immediate family members, transfers by operation of law or at death, and temporary transfers at ranges, competitions, and during hunting.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -4719,7 +4719,7 @@
       {
         "billNumber": "SB14-163",
         "title": "Clean-up SB13-250 Drug Sentencing",
-        "summary": "Repeals restrictions on purchasing firearms in contiguous states.",
+        "summary": "Makes conforming corrections to the drug sentencing provisions adopted by a prior 2013 measure so that the statute's internal references and definitions line up with the new drug offense levels. It clarifies that the terms misdemeanor and petty offense include the corresponding drug offenses, that offenses may fall into one of six drug offense levels, and that level 1 or 2 drug felonies carry the same preliminary hearing and alternate juror rights as class 1, 2, or 3 felonies. It also corrects an internal cross-reference so that the vacatur of certain level 4 drug felony convictions applies to the offenses actually described in the code.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -4749,7 +4749,7 @@
       {
         "billNumber": "SB13-009",
         "title": "School Board Policies Allowing Concealed Carry",
-        "summary": "Authorizes concealed carry in public K-12 schools.",
+        "summary": "Permits a school district board of education and the governing board of a charter or institute charter school to adopt a written policy allowing an employee of the district or school to carry a concealed handgun within its buildings and on its grounds. Such a policy may apply only to an employee who holds a valid concealed handgun carry permit, and the board may add requirements, such as training, on top of the permit. The bill creates matching exceptions to the rule that otherwise prohibits carrying a concealed handgun on public school property, letting a permittee who is a district or charter-school employee carry in accordance with the board's adopted policy. Adoption of such a policy is discretionary, so each board decides whether to authorize employee carry on its own campuses.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4777,7 +4777,7 @@
       {
         "billNumber": "SB13-062",
         "title": "Require Security At No-firearms Businesses",
-        "summary": "Makes businesses that prohibit firearms on their premises liable for harm suffered by disarmed patrons.",
+        "summary": "Creates civil liability for a private business that bans firearms on its premises but does not provide proportionate armed security. A business becomes liable for damages in a suit brought by an invitee when it holds itself open to the public, prohibits the carrying of firearms—concealed or open—where that carrying would otherwise be lawful, and fails to staff at least one on-duty security officer armed with a firearm for every fifty people present. The invitee must also show that the resulting injuries stemmed from another person's actions that the invitee could have resisted with a firearm had the business not imposed the ban. The term private business entity is defined to include tax-exempt not-for-profit organizations that conduct retail sales or provide retail services to the public.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4801,7 +4801,7 @@
       {
         "billNumber": "HB13-1043",
         "title": "Modify Definition Of Deadly Weapon",
-        "summary": "Amends the class of weapons that Colorado criminal law treats as deadly weapons.",
+        "summary": "Revises the statutory definition of a deadly weapon so that the category of any other weapon, device, instrument, material, or substance that is capable of producing death or serious bodily injury is brought within the same definitional clause as firearms and knives. The change folds the separate bludgeon and catch-all subparts into a single provision covering any animate or inanimate object that, in the manner it is used or intended to be used, is capable of producing death or serious bodily injury. It does not add or remove any specific object from the definition but restructures how the definition is organized.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -4825,7 +4825,7 @@
       {
         "billNumber": "HB13-1048",
         "title": "Deadly Force Against Intruder At A Business",
-        "summary": "Extends the right to use deadly force against an intruder to owners, managers, and employees of a place of business.",
+        "summary": "Extends the right to use deadly physical force against an intruder, which previously applied only to occupants of dwellings, so that owners, managers, and employees of a place of business may also use any degree of force, including deadly force, against a person who has made an unlawful entry into the business. The protection applies when the owner, manager, or employee reasonably believes the intruder committed or intends to commit a crime beyond the uninvited entry and might use any physical force, however slight, against a person on the premises. A person using force in accordance with these conditions is immune from criminal prosecution and from civil liability for injuries or death resulting from the force. The measure also updates the related defense-of-premises statute with gender-neutral language.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4849,7 +4849,7 @@
       {
         "billNumber": "HB13-1085",
         "title": "Change Possession Of Weapons By Previous Offender",
-        "summary": "Modifies the offense of possession of a weapon by a previous offender.",
+        "summary": "Narrows the crime of possession of a weapon by a previous offender, which under existing law applied to any prior felony conviction, so that it now reaches only specific categories of felonies. A person commits the offense if they knowingly possess, use, or carry a firearm or other covered weapon after a conviction for a felony defined in the victim's rights act, for burglary or arson, or for any felony involving the use of force or a deadly weapon, including attempt or conspiracy to commit such a felony. The same narrowed scope applies to juvenile adjudications for conduct that would be a felony if committed by an adult, and the required written statement given at sentencing is updated to reflect the changed list of offenses. The changes apply to offenses committed on or after July 1, 2013.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4873,7 +4873,7 @@
       {
         "billNumber": "HB13-1169",
         "title": "No Background Check With Concealed Carry Permit",
-        "summary": "Exempts concealed carry permit holders from the background check performed when purchasing a firearm.",
+        "summary": "Allows a valid Colorado concealed handgun carry permit to stand in for the otherwise-required criminal background check when a firearm changes hands, so a transferee who presents the permit and a valid government-issued photo ID is exempt from the instant criminal background check. The exemption applies to transfers at gun shows and to licensed firearm dealers, who are relieved of the duty to contact the state point of contact or the national instant criminal background check system before the transfer. To make the permit a reliable substitute, the measure requires the bureau of investigation to issue a uniform, tamper-resistant permit template and to run a national background check on each applicant's fingerprints, and it adds citizenship and immigration questions to the permit application. The background-check exemption applies only to permits issued or renewed on or after January 1, 2014.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4897,7 +4897,7 @@
       {
         "billNumber": "SB13-140",
         "title": "No Federal Laws Concerning Colorado Firearms",
-        "summary": "Prohibits the enforcement of certain federal firearms laws within Colorado.",
+        "summary": "Prohibits state employees, agents, and agencies—including peace officers—from enforcing any federal law that touches a firearm, ammunition, magazine, or accessory manufactured in the United States and kept entirely within Colorado's borders. A federal statute, rule, or regulation taking effect on or after January 1, 2013 is likewise unenforceable in the state if it would ban or restrict ownership of a semi-automatic firearm or magazine, require registration of a firearm or accessory, or restrict purchases by Colorado residents or visiting out-of-state residents. The attorney general may defend a Colorado resident prosecuted by the federal government over such an item when it was made or bought in Colorado and never left the state. A federal employee or agent who enforces or attempts to enforce a covered law commits a class 1 misdemeanor.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4921,7 +4921,7 @@
       {
         "billNumber": "HB13-1162",
         "title": "Concealed Handgun Carry No Permit",
-        "summary": "Allows a person who may legally possess a handgun to carry it concealed without a permit.",
+        "summary": "Creates a permitless option for carrying a concealed handgun in Colorado by allowing a person who is at least twenty-one years old and legally possesses a handgun under state and federal law to carry it concealed without first obtaining a permit. The authority granted is equal in all respects to a concealed handgun carry permit, so the carrier has the same rights and is subject to the same limitations, including the prohibition on carrying a concealed handgun on the grounds of a public elementary, middle, junior high, or high school. The change is made to the unlawful-carrying statute and to the parallel statute covering school, college, and university grounds, so that qualifying possession is not treated as an offense. The provision applies to offenses committed on or after the act takes effect.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4945,7 +4945,7 @@
       {
         "billNumber": "HB13-1170",
         "title": "Policies Allowing Concealed Carry In Public School",
-        "summary": "Authorizes concealed carry in K-12 schools.",
+        "summary": "Authorizes a school district board of education and the governing board of a charter or institute charter school to adopt a written policy permitting an employee of the district or school to carry a concealed handgun within its buildings and on its grounds. The policy may only apply to an employee who holds a valid concealed handgun carry permit, and the governing board may impose additional conditions, such as completing training, beyond holding the permit. The bill adds corresponding exceptions to the statute that otherwise bars carrying a concealed handgun on public school property, so a permittee who is a district or charter-school employee may carry in line with the board-adopted policy. The authority is discretionary, leaving each board to decide whether and under what rules to allow such carry.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4969,7 +4969,7 @@
       {
         "billNumber": "HB13-1187",
         "title": "No New Federal Firearm Laws",
-        "summary": "Opposes the enforcement of new federal firearms restrictions in Colorado.",
+        "summary": "Declares that a federal statute, order, rule, or regulation taking effect on or after January 1, 2013 is unenforceable within Colorado if it would impose a prohibition, restriction, or limitation on the possession of a firearm, firearm accessory, or ammunition that does not exist under state law, including capacity or size limits and registration requirements. A federal employee or agent who enforces or attempts to enforce such a measure in violation of the prohibition commits a class 1 misdemeanor. The attorney general is authorized to defend a Colorado resident who is prosecuted by the federal government for an alleged offense under an unenforceable measure. The section also defines the covered terms, treating a firearm accessory as an item used with or mounted on a firearm, including a detachable ammunition magazine.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -4993,7 +4993,7 @@
       {
         "billNumber": "HB13-1226",
         "title": "No Concealed Carry At Colleges",
-        "summary": "Bans concealed carry on college and university campuses.",
+        "summary": "Bars a concealed handgun permit holder from carrying a concealed handgun on the campus of a public institution of higher education, covering any building or structure the institution uses for any purpose, any stadium or arena it uses to host events, and any outdoor institution-sponsored event where the campus chief administrator, in consultation with the campus safety chief, has chosen to prohibit firearms. A permittee who is employed or retained by contract by the institution as a security officer remains permitted to carry while on duty. The measure updates the unlawful-carrying statutes so that carrying a concealed handgun in violation of the new campus restriction is a criminal offense. It defines a public institution of higher education to include colleges, universities, community and technical colleges, junior colleges, and area vocational schools.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5017,7 +5017,7 @@
       {
         "billNumber": "HB13-1229",
         "title": "Background Checks For Gun Transfers",
-        "summary": "Creates a registration system recording every firearm purchase.",
+        "summary": "Requires a person who is not a licensed gun dealer to route a private firearm transfer through a licensed dealer so that a criminal background check is run on the prospective recipient and the bureau approves the transfer before possession may change hands. The unlicensed transferor arranges for the dealer to perform the check, the dealer records the transaction and may charge a fee of up to ten dollars, and the resulting approval is valid for thirty days. A transferor who makes a transfer in violation of these rules can be held jointly and severally liable for civil damages caused by the recipient's later use of the firearm. The law carves out exemptions for antique and curio-relic firearms, family gifts and loans, estate transfers, temporary transfers for self-defense or at ranges and while hunting, repair or maintenance, and transfers from service members about to deploy, and a violation is a class 1 misdemeanor carrying a two-year ban on possessing firearms.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -5041,7 +5041,7 @@
       {
         "billNumber": "HB13-1306",
         "title": "Mental Health Task Force",
-        "summary": "Concerns government oversight of individuals' personal mental health records.",
+        "summary": "Creates a thirty-member mental health and firearms task force to advise the legislature on the loss, maintenance, and restoration of the right to purchase and possess firearms by people who, because of mental health issues, alcohol or substance abuse, or family dynamics, are clearly dangerous to themselves or others. Members are appointed by a mix of legislators, the governor's office, the state court administrator, gun-safety and firearms-owner advocates, and the executive director of the behavioral health department, drawing on mental health clinicians, law enforcement, and affected family members. The task force holds public meetings, may take testimony and written comments, must meet at least five times, and is to deliver a written report of findings and recommendations to the house and senate judiciary committees by January 15, 2015. Members serve without pay or expense reimbursement, and the task force authority sunsets on August 1, 2015.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5065,7 +5065,7 @@
       {
         "billNumber": "SB13-197",
         "title": "No Firearms For Domestic Violence Offenders",
-        "summary": "Restricts firearm access for people accused of domestic violence.",
+        "summary": "Requires a court that subjects a person to a qualifying civil or mandatory criminal domestic violence protection order to order that person to refrain from possessing or purchasing any firearm or ammunition for the duration of the order and to relinquish any firearm or ammunition in their immediate possession or control. The relinquishment must occur within twenty-four hours of service in open court or forty-eight hours after service outside the court, with a court-authorized extension to seventy-two hours for a firearm or five days for ammunition if the person shows they cannot comply sooner. A person may satisfy the requirement by selling or transferring the items to a licensed dealer, arranging storage with a law enforcement agency, or transferring them to a private party who may legally possess them, and must file a receipt or written statement with the court within three business days. Violating the order by possessing or purchasing a firearm or ammunition, or failing to file the required proof, is a crime; the court must then issue a warrant for the person's arrest.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5089,7 +5089,7 @@
       {
         "billNumber": "SB13-195",
         "title": "No On-line Training For Concealed Handgun Permits",
-        "summary": "Adds mandatory training requirements for obtaining a concealed handgun permit.",
+        "summary": "Requires an applicant for a concealed handgun carry permit to complete a handgun training class in person, excluding any firearms safety course that can be finished entirely over the internet or on an electronic device or in any location other than the physical place where the certified instructor offers the course. The applicant must submit a training certificate, original or a photocopy bearing the instructor's original signature, obtained within the ten years before the application is filed. The change clarifies that, to the extent permitted by the definition of a handgun training class, the applicant has discretion in choosing which qualifying class to complete. The measure takes effect upon the date of its approval and applies to permit applications submitted after that date.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -5113,7 +5113,7 @@
       {
         "billNumber": "HB13-1228",
         "title": "Payment For Background Checks For Gun Transfers",
-        "summary": "Imposes a tax on gun purchases to cover the cost of background checks.",
+        "summary": "Requires the bureau of investigation to charge a fee for performing the instant criminal background check that precedes a firearm transfer, capped at the bureau's total direct and indirect costs of conducting the check. All money collected is credited to a newly created instant criminal background check cash fund, which is subject to annual appropriation and whose unspent balances may be carried forward to reduce the fee in later periods. The bureau may contract with a public or private entity to collect the fee and must report to the Joint Budget Committee each January on the number of full-time employees it uses for background checks and on the calculations behind the fee. The measure also adjusts the general fund appropriations for the department of public safety to reflect the shift to a user-funded model.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -5137,7 +5137,7 @@
       {
         "billNumber": "HB13-1224",
         "title": "Prohibiting Large-capacity Ammunition Magazines",
-        "summary": "Bans the sale or possession of high-capacity ammunition magazines.",
+        "summary": "Prohibits the sale, transfer, or possession of a large-capacity ammunition magazine beginning July 1, 2013, and defines the term to cover devices that hold more than fifteen rounds, tubular shotgun magazines holding more than twenty-eight inches of shells, or detachable non-tubular magazines holding more than eight shells when combined with a fixed magazine. Violating the prohibition is a class 2 misdemeanor, rising to a class 1 misdemeanor after a prior conviction and to a class 6 felony if the magazine is possessed during a felony or a crime of violence. A person who owned a qualifying magazine on the effective date and maintains continuous possession may still lawfully possess it, with the prosecution bearing the burden of refuting that claim. The law also requires magazines manufactured in Colorado on or after the effective date to carry a permanent identifying stamp and sets out exemptions for manufacturers, licensed dealers, and certain government and military personnel.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -5161,7 +5161,7 @@
       {
         "billNumber": "SB13-196",
         "title": "Assault Weapon Responsibility Act",
-        "summary": "Imposes responsibility and liability requirements concerning assault weapons.",
+        "summary": "Creates a civil liability regime that treats an assault weapon—defined as any firearm other than a handgun, shotgun, or bolt-action rifle—as a dangerous product. A person who discharges such a weapon is strictly liable for all injuries and damages the discharge causes, with a narrow exception for defensive discharge inside a dwelling against an imminent threat to an occupant. Owners and possessors are liable for a third party's discharge if they negligently stored the weapon or let another take possession, and sellers, transferors, distributors, and manufacturers face liability for negligent entrustment or for sales made in knowing violation of state or federal law. The act also lets an owner surrender a weapon to law enforcement or a licensed dealer as an affirmative defense, requires the highest degree of care in handling these firearms, and repeals the statutes that shield firearm and ammunition manufacturers from certain civil suits.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5185,7 +5185,7 @@
       {
         "billNumber": "HB19-1022",
         "title": "Secret Service Peace Officer Authority",
-        "summary": "Concerns peace officer authority for United States Secret Service personnel in Colorado.",
+        "summary": "Designates certain United States Secret Service employees—special agents, uniform division officers, physical security technicians and specialists, and special officers—as limited peace officers within Colorado. They hold that status only when responding to a non-federal felony or misdemeanor committed in their presence, responding to an emergency requiring immediate action, assisting at the request of a Colorado peace officer, or acting as part of a joint task force or investigation with state officers, and only while following their agency's rules. After making an arrest under this authority, the agent must immediately hand the arrested person over to a Colorado peace officer. The provision does not waive the state's sovereign immunity, create an indemnification duty, or expand federal authority to open independent investigations into violations of Colorado law.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -5211,7 +5211,7 @@
       {
         "billNumber": "SB12-025",
         "title": "Concealed Handgun Carry With No Permit",
-        "summary": "Allows a person who may legally possess a handgun to carry it concealed without a permit.",
+        "summary": "Creates an exception to the offense of unlawfully carrying a concealed weapon for a person who is at least twenty-one years old, legally possesses a handgun under state and federal law, and whose weapon involved in the incident was a handgun. A person carrying under the exception has the same carrying rights and is subject to the same limitations as a person who holds a concealed handgun carry permit. The bill also adds a parallel exception to the offense of possessing a weapon on school, college, or university grounds for the same class of lawful handgun possessors. The act takes effect upon passage and applies to offenses committed on or after that date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5235,7 +5235,7 @@
       {
         "billNumber": "HB12-1048",
         "title": "End CBI Instacheck Duty For Firearm Transfers",
-        "summary": "Ends the Colorado bureau of investigation's role in conducting background checks for firearm transfers.",
+        "summary": "Relieves the Colorado bureau of investigation of its statutory duty to act as the state point of contact for the national instant criminal background check system in firearm transfer cases, so that gun show vendors and sheriffs must instead contact the federal bureau of investigation directly to complete the required background checks. The measure makes conforming changes to the gun show transfer rule, the concealed handgun permit verification process, and the temporary emergency permit process so each references the federal system rather than the bureau. It also updates the theft-of-medical-records statute to keep access to medical information through the background check system outside the definition of theft. The bill reduces the bureau's and the department of public safety's appropriations to reflect the elimination of the state-run check program.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5255,7 +5255,7 @@
       {
         "billNumber": "HB12-1064",
         "title": "Firearm Possession During State Of Emergency",
-        "summary": "Protects firearm possession rights during a state of emergency.",
+        "summary": "Prohibits the state or any political subdivision, during a declared state of emergency, from prohibiting or restricting the otherwise lawful possession, use, carrying, transfer, transportation, storage, or display of a firearm or ammunition, from seizing or confiscating a lawfully possessed firearm except in defined circumstances such as self-defense, an arrest, or seizure as evidence, or from requiring registration of a firearm or ammunition for which registration is not otherwise required by law. An exception allows restrictions on the commercial sale of firearms or ammunition when an authorized authority has ordered an evacuation or a general closure of businesses in the affected area. An individual whose rights are violated may bring a civil action for damages against any person who subjects them to a prohibited action, and may also sue for the return of a seized firearm or ammunition. A prevailing plaintiff in any action to enforce the provision is awarded costs and reasonable attorney fees.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5279,7 +5279,7 @@
       {
         "billNumber": "HB12-1088",
         "title": "Deadly Force Against Intruder At Place Of Business",
-        "summary": "Extends the right to use deadly force against an intruder to owners, managers, and employees of a place of business.",
+        "summary": "Extends the existing justification for using lethal force against an intruder to cover places of business in addition to dwellings. An owner, manager, or employee of a business may use any degree of force, including lethal force, against a person who makes an unlawful entry into the business when the person has a reasonable belief the intruder has committed or intends to commit a crime in the business and might use any physical force, however slight, against an occupant. A person using force under these conditions is immune from criminal prosecution and from civil liability for injuries or death resulting from the force. The act also updates the defense-of-premises provision to permit lethal force under the new business-intruder circumstances and takes effect after the ninety-day referendum-petition period.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5303,7 +5303,7 @@
       {
         "billNumber": "HB12-1092",
         "title": "Concealed Handgun Carry Without Permit",
-        "summary": "Allows a person who may legally possess a handgun to carry it concealed without a permit, as introduced in the house.",
+        "summary": "Creates an exception to the offenses of unlawfully carrying a concealed weapon and of possessing a weapon on school, college, or university grounds for a person who is at least twenty-one years old, may legally possess a handgun under state and federal law, and is carrying a handgun. Under the exception, the person's authority to carry a concealed handgun is equal in all respects to the authority granted by a concealed handgun carry permit, including the same rights and the same limitations. The exception does not allow carrying a concealed handgun on the real property of a public school district, and the existing restriction on carrying on the real property of public elementary, middle, junior high, or high schools continues to apply. The act takes effect upon passage and applies to offenses committed on or after that date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5333,7 +5333,7 @@
       {
         "billNumber": "HB11-1205",
         "title": "Concealed Handgun Exception",
-        "summary": "Allows a person who may legally possess a handgun to carry it concealed without a permit.",
+        "summary": "Creates an exception to the offense of unlawfully carrying a concealed weapon for a person who is at least twenty-one years old, may legally possess a handgun under state and federal law, and whose weapon involved in the incident was a handgun. Under the exception, the person's authority to carry a concealed handgun is equal in all respects to the authority granted by a concealed handgun carry permit, with the same rights and the same limitations. The bill also adds a matching exception to the offense of possessing a weapon on school, college, or university grounds for the same class of lawful handgun possessors. The act takes effect upon passage and applies to offenses committed on or after that date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5357,7 +5357,7 @@
       {
         "billNumber": "SB11-077",
         "title": "Deadly Force Against A Business Intruder",
-        "summary": "Expands Colorado's make-my-day doctrine governing the use of deadly force against intruders.",
+        "summary": "Extends the justification for using lethal force against an intruder to cover places of business in addition to dwellings. An owner, manager, or employee of a business may use any degree of force, including lethal force, against a person who makes an unlawful entry into the business when the person reasonably believes the intruder has committed or intends to commit a crime in the business and might use any physical force, however slight, against an occupant. A person using force under these conditions is immune from criminal prosecution and from civil liability for injuries or death resulting from the force. The act also updates the defense-of-premises provision so that lethal force is permitted under the new business-intruder circumstances, and it takes effect after the ninety-day referendum-petition period.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5381,7 +5381,7 @@
       {
         "billNumber": "SB11-053",
         "title": "Governor Disaster Authority Firearms",
-        "summary": "Restricts the governor from confiscating firearms during a disaster emergency.",
+        "summary": "Removes firearms from the list of items the governor may suspend or limit the sale, dispensing, or transportation of during a state of disaster emergency. The governor retains the same authority over alcoholic beverages, explosives, and combustibles. The act takes effect at the start of the day following the expiration of the ninety-day referendum-petition period after final adjournment of the general assembly.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5405,7 +5405,7 @@
       {
         "billNumber": "HB11-1073",
         "title": "Peace Officer Status US Marshals",
-        "summary": "Concerns expanding the powers of federal marshals in Colorado.",
+        "summary": "Designates a deputy or special deputy United States marshal as a peace officer under the state's federal special agent provision, alongside special agents of the federal bureau of investigation, the bureau of alcohol, tobacco, firearms, and explosives, and officers of the federal protective service of immigration and customs enforcement. The designated officers may act when responding to a nonfederal felony or misdemeanor committed in their presence, responding to an emergency where immediate action is required to prevent escape, serious bodily injury, or property destruction, rendering assistance at the request of a Colorado peace officer, or working in a bona fide task force or joint investigation with Colorado peace officers. After effecting an arrest under the section, the officer must immediately surrender custody of the arrested individual to a Colorado peace officer. The section does not expand the authority of federal officers to initiate or conduct an independent investigation of state law violations and does not impose state liability or waive sovereign immunity.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
@@ -5435,7 +5435,7 @@
       {
         "billNumber": "SB10-051",
         "title": "Removal of Emergency Firearms Ban",
-        "summary": "Removes the authority to ban firearms during a disaster emergency.",
+        "summary": "Removes firearms from the list of items the governor may suspend or limit the sale, dispensing, or transportation of during a state of disaster emergency. The governor retains the same authority over alcoholic beverages, explosives, and combustibles. The act takes effect at the start of the day following the expiration of the ninety-day referendum-petition period after final adjournment of the general assembly.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5459,7 +5459,7 @@
       {
         "billNumber": "SB10-092",
         "title": "Firearms Freedom Act",
-        "summary": "Asserts that firearms manufactured and kept within Colorado are outside federal regulatory authority.",
+        "summary": "Declares that a personal firearm, firearm accessory, or ammunition manufactured commercially or privately in Colorado by a person who is not federally licensed and that remains within the state is not subject to federal law or regulation, including registration, under Congress's interstate commerce authority. The exemption requires that the words 'Made in Colorado' be clearly stamped on a central metallic part of the firearm, such as the receiver or frame. The exemption does not apply to a firearm that cannot be carried and used by one person, a firearm with a bore diameter greater than one and one-half inches that uses smokeless powder, ammunition with a projectile that explodes after leaving the firearm, or a firearm other than a shotgun that discharges two or more projectiles with one activation of the trigger. The act applies to firearms, accessories, and ammunition manufactured in Colorado on or after its effective date, which follows the ninety-day referendum-petition period.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5483,7 +5483,7 @@
       {
         "billNumber": "HB10-1094",
         "title": "Make My Day Better – Businesses",
-        "summary": "Extends Colorado's make-my-day doctrine, which permits deadly force against intruders, to places of business.",
+        "summary": "Extends the right to use lethal force against an intruder to owners, managers, and employees of places of business as well as occupants of dwellings. The justification applies when a person makes an unlawful entry into the business and the owner, manager, or employee reasonably believes the intruder has committed or intends to commit a crime there and might use any physical force, however slight, against an occupant. A person using force under these conditions is immune from criminal prosecution and from civil liability for injuries or death resulting from the force. The act also updates the defense-of-premises provision to allow lethal force under the new business-intruder circumstances and takes effect after the ninety-day referendum-petition period.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5513,7 +5513,7 @@
       {
         "billNumber": "HB09-1180",
         "title": "No Brady for Permit Holders",
-        "summary": "Exempts concealed carry permit holders from the background check requirement when acquiring a firearm.",
+        "summary": "Exempts a person who holds a valid concealed handgun carry permit issued or renewed on or after January 1, 2010 from the instant criminal background check requirement when receiving a firearm transfer, so long as the person presents the permit and a valid identification card issued by a federal or state agency. The exemption covers transfers at gun shows and transfers by licensed firearm importers, manufacturers, and dealers. The act also requires sheriffs to issue permits conforming to a uniform template established by the bureau of investigation, requires permit applications to include the applicant's country of citizenship, and requires the bureau to search the national instant criminal background check system when processing permit fingerprints.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5533,7 +5533,7 @@
       {
         "billNumber": "SB09-008",
         "title": "Deadly Force Against Intruder Businesses",
-        "summary": "Establishes a stand-your-ground rule removing any duty to retreat before using deadly force in self-defense, building on Colorado's make-my-day doctrine.",
+        "summary": "Extends the justification for using lethal force against an intruder to cover places of business in addition to dwellings. An owner, manager, or employee of a business may use any degree of force, including lethal force, against a person who makes an unlawful entry into the business when the person reasonably believes the intruder has committed or intends to commit a crime there and might use any physical force, however slight, against an occupant. A person using force under these conditions is immune from criminal prosecution and from civil liability for injuries or death resulting from the force. The act also updates the defense-of-premises provision so that lethal force is permitted under the new business-intruder circumstances.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5557,7 +5557,7 @@
       {
         "billNumber": "SB09-074",
         "title": "Heller Enforcement",
-        "summary": "Concerns enforcing the individual right to possess firearms recognized by the United States Supreme Court's ruling in District of Columbia v. Heller.",
+        "summary": "Prohibits a local government from enacting an ordinance, regulation, or other law that requires a person to store a firearm in a manner that renders it inoperable, including by disassembly or use of a trigger-lock device. Any such local law in place before the effective date of the prohibition is void and unenforceable. The act also permits a Colorado firearms manufacturer to sell a firearm or accessory manufactured in the state to a Colorado resident, and permits a Colorado resident to purchase such an item, regardless of any contrary federal law. The provisions of the act are severable.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5583,7 +5583,7 @@
       {
         "billNumber": "SB08-049",
         "title": "Access To Firearms By Minors",
-        "summary": "Imposes mandatory storage requirements on firearm owners.",
+        "summary": "Creates the crime of criminal storage of a firearm when a person keeps a firearm on premises under his or her custody or control, knows or reasonably should know that a minor could access it without a parent's or guardian's permission, the minor obtains access, and the minor uses the firearm to cause death or bodily injury to himself, herself, or another person or carries it to a school or school-sponsored event. The offense is an unclassified misdemeanor punishable by a fine of fifty to one thousand dollars, credited to the suicide prevention coordination cash fund. Exceptions apply when the minor acts in self-defense or defense of the residence, is under direct parental supervision during safety courses, target practice, hunting, or organized competitions, or when the firearm is locked, stored securely, or kept apart from its ammunition. The act also requires licensed gun dealers to deliver a written storage warning with each firearm sale or transfer and to post it at each purchase counter, and requires gun show promoters to post the warning at each entrance.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5603,7 +5603,7 @@
       {
         "billNumber": "HB08-1066",
         "title": "Stand Your Ground/Make My Day Better",
-        "summary": "Establishes a stand-your-ground rule removing the duty to retreat before using deadly force in self-defense, expanding Colorado's make-my-day doctrine.",
+        "summary": "Extends the justification for using lethal force against an intruder to places of business as well as dwellings. An occupant of a dwelling or place of business may use any degree of force, including lethal force, against a person who makes an unlawful entry when the occupant reasonably believes the intruder has committed or intends to commit a crime in the premises and might use any physical force, however slight, against any occupant. A person using force under these conditions is immune from criminal prosecution and from civil liability for injuries or death resulting from the force. The act takes effect on the day following the expiration of the ninety-day referendum-petition period after final adjournment of the general assembly.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5627,7 +5627,7 @@
       {
         "billNumber": "HB08-1069",
         "title": "Prohibit Vehicles On Public Lands",
-        "summary": "Prohibits the use of motor vehicles on specified public lands.",
+        "summary": "Makes it unlawful for a person to operate a motor vehicle on any federal public land, trail, or road unless the land, trail, or road is signed or otherwise authorized for such use by the controlling land management agency. Enforcement does not commence within an administrative unit until the controlling agency identifies available routes by maps, route markers, or signs available to the public. A violation is a misdemeanor punishable by a one hundred dollar fine, or two hundred dollars within a federal wilderness area, with additional license suspension points when the person was hunting, fishing, or trapping at the time. The prohibition does not apply to peace officers on duty, persons acting at their direction, or persons authorized by legal right or agency permission, including administrative or emergency access, facility maintenance, ski area, oil and gas, or logging operations, and the provision is repealed effective July 1, 2013.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5651,7 +5651,7 @@
       {
         "billNumber": "HB08-1096",
         "title": "No Hunting “confined” Animals",
-        "summary": "Prohibits hunting confined or captive animals.",
+        "summary": "Makes it unlawful for a person to offer another person the opportunity to hunt, wound, or take any mammal that is intentionally confined in an enclosure, regardless of size, or intentionally tied, staked, caged, or otherwise restrained from engaging in normal movement. Exceptions allow taking a mammal at a slaughtering establishment for meat, leather, or fur production and humanely euthanizing a mammal for health, safety, or scientific purposes. A violation involving big game or an endangered species is a misdemeanor punishable by a fine of ten thousand to twenty-five thousand dollars and suspension of wildlife license privileges for a minimum of one year to life, while a violation involving any other mammal is a misdemeanor punishable by a one hundred to one thousand dollar fine and twenty hunting license suspension points.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5671,7 +5671,7 @@
       {
         "billNumber": "HB08-1190",
         "title": "Close Down Sunday Gun Sales",
-        "summary": "Prohibits retail sales of firearms on Sundays.",
+        "summary": "Removes the requirement that the bureau of investigation remain open for business at least twelve hours per day, every calendar day except Christmas and Thanksgiving, in order to transmit background check requests to the national instant criminal background check system and search other databases. Instead, the bureau must be open during the minimum hours specified for point-of-contact agencies in the federal system's user manual. The bureau must continue to provide a toll-free telephone number operational every day the office is open and must monitor and evaluate call volumes while staffing its background check unit at levels that ensure prompt processing. The legislative findings state that the change would let the bureau concentrate staff during peak call volumes to reduce dealer wait times.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5695,7 +5695,7 @@
       {
         "billNumber": "SB08-048",
         "title": "Regul Political Telephone Solicitations",
-        "summary": "Concerns imposing limitations on speech.",
+        "summary": "Prohibits a political telephone caller from making a political telephone solicitation to any person located in Colorado or registered to vote in the state unless the caller has a preexisting relationship with the person, such as a voluntary declaration of party affiliation or prior consent to receive future solicitations. A political telephone solicitation is an unsolicited call made by an automatic dialing-announcing device or a paid person expressing support for or opposition to a candidate, ballot issue, or political cause, requesting a donation, or inviting the recipient to take part in a poll or reveal voting intent. Bona fide candidates, candidate committees, incumbents, and political parties are exempt when calling existing constituents or supporters solely to announce a town meeting, fund-raiser, or other event of interest, between 9 in the morning and 8 in the evening. A violation is a class 1 misdemeanor, and unlawful solicitations to cellular telephones also expose the caller to a private civil action for consequential damages, court costs, attorney fees, and a statutory penalty.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5715,7 +5715,7 @@
       {
         "billNumber": "SB08-115",
         "title": "Gun-Free Zones Liability",
-        "summary": "Makes entities that establish gun-free zones liable for harm suffered by people disarmed within them.",
+        "summary": "Creates a private right of action for a person injured as a result of criminal conduct that occurs in a gun-free zone, allowing the person to sue the person, organization, entity, or government agency that created the zone for damages. The plaintiff must prove by a preponderance of the evidence that a reasonable person would believe possession of a firearm could have helped the plaintiff defend himself or herself against the criminal conduct. Treble damages apply if a terrorist attack caused the conduct or the plaintiff is disabled, over sixty-five years old, or a member of a racial or ethnic minority group. The covered crimes include murder, first or second degree assault, kidnapping, sexual offenses, aggravated robbery, first degree arson, and first degree burglary, committed with the use or threatened use of a lethal weapon, and a zone that provides reasonable security measures such as armed guards or metal detectors is not liable.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5741,7 +5741,7 @@
       {
         "billNumber": "SB07-034",
         "title": "Reciprocity Concealed Weapons Permits",
-        "summary": "Bars Colorado residents from carrying handguns on concealed carry permits issued by other states.",
+        "summary": "Clarifies the residency requirements for reciprocity of concealed weapons permits issued by other states. For an out-of-state permit to carry a concealed handgun or concealed weapon to be valid in Colorado, the holder must be at least 21 years old and must be either a resident of the issuing state, as shown by the address on a valid picture identification issued by that state, or a resident of Colorado for no more than 90 days. The statute defines a valid picture identification as a driver's license or a state identification card.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -5765,7 +5765,7 @@
       {
         "billNumber": "SB07-069",
         "title": "Repeal Permit Holder in Criminal Database",
-        "summary": "Repeals the entry of concealed carry permit holders into a criminal database.",
+        "summary": "Prohibits the creation and maintenance of a statewide database of concealed handgun permit holders. Sheriffs may still share permittee information with other law enforcement agencies, but only to verify the validity of a specific permit, and any database that includes permittees must be searchable only by name. The bill requires that any permittee information already in a statewide database be removed immediately, and no later than July 1, 2007.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5785,7 +5785,7 @@
       {
         "billNumber": "HB07-1011",
         "title": "Deadly Force Against Intruder",
-        "summary": "Removes the duty to retreat before using deadly force in lawful self-defense.",
+        "summary": "Extends the presumption justifying deadly physical force against an intruder to places of business in addition to dwellings. An occupant of a dwelling or place of business is justified in using any degree of force, including deadly force, against a person who has made an unlawful entry and whom the occupant reasonably believes has committed, or intends to commit, a crime against a person or property. The occupant who uses such force in accordance with the statute is immune from criminal prosecution and from civil liability for injuries or death resulting from the use of force.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5809,7 +5809,7 @@
       {
         "billNumber": "HB07-1174",
         "title": "Permit Holder in Criminal Database Permanent",
-        "summary": "Makes permanent the entry of concealed carry permit holders into a criminal database.",
+        "summary": "Removes the statutory bar that prevents sheriffs from sharing concealed handgun permittee information to build a statewide database, making the database a permanent part of the permit system. It also adds a use restriction: a peace officer may not rely on the permittee database alone, without additional information, to establish reasonable suspicion for a traffic stop. The officer likewise may not use the database by itself to justify probable cause for a search or seizure of a person, a vehicle, or property.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5839,7 +5839,7 @@
       {
         "billNumber": "HB06-1179",
         "title": "Give FBI/BATFE Agents New Powers",
-        "summary": "Concerns granting additional enforcement powers to federal firearms agents operating in Colorado.",
+        "summary": "Grants limited peace officer authority to special agents of the federal bureau of investigation and the bureau of alcohol, tobacco, firearms, and explosives while they are in Colorado. Such an agent may act when responding to a nonfederal crime committed in the agent's presence, handling an emergency, assisting at the request of a Colorado peace officer, or participating in a bona fide task force or joint investigation with Colorado officers. Any person the agent arrests must be turned over immediately to a Colorado peace officer, and the authority does not let the agent initiate or conduct an independent investigation into violations of state law.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -5859,7 +5859,7 @@
       {
         "billNumber": "HB06-1246",
         "title": "Stand Your Ground",
-        "summary": "Eliminates any obligation to retreat before using deadly force in self-defense.",
+        "summary": "Extends the presumption justifying deadly physical force against an intruder to places of temporary lodging and occupied vehicles in addition to dwellings. Under the presumption, an occupant using force intended or likely to cause death or serious bodily harm is deemed to have held a reasonable fear of imminent peril when the intruder was unlawfully and forcibly entering the location, or was removing another person against their will. The presumption does not apply when the person has a lawful right to be in the location, when the person is a child or grandchild in the occupant's custody, or when the occupant is engaged in unlawful activity. An occupant acting under the statute is immune from criminal prosecution and civil liability.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5883,7 +5883,7 @@
       {
         "billNumber": "SB06-157",
         "title": "CCW Permit To Satisfy Brady Check",
-        "summary": "Allows a concealed carry permit to satisfy the federal background check requirement when purchasing a firearm.",
+        "summary": "Exempts a gun show transferee who holds and presents a valid Colorado concealed handgun permit from the background check normally required before a firearm is transferred at a gun show. It also requires the Colorado bureau of investigation, when processing a permit application, to search the federal instant criminal background check system and forward a set of fingerprints to the federal bureau. Finally, it sets out the citizenship and immigration documentation that a permit applicant must provide, limiting eligibility to United States citizens and legal aliens who submit the specified identifying information.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5913,7 +5913,7 @@
       {
         "billNumber": "HB05-1266",
         "title": "Raise Hunting Fees",
-        "summary": "Raises the fees charged for hunting licenses in Colorado.",
+        "summary": "Increases a wide range of statutory hunting and fishing license fees and establishes a Colorado wildlife habitat stamp, priced at $10 when bought alone, $5 with a hunting or fishing license, and $200 as a lifetime stamp. Persons aged 19 or older must buy the stamp, or hold a lifetime version, when purchasing a hunting or fishing license other than a one-day license or before entering state wildlife areas. The bill also adds a 75-cent surcharge to each hunting and fishing license to fund the wildlife management public education advisory council and adjusts nonresident big game fees annually according to the consumer price index.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -5933,7 +5933,7 @@
       {
         "billNumber": "HB05-1023",
         "title": "Gun Show Background Check Clarifications",
-        "summary": "Clarifies the background check requirements that apply to sales at gun shows.",
+        "summary": "Narrows the gun show background check requirement by removing the phrase that would trigger the check when a vendor only attempts to transfer a firearm, so that the check applies to actual completed transfers. It repeals the statutory definition of a collection, which had covered a trade, barter, or in-kind exchange of firearms. The bill also clarifies the definition of a gun show and sets an effective date of July 1, 2005, applying the changes to firearm transfers initiated on or after that date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -5963,7 +5963,7 @@
       {
         "billNumber": "HB04-1003",
         "title": "Peace Officer Impersonation",
-        "summary": "Concerns criminalizing the impersonation of a police officer.",
+        "summary": "Escalates the offense of impersonating a peace officer to a class six felony and adds a new offense prohibiting a person from being in control of a vehicle that contains a red or blue light visible directly in front of the vehicle's center. The new light offense carries affirmative defenses for peace officers, vehicles expressly authorized by a chief of police or sheriff, volunteer firefighters and ambulance attendants holding a permit, and vendors who sell or exhibit such lamps. The bill also appropriates funds to the corrections system to cover the added cost of housing the additional offenders.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
@@ -5987,7 +5987,7 @@
       {
         "billNumber": "HB04-1012",
         "title": "Gun Show Background Check Clarifications",
-        "summary": "Clarifies the requirements meant to close the private-sale gap in gun show background checks.",
+        "summary": "Narrows the gun show background check requirement by removing the phrase that would trigger the check when a vendor only attempts to transfer a firearm, so that the check applies to actual completed transfers. It repeals the statutory definition of a collection, which had covered a trade, barter, or in-kind exchange of firearms. The bill also clarifies the definition of a gun show and sets an effective date of July 1, 2004, applying the changes to firearm transfers completed on or after that date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6007,7 +6007,7 @@
       {
         "billNumber": "HB04-1170",
         "title": "Self Defense A Mitigating Factor In Sentencing",
-        "summary": "Makes self-defense a mitigating factor in criminal sentencing.",
+        "summary": "Allows a court to sentence a defendant convicted of second degree assault under the general sentencing guidelines rather than the mandatory sentence of the crime of violence statute when the assault occurred in specific circumstances. Those circumstances include the victim being unlawfully on the defendant's property at the time of the assault, or the defendant acting under a good-faith but mistaken belief in the need for self-defense or defense of a third person. The change applies to offenses committed on or after July 1, 2004.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6027,7 +6027,7 @@
       {
         "billNumber": "HB04-1205",
         "title": "Abolish Statewide Database",
-        "summary": "Abolishes the statewide database of firearm transaction records.",
+        "summary": "Prohibits the creation and maintenance of a statewide database of concealed handgun permit holders. Sheriffs may still share permittee information with other law enforcement agencies, but only to verify the validity of a specific permit, and any database that includes permittees must be searchable only by name. The bill requires that any permittee information already in a statewide database be removed by July 1, 2004.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6047,7 +6047,7 @@
       {
         "billNumber": "HB04-1208",
         "title": "Increase Hunting Permit Fees",
-        "summary": "Increases hunting permit fees.",
+        "summary": "Raises most statutory hunting and fishing license fees, other than nonresident big game license fees, and adjusts those nonresident big game fees annually according to the consumer price index for the Denver-Boulder-Greeley metropolitan area. It funds the wildlife management public education advisory council with a 75-cent surcharge on each hunting and fishing license and repeals the voluntary checkoff for donations to the council. The bill extends the repeal date of the council to July 1, 2009, and the act takes effect January 1, 2005.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6071,7 +6071,7 @@
       {
         "billNumber": "HB04-1263",
         "title": "No SS# For Hunting Permit",
-        "summary": "Prohibits requiring a social security number to obtain a hunting permit.",
+        "summary": "Removes the requirement that the division of wildlife collect an applicant's social security number on a license application, unless the number is required by federal law or mandated as a condition of the state receiving federal funds. It also prohibits any license issued by the department of natural resources or an authorized agent from displaying the holder's social security number. The change applies to recreational and other licenses handled by the department.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -6099,7 +6099,7 @@
       {
         "billNumber": "HB04-1281",
         "title": "Alaska Law",
-        "summary": "Adopts an Alaska-style law allowing concealed carry without a permit.",
+        "summary": "Creates an exception to the offense of unlawfully carrying a concealed weapon for a person who may legally possess a firearm under the laws of Colorado and the United States, provided the weapon involved is a firearm. A person carrying a concealed handgun under this exception has the same rights and is subject to the same limitations as a person who holds a permit to carry a concealed handgun. The act takes effect upon passage and applies to offenses committed on or after that date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6123,7 +6123,7 @@
       {
         "billNumber": "SB04-158",
         "title": "“Safe” Storage of A Firearm",
-        "summary": "Imposes mandatory storage requirements on firearm owners.",
+        "summary": "Creates a class 3 misdemeanor offense of negligent storage of a firearm, which occurs when a firearm owner or custodian, acting with criminal negligence, stores a firearm and it comes into the possession of a person under 18 who then discharges it, killing himself, herself, or another person. The offense does not apply if the juvenile obtained the firearm while under direct parental supervision, in self-defense, defending a residence, at a safety course or shooting range, hunting under a valid license, in an organized competition, traveling to or from such activities, or as a result of a robbery or burglary. The act takes effect July 1, 2004.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6149,7 +6149,7 @@
       {
         "billNumber": "SB03-024",
         "title": "Concealed Carry",
-        "summary": "Establishes Colorado's statewide shall-issue concealed handgun permit system.",
+        "summary": "Creates a statewide concealed-handgun permit system administered by county sheriffs, declaring the permitting and carrying of concealed handguns a matter of statewide concern. A sheriff must issue a five-year permit to any legal resident age 21 or older who is eligible to possess a firearm under state and federal law, is not subject to a restraining order or chronic alcohol or controlled-substance impairment, and demonstrates handgun competence through a training certificate, military service, or other listed means. The permit is effective throughout the state, and a permittee must carry it with photo identification and produce both on demand by a law enforcement officer. A person carrying a handgun in a private vehicle for lawful use or while hunting needs no permit, and the handgun is not treated as concealed.",
         "position": "Amend",
         "status": "Signed into Law",
         "sponsors": [
@@ -6173,7 +6173,7 @@
       {
         "billNumber": "SB03-025",
         "title": "Prohibit Local Governments From Regulating Firearms/Preemption",
-        "summary": "Prohibits local governments from regulating firearms, reserving that authority to the state.",
+        "summary": "Declares that carrying a weapon in a private automobile or other private conveyance for hunting or lawful protection of a person or property is a matter of statewide concern, regardless of how many jurisdictions the person travels through. No municipality, county, or city and county may enact or enforce any ordinance restricting that travel. The act also bars local governments from keeping records or databases of people who buy, transfer, exchange, or leave firearms for repair or consignment, and from prohibiting the sale, purchase, or possession of any firearm that state or federal law allows. Local governments may still ban open carrying in specific buildings or areas, provided they post signs at public entrances.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -6197,7 +6197,7 @@
       {
         "billNumber": "SB03-063",
         "title": "Vermont-style Concealed Carry",
-        "summary": "Adopts a Vermont-style law allowing concealed carry without a permit.",
+        "summary": "Establishes a statewide concealed-handgun permit program in which a county sheriff must issue a permit to any Colorado resident age 21 or older who is eligible to possess a firearm under state and federal law, without requiring completion of a training course. Applicants submit a standardized application and a fee capped at fifty dollars, and the sheriff verifies eligibility through the bureau of investigation's search of the national instant criminal background check system and state records. The sheriff must approve or deny the application within fifteen days, and a denied applicant may seek judicial review. Permits are valid for five years and effective throughout the state, local laws may not restrict a permit holder's carrying, and reciprocity recognizes permits from states that recognize Colorado permits.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6221,7 +6221,7 @@
       {
         "billNumber": "HB03-1119",
         "title": "Gunshow “Loophole” Changes",
-        "summary": "Modifies the background check requirements applying to sales at gun shows.",
+        "summary": "Tightens the definition of a gun show by requiring that the event be publicly advertised as a gun show and limiting the term to the facility or portion of the facility where the event is held and where at least three gun show vendors are present. It removes from the definition the references to the number of firearms and to parking areas, and it repeals the definition of a collection. The bill also expands the definition of a gun show vendor to include a person who attempts to sell, transfer, or exchange a firearm at a gun show, and defines transfer and transferee to match federal law.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6245,7 +6245,7 @@
       {
         "billNumber": "HB03-1148",
         "title": "Self-Defense as a Criminal Defense",
-        "summary": "Clarifies the availability of self-defense as a defense in criminal proceedings.",
+        "summary": "Requires a court, in a criminal case where the defendant is not entitled to a jury instruction on self-defense as an affirmative defense, to allow the defendant to present relevant evidence that he or she was acting in self-defense. If the defendant presents such evidence, the court must give a self-defense law instruction and tell the jury it may consider the evidence in determining whether the defendant acted recklessly, with extreme indifference, or in a criminally negligent manner. The instruction is not an affirmative defense, the prosecutor bears no burden of disproving self-defense, and the provision does not apply to strict liability crimes.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -6269,7 +6269,7 @@
       {
         "billNumber": "HB03-1290",
         "title": "Declarations of States of Emergency",
-        "summary": "Concerns how states of emergency are declared and the powers those declarations activate.",
+        "summary": "Adds a condition of riot, insurrection, or invasion to the statutory definition of a disaster for purposes of declaring a state of emergency. It repeals the provisions that let the governor prohibit the purchase, manufacture, receipt, carrying, use, sale, transport, or disposal of firearms and ammunition during such a condition, as well as the permit scheme and the penalty for violating it. The change folds the emergency firearms restrictions into the general disaster declaration framework.",
         "position": "Support",
         "status": "Signed into Law",
         "sponsors": [
@@ -6299,7 +6299,7 @@
       {
         "billNumber": "HB02-1287",
         "title": "Brady-NICS Gun Reporting",
-        "summary": "Concerns Brady and national instant background check system reporting on gun transactions.",
+        "summary": "Requires the clerk of every judicial district court and the probate court to periodically report to the national instant criminal background check system the names of persons found incapacitated, committed to the state's alcohol and drug abuse program, or ordered into involuntary mental health treatment. Each report must describe the reason and note that it is made under the federal Brady Handgun Violence Prevention Act. Clerks must cancel a record upon written request at least three years after the underlying guardianship is terminated, a commitment expires or is discharged, or a mental health case is sealed, subject to exceptions for repeat commitments. The act also clarifies that accessing medical records through the background check system does not constitute theft of medical records.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -6323,7 +6323,7 @@
       {
         "billNumber": "SB02-116",
         "title": "BB Gun Not A Deadly Weapon",
-        "summary": "Excludes BB guns from the statutory definition of a deadly weapon.",
+        "summary": "Revises the state's definition of a deadly weapon to clarify that a bee-bee gun or pellet gun is not one unless it is used to cause death or bodily injury. The definition otherwise covers any firearm, knife, bludgeon, or other weapon, device, or substance capable of producing death or serious bodily injury in the manner it is used or intended to be used. The act takes effect at the close of the ninety-day period after final adjournment that allows a referendum petition to be filed, or on the date of the official vote if a referendum is approved. Its provisions apply to offenses committed on or after that effective date.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6347,7 +6347,7 @@
       {
         "billNumber": "HB07-1264",
         "title": "UnSafe Storage (Rapist Protection Act)",
-        "summary": "Imposes mandatory storage requirements on firearm owners.",
+        "summary": "Creates a class 3 misdemeanor for a firearm owner or custodian who stores a firearm with criminal negligence and a person under eighteen then obtains it and unlawfully possesses it in a public place, uses it in violation of state or federal law, or discharges it. The offense does not apply if the young person obtains the firearm under direct parental or guardian supervision, in self-defense or defense of another, while defending a residence, or while attending a safety course, at a shooting range, or hunting under a valid license. It also exempts possession during organized competitions or performances, while traveling with an unloaded firearm to or from those activities, or as a result of a robbery or burglary. The penalty applies to offenses committed on or after July 1, 2002.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6367,7 +6367,7 @@
       {
         "billNumber": "HB02-1410",
         "title": "Concealed Carry Restrictions",
-        "summary": "Imposes restrictions on concealed carry.",
+        "summary": "Creates a statewide concealed-handgun permit system in which county sheriffs must issue a permit to any legal resident age 21 or older who completes a certified handgun training class, passes a background check that includes fingerprinting sent to the bureau of investigation, and is not disqualified by a restraining order, chronic alcohol use, or controlled substance abuse. Sheriffs may deny a permit when documented behavior suggests the applicant would be a danger to self or others, and the denial is subject to judicial review. Permits are valid for five years and effective statewide except in areas where carrying is prohibited by federal law or on public school grounds. The act authorizes emergency permits for people in immediate danger, exempts certain peace officers, and recognizes reciprocal permits from other states.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6397,7 +6397,7 @@
       {
         "billNumber": "HB01-1190",
         "title": "Concealed Weapons Permit Confidentiality",
-        "summary": "Makes concealed weapons permit records confidential.",
+        "summary": "Requires any custodian of criminal justice records to keep confidential all identifying information about persons who hold concealed weapon permits, and defines all materials and records concerning those permits as exclusively criminal justice records outside the open records law. A custodian may exercise discretion in deciding whether to delete information identifying a person as a permit holder before releasing a record to an individual or agency. If the custodian chooses not to delete it, the person must receive written notice by registered mail or personal service, and the record cannot be released until ten days after the notice takes effect. Deletion is prohibited when the record goes to a criminal justice agency or when the permit holder is convicted of a crime involving the illegal use of a firearm.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
@@ -6421,7 +6421,7 @@
       {
         "billNumber": "HB01-1327",
         "title": "Insta-Check and Possession by Previous Offender",
-        "summary": "Concerns the InstaCheck background check system and the offense of possession of a weapon by a previous offender.",
+        "summary": "Modifies the crime of possession of a weapon by a previous offender so that a person adjudicated as a juvenile for an act that would be a felony may lawfully possess a firearm or other weapon if the act was a crime against property not used to coerce, control, or intimidate an intimate partner and the possession occurs at least ten years after the adjudication, release from commitment, or release from supervision. The act also limits the bureau of investigation's authority to deny a firearm transfer based on an arrest, charge, or filed indictment with no final disposition recorded in the databases to events within the seven years preceding the background check. The changes apply to both the underlying possession offense and the class 5 felony penalty that attaches when the weapon is a dangerous weapon. A safety clause declares the act necessary for the immediate preservation of public peace, health, and safety.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
@@ -6445,7 +6445,7 @@
       {
         "billNumber": "SB01-017",
         "title": "Destruction of Government Records",
-        "summary": "Requires the destruction of specified government records.",
+        "summary": "Revises the definition of government records to expressly include computer software, programs, documentation, and data, while excluding library and museum materials, private papers, unsegregated electronic mail, and certain correspondence of elected officials. It creates a new class 6 felony for anyone who knowingly destroys, damages, or defaces any record of the state or a political subdivision, while leaving lawful records disposition performed under existing procedures untouched. The act also makes multi-year statutory appropriations to the corrections expansion reserve fund and the department of corrections. It takes effect on September 1, 2001, subject to the referendum petition period.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
@@ -6469,7 +6469,7 @@
       {
         "billNumber": "SB01-032",
         "title": "CBI Background Registration System",
-        "summary": "Concerns a Colorado bureau of investigation background check registration system for firearms.",
+        "summary": "Declares that completing the state's integrated criminal justice information system is critical to accurate and timely criminal background checks, and requires the criminal justice information program task force to establish uniform identifiers for matching records between the bureau of investigation and the judicial department's on-line court records network. Law enforcement, correctional, and judicial entities must forward arrest and fingerprint information to the bureau within seventy-two hours, and the bureau must electronically forward that information to the judicial department within twenty-four hours of receipt. The act also requires fingerprint-based criminal history checks for owners, employees, and residents of licensed child care facilities, with a comparison search of court records and a limited exemption for temporary out-of-state camp workers. Implementation is conditioned on a companion act producing net general fund savings equal to or greater than this act's appropriation.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
@@ -6493,7 +6493,7 @@
       {
         "billNumber": "SB01-083",
         "title": "Concealed Handgun Carry Uniform Statewide Criteria For Issuance",
-        "summary": "Establishes uniform statewide criteria for issuing concealed handgun carry permits.",
+        "summary": "Creates a statewide concealed-handgun permit system administered by county sheriffs, requiring issuance to any legal resident age 21 or older who has no felony conviction or pending felony charges, no recent domestic violence misdemeanor, no outstanding arrest warrant, and no juvenile felony adjudication within the preceding ten years. Applicants must submit two sets of fingerprints, one of which the bureau of investigation sends to the federal bureau of investigation, and the bureau maintains a list of valid permit holders available only to law enforcement agencies. Permits are valid for five years and do not authorize carrying in areas prohibited by federal law, on government or school grounds, or in establishments that serve alcohol. The act exempts certain peace officers from the permit requirement, recognizes reciprocal permits from other states, and sets a uniform expiration date for permits issued before July 1, 2001.",
         "position": "Amend",
         "status": "Dead",
         "sponsors": [
@@ -6513,7 +6513,7 @@
       {
         "billNumber": "SB01-160",
         "title": "UnSafe Storage (Rapist Protection Act)",
-        "summary": "Imposes mandatory storage requirements on firearm owners.",
+        "summary": "Creates a class 3 misdemeanor for a firearm owner or custodian who, through an act of criminal negligence, stores a firearm and a person under eighteen obtains it and then unlawfully possesses it in a public place, uses it in violation of state or federal law, or discharges it. The offense does not apply when the young person obtains the firearm under direct parental or guardian supervision, in lawful self-defense or defense of another, or while defending a residence against unlawful entry. It also exempts possession while attending a hunter or firearm safety course, at an authorized shooting range, while hunting under a valid license, or during organized competitions or performances, as well as travel with an unloaded firearm to or from those activities. The act takes effect at the close of the ninety-day referendum petition period following final adjournment and applies to offenses committed on or after that date.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6539,7 +6539,7 @@
       {
         "billNumber": "HB00-1098",
         "title": "Hunting Restrictions on Private Land",
-        "summary": "Restricts hunting on private land.",
+        "summary": "Adds a wildlife conservation hunting preference program under which a landowner holding at least one hundred sixty acres of agricultural land by recorded deed may apply for big game license applications for deer, elk, antelope, and other species, excluding moose and big horn sheep. Applications are allocated by acreage, from one for smaller parcels up to a maximum of six for holdings over six thousand acres, and are issued as a first priority within the fifteen percent limit on limited license units. Successful applicants receive transferable vouchers that eligible hunters may use to purchase licenses for the applicant's game management unit, and any unused preferences carry priority into the following year. The wildlife commission may also issue additional applications to landowners providing valuable habitat or public hunting access, and must adopt implementing rules before July 1, 2001.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -6563,7 +6563,7 @@
       {
         "billNumber": "HB00-1114",
         "title": "Concealed Carry Permit Holders Information Confidential",
-        "summary": "Makes the records of concealed handgun permit holders confidential.",
+        "summary": "Requires the issuing law enforcement agency and any custodian of records to keep confidential the name, address, and telephone number of every person issued a concealed weapon permit, except that the information may be released to criminal justice agencies. All materials and records concerning concealed weapon permits are defined as exclusively criminal justice records, placing them outside the open records act. Any identifying information about a permit holder must be deleted from the record before it is released to an individual or agency other than a criminal justice agency. The deletion requirement does not apply when the permit holder is convicted of a crime involving the illegal use of a firearm.",
         "position": "Amend",
         "status": "Signed into Law",
         "sponsors": [
@@ -6587,7 +6587,7 @@
       {
         "billNumber": "HB00-1197",
         "title": "UnSafe Storage (Rapist Protection Act)",
-        "summary": "Imposes mandatory storage requirements on firearm owners.",
+        "summary": "Makes it a class 3 misdemeanor for a person to negligently store a firearm in such a manner that a juvenile obtains possession of the firearm and uses it in violation of any provision of the state's criminal code or any municipal ordinance or county resolution. For purposes of the offense, negligently storing a firearm means placing or leaving it in a location where a reasonable person would perceive a substantial and unjustifiable risk that a juvenile would obtain possession of it. The act takes effect upon passage and applies only to offenses committed on or after that date.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6611,7 +6611,7 @@
       {
         "billNumber": "HB00-1201",
         "title": "Prohibition of Firearms For Non-Violent Ex-Felons",
-        "summary": "Prohibits firearm possession by persons convicted of non-violent felonies.",
+        "summary": "Raises the penalty for the crime of possession of a weapon by a previous offender from class 1 misdemeanor to class 6 felony and requires any sentence for the offense to run consecutively with sentences the offender is already serving. The department of corrections must give every inmate a written advisement of the prohibited acts and penalties upon release, and any deferred judgment and sentence stipulation must contain the same advisement, which cannot be used as a defense or basis for appeal. A parole officer must file a complaint seeking revocation of parole for any parolee found in possession of a deadly weapon or arrested for a felony, a crime of violence, an assault involving a deadly weapon or bodily injury, or third degree sexual assault. The act also makes the offense ineligible for bail when the proof is evident, bars bail after conviction, and requires law enforcement to notify the corrections department within twenty-four hours when a parolee is arrested for it.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -6635,7 +6635,7 @@
       {
         "billNumber": "HB00-1208",
         "title": "Firearm Manufacturer Indemnification",
-        "summary": "Shields firearm manufacturers from liability for the criminal misuse of their products.",
+        "summary": "Prohibits any person or public or private entity from bringing a tort action, other than a product liability action, against a firearms or ammunition manufacturer, importer, or dealer for injury, damage, or death caused by the discharge of a firearm or ammunition. It also bars holding such a maker liable as a third party for the actions of another person in any type of action, and requires courts to dismiss prohibited claims on a motion to dismiss while awarding the defendant reasonable attorney fees and costs. A tort action remains available for damages proximately caused by an act of the manufacturer, importer, or dealer that violates a state or federal statute or regulation, with the plaintiff bearing the burden of proving the violation by clear and convincing evidence. The act revises the state's legislative declaration to limit product liability for firearm discharge to actual defects in design or manufacture.",
         "position": "Monitor",
         "status": "Signed into Law",
         "sponsors": [
@@ -6659,7 +6659,7 @@
       {
         "billNumber": "HB00-1214",
         "title": "Gun Purchase Restrictions",
-        "summary": "Imposes restrictions on gun purchases.",
+        "summary": "Makes it a class 4 felony for a person to knowingly purchase or otherwise obtain a firearm on behalf of, or for transfer to, someone the purchaser knows or reasonably should know is ineligible to possess a firearm under federal or state law. Licensed firearms dealers must post a sign displaying the prohibition in a manner easily readable by the public at each location where they sell firearms to the general public. A dealer who fails to post the sign commits a class 2 petty offense punishable by a fine of two hundred fifty dollars. The act also makes multi-year statutory appropriations to the corrections expansion reserve fund and the department of corrections, and applies to offenses committed on or after July 1, 2000.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -6683,7 +6683,7 @@
       {
         "billNumber": "HB00-1220",
         "title": "Under 21 Gun Show Purchase Prohibition",
-        "summary": "Prohibits gun show purchases by persons under 21 years of age.",
+        "summary": "Prohibits the transfer of a handgun at a gun show to any person under 21 years of age and makes it unlawful for a person under 21 to purchase, trade, or rent a handgun at a gun show. The bill defines a gun show as an event sponsored by an organization devoted to the collection, competitive use, or other sporting use of firearms, and includes transactions occurring in any parking area used for the event. It requires a transferor to request identification from any transferee before transferring a handgun and makes a violation a class 1 misdemeanor, while a knowing transfer of a handgun to a person under 21 is a class 4 felony. The bill also criminalizes knowingly making a false statement or presenting misrepresented identification intended to deceive a transferor about a material fact, and makes a 5-year statutory appropriation.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6711,7 +6711,7 @@
       {
         "billNumber": "HB00-1242",
         "title": "Required Background Checks At Gun Shows",
-        "summary": "Requires background checks for firearm sales conducted at gun shows.",
+        "summary": "Requires a transferor of a firearm at a gun show to contact the Colorado bureau of investigation and request a criminal background check on the prospective transferee before the transfer. The bureau must conduct a state and, to the extent allowed by federal law, a federal criminal background check, and then either issue a transaction number authorizing the transfer or deny authorization if the transferee is ineligible to possess a firearm or is the subject of an unresolved charge or indictment. A transfer at a gun show without first obtaining a transaction number is a class 1 misdemeanor, as is knowingly transferring a firearm to a person prohibited from possessing one, and a knowing transfer of a handgun to a juvenile is a class 4 felony. The prospective transferee bears the cost of the check, the bureau must destroy the background check records within 48 hours while retaining the transaction number and any denial records, and the act takes effect 90 days after final adjournment or, if a referendum petition is filed, on the date of the official vote declaration.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6735,7 +6735,7 @@
       {
         "billNumber": "HB00-1272",
         "title": "Prohibited Gun Sales To Persons Under 21",
-        "summary": "Prohibits gun sales to persons under 21 years of age.",
+        "summary": "Makes it unlawful for a federally licensed importer, manufacturer, dealer, or collector to sell or deliver any firearm or ammunition, other than a shotgun or rifle or ammunition for a shotgun or rifle, to an individual the licensee knows or should reasonably know is under 21 years of age. A licensee who sells or delivers a firearm in violation of that prohibition commits the offense of unlawful sale of a firearm to a person under 21, which is a class 4 felony. The bill defines firearm, licensed collector, licensed dealer, licensed importer, licensed manufacturer, rifle, and shotgun to carry the same meanings as in the federal Gun Control Act of 1968. It takes effect upon passage and applies to offenses committed on or after that date, and makes a 5-year statutory appropriation.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6759,7 +6759,7 @@
       {
         "billNumber": "HB00-1289",
         "title": "Prohibit Local Governments From Regulating Firearms/Preemption",
-        "summary": "Prohibits local governments from regulating firearms, reserving that authority to the state.",
+        "summary": "Declares firearms regulation a matter of statewide concern and prohibits any municipality, county, or city and county from enacting an ordinance or resolution that restricts a person's ability to own, possess, carry, repair, manufacture, display, or transfer a firearm to a greater extent than state statute. The bill does not limit a local government's authority to regulate the areas or circumstances under which a person may discharge a firearm. An ordinance or resolution that imposes a greater penalty than a comparable state statute is treated as a greater restriction, and any such local measure in existence on the effective date that violates the act is deemed unauthorized and unenforceable for events on or after that date. The bill also amends the concealed weapons permit statute to bar a sheriff or chief of police from requiring an applicant to disclose the brand, model, caliber, or serial number of any firearm the applicant owns or uses.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6783,7 +6783,7 @@
       {
         "billNumber": "HB00-1008",
         "title": "Firearms Prohibition At The State Capitol",
-        "summary": "Prohibits firearms at the state capitol.",
+        "summary": "Adds a joint rule of the senate and house prohibiting any person, including members of the general assembly, from bringing or possessing a firearm or explosive or incendiary device on the property of, or within any building used by, the legislature unless the person first obtains written authorization. Authorization must come from the speaker for house areas, the senate president for senate areas, or both for joint areas, and the request must describe the device, the date and place, and the purpose. A state patrol officer must inspect the device on entry, keep any firearm unloaded with the bolt open and safety engaged, and accompany the person at all times while the device is on legislative property. The rule does not apply to holders of a written concealed weapon permit or to certain peace officers and federal probation officers while on duty.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6807,7 +6807,7 @@
       {
         "billNumber": "SB00-010",
         "title": "Firearm Manufacturer Indemnification (Senate Version)",
-        "summary": "Shields firearm manufacturers from liability for the criminal misuse of their products.",
+        "summary": "Prohibits a civil action in tort, other than a product liability action, against a firearms or ammunition manufacturer or dealer or against any firearms trade association for damages arising from physical or emotional injury, physical damage, or death caused by the discharge of a firearm or ammunition, including any action alleging the defendant is liable as a third party for the actions of another person. Upon a motion to dismiss, the court must dismiss a prohibited action and award reasonable attorney fees, in addition to costs, to each named defendant. The bill also revises the legislative declaration to state that product liability for injury, damage, or death caused by a firearm or ammunition is based only on an actual defect in its design or manufacture, not on the inherent potential of a firearm to cause harm when discharged or on any theory holding the manufacturer liable for another person's actions. The act takes effect upon passage and applies to causes of action arising on or after that date.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6831,7 +6831,7 @@
       {
         "billNumber": "SB00-089",
         "title": "Mandatory Background Check For Firearm Transfers",
-        "summary": "Requires background checks for firearm transfers.",
+        "summary": "Makes it a class 1 misdemeanor for a person to knowingly transfer a firearm to anyone prohibited from possessing a firearm under state or federal law. It also makes it a class 1 misdemeanor to transfer a firearm without first receiving a transaction number from the Colorado bureau of investigation, and requires a transferor to contact the bureau to request a criminal background check on the prospective transferee. The bureau must perform a state and, if possible, a federal criminal background check and then either provide a transaction number or deny authorization for the transfer based on whether the check shows the transferee is ineligible to possess a firearm. The prospective transferee bears the cost of the check, the bureau must purge the records created in conducting the check while retaining a list of the transaction numbers issued, and the bill makes it a class 1 misdemeanor to make a false statement or present misrepresented identification when attempting to acquire a firearm.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6851,7 +6851,7 @@
       {
         "billNumber": "SB00-125",
         "title": "CBI Firearms Background Check System",
-        "summary": "Concerns the Colorado bureau of investigation's firearms background check system.",
+        "summary": "Designates the Colorado bureau of investigation as the state point of contact for implementing the national instant criminal background check system created by the federal Brady Handgun Violence Prevention Act. While serving in that role, the bureau must meet or exceed federal standards and may, by law or rule, pursue its own policy so long as it is consistent with federal law. The bill amends the bureau's functions to carry out the statewide duties of the national instant criminal background check system in connection with the transfer of firearms, and defines a transfer to include the sale or delivery of any firearm in the state and the redemption of a pawned firearm by a person who is not a federal firearms licensee, while excluding the return or replacement of a firearm delivered to a federal licensee solely for repair or customizing. It makes a statutory appropriation to implement the measure.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -6875,7 +6875,7 @@
       {
         "billNumber": "SB00-152",
         "title": "Concealed Handgun Carry Uniform Statewide Criteria For Issuance",
-        "summary": "Establishes uniform statewide criteria for issuing concealed handgun carry permits.",
+        "summary": "Declares the issuance of concealed handgun permits a matter of statewide concern and requires any police chief or sheriff who chooses to issue such permits to establish a concealed handgun permit program within the jurisdiction. To the extent fiscally practicable, the police chiefs and sheriffs must adopt standardized applications and standardized permits. A police chief or sheriff may issue a permit to any applicant who is at least 21 years old, is a Colorado resident, and meets specified firearms training requirements, provided the applicant can legally possess a firearm under federal law and has not been convicted of or adjudicated for a felony or certain misdemeanors and is not subject to unresolved criminal proceedings, chronically or habitually using alcohol or controlled substances, a danger due to mental problems, or otherwise a danger to self or others. A concealed handgun permit issued by this state, or by another state under a comparable statute, is valid in all areas of the state, and a permittee must carry the permit and a valid photo ID when carrying a concealed handgun.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
@@ -6899,7 +6899,7 @@
       {
         "billNumber": "SCR00-009",
         "title": "Background Checks At Gun Shows",
-        "summary": "Concerns requiring background checks for sales at gun shows, as a concurrent resolution referring the question to voters.",
+        "summary": "Submits to registered electors a proposed amendment to article XVIII of the constitution requiring a background check on a prospective firearm transferee whenever any part of the transaction occurs at a gun show. The measure directs a gun show vendor to require a background check on a prospective transferee and to obtain approval of the transfer from the Colorado bureau of investigation, and requires gun show promoters to arrange for the services of federally licensed gun dealers to obtain those background checks. It prohibits the transfer of a firearm if a background check has not been obtained by a federally licensed gun dealer, requires record keeping and retention by the dealers who obtain the checks, and permits them to charge a fee of up to ten dollars per check. The measure also requires promoters to prominently post notice of the background check requirement, establishes criminal penalties for violations, exempts transfers of certain antique firearms, relics, and curios, and requires the appropriation of funds to implement it, taking effect if a majority of electors vote in favor.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6925,7 +6925,7 @@
       {
         "billNumber": "HB99-1305",
         "title": "Standardization Of Firearms Regs",
-        "summary": "Prohibits local governments from regulating firearms, reserving that authority to the state.",
+        "summary": "Recognizes that firearms regulation is a matter of statewide concern and prohibits any municipality, county, or city and county from adopting an ordinance or resolution that would impose a greater restriction on a person's ability to own, possess, carry, use, or transfer a firearm than is imposed by state law. The bill identifies the imposition of a greater penalty as a greater restriction and specifies that any ordinance or resolution in existence on the effective date that violates the act is deemed unauthorized and unenforceable on or after that date. It also changes the affirmative defenses to the charge of carrying concealed weapons into exceptions.",
         "position": "Support",
         "status": "Dead",
         "sponsors": [
@@ -6949,7 +6949,7 @@
       {
         "billNumber": "HB99-1316",
         "title": "Concealed Handgun Permits",
-        "summary": "Establishes uniform statewide criteria for issuing concealed handgun carry permits.",
+        "summary": "Declares the issuance of permits to carry concealed handguns a matter of statewide concern and instructs each sheriff to implement and administer the permit provisions, while providing that the state occupies the field of regulation of bearing concealed handguns for self-defense and that sheriffs do not have authority to regulate or restrict the issuing of permits beyond what the bill provides. The bill specifies the qualifications for receiving a permit, including age, state residency, ability to possess a firearm under state and federal law, whether the applicant uses alcoholic beverages illegally or excessively, and competence with a handgun. It specifies the contents of the permit and how the permit may be used and identifies conditions under which a handgun is not considered concealed. An applicant must submit an application and a permit fee to a sheriff, who is instructed to witness the applicant's signature on the application.",
         "position": "Amend",
         "status": "Dead",
         "sponsors": [
@@ -6973,7 +6973,7 @@
       {
         "billNumber": "HB99-1379",
         "title": "Prohibition Of Firearms Straw Purchasers",
-        "summary": "Imposes restrictions on gun purchases.",
+        "summary": "Makes it a class 1 misdemeanor for a person to knowingly purchase or otherwise obtain a firearm on behalf of, or for transfer to, a person who is ineligible to possess a firearm under federal or state law or ineligible to purchase a firearm in this state. The bill requires a licensed firearm dealer, as defined in federal law, to post a sign displaying that prohibition in a manner that is easily readable and visible to the public at each location where the dealer sells firearms to the general public. It takes effect July 1, 1999, and applies to offenses committed on or after that date.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -6993,7 +6993,7 @@
       {
         "billNumber": "SB99-053",
         "title": "Juvenile Access To Handguns",
-        "summary": "Imposes mandatory storage requirements on firearm owners.",
+        "summary": "Prohibits unsafe storage of a loaded handgun by any person in control of premises who knows or reasonably should know that a juvenile under 16 is likely to gain access to it. The bill requires such a person to keep the handgun in a securely locked box, container, cabinet, or store room, in a location a reasonable person would believe to be secure, or to secure it with a trigger lock. A person who violates the requirement commits a class 5 felony if a juvenile obtains the handgun and uses it to inflict injury or death upon any person, and commits a class 3 misdemeanor if a juvenile accesses it without adult supervision and possesses or exhibits it in a public place or in a careless, angry, or threatening manner. The felony does not apply if the juvenile obtained the handgun through an unlawful entry, from armed forces, National Guard, state militia, or law enforcement personnel during official duties, or if the person in control was carrying it on the body or in close proximity, and the bill provides for additional exceptions.",
         "position": "Oppose",
         "status": "Signed into Law",
         "sponsors": [
@@ -7013,7 +7013,7 @@
       {
         "billNumber": "SB99-058",
         "title": "Implement Federal Firearm Instant Check",
-        "summary": "Concerns Brady and national instant background check system registration of guns.",
+        "summary": "Authorizes the Colorado bureau of investigation to act as the state point of contact for implementing the permanent provisions of the federal Brady law and authorizes the bureau's director to promulgate the rules necessary for the bureau to carry out those duties. The bill adds to the grounds for denial of a firearm transfer under state law the grounds of being the subject of an information or felony complaint or having been arrested or charged with a crime that, if convicted, would prohibit the arrestee from receiving a firearm. It requires the bureau to provide notice of a denial to the law enforcement agencies having jurisdiction over the area where the transferee resides and where the transferor conducts business. The director may charge a fee to cover the direct and indirect costs incurred in processing instant criminal background checks, and the bill creates a cash fund for those fees.",
         "position": "Oppose",
         "status": "Dead",
         "sponsors": [
@@ -7033,7 +7033,7 @@
       {
         "billNumber": "SB99-108",
         "title": "Concealed Handgun Permits",
-        "summary": "Establishes uniform statewide criteria for issuing concealed handgun carry permits.",
+        "summary": "Requires the public safety director of each city and county and each sheriff to establish a concealed handgun permit program for issuing permits within their jurisdictions. The bill requires each public safety director and sheriff to issue a concealed handgun permit to anyone who is at least 25 years old, is a Colorado resident, and meets specified firearms training requirements, so long as the applicant has not been convicted of or adjudicated for a felony or certain misdemeanors and is not subject to unresolved criminal proceedings, chronically or habitually using alcohol or controlled substances, a danger due to mental problems, or otherwise a danger to self or others. It requires the public safety director or sheriff to conduct a criminal background check, including a fingerprint check, and to deny a permit if the applicant does not qualify as provided in the act. The bill also identifies procedures for appealing a denial of a permit.",
         "position": "Monitor",
         "status": "Dead",
         "sponsors": [
@@ -7086,7 +7086,7 @@
       {
         "billNumber": "SB98-081",
         "title": "Concealed Handgun Permits",
-        "summary": "Establishes requirements for obtaining a concealed carry permit.",
+        "summary": "Specifies that the issuance of permits to carry concealed handguns is a matter of statewide concern and assigns responsibility for issuing the permits to county sheriffs and the official having the duties of a sheriff in any city and county. The bill specifies the qualifications for receiving a permit, including residency, age, criminal history, whether the applicant is the subject of a restraining order or an emergency protection order, illegal or excessive use of controlled substances or alcoholic beverages, mental health, competence with a handgun, and whether the sheriff has grounds to believe the applicant would be dangerous to self or others. It specifies the contents of the permit and how the permit may be used and identifies conditions under which a handgun is not considered concealed. An applicant must submit an application, a permit fee, and, in some circumstances, a photograph to a sheriff, who is instructed to verify identity, take two full sets of fingerprints, and determine whether the applicant qualifies, with procedures for denying a permit including judicial review.",
         "position": "Amend",
         "status": "Dead",
         "sponsors": [
