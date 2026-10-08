@@ -3,6 +3,60 @@
 Date: 2026-10-08
 Workplan: `prompts/pre2016-bill-info.md`
 
+## 2026-10-08 update — bill-text hyperlinks fixed (supersedes the "Bill-text hyperlinks" section below)
+
+The original bill-text links (all pointing at `archive.leg.state.co.us`) 403/404 in a
+real browser. Root cause: the live `archive.leg.state.co.us` server redirects every
+`fsbillcont <container>?Open&file=X.pdf` and preclics `.htm` URL to
+`archives.nsf/Accessible-Archive?OpenPage&content=...`, which returns **403**. The
+`Accessible-Archive` frame is a bill-range *selector*, not the bill text — it never
+displays the document.
+
+The working URL format (discovered from the live archive site + verified per bill):
+
+- **2001–2015 (93 bills)** — the Domino `$File` transform on `www.leg.state.co.us`
+  serves the PDF directly (no Cloudflare wall on direct PDF access, only on the HTML
+  list pages):
+  `https://www.leg.state.co.us/<path>/<container>/$File/<file>?Open&bn=yes`
+  i.e. `archive.leg.state.co.us/.../<container>?Open&file=<file>` →
+  `www.leg.state.co.us/.../<container>/$File/<file>?Open&bn=yes`.
+  All 93 verified: HTTP 200, `application/pdf`, `%PDF` magic bytes.
+- **2000 (16 bills)** — the 2000 `inetcbill.nsf` DB's `fsbillcont` path is auth-walled
+  (returns a Domino "Server Login" page on both `?Open&file=` and `$File`). The real
+  PDFs live at a *different* path, `billcontainers/<container>/$FILE/<file>`, and are
+  served via Wayback raw-resource (`id_`) captures:
+  `https://web.archive.org/web/<ts>id_/https://www.leg.state.co.us/2000/inetcbill.nsf/billcontainers/<container>/$FILE/<file>`.
+  All 16 verified: `%PDF` + bill-number text (pdftotext spot-check).
+- **1998–1999 (7 bills)** — preclics per-bill `.htm` pages (the bill text itself) are
+  served via Wayback `id_` captures:
+  `https://web.archive.org/web/<ts>id_/https://www.leg.state.co.us/preclics/<year>/<list>/<id>.htm`.
+  All 7 verified: bill text present, 0 Accessible-Archive frame markers.
+- **HB98-1260 (1998) — NO working URL.** Its per-bill page
+  (`preclics/1998/hbills98/hb1260.htm`) was never archived (0 CDX captures on both
+  domains, every case/port variant) and the live URL 403s. Its `officialUrl` is
+  **cleared** so the bill number renders as plain text (no dead link) instead of a
+  hyperlink. The archived 1998 list page holds only the title row, not the bill text.
+
+**page.tsx filter fix:** the row filter previously dropped *entire* bills with a
+missing `officialUrl` (`if (!bill.officialUrl || ...)`), which would have hidden
+HB98-1260 (and HB19-1177, which also has no URL). It now drops only `%20`-corrupted
+URLs; a missing URL renders the row with the bill number + title as plain text.
+
+**Files changed:** `scripts/apply-pre2016-billtext-fix.ts` (new, invariant-checked
+apply), `data/gun-bill-catalog-20260828.json` (116 `officialUrl` updated, 1 cleared),
+`data/pre2016-archive-resolution.json` (116 `billTextUrl` updated, 1 nulled),
+`src/app/billwatch/page.tsx` (filter fix).
+
+**Verification (2026-10-08):** `npx tsc --noEmit` (0), `npm run lint` (0 errors),
+`npm run build` (pass). Production render via `npm run preview` — localhost AND LAN
+IP (192.168.1.209) byte-identical: 287 rows, **93** unique `www.leg.state.co.us/.../
+$File/...` anchors, **23** Wayback bill-text anchors (16 `billcontainers` + 7 preclics),
+**0** `archive.leg.state.co.us` bill-text hrefs, HB98-1260 + HB19-1177 present as
+plain-text rows. Invariant sweep: only `officialUrl`/`billTextUrl` changed; every other
+field byte-identical.
+
+---
+
 ## What was done
 For every pre-2016 gun bill in the Billwatch catalog, the official bill title and a
 working hyperlink to the original bill text were sourced from the archived Colorado

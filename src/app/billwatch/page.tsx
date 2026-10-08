@@ -85,11 +85,15 @@ export default async function BillwatchPage() {
           </div>
         ) : (
           catalog.map((yearData) => {
-            // Filter out duplicate bills and bills with invalid URLs within the same year
+            // Filter out duplicate bills and bills with corrupted URLs within
+            // the same year. A URL containing %20 indicates a title was
+            // mistakenly stored in the URL field — drop that row. A missing
+            // officialUrl is NOT an error: the row still renders, with the
+            // bill number and title as plain text (no hyperlink).
             const seenKeys = new Set<string>();
             const validBills = yearData.bills.filter((bill) => {
-              // Skip bills with empty or invalid URLs (contains %20 which indicates a title in URL field)
-              if (!bill.officialUrl || bill.officialUrl.includes('%20')) {
+              // Skip bills with corrupted URLs (%20 indicates a title in the URL field)
+              if (bill.officialUrl && bill.officialUrl.includes('%20')) {
                 return false;
               }
               // Skip duplicates by billNumber within same year
