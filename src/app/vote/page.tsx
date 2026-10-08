@@ -221,7 +221,7 @@ function MethodCard({ m }: { m: (typeof METHODS)[number] }) {
       <div className="flex items-center justify-between gap-2 border-b border-silver px-4 py-3">
         <h3 className="font-display text-lg text-navy">{m.name}</h3>
         <span
-          className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${m.badgeClass}`}
+          className={`rounded-full px-2.5 py-0.5 text-[13px] font-semibold uppercase tracking-wide ${m.badgeClass}`}
         >
           {m.badge}
         </span>

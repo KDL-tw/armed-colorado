@@ -114,13 +114,13 @@ export default async function BillwatchPage() {
                   <table className="w-full border-collapse table-auto">
                     <thead>
                       <tr className="border-b border-navy/20">
-                        <th className="w-32 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                        <th className="w-32 px-3 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
                           Status
                         </th>
-                        <th className="w-24 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                        <th className="w-28 px-3 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
                           Enacted
                         </th>
-                        <th className="w-28 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                        <th className="w-28 px-3 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
                           Bill Number
                         </th>
                         <th className="py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold">
@@ -143,15 +143,15 @@ export default async function BillwatchPage() {
                             data-search={`${bill.billNumber} ${bill.title} ${bill.summary} ${bill.status}`.toLowerCase()}
                             className="border-b border-navy/10 hover:bg-navy/5"
                           >
-                            <td className="w-32 py-3">
+                            <td className="w-32 px-3 py-3">
                               <span className={statusColors[bill.status] || "text-muted"}>
                                 {bill.status}
                               </span>
                             </td>
-                            <td className="w-24 py-3 whitespace-nowrap text-muted">
+                            <td className="w-28 px-3 py-3 whitespace-nowrap text-muted">
                               {bill.enactmentDate || "—"}
                             </td>
-                            <td className="w-28 py-3">
+                            <td className="w-28 px-3 py-3">
                               {bill.crsUrl ? (
                                 <Link
                                   href={bill.crsUrl}

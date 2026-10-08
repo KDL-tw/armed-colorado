@@ -1,6 +1,6 @@
 # Armed Colorado
 
-Reference site for Colorado firearms law: Billwatch (269 gun bills across 29 years), 2A litigation tracker, SB25-003 FAQs, civic guides, and an unauthenticated admin CMS.
+Reference site for Colorado firearms law: Billwatch (268 gun bills across 29 years, 1998–2026), 2A litigation tracker, SB25-003 FAQs, civic guides, and an unauthenticated admin CMS.
 
 **Stack:** Next.js 16 App Router · React 19 · Tailwind v4 · Vercel · Supabase Free (Special projects TSOR) · optional Resend
 
@@ -45,13 +45,15 @@ Without Supabase configured, the site still runs using in-repo fallbacks for lit
 
 ## Billwatch
 
-Billwatch displays 269 Colorado gun bills (1998–2026) in reverse-chronological tables with position, status, bill number, title, 2A-POV summary, and sponsors. Data is read from a local JSON catalog (`data/gun-bill-catalog-*.json`) — no external API required.
+Billwatch displays 268 Colorado gun bills (1998–2026) in reverse-chronological tables with status, **Enacted** (governor signing date), bill number, title, 2A-POV summary, and prime sponsors. Data is read from a local JSON catalog (`data/gun-bill-catalog-*.json`) — no external API required. (The original RMGO "position" column was removed; status + Enacted now lead the table.)
 
-**Table layout:** `table-auto` with `max-w-screen-2xl` container, light width hints for short columns (`w-20`, `w-32`, `w-28`), auto-width for Title/Summary with `min-w` and inter-column padding (`pr-6`/`pl-2`) so text doesn't bleed into adjacent columns. See `AGENTS.md` → "Table layout rules" before changing table markup.
+**Enacted column:** Populated only for bills with status "Signed into Law". Post-2016 dates come from the "Signed Act" row of the Bill Text "All Versions" table on each CO GA bill page; pre-2016 dates come from the "NOTE: The governor signed this measure on <date>" line in the archived bill-text PDFs, or (where that version was pre-signature) the CO GA *Digest of Bills* (`content.leg.colorado.gov/sites/default/files/digest{year}.pdf`). Bills with no recoverable signing date render an em-dash. Applied by `scripts/apply-enacted-dates.ts` from the staged `data/enacted-dates-*.json` files; each date is also cached per URL as `enactedDate` so catalog regeneration preserves it.
+
+**Table layout:** `table-auto` with `max-w-screen-2xl` container, light width hints for short columns (`w-32`, `w-28`) plus horizontal cell padding (`px-3`) on the Status/Enacted/Bill Number columns so entries have obvious separation, and auto-width for Title/Summary with `min-w` and inter-column padding (`pr-6`/`pl-2`) so text doesn't bleed into adjacent columns. See `AGENTS.md` → "Table layout rules" before changing table markup.
 
 **Data pipeline:**
-- **RMGO billwatch** provides position, status, bill number, sponsors, and the bill URL.
-- **Colorado General Assembly** (`leg.colorado.gov/bills/{billNumber}`) is the ground truth for bill titles and bill text. Titles are extracted via `.full-bill-topic h1`; summaries are generated from bill text (not copied from the CO GA website summary).
+- **RMGO billwatch** provides status, bill number, sponsors, and the bill URL. (RMGO's position field is no longer shown; two RMGO "Signed into Law" entries — SB22-031 2022, HB16-1204 2016 — were corrected to "Dead" after the CO GA pages showed both were postponed indefinitely.)
+- **Colorado General Assembly** (`leg.colorado.gov/bills/{billNumber}`) is the ground truth for bill titles, bill text, and the Enacted date. Titles are extracted via `.full-bill-topic h1`; summaries are generated from bill text (not copied from the CO GA website summary). Note: `leg.colorado.gov` returns HTTP 406 to plain HTTP clients (curl/node fetch) — fetch these pages with a real browser.
 - Extraction results are cached in `.cache/bill-text/cache.json` (keyed by full bill URL).
 - If CO GA extraction fails, the pipeline falls back to RMGO data gracefully — no bill row is ever lost.
 
@@ -59,12 +61,14 @@ Billwatch displays 269 Colorado gun bills (1998–2026) in reverse-chronological
 
 ```bash
 npx tsx scripts/assemble-catalog.ts --year 2026   # single-year sample
-npx tsx scripts/assemble-catalog.ts               # full catalog (all 269 bills)
+npx tsx scripts/assemble-catalog.ts               # full catalog (all 268 bills)
 ```
+
+> **Warning:** The catalog file is shared by multiple features. Regeneration rewrites every entry — verify `sponsorLinks` and `enactmentDate` survived before committing. The regression baseline lives in `.cache/regression-baselines.json`.
 
 The search and year-filter controls on the page are wired via a client component (`BillTableClient.tsx`) that filters rows in-place — no re-fetch needed.
 
-> **Note:** The remaining 253 bills (1998–2025) still need CO GA title + summary extraction. The pipeline is proven on 2026's 16 bills; the hermes agent should run the full assembly with its LLM + browser tool for genuine 2A-POV summaries. See `AGENTS.md` → "billwatch-data-pipeline" for details.
+> **Status:** CO GA title + summary extraction is complete for the recoverable 2016–2026 bills and for pre-2016 bills via archived bill text (116/117; HB98-1260 has no bill text and keeps a 1-sentence stub). Enacted dates are populated for 80 of 84 signed bills; the remaining 4 (SB99-053, SB01-032, SB14-038, SB15-175) have no recoverable signing date in any source. See `AGENTS.md` → "billwatch-data-pipeline" for details.
 
 ## Admin
 
