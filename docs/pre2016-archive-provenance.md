@@ -76,8 +76,13 @@ few were wrong-container (e.g. HB11-1205 → SB12-025's container); all replaced
 - Invariant sweep: exactly 117 entries changed, only `title`/`titleSource`/`officialUrl`;
   summary/sponsors/sponsorLinks/position/status/crsUrl byte-identical; post-2016 entries
   untouched.
-- Dead-link check: every final bill-text URL verified present in the Wayback archive
-  (the live path is identical); a 26-URL cross-era sample all resolved.
+- Dead-link check: 116 of 117 bill-text URLs verified present in the Wayback
+  archive (container + fsbillcont document confirmed per bill across all eras;
+  the 2013/2012/2000–2004 bills initially flagged during the sweep were
+  rate-limit false negatives, re-verified OK). The one remaining — HB98-1260's
+  preclics per-bill page (`preclics/1998/hbills98/hb1260.htm`) — was never
+  archived itself, but it is the exact link the archived 1998 list page
+  (`preclics/1998/Hbills98.htm`) points at, so it is the canonical live URL.
 
 ## Gate examples from the workplan (verified)
 - **Gate 1** — first 5 bills, 2009 session (archived CLICS2009A House list):
