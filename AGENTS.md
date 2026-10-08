@@ -79,9 +79,12 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 # Billwatch Data Pipeline
 
 ## Known project facts
-- Catalog: `data/gun-bill-catalog-*.json`, 269 bills across 29 years (2026->1998); ~265 have URLs,
-  but only ~151 (2016–2026) have live CO GA pages — pre-2016 URLs return 403 (the site only serves
-  2016+). Pre-2016 bills stay on RMGO fallback by design; do not retry their extraction.
+- Catalog: `data/gun-bill-catalog-*.json`, 269 bills across 29 years (2026->1998).
+  2016–2026 bills have live CO GA pages (~151); pre-2016 bills have NO live CO GA pages
+  (leg.colorado.gov only serves 2016+), but 116 of 117 pre-2016 bills have working
+  ARCHIVED bill-text URLs (see "Pre-2016 bill text" below) — the bill-number hyperlinks
+  and the summaries both come from those. HB98-1260 (1998) is the one with no working
+  URL (officialUrl cleared).
 - Page `src/app/billwatch/page.tsx` is a SERVER component that reads the file directly via
   `src/lib/gun-bill/catalog-client.ts` (path is portable via `process.cwd()`).
 - `/api/gun-bill-catalog` route exists for external use; the page does NOT use it (direct file read).
@@ -122,7 +125,29 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 - RMGO billwatch: source of position, status, bill number, sponsors, and the bill URL.
   NOT the source of bill titles or summaries.
 - CO GA bill page (https://leg.colorado.gov/bills/{billNumber}): ground truth for titles and bill text.
+  (2016–2026 only — pre-2016 has no live pages.)
 - CO GA bill summary (`.bill-summary-content`): reference only, must NOT be copied verbatim.
+
+## Pre-2016 bill text (source of pre-2016 summaries + bill-number hyperlinks)
+- Pre-2016 bills have NO live CO GA pages, so their text comes from ARCHIVES, not leg.colorado.gov:
+  - 2001–2015 (93 bills): the Domino `$File` transform on www.leg.state.co.us serves the PDF
+    directly: `https://www.leg.state.co.us/<path>/<container>/$File/<file>?Open&bn=yes`
+    (verified HTTP 200, application/pdf, %PDF magic bytes, per bill).
+  - 2000 (16 bills): the 2000 inetcbill.nsf fsbillcont path is auth-walled; the real PDFs live at
+    `billcontainers/<container>/$FILE/<file>` and are served via Wayback raw-resource (`id_`)
+    captures.
+  - 1998–1999 (7 bills): preclics per-bill `.htm` pages served via Wayback `id_` captures.
+  - HB98-1260 (1998): NO working URL exists (per-bill page never archived, live 403). Its
+    officialUrl is CLEARED so the bill number renders as plain text.
+- These URLs are the `officialUrl` field in the catalog (set by `scripts/apply-pre2016-billtext-fix.ts`).
+  `page.tsx` renders the bill number as a `<Link>` to `officialUrl` when present and non-`%20`.
+- Text extraction: `pdftotext -layout` for PDFs, regex HTML-strip for `.htm`. The operative
+  "BILL FOR AN ACT ... CONCERNING" section is near the top; long bills keep their first ~15k chars.
+- Pre-2016 SUMMARIES (2026-10-08): 116/117 bills now have 3-4 sentence summaries written from the
+  extracted bill text (delegated to subagent batches, applied via `scripts/apply-bill-summaries.ts`).
+  HB98-1260 keeps its 1-sentence stub (no bill text available).
+- The `apply-bill-summaries.ts` validator requires 3-4 sentences for ALL bills (pre-2016 included)
+  since the pre-2016 bill text became available — the old 1-2-sentence pre-2016 rule is retired.
 
 ## CO GA DOM selectors (verified 2026-08-28 and 2026-09-04 on https://leg.colorado.gov/bills/HB26-1126)
 - Official title: `.full-bill-topic h1` (regex: `/<div class='full-bill-topic[^']*'>\s*<h1>\s*([\s\S]*?)\s*<\/h1>/`)
@@ -155,8 +180,10 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
   oppose/amend bill"), status phrases ("signed into law", "is currently", "status of"), and 2A opinion
   ("Second Amendment", "2A perspective", "firearm freedoms"). The Status column already shows status;
   the Title column already shows titles.
-- Length: 3-4 sentences strictly for live-page bills (2016-2026 year groups); 1-2 sentences for
-  pre-2016 bills (RMGO subject is the only source — no live pages, no CRS links, dead legacy URLs).
+- Length: 3-4 sentences for ALL bills (2016-2026 live-page bills AND pre-2016 bills). Pre-2016
+  bills now have archived bill text available (see "Pre-2016 bill text"), so they match the
+  post-2016 3-4 sentence size. The old 1-2-sentence pre-2016 rule is retired. HB98-1260 (1998)
+  is the single exception — no bill text exists, so it keeps a 1-sentence stub.
 - Prose: original, informed by the reference material — never verbatim copies of the CO GA summary
   (the CO GA summary is reference only per "Data sources" below).
 - Pipeline: `scripts/fetch-bill-summaries.ts` fetches + caches the raw reference per URL
@@ -174,12 +201,14 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 
 ## Hermes agent handoff (remaining work)
 - CO GA title/summary extraction for 1998-2025 is DONE (2026-09-02): 139 cache entries, CO GA titles
-  for the recoverable 2016-2026 bills; pre-2016 bills have no live pages and use RMGO fallback.
-  Do NOT re-run the full extraction — it regenerates the shared catalog file (see the WARNING in
-  Known project facts above).
-- Remaining: genuine 2A-POV summaries (not template-based) — use the LLM + browser tool to read bill
-  PDFs and generate ≤4-sentence summaries per the prompts/ directory. This READS PDFs; it does not
-  regenerate the catalog.
+  for the recoverable 2016-2026 bills. Do NOT re-run the full extraction — it regenerates the
+  shared catalog file (see the WARNING in Known project facts above).
+- Pre-2016 summaries are DONE (2026-10-08): 116/117 pre-2016 bills have 3-4 sentence summaries
+  written from their archived bill text (see "Pre-2016 bill text"). HB98-1260 (1998) has no bill
+  text and keeps a 1-sentence stub.
+- Remaining: none for the summary pipeline. If a new pre-2016 bill needs a summary, extract its
+  text from the archived URL (see "Pre-2016 bill text"), write a 3-4 sentence summary, and apply
+  via `scripts/apply-bill-summaries.ts` (pass `year` to disambiguate duplicated billNumbers).
 - Bounded execution: 72h max, 3h per-table timeout, 3 revision cycles max, escalate after 3 cycles.
 
 ## HTML entity decoding
