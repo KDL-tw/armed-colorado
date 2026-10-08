@@ -117,6 +117,9 @@ export default async function BillwatchPage() {
                         <th className="w-32 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
                           Status
                         </th>
+                        <th className="w-24 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
+                          Enacted
+                        </th>
                         <th className="w-28 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
                           Bill Number
                         </th>
@@ -144,6 +147,9 @@ export default async function BillwatchPage() {
                               <span className={statusColors[bill.status] || "text-muted"}>
                                 {bill.status}
                               </span>
+                            </td>
+                            <td className="w-24 py-3 whitespace-nowrap text-muted">
+                              {bill.enactmentDate || "—"}
                             </td>
                             <td className="w-28 py-3">
                               {bill.crsUrl ? (
@@ -250,6 +256,11 @@ export default async function BillwatchPage() {
                 <span className="text-navy">Passed House/Senate</span> - Bill passed chamber
               </li>
             </ul>
+            <p className="mt-2 text-sm text-muted">
+              <span className="font-semibold text-navy">Enacted</span> - Date the governor
+              signed the bill into law (post-2016: the &quot;Signed Act&quot; version on the CO GA
+              bill page; pre-2016: the signing note in the archived bill text).
+            </p>
           </div>
         </div>
       </section>
