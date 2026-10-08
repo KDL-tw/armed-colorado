@@ -1,0 +1,32 @@
+{
+  "SB12-025": {
+    "title": "Concealed Handgun Carry With No Permit",
+    "bill_text_url": "https://archive.leg.state.co.us/CLICS/CLICS2012A/csl.nsf/fsbillcont3/192D8885E8DFA02187257981007F190E?Open&file=025_01.pdf",
+    "status": "readable",
+    "source": "clics-list"
+  },
+  "HB12-1048": {
+    "title": "End CBI Instacheck Duty For Firearm Transfers",
+    "bill_text_url": "https://archive.leg.state.co.us/CLICS/CLICS2012A/csl.nsf/fsbillcont3/011A02AC06E3C15B87257981007F364F?Open&file=1048_ren.pdf",
+    "status": "readable",
+    "source": "clics-list"
+  },
+  "HB12-1064": {
+    "title": "Firearm Possession During State Of Emergency",
+    "bill_text_url": "https://archive.leg.state.co.us/CLICS/CLICS2012A/csl.nsf/fsbillcont3/E02212357C1248D187257981007F40BA?Open&file=1064_ren.pdf",
+    "status": "readable",
+    "source": "clics-list"
+  },
+  "HB12-1088": {
+    "title": "Deadly Force Against Intruder At Place Of Business",
+    "bill_text_url": "https://archive.leg.state.co.us/CLICS/CLICS2012A/csl.nsf/fsbillcont3/EFA884A19FFF45B387257981007DAA0E?Open&file=1088_ren.pdf",
+    "status": "readable",
+    "source": "clics-list"
+  },
+  "HB12-1092": {
+    "title": "Concealed Handgun Carry Without Permit",
+    "bill_text_url": "https://archive.leg.state.co.us/CLICS/CLICS2012A/csl.nsf/fsbillcont3/8AE6996E9CB0788287257981007F511C?Open&file=1092_eng.pdf",
+    "status": "readable",
+    "source": "clics-list"
+  }
+}

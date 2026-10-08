@@ -19,14 +19,6 @@ const statusColors: Record<string, string> = {
   "Held-over": "text-amber",
 };
 
-// Position colors
-const positionColors: Record<string, string> = {
-  Support: "text-green-600 font-semibold",
-  Oppose: "text-oxblood font-semibold",
-  Amend: "text-blue-600 font-semibold",
-  Monitor: "text-amber font-semibold",
-};
-
 export default async function BillwatchPage() {
   let catalog: GunBillCatalogYear[] = [];
 
@@ -118,9 +110,6 @@ export default async function BillwatchPage() {
                   <table className="w-full border-collapse table-auto">
                     <thead>
                       <tr className="border-b border-navy/20">
-                        <th className="w-20 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
-                          Position
-                        </th>
                         <th className="w-32 py-2 text-left text-xs uppercase tracking-wider text-muted font-semibold whitespace-nowrap">
                           Status
                         </th>
@@ -144,14 +133,9 @@ export default async function BillwatchPage() {
                         return (
                           <tr
                             key={`${bill.billNumber}-${yearData.year}`}
-                            data-search={`${bill.billNumber} ${bill.title} ${bill.summary} ${bill.position} ${bill.status}`.toLowerCase()}
+                            data-search={`${bill.billNumber} ${bill.title} ${bill.summary} ${bill.status}`.toLowerCase()}
                             className="border-b border-navy/10 hover:bg-navy/5"
                           >
-                            <td className="w-20 py-3">
-                              <span className={positionColors[bill.position] || "text-muted"}>
-                                {bill.position}
-                              </span>
-                            </td>
                             <td className="w-32 py-3">
                               <span className={statusColors[bill.status] || "text-muted"}>
                                 {bill.status}
@@ -243,30 +227,7 @@ export default async function BillwatchPage() {
       {/* Legend */}
       <section className="mt-14 border-t border-navy/10 pt-8">
         <h2 className="font-display text-2xl text-navy mb-4">Legend</h2>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div>
-            <h3 className="text-sm font-semibold text-navy mb-2">
-              Position Indicators
-            </h3>
-            <ul className="space-y-1 text-sm text-muted">
-              <li className="flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-green-600" />
-                <span className="text-green-600 font-semibold">Support</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-oxblood" />
-                <span className="text-oxblood font-semibold">Oppose</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-blue-600" />
-                <span className="text-blue-600 font-semibold">Amend</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-amber" />
-                <span className="text-amber font-semibold">Monitor</span>
-              </li>
-            </ul>
-          </div>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-1">
           <div>
             <h3 className="text-sm font-semibold text-navy mb-2">
               Status Indicators

@@ -46,8 +46,11 @@ export type GunBillCatalogEntry = {
   crsUrl?: string;
   /** Provenance of `title`: "co-ga-official" = official long title from the
    *  CO GA bill page (cache field coGaLongTitle / researched authoritative
-   *  source); "rmgo-subject" = RMGO's short subject (fallback). */
-  titleSource?: "co-ga-official" | "rmgo-subject";
+   *  source); "clics-archive" = official short title from the archived
+   *  Colorado Legislature CLICS "Title and Sponsors" bill-range list page
+   *  (pre-2016, no live CO GA page); "rmgo-subject" = RMGO's short subject
+   *  (fallback). */
+  titleSource?: "co-ga-official" | "clics-archive" | "rmgo-subject";
 };
 
 export type GunBillCatalogYear = {

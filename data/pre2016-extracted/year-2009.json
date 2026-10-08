@@ -1,0 +1,20 @@
+{
+  "HB09-1180": {
+    "title": null,
+    "bill_text_url": null,
+    "status": "not_readable",
+    "source": "clics-list"
+  },
+  "SB09-008": {
+    "title": "Deadly Force Against Intruder Businesses",
+    "bill_text_url": "https://archive.leg.state.co.us/CLICS/CLICS2009A/csl.nsf/fsbillcont3/B91AF789C5C08B3187257537001D6810?Open&file=008_01.pdf",
+    "status": "readable",
+    "source": "clics-list"
+  },
+  "SB09-074": {
+    "title": null,
+    "bill_text_url": null,
+    "status": "not_readable",
+    "source": "clics-list"
+  }
+}
