@@ -1,0 +1,2096 @@
+{
+  "session": "2026A",
+  "fetchedAt": "2026-10-28T22:18:54.148Z",
+  "committees": [
+    {
+      "chamber": "house",
+      "slug": "AgricultureWaterNaturalResources",
+      "name": "Agriculture, Water & Natural Resources",
+      "url": "https://leg.colorado.gov/committees/2026A/house/AgricultureWaterNaturalResources",
+      "description": "The House Agriculture, Livestock, & Water Committee generally considers matters concerning water, agriculture, wildlife, and recreation. In addition, the committee has legislative oversight responsibility for the departments of Agriculture and Natural Resources.",
+      "members": [
+        {
+          "slug": "karen-mccormick",
+          "name": "Karen McCormick",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-11",
+          "email": "karen.mccormick.house@coleg.gov",
+          "phone": "303-866-2780",
+          "photo": true
+        },
+        {
+          "slug": "tisha-mauro",
+          "name": "Tisha Mauro",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-46",
+          "email": "tisha.mauro.house@coleg.gov",
+          "phone": "303-866-2968",
+          "photo": true
+        },
+        {
+          "slug": "lori-garcia-sander",
+          "name": "Lori Garcia Sander",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-65",
+          "email": "lori.garciasander.house@coleg.gov",
+          "phone": "303-866-2907",
+          "photo": true
+        },
+        {
+          "slug": "lori-goldstein",
+          "name": "Lori Goldstein",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-29",
+          "email": "lori.goldstein.house@coleg.gov",
+          "phone": "303-866-2843",
+          "photo": true
+        },
+        {
+          "slug": "dusty-johnson",
+          "name": "Dusty Johnson",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-63",
+          "email": "dustyforcolorado@gmail.com",
+          "phone": "303-866-2398",
+          "photo": true
+        },
+        {
+          "slug": "mandy-lindsay",
+          "name": "Mandy Lindsay",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-42",
+          "email": "mandy.lindsay.house@coleg.gov",
+          "phone": "303-866-3911",
+          "photo": true
+        },
+        {
+          "slug": "meghan-lukens",
+          "name": "Meghan Lukens",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-26",
+          "email": "meghan.lukens.house@coleg.gov",
+          "phone": "303-866-2923",
+          "photo": true
+        },
+        {
+          "slug": "matthew-martinez",
+          "name": "Matthew Martinez",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-62",
+          "email": "matthew.martinez.house@coleg.gov",
+          "phone": "303-866-2916",
+          "photo": true
+        },
+        {
+          "slug": "lesley-smith",
+          "name": "Lesley Smith",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-49",
+          "email": "lesley.smith.house@coleg.gov",
+          "phone": "303-866-2578",
+          "photo": true
+        },
+        {
+          "slug": "katie-stewart",
+          "name": "Katie Stewart",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-59",
+          "email": "katie.stewart.house@coleg.gov",
+          "phone": "303-866-2914",
+          "photo": true
+        },
+        {
+          "slug": "tammy-story",
+          "name": "Tammy Story",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-25",
+          "email": "tammy.story.house@coleg.gov",
+          "phone": "303-866-2582",
+          "photo": true
+        },
+        {
+          "slug": "larry-don-suckla",
+          "name": "Larry Don Suckla",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-58",
+          "email": "larry.suckla.house@coleg.gov",
+          "phone": "303-866-2955",
+          "photo": true
+        },
+        {
+          "slug": "ty-winter",
+          "name": "Ty Winter",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-47",
+          "email": "ty.winter.house@coleg.gov",
+          "phone": "303-866-2747",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "Appropriations",
+      "name": "Appropriations",
+      "url": "https://leg.colorado.gov/committees/2026A/house/Appropriations",
+      "description": "The House Appropriations Committee conducts hearings on bills that change expenditures or revenues and affect the budget. The Committee typically reserves discussion for the fiscal impact of the bills. Many of the bills considered by the Committee have had hearings in other committees before being referred to Appropriations and for those bills that have previously had a hearing the Committee does not customarily take public testimony.",
+      "members": [
+        {
+          "slug": "kyle-brown",
+          "name": "Kyle Brown",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-12",
+          "email": "kyle.brown.house@coleg.gov",
+          "phone": "303-866-2920",
+          "photo": true
+        },
+        {
+          "slug": "emily-sirota",
+          "name": "Emily Sirota",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-9",
+          "email": "emily.sirota.house@coleg.gov",
+          "phone": "303-866-2910",
+          "photo": true
+        },
+        {
+          "slug": "andrew-boesenecker",
+          "name": "Andrew Boesenecker",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-53",
+          "email": "andrew.boesenecker.house@coleg.gov",
+          "phone": "303-866-2917",
+          "photo": true
+        },
+        {
+          "slug": "scott-bottoms",
+          "name": "Scott Bottoms",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-15",
+          "email": "scott.bottoms.house@coleg.gov",
+          "phone": "303-866-5525",
+          "photo": true
+        },
+        {
+          "slug": "junie-joseph",
+          "name": "Junie Joseph",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-10",
+          "email": "junie.joseph.house@coleg.gov",
+          "phone": "303-866-2915",
+          "photo": true
+        },
+        {
+          "slug": "karen-mccormick",
+          "name": "Karen McCormick",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-11",
+          "email": "karen.mccormick.house@coleg.gov",
+          "phone": "303-866-2780",
+          "photo": true
+        },
+        {
+          "slug": "matt-soper",
+          "name": "Matt Soper",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-54",
+          "email": "matthew.soper.house@coleg.gov",
+          "phone": "303-866-2583",
+          "photo": true
+        },
+        {
+          "slug": "rick-taggart",
+          "name": "Rick Taggart",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-55",
+          "email": "rick.taggart.house@coleg.gov",
+          "phone": "303-866-3068",
+          "photo": true
+        },
+        {
+          "slug": "brianna-titone",
+          "name": "Brianna Titone",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-27",
+          "email": "brianna.titone.house@coleg.gov",
+          "phone": "303-866-2962",
+          "photo": true
+        },
+        {
+          "slug": "elizabeth-velasco",
+          "name": "Elizabeth Velasco",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-57",
+          "email": "elizabeth.velasco.house@coleg.gov",
+          "phone": "303-866-2949",
+          "photo": true
+        },
+        {
+          "slug": "yara-zokaie",
+          "name": "Yara Zokaie",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-52",
+          "email": "yara.zokaie.house@coleg.gov",
+          "phone": "303-866-4569",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "BusinessAffairsLabor",
+      "name": "Business Affairs & Labor",
+      "url": "https://leg.colorado.gov/committees/2026A/house/BusinessAffairsLabor",
+      "description": "The House Committee on Business Affairs & Labor considers matters concerning the regulation of professions and occupations, property and casualty insurance, unemployment insurance, health insurance, workers' compensation insurance, economic development, banks and financial institutions, real estate, labor, and technology. In addition, the committee has legislative oversight responsibility for the Department of Labor and Employment, the Department of Personnel and Administration, the Department of Regulatory Agencies, and the Office of Economic Development and International Trade.",
+      "members": [
+        {
+          "slug": "naquetta-ricks",
+          "name": "Naquetta Ricks",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-40",
+          "email": "Naquetta.Ricks.house@coleg.gov",
+          "phone": "303-866-2944",
+          "photo": true
+        },
+        {
+          "slug": "sean-camacho",
+          "name": "Sean Camacho",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-6",
+          "email": "sean.camacho.house@coleg.gov",
+          "phone": "303-866-2911",
+          "photo": true
+        },
+        {
+          "slug": "max-brooks",
+          "name": "Max Brooks",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-45",
+          "email": "max.brooks.house@coleg.gov",
+          "phone": "303-866-2948",
+          "photo": true
+        },
+        {
+          "slug": "regina-english",
+          "name": "Regina English",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-17",
+          "email": "regina.english.house@coleg.gov",
+          "phone": "303-866-3069",
+          "photo": true
+        },
+        {
+          "slug": "ryan-gonzalez",
+          "name": "Ryan Gonzalez",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-50",
+          "email": "ryan.gonzalez.house@coleg.gov",
+          "phone": "303-866-2929",
+          "photo": true
+        },
+        {
+          "slug": "rebecca-keltie",
+          "name": "Rebecca Keltie",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-16",
+          "email": "rebecca.keltie.house@coleg.gov",
+          "phone": "303-866-2937",
+          "photo": true
+        },
+        {
+          "slug": "sheila-lieder",
+          "name": "Sheila Lieder",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-28",
+          "email": "sheila.lieder.house@coleg.gov",
+          "phone": "303-866-2939",
+          "photo": true
+        },
+        {
+          "slug": "javier-mabrey",
+          "name": "Javier Mabrey",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-1",
+          "email": "javier.mabrey.house@coleg.gov",
+          "phone": "303-866-2966",
+          "photo": true
+        },
+        {
+          "slug": "bob-marshall",
+          "name": "Bob Marshall",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-43",
+          "email": "bob.marshall.house@coleg.gov",
+          "phone": "303-866-2936",
+          "photo": true
+        },
+        {
+          "slug": "tisha-mauro",
+          "name": "Tisha Mauro",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-46",
+          "email": "tisha.mauro.house@coleg.gov",
+          "phone": "303-866-2968",
+          "photo": true
+        },
+        {
+          "slug": "chris-richardson",
+          "name": "Chris Richardson",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-56",
+          "email": "chris.richardson.house@coleg.gov",
+          "phone": "303-866-2912",
+          "photo": true
+        },
+        {
+          "slug": "gretchen-rydin",
+          "name": "Gretchen Rydin",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-38",
+          "email": "gretchen.rydin.house@coleg.gov",
+          "phone": "303-866-2953",
+          "photo": true
+        },
+        {
+          "slug": "larry-don-suckla",
+          "name": "Larry Don Suckla",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-58",
+          "email": "larry.suckla.house@coleg.gov",
+          "phone": "303-866-2955",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "Education",
+      "name": "Education",
+      "url": "https://leg.colorado.gov/committees/2026A/house/Education",
+      "description": "The House Education Committee considers matters concerning K-12 public schools, including public school accountability and school finance; and higher education, including administration and governance, tuition, and financial assistance. In addition, the committee has legislative oversight responsibility for the departments of Education and Higher Education.",
+      "members": [
+        {
+          "slug": "meghan-lukens",
+          "name": "Meghan Lukens",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-26",
+          "email": "meghan.lukens.house@coleg.gov",
+          "phone": "303-866-2923",
+          "photo": true
+        },
+        {
+          "slug": "matthew-martinez",
+          "name": "Matthew Martinez",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-62",
+          "email": "matthew.martinez.house@coleg.gov",
+          "phone": "303-866-2916",
+          "photo": true
+        },
+        {
+          "slug": "jennifer-bacon",
+          "name": "Jennifer Bacon",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-7",
+          "email": "jennifer.bacon.house@coleg.gov",
+          "phone": "303-866-2909",
+          "photo": true
+        },
+        {
+          "slug": "mary-bradfield",
+          "name": "Mary Bradfield",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-21",
+          "email": "mary.bradfield.house@coleg.gov",
+          "phone": "303-866-2946",
+          "photo": true
+        },
+        {
+          "slug": "ava-flanell",
+          "name": "Ava Flanell",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-14",
+          "email": "ava.flanell.house@coleg.gov",
+          "phone": "303-866-2965",
+          "photo": true
+        },
+        {
+          "slug": "lori-garcia-sander",
+          "name": "Lori Garcia Sander",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-65",
+          "email": "lori.garciasander.house@coleg.gov",
+          "phone": "303-866-2907",
+          "photo": true
+        },
+        {
+          "slug": "lindsay-gilchrist",
+          "name": "Lindsay Gilchrist",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-8",
+          "email": "lindsay.gilchrist.house@coleg.gov",
+          "phone": "303-866-2959",
+          "photo": true
+        },
+        {
+          "slug": "eliza-hamrick",
+          "name": "Eliza Hamrick",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-61",
+          "email": "eliza.hamrick.house@coleg.gov",
+          "phone": "303-866-3706",
+          "photo": true
+        },
+        {
+          "slug": "anthony-hartsook",
+          "name": "Anthony Hartsook",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-44",
+          "email": "anthony.hartsook.house@coleg.gov",
+          "phone": "303-866-2933",
+          "photo": true
+        },
+        {
+          "slug": "dusty-johnson",
+          "name": "Dusty Johnson",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-63",
+          "email": "dustyforcolorado@gmail.com",
+          "phone": "303-866-2398",
+          "photo": true
+        },
+        {
+          "slug": "jacque-phillips",
+          "name": "Jacque Phillips",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-31",
+          "email": "jacque.phillips.house@coleg.gov",
+          "phone": "303-866-2918",
+          "photo": true
+        },
+        {
+          "slug": "katie-stewart",
+          "name": "Katie Stewart",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-59",
+          "email": "katie.stewart.house@coleg.gov",
+          "phone": "303-866-2914",
+          "photo": true
+        },
+        {
+          "slug": "tammy-story",
+          "name": "Tammy Story",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-25",
+          "email": "tammy.story.house@coleg.gov",
+          "phone": "303-866-2582",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "EnergyEnvironment",
+      "name": "Energy & Environment",
+      "url": "https://leg.colorado.gov/committees/2026A/house/EnergyEnvironment",
+      "description": "The House Energy & Environment Committee generally considers matters concerning energy and environment. In addition, the committee also has legislative oversight responsibility for divisions of the Department of Natural Resources and Department of Public Health and Environment, the Public Utilities Commission, and the Colorado Energy Office.",
+      "members": [
+        {
+          "slug": "alex-valdez",
+          "name": "Alex Valdez",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-5",
+          "email": "alex.valdez.house@coleg.gov",
+          "phone": "303-866-2925",
+          "photo": true
+        },
+        {
+          "slug": "elizabeth-velasco",
+          "name": "Elizabeth Velasco",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-57",
+          "email": "elizabeth.velasco.house@coleg.gov",
+          "phone": "303-866-2949",
+          "photo": true
+        },
+        {
+          "slug": "carlos-barron",
+          "name": "Carlos Barron",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-48",
+          "email": "carlos.barron.house@coleg.gov",
+          "phone": "303-866-2943",
+          "photo": true
+        },
+        {
+          "slug": "ken-degraaf",
+          "name": "Ken DeGraaf",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-22",
+          "email": "ken.degraaf.house@coleg.gov",
+          "phone": "303-866-2927",
+          "photo": true
+        },
+        {
+          "slug": "lori-goldstein",
+          "name": "Lori Goldstein",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-29",
+          "email": "lori.goldstein.house@coleg.gov",
+          "phone": "303-866-2843",
+          "photo": true
+        },
+        {
+          "slug": "jamie-jackson",
+          "name": "Jamie Jackson",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-41",
+          "email": "jamie.jackson.house@coleg.gov",
+          "phone": "303-866-2919",
+          "photo": true
+        },
+        {
+          "slug": "junie-joseph",
+          "name": "Junie Joseph",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-10",
+          "email": "junie.joseph.house@coleg.gov",
+          "phone": "303-866-2915",
+          "photo": true
+        },
+        {
+          "slug": "amy-paschal",
+          "name": "Amy Paschal",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-18",
+          "email": "amy.paschal.house@coleg.gov",
+          "phone": "303-866-2932",
+          "photo": true
+        },
+        {
+          "slug": "manny-rutinel",
+          "name": "Manny Rutinel",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-32",
+          "email": "manny.rutinel.house@coleg.gov",
+          "phone": "303-866-2945",
+          "photo": true
+        },
+        {
+          "slug": "scott-slaugh",
+          "name": "Scott Slaugh",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-64",
+          "email": "scott.slaugh.house@coleg.gov",
+          "phone": "303-866-2906",
+          "photo": true
+        },
+        {
+          "slug": "lesley-smith",
+          "name": "Lesley Smith",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-49",
+          "email": "lesley.smith.house@coleg.gov",
+          "phone": "303-866-2578",
+          "photo": true
+        },
+        {
+          "slug": "jenny-willford",
+          "name": "Jenny Willford",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-34",
+          "email": "jenny.willford.house@coleg.gov",
+          "phone": "303-866-2931",
+          "photo": true
+        },
+        {
+          "slug": "dan-woog",
+          "name": "Dan Woog",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-19",
+          "email": "dan.woog.house@coleg.gov",
+          "phone": "303-866-2924",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "Finance",
+      "name": "Finance",
+      "url": "https://leg.colorado.gov/committees/2026A/house/Finance",
+      "description": "The House Finance Committee generally considers matters related to a broad range of public finance proposals including legislation that affects the state's revenue and tax structure. In addition, the committee has legislative oversight responsibility for the Public Employees' Retirement Association, Department of Revenue, State Treasury, and the Office of State Planning and Budgeting.",
+      "members": [
+        {
+          "slug": "steven-woodrow",
+          "name": "Steven Woodrow",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-2",
+          "email": "steven.woodrow.house@coleg.gov",
+          "phone": "303-866-2967",
+          "photo": true
+        },
+        {
+          "slug": "brianna-titone",
+          "name": "Brianna Titone",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-27",
+          "email": "brianna.titone.house@coleg.gov",
+          "phone": "303-866-2962",
+          "photo": true
+        },
+        {
+          "slug": "max-brooks",
+          "name": "Max Brooks",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-45",
+          "email": "max.brooks.house@coleg.gov",
+          "phone": "303-866-2948",
+          "photo": true
+        },
+        {
+          "slug": "sean-camacho",
+          "name": "Sean Camacho",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-6",
+          "email": "sean.camacho.house@coleg.gov",
+          "phone": "303-866-2911",
+          "photo": true
+        },
+        {
+          "slug": "ken-degraaf",
+          "name": "Ken DeGraaf",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-22",
+          "email": "ken.degraaf.house@coleg.gov",
+          "phone": "303-866-2927",
+          "photo": true
+        },
+        {
+          "slug": "lorena-garcia",
+          "name": "Lorena Garcia",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-35",
+          "email": "lorena.garcia.house@coleg.gov",
+          "phone": "303-866-2964",
+          "photo": true
+        },
+        {
+          "slug": "ryan-gonzalez",
+          "name": "Ryan Gonzalez",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-50",
+          "email": "ryan.gonzalez.house@coleg.gov",
+          "phone": "303-866-2929",
+          "photo": true
+        },
+        {
+          "slug": "anthony-hartsook",
+          "name": "Anthony Hartsook",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-44",
+          "email": "anthony.hartsook.house@coleg.gov",
+          "phone": "303-866-2933",
+          "photo": true
+        },
+        {
+          "slug": "bob-marshall",
+          "name": "Bob Marshall",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-43",
+          "email": "bob.marshall.house@coleg.gov",
+          "phone": "303-866-2936",
+          "photo": true
+        },
+        {
+          "slug": "rebekah-stewart",
+          "name": "Rebekah Stewart",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-30",
+          "email": "rebekah.stewart.house@coleg.gov",
+          "phone": "303-866-2951",
+          "photo": true
+        },
+        {
+          "slug": "yara-zokaie",
+          "name": "Yara Zokaie",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-52",
+          "email": "yara.zokaie.house@coleg.gov",
+          "phone": "303-866-4569",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "HealthHumanServices",
+      "name": "Health & Human Services",
+      "url": "https://leg.colorado.gov/committees/2026A/house/HealthHumanServices",
+      "description": "The House Health and Human Services Committee considers matters concerning state health and welfare programs, health insurance, social services, and environmental health. The committee also has legislative oversight responsibility for the Department of Health Care Policy and Financing, the Department of Human Services, and the Department of Public Health and Environment.",
+      "members": [
+        {
+          "slug": "lindsay-gilchrist",
+          "name": "Lindsay Gilchrist",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-8",
+          "email": "lindsay.gilchrist.house@coleg.gov",
+          "phone": "303-866-2959",
+          "photo": true
+        },
+        {
+          "slug": "sheila-lieder",
+          "name": "Sheila Lieder",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-28",
+          "email": "sheila.lieder.house@coleg.gov",
+          "phone": "303-866-2939",
+          "photo": true
+        },
+        {
+          "slug": "carlos-barron",
+          "name": "Carlos Barron",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-48",
+          "email": "carlos.barron.house@coleg.gov",
+          "phone": "303-866-2943",
+          "photo": true
+        },
+        {
+          "slug": "mary-bradfield",
+          "name": "Mary Bradfield",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-21",
+          "email": "mary.bradfield.house@coleg.gov",
+          "phone": "303-866-2946",
+          "photo": true
+        },
+        {
+          "slug": "brandi-bradley",
+          "name": "Brandi Bradley",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-39",
+          "email": "brandi.bradley.house@coleg.gov",
+          "phone": "303-866-2935",
+          "photo": true
+        },
+        {
+          "slug": "regina-english",
+          "name": "Regina English",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-17",
+          "email": "regina.english.house@coleg.gov",
+          "phone": "303-866-3069",
+          "photo": true
+        },
+        {
+          "slug": "lisa-feret",
+          "name": "Lisa Feret",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-24",
+          "email": "lisa.feret.house@coleg.gov",
+          "phone": "303-866-2950",
+          "photo": true
+        },
+        {
+          "slug": "eliza-hamrick",
+          "name": "Eliza Hamrick",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-61",
+          "email": "eliza.hamrick.house@coleg.gov",
+          "phone": "303-866-3706",
+          "photo": true
+        },
+        {
+          "slug": "dusty-johnson",
+          "name": "Dusty Johnson",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-63",
+          "email": "dustyforcolorado@gmail.com",
+          "phone": "303-866-2398",
+          "photo": true
+        },
+        {
+          "slug": "karen-mccormick",
+          "name": "Karen McCormick",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-11",
+          "email": "karen.mccormick.house@coleg.gov",
+          "phone": "303-866-2780",
+          "photo": true
+        },
+        {
+          "slug": "gretchen-rydin",
+          "name": "Gretchen Rydin",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-38",
+          "email": "gretchen.rydin.house@coleg.gov",
+          "phone": "303-866-2953",
+          "photo": true
+        },
+        {
+          "slug": "katie-stewart",
+          "name": "Katie Stewart",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-59",
+          "email": "katie.stewart.house@coleg.gov",
+          "phone": "303-866-2914",
+          "photo": true
+        },
+        {
+          "slug": "dan-woog",
+          "name": "Dan Woog",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-19",
+          "email": "dan.woog.house@coleg.gov",
+          "phone": "303-866-2924",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "Judiciary",
+      "name": "Judiciary",
+      "url": "https://leg.colorado.gov/committees/2026A/house/Judiciary",
+      "description": "The House Judiciary Committee considers matters concerning courts and judges, civil liberties, Colorado's constitution, revision of the Colorado Revised Statutes, the correctional system and prison facilities, juvenile justice, and homeland security. The committee also has legislative oversight responsibility for the Department of Corrections, the Department of Law, the Department of Public Safety, and the Judicial Branch.",
+      "members": [
+        {
+          "slug": "javier-mabrey",
+          "name": "Javier Mabrey",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-1",
+          "email": "javier.mabrey.house@coleg.gov",
+          "phone": "303-866-2966",
+          "photo": true
+        },
+        {
+          "slug": "michael-carter",
+          "name": "Michael Carter",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-36",
+          "email": "michael.carter.house@coleg.gov",
+          "phone": "303-866-2942",
+          "photo": true
+        },
+        {
+          "slug": "jennifer-bacon",
+          "name": "Jennifer Bacon",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-7",
+          "email": "jennifer.bacon.house@coleg.gov",
+          "phone": "303-866-2909",
+          "photo": true
+        },
+        {
+          "slug": "chad-clifford",
+          "name": "Chad Clifford",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-37",
+          "email": "chad.clifford.house@coleg.gov",
+          "phone": "303-866-5510",
+          "photo": true
+        },
+        {
+          "slug": "cecelia-espenoza",
+          "name": "Cecelia Espenoza",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-4",
+          "email": "cecelia.espenoza.house@coleg.gov",
+          "phone": "303-866-2954",
+          "photo": true
+        },
+        {
+          "slug": "ava-flanell",
+          "name": "Ava Flanell",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-14",
+          "email": "ava.flanell.house@coleg.gov",
+          "phone": "303-866-2965",
+          "photo": true
+        },
+        {
+          "slug": "lorena-garcia",
+          "name": "Lorena Garcia",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-35",
+          "email": "lorena.garcia.house@coleg.gov",
+          "phone": "303-866-2964",
+          "photo": true
+        },
+        {
+          "slug": "rebecca-keltie",
+          "name": "Rebecca Keltie",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-16",
+          "email": "rebecca.keltie.house@coleg.gov",
+          "phone": "303-866-2937",
+          "photo": true
+        },
+        {
+          "slug": "scott-slaugh",
+          "name": "Scott Slaugh",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-64",
+          "email": "scott.slaugh.house@coleg.gov",
+          "phone": "303-866-2906",
+          "photo": true
+        },
+        {
+          "slug": "matt-soper",
+          "name": "Matt Soper",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-54",
+          "email": "matthew.soper.house@coleg.gov",
+          "phone": "303-866-2583",
+          "photo": true
+        },
+        {
+          "slug": "yara-zokaie",
+          "name": "Yara Zokaie",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-52",
+          "email": "yara.zokaie.house@coleg.gov",
+          "phone": "303-866-4569",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "StateCivicMilitaryVeteransAffairs",
+      "name": "State, Civic, Military, & Veterans Affairs",
+      "url": "https://leg.colorado.gov/committees/2026A/house/StateCivicMilitaryVeteransAffairs",
+      "description": "The House State, Civic, Military and Veterans Affairs Committee generally considers matters concerning elections, campaign finance, military and veterans affairs, and other subject areas related to state government. In addition, the committee has legislative oversight responsibility for the departments of State and Military and Veterans Affairs.",
+      "members": [
+        {
+          "slug": "jenny-willford",
+          "name": "Jenny Willford",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-34",
+          "email": "jenny.willford.house@coleg.gov",
+          "phone": "303-866-2931",
+          "photo": true
+        },
+        {
+          "slug": "chad-clifford",
+          "name": "Chad Clifford",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-37",
+          "email": "chad.clifford.house@coleg.gov",
+          "phone": "303-866-5510",
+          "photo": true
+        },
+        {
+          "slug": "scott-bottoms",
+          "name": "Scott Bottoms",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-15",
+          "email": "scott.bottoms.house@coleg.gov",
+          "phone": "303-866-5525",
+          "photo": true
+        },
+        {
+          "slug": "brandi-bradley",
+          "name": "Brandi Bradley",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-39",
+          "email": "brandi.bradley.house@coleg.gov",
+          "phone": "303-866-2935",
+          "photo": true
+        },
+        {
+          "slug": "michael-carter",
+          "name": "Michael Carter",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-36",
+          "email": "michael.carter.house@coleg.gov",
+          "phone": "303-866-2942",
+          "photo": true
+        },
+        {
+          "slug": "cecelia-espenoza",
+          "name": "Cecelia Espenoza",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-4",
+          "email": "cecelia.espenoza.house@coleg.gov",
+          "phone": "303-866-2954",
+          "photo": true
+        },
+        {
+          "slug": "lisa-feret",
+          "name": "Lisa Feret",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-24",
+          "email": "lisa.feret.house@coleg.gov",
+          "phone": "303-866-2950",
+          "photo": true
+        },
+        {
+          "slug": "meg-froelich",
+          "name": "Meg Froelich",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-3",
+          "email": "meg.froelich.house@coleg.gov",
+          "phone": "303-866-2921",
+          "photo": true
+        },
+        {
+          "slug": "stephanie-luck",
+          "name": "Stephanie Luck",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-60",
+          "email": "stephanie.luck.house@coleg.gov",
+          "phone": "303-866-2905",
+          "photo": true
+        },
+        {
+          "slug": "kenny-nguyen",
+          "name": "Kenny Nguyen",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-33",
+          "email": "kenny.nguyen.house@coleg.gov",
+          "phone": "303-866-4667",
+          "photo": true
+        },
+        {
+          "slug": "naquetta-ricks",
+          "name": "Naquetta Ricks",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-40",
+          "email": "Naquetta.Ricks.house@coleg.gov",
+          "phone": "303-866-2944",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "house",
+      "slug": "TransportationHousingLocalGovernment",
+      "name": "Transportation, Housing & Local Government",
+      "url": "https://leg.colorado.gov/committees/2026A/house/TransportationHousingLocalGovernment",
+      "description": "The House Transportation & Local Government Comittee considers matters concerning motor vehicle law, traffic regulation, transportation funding, public infrastructure, other subject areas related to the state transportation system, local governments, special districts, housing, and land use planning. In addition, the committee has legislative oversight responsibility for the Department of Transportation and the Department of Local Affairs.",
+      "members": [
+        {
+          "slug": "meg-froelich",
+          "name": "Meg Froelich",
+          "title": "Representative",
+          "role": "Chair",
+          "district": "HD-3",
+          "email": "meg.froelich.house@coleg.gov",
+          "phone": "303-866-2921",
+          "photo": true
+        },
+        {
+          "slug": "rebekah-stewart",
+          "name": "Rebekah Stewart",
+          "title": "Representative",
+          "role": "Vice Chair",
+          "district": "HD-30",
+          "email": "rebekah.stewart.house@coleg.gov",
+          "phone": "303-866-2951",
+          "photo": true
+        },
+        {
+          "slug": "andrew-boesenecker",
+          "name": "Andrew Boesenecker",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-53",
+          "email": "andrew.boesenecker.house@coleg.gov",
+          "phone": "303-866-2917",
+          "photo": true
+        },
+        {
+          "slug": "max-brooks",
+          "name": "Max Brooks",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-45",
+          "email": "max.brooks.house@coleg.gov",
+          "phone": "303-866-2948",
+          "photo": true
+        },
+        {
+          "slug": "jamie-jackson",
+          "name": "Jamie Jackson",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-41",
+          "email": "jamie.jackson.house@coleg.gov",
+          "phone": "303-866-2919",
+          "photo": true
+        },
+        {
+          "slug": "kenny-nguyen",
+          "name": "Kenny Nguyen",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-33",
+          "email": "kenny.nguyen.house@coleg.gov",
+          "phone": "303-866-4667",
+          "photo": true
+        },
+        {
+          "slug": "amy-paschal",
+          "name": "Amy Paschal",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-18",
+          "email": "amy.paschal.house@coleg.gov",
+          "phone": "303-866-2932",
+          "photo": true
+        },
+        {
+          "slug": "jacque-phillips",
+          "name": "Jacque Phillips",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-31",
+          "email": "jacque.phillips.house@coleg.gov",
+          "phone": "303-866-2918",
+          "photo": true
+        },
+        {
+          "slug": "chris-richardson",
+          "name": "Chris Richardson",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-56",
+          "email": "chris.richardson.house@coleg.gov",
+          "phone": "303-866-2912",
+          "photo": true
+        },
+        {
+          "slug": "larry-don-suckla",
+          "name": "Larry Don Suckla",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-58",
+          "email": "larry.suckla.house@coleg.gov",
+          "phone": "303-866-2955",
+          "photo": true
+        },
+        {
+          "slug": "elizabeth-velasco",
+          "name": "Elizabeth Velasco",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-57",
+          "email": "elizabeth.velasco.house@coleg.gov",
+          "phone": "303-866-2949",
+          "photo": true
+        },
+        {
+          "slug": "ron-weinberg",
+          "name": "Ron Weinberg",
+          "title": "Representative",
+          "role": null,
+          "district": "HD-51",
+          "email": "ron.weinberg.house@coleg.gov",
+          "phone": "303-866-2947",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "AgricultureNaturalResources",
+      "name": "Agriculture & Natural Resources",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/AgricultureNaturalResources",
+      "description": "The Senate Agriculture and Natural Resources Committee generally considers matters concerning water, agriculture, wildlife, and recreation. In addition, the committee has legislative oversight responsibility for the departments of Agriculture and Natural Resources.",
+      "members": [
+        {
+          "slug": "dylan-roberts",
+          "name": "Dylan Roberts",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-8",
+          "email": "dylan.roberts.senate@coleg.gov",
+          "phone": "303-866-4871",
+          "photo": true
+        },
+        {
+          "slug": "jessie-danielson",
+          "name": "Jessie Danielson",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-22",
+          "email": "jessie.danielson.senate@coleg.gov",
+          "phone": "303-866-4856",
+          "photo": true
+        },
+        {
+          "slug": "marc-catlin",
+          "name": "Marc Catlin",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-5",
+          "email": "marc.catlin.senate@coleg.gov",
+          "phone": "303-866-5292",
+          "photo": true
+        },
+        {
+          "slug": "nick-hinrichsen",
+          "name": "Nick Hinrichsen",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-3",
+          "email": "nick.hinrichsen.senate@coleg.gov",
+          "phone": "303-866-4878",
+          "photo": true
+        },
+        {
+          "slug": "cathy-kipp",
+          "name": "Cathy Kipp",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-14",
+          "email": "cathy.kipp.senate@coleg.gov",
+          "phone": "303-866-4841",
+          "photo": true
+        },
+        {
+          "slug": "byron-pelton",
+          "name": "Byron Pelton",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-1",
+          "email": "byron.pelton.senate@coleg.gov",
+          "phone": "303-866-6360",
+          "photo": true
+        },
+        {
+          "slug": "rod-pelton",
+          "name": "Rod Pelton",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-35",
+          "email": "rod.pelton.senate@coleg.gov",
+          "phone": "303-866-4884",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "Appropriations",
+      "name": "Appropriations",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/Appropriations",
+      "description": "The Senate Appropriations Committee conducts hearings on bills that change expenditures or revenues and affect the budget. The Committee typically reserves discussion for the fiscal impact of the bills. Many of the bills considered by the Committee have had hearings in other committees before being referred to Appropriations and for those bills that have previously had a hearing the Committee does not customarily take public testimony.",
+      "members": [
+        {
+          "slug": "judy-amabile",
+          "name": "Judy Amabile",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-18",
+          "email": "judy.amabile.senate@coleg.gov",
+          "phone": "303-866-4872",
+          "photo": true
+        },
+        {
+          "slug": "jeff-bridges",
+          "name": "Jeff Bridges",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-26",
+          "email": "jeff.bridges.senate@coleg.gov",
+          "phone": "303-866-4846",
+          "photo": true
+        },
+        {
+          "slug": "julie-gonzales",
+          "name": "Julie Gonzales",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-34",
+          "email": "julie.gonzales.senate@coleg.gov",
+          "phone": "303-866-4862",
+          "photo": true
+        },
+        {
+          "slug": "barbara-kirkmeyer",
+          "name": "Barbara Kirkmeyer",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-23",
+          "email": "barbara.kirkmeyer.senate@coleg.gov",
+          "phone": "303-866-4876",
+          "photo": true
+        },
+        {
+          "slug": "chris-kolker",
+          "name": "Chris Kolker",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-16",
+          "email": "chris.kolker.senate@coleg.gov",
+          "phone": "303-866-4883",
+          "photo": true
+        },
+        {
+          "slug": "larry-liston",
+          "name": "Larry Liston",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-10",
+          "email": "larry.liston.senate@coleg.gov",
+          "phone": "303-866-2737",
+          "photo": true
+        },
+        {
+          "slug": "byron-pelton",
+          "name": "Byron Pelton",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-1",
+          "email": "byron.pelton.senate@coleg.gov",
+          "phone": "303-866-6360",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "BusinessLaborTechnology",
+      "name": "Business, Labor, & Technology",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/BusinessLaborTechnology",
+      "description": "The Senate Business, Labor, and Technology Committee considers matters concerning the regulation of professions and occupations, property and casualty insurance, unemployment insurance, health insurance, workers' compensation insurance, economic development, banks and financial institutions, real estate, labor, and technology. In addition, the committee has legislative oversight responsibility for the Department of Labor, the Department of Personnel and Administration, the Department of Regulatory Agencies, and the Office of Information Technology.",
+      "members": [
+        {
+          "slug": "jessie-danielson",
+          "name": "Jessie Danielson",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-22",
+          "email": "jessie.danielson.senate@coleg.gov",
+          "phone": "303-866-4856",
+          "photo": true
+        },
+        {
+          "slug": "nick-hinrichsen",
+          "name": "Nick Hinrichsen",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-3",
+          "email": "nick.hinrichsen.senate@coleg.gov",
+          "phone": "303-866-4878",
+          "photo": true
+        },
+        {
+          "slug": "marc-catlin",
+          "name": "Marc Catlin",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-5",
+          "email": "marc.catlin.senate@coleg.gov",
+          "phone": "303-866-5292",
+          "photo": true
+        },
+        {
+          "slug": "iman-jodeh",
+          "name": "Iman Jodeh",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-29",
+          "email": "iman.jodeh.senate@coleg.gov",
+          "phone": "303-866-3432",
+          "photo": true
+        },
+        {
+          "slug": "larry-liston",
+          "name": "Larry Liston",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-10",
+          "email": "larry.liston.senate@coleg.gov",
+          "phone": "303-866-2737",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "Education",
+      "name": "Education",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/Education",
+      "description": "The Senate Education Committee considers matters concerning: K-12 public schools, including public school accountability and school finance; and higher education, including administration and governance, tuition, and financial assistance. In addition, the committee has legislative oversight responsibility for the departments of Education and Higher Education.",
+      "members": [
+        {
+          "slug": "chris-kolker",
+          "name": "Chris Kolker",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-16",
+          "email": "chris.kolker.senate@coleg.gov",
+          "phone": "303-866-4883",
+          "photo": true
+        },
+        {
+          "slug": "janice-marchman",
+          "name": "Janice Marchman",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-15",
+          "email": "janice.marchman.senate@coleg.gov",
+          "phone": "303-866-4853",
+          "photo": true
+        },
+        {
+          "slug": "jeff-bridges",
+          "name": "Jeff Bridges",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-26",
+          "email": "jeff.bridges.senate@coleg.gov",
+          "phone": "303-866-4846",
+          "photo": true
+        },
+        {
+          "slug": "scott-bright",
+          "name": "Scott Bright",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-13",
+          "email": "scott.bright.senate@coleg.gov",
+          "phone": "303-866-4855",
+          "photo": true
+        },
+        {
+          "slug": "lisa-frizell",
+          "name": "Lisa Frizell",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-2",
+          "email": "lisa.frizell.senate@coleg.gov",
+          "phone": "303-866-4869",
+          "photo": true
+        },
+        {
+          "slug": "cathy-kipp",
+          "name": "Cathy Kipp",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-14",
+          "email": "cathy.kipp.senate@coleg.gov",
+          "phone": "303-866-4841",
+          "photo": true
+        },
+        {
+          "slug": "janice-rich",
+          "name": "Janice Rich",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-7",
+          "email": "Janice.Rich.Senate@coleg.gov",
+          "phone": "303-866-3077",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "Finance",
+      "name": "Finance",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/Finance",
+      "description": "The Senate Finance Committee generally considers matters related to a broad range of public finance proposals including legislation that affects the state's revenue and tax structure. In addition, the committee has legislative oversight responsibility for the Public Employees' Retirement Association, Department of Revenue, State Treasury, and the Office of State Planning and Budgeting.",
+      "members": [
+        {
+          "slug": "cathy-kipp",
+          "name": "Cathy Kipp",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-14",
+          "email": "cathy.kipp.senate@coleg.gov",
+          "phone": "303-866-4841",
+          "photo": true
+        },
+        {
+          "slug": "janice-marchman",
+          "name": "Janice Marchman",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-15",
+          "email": "janice.marchman.senate@coleg.gov",
+          "phone": "303-866-4853",
+          "photo": true
+        },
+        {
+          "slug": "adrienne-benavidez",
+          "name": "Adrienne Benavidez",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-21",
+          "email": "adrienne.benavidez.senate@coleg.gov",
+          "phone": "303-866-4857",
+          "photo": true
+        },
+        {
+          "slug": "scott-bright",
+          "name": "Scott Bright",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-13",
+          "email": "scott.bright.senate@coleg.gov",
+          "phone": "303-866-4855",
+          "photo": true
+        },
+        {
+          "slug": "lisa-frizell",
+          "name": "Lisa Frizell",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-2",
+          "email": "lisa.frizell.senate@coleg.gov",
+          "phone": "303-866-4869",
+          "photo": true
+        },
+        {
+          "slug": "chris-kolker",
+          "name": "Chris Kolker",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-16",
+          "email": "chris.kolker.senate@coleg.gov",
+          "phone": "303-866-4883",
+          "photo": true
+        },
+        {
+          "slug": "kyle-mullica",
+          "name": "Kyle Mullica",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-24",
+          "email": "kyle.mullica.senate@coleg.gov",
+          "phone": "303-866-4451",
+          "photo": true
+        },
+        {
+          "slug": "cleave-simpson",
+          "name": "Cleave Simpson",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-6",
+          "email": "cleave.simpson.senate@coleg.gov",
+          "phone": "303-866-4875",
+          "photo": true
+        },
+        {
+          "slug": "marc-snyder",
+          "name": "Marc Snyder",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-12",
+          "email": "marc.snyder.senate@coleg.gov",
+          "phone": "303-866-4880",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "HealthHumanServices",
+      "name": "Health & Human Services",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/HealthHumanServices",
+      "description": "The Senate Health and Human Services Committee considers matters concerning state health and welfare programs, health insurance, social services, and environmental health. The committee also has legislative oversight responsibility for the Department of Health Care Policy and Financing, the Department of Human Services, and the Department of Public Health and Environment.",
+      "members": [
+        {
+          "slug": "kyle-mullica",
+          "name": "Kyle Mullica",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-24",
+          "email": "kyle.mullica.senate@coleg.gov",
+          "phone": "303-866-4451",
+          "photo": true
+        },
+        {
+          "slug": "iman-jodeh",
+          "name": "Iman Jodeh",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-29",
+          "email": "iman.jodeh.senate@coleg.gov",
+          "phone": "303-866-3432",
+          "photo": true
+        },
+        {
+          "slug": "scott-bright",
+          "name": "Scott Bright",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-13",
+          "email": "scott.bright.senate@coleg.gov",
+          "phone": "303-866-4855",
+          "photo": true
+        },
+        {
+          "slug": "lisa-cutter",
+          "name": "Lisa Cutter",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-20",
+          "email": "lisa.cutter.senate@coleg.gov",
+          "phone": "303-866-4859",
+          "photo": true
+        },
+        {
+          "slug": "lindsey-daugherty",
+          "name": "Lindsey Daugherty",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-19",
+          "email": "lindsey.daugherty.senate@coleg.gov",
+          "phone": "303-866-4840",
+          "photo": true
+        },
+        {
+          "slug": "lisa-frizell",
+          "name": "Lisa Frizell",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-2",
+          "email": "lisa.frizell.senate@coleg.gov",
+          "phone": "303-866-4869",
+          "photo": true
+        },
+        {
+          "slug": "mike-weissman",
+          "name": "Mike Weissman",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-28",
+          "email": "mike.weissman.senate@coleg.gov",
+          "phone": "303-866-4879",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "Judiciary",
+      "name": "Judiciary",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/Judiciary",
+      "description": "The Senate Judiciary Committee considers matters concerning civil and criminal proceedings, courts, judges, civil liberties, Colorado's constitution and statutes, the state's correctional system and prison facilities, homeland security, and juvenile justice. In addition, the committee has legislative oversight responsibility for the Department of Corrections, the Department of Public Safety, the Department of Law, and the Judicial Branch.",
+      "members": [
+        {
+          "slug": "mike-weissman",
+          "name": "Mike Weissman",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-28",
+          "email": "mike.weissman.senate@coleg.gov",
+          "phone": "303-866-4879",
+          "photo": true
+        },
+        {
+          "slug": "dylan-roberts",
+          "name": "Dylan Roberts",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-8",
+          "email": "dylan.roberts.senate@coleg.gov",
+          "phone": "303-866-4871",
+          "photo": true
+        },
+        {
+          "slug": "john-carson",
+          "name": "John Carson",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-30",
+          "email": "john.carson.senate@coleg.gov",
+          "phone": "303-866-4881",
+          "photo": true
+        },
+        {
+          "slug": "lindsey-daugherty",
+          "name": "Lindsey Daugherty",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-19",
+          "email": "lindsey.daugherty.senate@coleg.gov",
+          "phone": "303-866-4840",
+          "photo": true
+        },
+        {
+          "slug": "nick-hinrichsen",
+          "name": "Nick Hinrichsen",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-3",
+          "email": "nick.hinrichsen.senate@coleg.gov",
+          "phone": "303-866-4878",
+          "photo": true
+        },
+        {
+          "slug": "katie-wallace",
+          "name": "Katie Wallace",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-17",
+          "email": "katie.wallace.senate@coleg.gov",
+          "phone": "303-866-5291",
+          "photo": true
+        },
+        {
+          "slug": "lynda-zamora-wilson",
+          "name": "Lynda Zamora Wilson",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-9",
+          "email": "lynda.zamorawilson.senate@coleg.gov",
+          "phone": "303-866-4835",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "LocalGovernmentHousing",
+      "name": "Local Government & Housing",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/LocalGovernmentHousing",
+      "description": "The Senate Local Government Committee generally considers matters concerning local governments, special districts, housing, land use planning. In addition, the committee has legislative oversight responsibility for the Department of Local Affairs.",
+      "members": [
+        {
+          "slug": "tony-exum",
+          "name": "Tony Exum",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-11",
+          "email": "tony.exum.senate@coleg.gov",
+          "phone": "303-866-6364",
+          "photo": true
+        },
+        {
+          "slug": "marc-snyder",
+          "name": "Marc Snyder",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-12",
+          "email": "marc.snyder.senate@coleg.gov",
+          "phone": "303-866-4880",
+          "photo": true
+        },
+        {
+          "slug": "mark-baisley",
+          "name": "Mark Baisley",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-4",
+          "email": "mark.baisley@senate.co.com",
+          "phone": "303-866-4877",
+          "photo": true
+        },
+        {
+          "slug": "matt-ball",
+          "name": "Matt Ball",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-31",
+          "email": "matt.ball.senate@coleg.gov",
+          "phone": "303-866-4861",
+          "photo": true
+        },
+        {
+          "slug": "william-lindstedt",
+          "name": "William Lindstedt",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-25",
+          "email": "william.lindstedt.senate@coleg.gov",
+          "phone": "303-866-4863",
+          "photo": true
+        },
+        {
+          "slug": "larry-liston",
+          "name": "Larry Liston",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-10",
+          "email": "larry.liston.senate@coleg.gov",
+          "phone": "303-866-2737",
+          "photo": true
+        },
+        {
+          "slug": "janice-rich",
+          "name": "Janice Rich",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-7",
+          "email": "Janice.Rich.Senate@coleg.gov",
+          "phone": "303-866-3077",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "StateVeteransMilitaryAffairs",
+      "name": "State, Veterans, & Military Affairs",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/StateVeteransMilitaryAffairs",
+      "description": "The Senate State Affairs Committee generally considers matters concerning elections, campaign finance, military and veterans affairs, and other subject areas related to state government. In addition, the committee has legislative oversight responsibility for the departments of State and Military and Veterans Affairs.",
+      "members": [
+        {
+          "slug": "katie-wallace",
+          "name": "Katie Wallace",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-17",
+          "email": "katie.wallace.senate@coleg.gov",
+          "phone": "303-866-5291",
+          "photo": true
+        },
+        {
+          "slug": "tom-sullivan",
+          "name": "Tom Sullivan",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-27",
+          "email": "tom.sullivan.senate@coleg.gov",
+          "phone": "303-866-4873",
+          "photo": true
+        },
+        {
+          "slug": "william-lindstedt",
+          "name": "William Lindstedt",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-25",
+          "email": "william.lindstedt.senate@coleg.gov",
+          "phone": "303-866-4863",
+          "photo": true
+        },
+        {
+          "slug": "rod-pelton",
+          "name": "Rod Pelton",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-35",
+          "email": "rod.pelton.senate@coleg.gov",
+          "phone": "303-866-4884",
+          "photo": true
+        },
+        {
+          "slug": "lynda-zamora-wilson",
+          "name": "Lynda Zamora Wilson",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-9",
+          "email": "lynda.zamorawilson.senate@coleg.gov",
+          "phone": "303-866-4835",
+          "photo": true
+        }
+      ]
+    },
+    {
+      "chamber": "senate",
+      "slug": "TransportationEnergy",
+      "name": "Transportation & Energy",
+      "url": "https://leg.colorado.gov/committees/2026A/senate/TransportationEnergy",
+      "description": "The Senate Transportation & Energy Committee considers matters concerning motor vehicle law, traffic regulation, transportation funding, public infrastructure, other subject areas related to the state transportation system, and energy development and regulation. In addition, the committee has legislative oversight responsibility for the Department of Transportation, the Colorado Energy Office, the Public Utilities Commission, and the Colorado Oil and Gas Conservation Commission.",
+      "members": [
+        {
+          "slug": "lisa-cutter",
+          "name": "Lisa Cutter",
+          "title": "Senator",
+          "role": "Chair",
+          "district": "SD-20",
+          "email": "lisa.cutter.senate@coleg.gov",
+          "phone": "303-866-4859",
+          "photo": true
+        },
+        {
+          "slug": "matt-ball",
+          "name": "Matt Ball",
+          "title": "Senator",
+          "role": "Vice Chair",
+          "district": "SD-31",
+          "email": "matt.ball.senate@coleg.gov",
+          "phone": "303-866-4861",
+          "photo": true
+        },
+        {
+          "slug": "mark-baisley",
+          "name": "Mark Baisley",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-4",
+          "email": "mark.baisley@senate.co.com",
+          "phone": "303-866-4877",
+          "photo": true
+        },
+        {
+          "slug": "marc-catlin",
+          "name": "Marc Catlin",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-5",
+          "email": "marc.catlin.senate@coleg.gov",
+          "phone": "303-866-5292",
+          "photo": true
+        },
+        {
+          "slug": "tony-exum",
+          "name": "Tony Exum",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-11",
+          "email": "tony.exum.senate@coleg.gov",
+          "phone": "303-866-6364",
+          "photo": true
+        },
+        {
+          "slug": "william-lindstedt",
+          "name": "William Lindstedt",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-25",
+          "email": "william.lindstedt.senate@coleg.gov",
+          "phone": "303-866-4863",
+          "photo": true
+        },
+        {
+          "slug": "kyle-mullica",
+          "name": "Kyle Mullica",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-24",
+          "email": "kyle.mullica.senate@coleg.gov",
+          "phone": "303-866-4451",
+          "photo": true
+        },
+        {
+          "slug": "byron-pelton",
+          "name": "Byron Pelton",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-1",
+          "email": "byron.pelton.senate@coleg.gov",
+          "phone": "303-866-6360",
+          "photo": true
+        },
+        {
+          "slug": "tom-sullivan",
+          "name": "Tom Sullivan",
+          "title": "Senator",
+          "role": null,
+          "district": "SD-27",
+          "email": "tom.sullivan.senate@coleg.gov",
+          "phone": "303-866-4873",
+          "photo": true
+        }
+      ]
+    }
+  ]
+}
