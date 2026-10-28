@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "preview": "next build && next start -H 0.0.0.0",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch-committees": "tsx scripts/fetch-committees.ts",
+    "validate-committees": "tsx scripts/validate-committees.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.111.0",
