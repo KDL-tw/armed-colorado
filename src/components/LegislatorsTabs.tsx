@@ -12,10 +12,6 @@ const TABS: { id: TabId; label: string }[] = [
   { id: "senate", label: "Senate Committees" },
 ];
 
-function isTabId(v: string | null): v is TabId {
-  return v === "find" || v === "house" || v === "senate";
-}
-
 interface LegislatorsTabsProps {
   catalog: CommitteeCatalog;
   initialTab: TabId;

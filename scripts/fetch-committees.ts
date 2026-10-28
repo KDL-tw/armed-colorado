@@ -25,7 +25,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import sharp from "sharp";
-import type { Committee, CommitteeCatalog, CommitteeMember } from "../src/lib/committee/types";
+import type { CommitteeCatalog, CommitteeMember } from "../src/lib/committee/types";
 
 const BASE = "https://leg.colorado.gov";
 const UA = { "User-Agent": "ArmedColorado-CommitteeRoster/1.0" };
