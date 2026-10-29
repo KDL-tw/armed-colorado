@@ -1,0 +1,72 @@
+name: District maps update
+
+on:
+  schedule:
+    # Mondays 06:00 Mountain (12:00 UTC; DST-safe enough — a 1-hour drift is
+    # fine for a weekly job).
+    - cron: "0 12 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest district data
+        run: npm run fetch-districts
+        # Exit 3 = new plan detected (official shapefile links changed). The job
+        # fails on purpose: a human must review the new plan and update
+        # scripts/districts/sources.ts. See the error message for details.
+
+      - name: Validate
+        run: npm run validate-districts
+
+      - name: Check for changes
+        id: changed
+        run: |
+          if [ -z "$(git status --porcelain data/districts)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open PR
+        if: steps.changed.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "district-maps-bot"
+          git config user.email "district-maps-bot@users.noreply.github.com"
+          BRANCH="chore/district-maps-$(date +%Y%m%d)"
+          git checkout -b "$BRANCH"
+          git add data/districts
+          git commit -m "chore(districts): refresh district map data
+
+          Automated weekly refresh (scripts/fetch-districts.ts).
+          Review: open /legislators on the preview deployment and confirm
+          the maps still render correctly."
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "District maps data refresh" \
+            --body "Automated weekly refresh of the legislative district map data.
+
+          **What changed:** run \`git diff main\` in this PR.
+
+          **Checklist before merging:**
+          - [ ] \`validate-districts\` passed (it runs in CI)
+          - [ ] Preview deployment of /legislators renders both maps + insets
+          - [ ] If this is a NEW redistricting plan (planYear changed), update the
+                \"How Colorado's Districts Are Determined\" copy in
+                src/app/legislators/page.tsx to match the new plan's dates"
