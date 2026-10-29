@@ -65,7 +65,16 @@ export default function CommitteeList({ committees }: CommitteeListProps) {
           >
             <div className="flex flex-wrap items-start justify-between gap-3">
               <div>
-                <h3 className="font-display text-xl text-navy">{c.name}</h3>
+                <h3 className="font-display text-xl text-navy">
+                  <a
+                    href={c.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-navy underline decoration-navy/25 underline-offset-2 transition-colors hover:text-oxblood hover:decoration-oxblood"
+                  >
+                    {c.name}
+                  </a>
+                </h3>
                 {c.description ? (
                   <p className="mt-1 max-w-2xl text-sm text-muted">{c.description}</p>
                 ) : null}
