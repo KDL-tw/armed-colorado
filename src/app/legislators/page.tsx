@@ -60,8 +60,12 @@ export default async function LegislatorsPage({
               </li>
               <li>
                 Session calendars and hearing schedules live on{" "}
-                <a href="https://leg.colorado.gov/" target="_blank" rel="noopener noreferrer">
-                  leg.colorado.gov
+                <a
+                  href="https://leg.colorado.gov/schedule"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://leg.colorado.gov/schedule
                 </a>
                 .
               </li>
