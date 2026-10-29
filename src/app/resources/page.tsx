@@ -48,7 +48,8 @@ export default async function ResourcesPage() {
   );
   const orderedCategories = Object.keys(byCategory).sort(
     (a, b) =>
-      (CATEGORY_ORDER.indexOf(a) ?? 99) - (CATEGORY_ORDER.indexOf(b) ?? 99),
+      ((CATEGORY_ORDER.indexOf(a) + 1) || 99) -
+      ((CATEGORY_ORDER.indexOf(b) + 1) || 99),
   );
 
   return (
