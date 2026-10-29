@@ -1,0 +1,21 @@
+-  Colorado Federal Firearms Licensees Association: https://www.cffla.org/
+-  CFFLA Gun Law Bot: https://www.cffla.org/gun-laws
+-  Colorado Cares for Safety: 
+-  Rocky Mountain Gun Owners: https://www.rmgo.org/
+-  Colorado State Shooting Association: https://cssa.org/
+-  National Rifle Association: https://home.nra.org/
+-  Women for Gun Rights: https://womenforgunrights.org/
+-  National African American Gun Association: https://naaga.co/
+-  Gun Owners of America: https://www.gunowners.org/
+-  Firearms Policy Coalition: https://www.firearmspolicy.org/
+-  2nd Amendment Foundation: https://saf.org/
+-  Colorado Office of Gun Violence Prevention: https://cdphe.colorado.gov/office-of-gun-violence-prevention
+-  Colorado Bipartisan Violence Report: https://coviolence.org/Home
+-  FFL Trade Operations Marketplace & Syndication: https://co2aportal.com/
+-  Hold My Guns: https://holdmyguns.org/
+-  Pink Pistols: https://www.pinkpistols.org/
+-  Liberal Gun Club: https://theliberalgunclub.com/
+-  Mountain State Legal Foundation: https://mslegal.org/
+-  National Association for Gun Rights: https://gunrights.org/
+-  Faculty/Administrator Safety Training and Emergency Response Colorado: https://fastercolorado.org/
+-  Umbrella: https://www.umbrellacivic.com/
