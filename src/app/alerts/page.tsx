@@ -50,10 +50,10 @@ export default function AlertsPage() {
   return (
     <ContentShell width="xl">
       <p className="text-sm uppercase tracking-[0.2em] text-oxblood">Alerts</p>
-      <h1 className="mt-3 font-display text-4xl text-navy">
+      <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
         Gun Bill Alerts
       </h1>
-      <p className="mt-4 text-muted">
+      <p className="mt-4 text-lg text-muted">
         Sign up for email alerts on Colorado firearms legislation, hearings, and
         related updates. Delivery uses Resend when configured; otherwise we
         store your address for later.

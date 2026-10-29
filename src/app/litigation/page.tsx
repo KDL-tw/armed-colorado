@@ -16,7 +16,7 @@ export default async function LitigationPage() {
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
         2A Litigation Tracker
       </h1>
-      <p className="mt-4 max-w-2xl text-muted">
+      <p className="mt-4 max-w-2xl text-lg text-muted">
         Digestible status updates on Second Amendment and firearms litigation
         involving Colorado. Not a substitute for PACER or counsel.
       </p>

@@ -58,7 +58,7 @@ export default async function ResourcesPage() {
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
         Resource Links
       </h1>
-      <p className="mt-4 max-w-2xl text-muted">
+      <p className="mt-4 max-w-2xl text-lg text-muted">
         Advocacy, legal, government, research, safety, tools, and community
         organizations. Listings are informational — verify contacts and
         positions yourself.

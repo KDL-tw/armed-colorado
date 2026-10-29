@@ -31,8 +31,8 @@ export default async function BillDetailPage({ params }: Props) {
       <p className="mt-6 text-sm uppercase tracking-widest text-muted">
         {bill.status}
       </p>
-      <h1 className="mt-2 font-display text-4xl text-navy">{bill.number}</h1>
-      <p className="mt-3 text-xl text-muted">{bill.title}</p>
+      <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">{bill.number}</h1>
+      <p className="mt-4 text-lg text-muted">{bill.title}</p>
 
       {bill.officialUrl ? (
         <p className="mt-6">

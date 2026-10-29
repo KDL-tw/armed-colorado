@@ -37,7 +37,7 @@ export default async function BillwatchPage() {
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
         Billwatch
       </h1>
-      <p className="mt-4 max-w-2xl text-muted">
+      <p className="mt-4 max-w-2xl text-lg text-muted">
         Every Colorado gun bill — proposed, passed, or died
       </p>
 

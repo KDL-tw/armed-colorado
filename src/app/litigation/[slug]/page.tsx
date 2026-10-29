@@ -24,8 +24,8 @@ export default async function LitigationDetailPage({ params }: Props) {
       <p className="mt-6 text-xs uppercase tracking-widest text-muted">
         {c.status}
       </p>
-      <h1 className="mt-2 font-display text-4xl text-navy">{c.title}</h1>
-      {c.court ? <p className="mt-3 text-muted">{c.court}</p> : null}
+      <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">{c.title}</h1>
+      {c.court ? <p className="mt-4 text-lg text-muted">{c.court}</p> : null}
       {c.docket ? (
         <p className="mt-1 text-sm text-muted">Docket {c.docket}</p>
       ) : null}

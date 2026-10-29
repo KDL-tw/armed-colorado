@@ -14,7 +14,7 @@ export default async function EventsPage() {
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
         Events
       </h1>
-      <p className="mt-4 text-muted">
+      <p className="mt-4 text-lg text-muted">
         Trainings, lobby days, and community events. Managed in admin — no
         calendar sync yet.
       </p>

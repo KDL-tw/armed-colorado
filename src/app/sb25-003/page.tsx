@@ -15,7 +15,7 @@ export default async function Sb25003Page() {
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
         SB25-003 Class Requirements
       </h1>
-      <p className="mt-4 text-muted">
+      <p className="mt-4 text-lg text-muted">
         FAQs and county availability for training / permit pathways under
         Colorado&apos;s semiautomatic firearms act. Confirm everything with CPW
         and your sheriff.

@@ -39,10 +39,10 @@ export default async function MetroDistrictsPage({ params }: Props) {
         <p className="mt-6 text-sm uppercase tracking-[0.2em] text-oxblood">
           {label} Districts
         </p>
-        <h1 className="mt-2 font-display text-4xl text-navy md:text-5xl">
+        <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
           {title}
         </h1>
-        <p className="mt-4 max-w-2xl text-muted">
+        <p className="mt-4 max-w-2xl text-lg text-muted">
           Enlarged {label} district map for the {title} area, with
           county boundaries underneath. Hover or tap a district to see its
           number.
