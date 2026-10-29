@@ -49,9 +49,17 @@ function perpDist(p: LonLat, a: LonLat, b: LonLat): number {
   return Math.hypot(p[0] - (a[0] + t * dx), p[1] - (a[1] + t * dy));
 }
 
-/** Simplify every ring of every polygon of a feature. */
+/**
+ * Simplify every ring of every polygon of a feature, then clean up:
+ *  - drop rings that collapsed to < 4 points (degenerate slivers from the
+ *    source data — sub-meter artifacts that render as nothing), and
+ *  - drop polygons that lost all their rings.
+ */
 export function simplifyRings(rings: LonLat[][][], tolerance: number): LonLat[][][] {
-  return rings.map((polygon) => polygon.map((ring) => simplifyRing(ring, tolerance)));
+  return rings
+    .map((polygon) => polygon.map((ring) => simplifyRing(ring, tolerance)))
+    .map((polygon) => polygon.filter((ring) => ring.length >= 4))
+    .filter((polygon) => polygon.length > 0);
 }
 
 /** Centroid of a ring (mean of its points — fine for label placement). */
@@ -68,6 +76,7 @@ export function ringCentroid(ring: LonLat[]): LonLat {
 
 /** Label point for a feature: centroid of its largest ring. */
 export function labelPoint(rings: LonLat[][][]): LonLat {
+  if (rings.length === 0) throw new Error("labelPoint: feature has no polygons after cleanup");
   let biggest = rings[0][0];
   for (const polygon of rings) {
     if (polygon[0].length > biggest.length) biggest = polygon[0];

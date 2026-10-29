@@ -30,3 +30,6 @@ jobs:
 
       - name: Validate committee catalog against reference files
         run: npm run validate-committees
+
+      - name: Validate district map data
+        run: npm run validate-districts
