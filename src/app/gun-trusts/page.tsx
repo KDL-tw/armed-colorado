@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { GuideLayout } from "@/components/GuideLayout";
 
-export const metadata: Metadata = { title: "Gun trusts" };
+export const metadata: Metadata = { title: "Gun Trusts" };
 
 export default function GunTrustsPage() {
   return (
     <GuideLayout
-      title="Gun trust resources"
+      title="Gun Trust Resources"
       lede="Estate planning tools some owners use for firearms — not legal advice."
     >
       <p>

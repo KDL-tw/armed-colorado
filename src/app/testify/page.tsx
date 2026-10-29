@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { GuideLayout } from "@/components/GuideLayout";
 
-export const metadata: Metadata = { title: "How to testify" };
+export const metadata: Metadata = { title: "How to Testify" };
 
 export default function TestifyPage() {
   return (
     <GuideLayout
-      title="How to testify at the Colorado Capitol"
+      title="How to Testify at the Colorado Capitol"
       lede="Committee hearings are open to the public. Show up prepared and concise."
     >
       <ul>

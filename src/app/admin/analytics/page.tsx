@@ -38,7 +38,7 @@ export default async function AdminAnalyticsPage() {
             </div>
           </div>
 
-          <h2 className="mt-12 font-display text-2xl text-navy">Top paths</h2>
+          <h2 className="mt-12 font-display text-2xl text-navy">Top Paths</h2>
           {views.length === 0 ? (
             <p className="mt-4 text-muted">No page views recorded yet.</p>
           ) : (

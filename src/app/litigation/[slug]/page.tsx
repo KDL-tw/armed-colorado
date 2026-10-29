@@ -19,7 +19,7 @@ export default async function LitigationDetailPage({ params }: Props) {
   return (
     <main className="mx-auto w-full max-w-3xl px-4 pb-20 pt-12 md:pt-14">
       <Link href="/litigation" className="text-sm text-amber hover:underline">
-        ← Litigation tracker
+        ← Litigation Tracker
       </Link>
       <p className="mt-6 text-xs uppercase tracking-widest text-muted">
         {c.status}

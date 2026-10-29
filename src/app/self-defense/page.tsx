@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { GuideLayout } from "@/components/GuideLayout";
 
-export const metadata: Metadata = { title: "Self-defense resources" };
+export const metadata: Metadata = { title: "Self-Defense Resources" };
 
 export default function SelfDefensePage() {
   return (
     <GuideLayout
-      title="Legal resources for self-defense"
+      title="Legal Resources for Self-Defense"
       lede="Colorado self-defense and use-of-force law is nuanced. This is not legal advice."
     >
       <p>

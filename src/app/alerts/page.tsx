@@ -51,7 +51,7 @@ export default function AlertsPage() {
     <ContentShell width="xl">
       <p className="text-sm uppercase tracking-[0.2em] text-oxblood">Alerts</p>
       <h1 className="mt-3 font-display text-4xl text-navy">
-        Gun bill alerts
+        Gun Bill Alerts
       </h1>
       <p className="mt-4 text-muted">
         Sign up for email alerts on Colorado firearms legislation, hearings, and

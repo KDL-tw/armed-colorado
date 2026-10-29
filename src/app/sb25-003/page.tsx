@@ -13,7 +13,7 @@ export default async function Sb25003Page() {
     <ContentShell width="3xl">
       <p className="text-sm uppercase tracking-[0.2em] text-oxblood">Statute</p>
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
-        SB25-003 class requirements
+        SB25-003 Class Requirements
       </h1>
       <p className="mt-4 text-muted">
         FAQs and county availability for training / permit pathways under
@@ -45,7 +45,7 @@ export default async function Sb25003Page() {
 
       <section className="mt-12">
         <h2 className="font-display text-2xl text-navy">
-          Availability by county
+          Availability by County
         </h2>
         {counties.length === 0 ? (
           <p className="mt-4 text-muted">

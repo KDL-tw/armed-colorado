@@ -3,7 +3,7 @@ import Link from "next/link";
 import { loadCommitteeCatalog } from "@/lib/committee/committee-client";
 import LegislatorsTabs, { type TabId } from "@/components/LegislatorsTabs";
 
-export const metadata: Metadata = { title: "Find your legislators" };
+export const metadata: Metadata = { title: "Find Your Legislators" };
 
 function isTabId(v: string | string[] | undefined): v is TabId {
   return v === "find" || v === "house" || v === "senate";
@@ -23,7 +23,7 @@ export default async function LegislatorsPage({
       <div className="mx-auto w-full max-w-5xl px-4 pb-20 pt-12 md:pt-14">
         <p className="text-sm uppercase tracking-[0.2em] text-oxblood">Armed Colorado</p>
         <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
-          Find your Colorado legislators
+          Find Your Colorado Legislators
         </h1>
         <p className="mt-4 text-lg text-muted">
           Look up your House and Senate members, or browse the full committee rosters.

@@ -113,7 +113,7 @@ export default async function AdminContentPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">SB25-003 counties</h2>
+        <h2 className="font-display text-2xl text-navy">SB25-003 Counties</h2>
         <form action={upsertCounty} className="mt-4 grid gap-3 border border-navy/10 p-4">
           <input name="county" placeholder="County" required className="admin-input" />
           <input name="status" placeholder="Status" defaultValue="unknown" className="admin-input" />
@@ -133,7 +133,7 @@ export default async function AdminContentPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">CCW orgs</h2>
+        <h2 className="font-display text-2xl text-navy">CHP Orgs</h2>
         <form action={upsertCcwOrg} className="mt-4 grid gap-3 border border-navy/10 p-4">
           <input name="name" placeholder="Name" required className="admin-input" />
           <input name="url" placeholder="URL" className="admin-input" />

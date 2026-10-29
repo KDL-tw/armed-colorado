@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { GuideLayout } from "@/components/GuideLayout";
 
-export const metadata: Metadata = { title: "Restore rights" };
+export const metadata: Metadata = { title: "Restore Rights" };
 
 export default function RestoreRightsPage() {
   return (
     <GuideLayout
-      title="Restoring firearm rights after a felony"
+      title="Restoring Firearm Rights After a Felony"
       lede="Process overview with official starting points. Outcomes depend on conviction type, jurisdiction, and current law."
     >
       <p>

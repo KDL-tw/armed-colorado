@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GuideLayout } from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Register to vote in Colorado",
+  title: "Register to Vote in Colorado",
 };
 
 /* ------------------------------------------------------------------ */
@@ -30,7 +30,7 @@ const METHODS = [
   },
   {
     id: "mail",
-    name: "By mail",
+    name: "By Mail",
     badge: "Paper form",
     badgeClass: "bg-navy text-white",
     steps: [
@@ -45,7 +45,7 @@ const METHODS = [
   },
   {
     id: "in-person",
-    name: "In person",
+    name: "In Person",
     badge: "Latest deadline",
     badgeClass: "bg-amber text-navy",
     steps: [
@@ -111,15 +111,15 @@ const ID_ADDRESS = [
 
 const SITUATIONS = [
   {
-    title: "Homeless voters",
+    title: "Homeless Voters",
     body: "Use any physical location as your \u201chome base\u201d where you regularly return and intend to remain (park, vacant lot, shelter, campground, bus station, or other location). You must provide a mailing address for ballot delivery — a PO box works for that. PO boxes cannot be used as residence addresses.",
   },
   {
-    title: "Foreclosure or eviction",
+    title: "Foreclosure or Eviction",
     body: "A foreclosure or eviction notice does NOT affect your voting rights. Still living there: no registration change needed. Moved: update your registration with your new \u201chome base.\u201d Moved out of state: register in your new state.",
   },
   {
-    title: "Displaced by natural disaster",
+    title: "Displaced by Natural Disaster",
     body: "If displaced by fire, flood, tornado, or other natural disaster, you may keep your previous address while temporarily displaced. If you have a new permanent residence, update your registration. If you plan to return, stay registered at the previous address. You may need to update your mailing address for ballot delivery.",
   },
 ] as const;
@@ -259,7 +259,7 @@ function MethodCard({ m }: { m: (typeof METHODS)[number] }) {
 export default function VotePage() {
   return (
     <GuideLayout
-      title="Register to vote in Colorado"
+      title="Register to Vote in Colorado"
       lede="All Colorado residents can register online, by mail, or in person. All active registered voters receive mail ballots automatically."
     >
       {/* HERO — pre-downloaded asset, see Current state */}
@@ -275,7 +275,7 @@ export default function VotePage() {
 
       {/* STEP 1 — ELIGIBILITY */}
       <section id="eligibility" className="scroll-mt-24">
-        <StepHeading n={1} title="Are you eligible?" anchor="eligibility" />
+        <StepHeading n={1} title="Are You Eligible?" anchor="eligibility" />
         <p className="mt-4">To register to vote in Colorado, you must:</p>
         <ul className="mt-3 space-y-2">
           {ELIGIBILITY.map((item) => (
@@ -299,7 +299,7 @@ export default function VotePage() {
 
       {/* STEP 2 — METHOD CARDS */}
       <section id="how" className="mt-12 scroll-mt-24">
-        <StepHeading n={2} title="Pick your method" anchor="how" />
+        <StepHeading n={2} title="Pick Your Method" anchor="how" />
         <p className="mt-4 text-muted">
           Three ways to register or update your registration. Online is the
           fastest; in-person has the latest deadline.
@@ -313,7 +313,7 @@ export default function VotePage() {
 
       {/* STEP 3 — DEADLINES */}
       <section id="deadlines" className="mt-12 scroll-mt-24">
-        <StepHeading n={3} title="Hit the deadline" anchor="deadlines" />
+        <StepHeading n={3} title="Hit the Deadline" anchor="deadlines" />
         <p className="mt-4 text-muted">
           Deadlines are counted back from Election Day.
         </p>
@@ -355,10 +355,10 @@ export default function VotePage() {
 
       {/* STEP 4 — BALLOT */}
       <section id="ballot" className="mt-12 scroll-mt-24">
-        <StepHeading n={4} title="Get your ballot" anchor="ballot" />
+        <StepHeading n={4} title="Get Your Ballot" anchor="ballot" />
         <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <article className="rounded-md border border-silver bg-white p-5">
-            <h3 className="font-display text-lg text-navy">Track it</h3>
+            <h3 className="font-display text-lg text-navy">Track It</h3>
             <p className="mt-2 text-sm text-muted">
               Sign up for free email or SMS alerts and track your ballot from
               mailing through counting.
@@ -373,7 +373,7 @@ export default function VotePage() {
             </a>
           </article>
           <article className="rounded-md border border-silver bg-white p-5">
-            <h3 className="font-display text-lg text-navy">Cure it</h3>
+            <h3 className="font-display text-lg text-navy">Cure It</h3>
             <p className="mt-2 text-sm text-muted">
               If your ballot signature is mismatched or missing, you can
               &ldquo;cure&rdquo; it online.
@@ -399,7 +399,7 @@ export default function VotePage() {
           <span className="step-num" aria-hidden>
             ID
           </span>
-          <span>What ID to bring</span>
+          <span>What ID to Bring</span>
         </h2>
         <p className="mt-4 text-muted">
           All voters must present ID when voting in person. Any of the
@@ -417,7 +417,7 @@ export default function VotePage() {
           ))}
         </div>
         <h3 className="mt-6 font-display text-lg text-navy">
-          Address-proof documents
+          Address-Proof Documents
         </h3>
         <div className="mt-3 flex flex-wrap gap-2">
           {ID_ADDRESS.map((id) => (
@@ -437,7 +437,7 @@ export default function VotePage() {
           <span className="step-num" aria-hidden>
             ?
           </span>
-          <span>If your situation is unusual</span>
+          <span>If Your Situation Is Unusual</span>
         </h2>
         <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-3">
           {SITUATIONS.map((s) => (
@@ -463,7 +463,7 @@ export default function VotePage() {
           <span className="step-num" aria-hidden>
             ↗
           </span>
-          <span>Official resources</span>
+          <span>Official Resources</span>
         </h2>
         <div className="mt-5 rounded-md border border-silver bg-white p-5">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -518,7 +518,7 @@ export default function VotePage() {
                 <li>Address: 1700 Broadway, Suite 550, Denver CO 80290</li>
               </ul>
               <h3 className="mt-6 font-display text-lg text-navy">
-                Get involved
+                Get Involved
               </h3>
               <ul className="mt-3 space-y-2 text-sm">
                 {GET_INVOLVED.map((l) => (

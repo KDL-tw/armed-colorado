@@ -6,7 +6,7 @@ const LINKS = [
   {
     href: "/admin/content",
     title: "Content",
-    desc: "FAQs, resources, CCW orgs, SB25-003 counties",
+    desc: "FAQs, resources, CHP orgs, SB25-003 counties",
   },
   {
     href: "/admin/litigation",
@@ -21,7 +21,7 @@ const LINKS = [
   },
   {
     href: "/admin/health",
-    title: "API health",
+    title: "API Health",
     desc: "Umbrella, Supabase, Resend status",
   },
 ];

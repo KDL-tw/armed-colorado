@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import { GuideLayout } from "@/components/GuideLayout";
 import { getCcwOrgs } from "@/lib/data/queries";
 
-export const metadata: Metadata = { title: "CCW renewal directory" };
+export const metadata: Metadata = { title: "CHP Renewal Directory" };
 
 export default async function CcwRenewalPage() {
   const orgs = await getCcwOrgs();
 
   return (
     <GuideLayout
-      title="Concealed carry renewal organizations"
-      lede="Referral directory for Colorado CCW training and renewal providers. Editable in admin."
+      title="Concealed Carry Renewal Organizations"
+      lede="Referral directory for Colorado CHP (concealed handgun permit) training and renewal providers. Editable in admin."
     >
       <p>
         Confirm instructor credentials, curriculum, and sheriff acceptance

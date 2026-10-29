@@ -70,7 +70,9 @@ export async function getResources(): Promise<ResourceLink[]> {
     .select("*")
     .eq("published", true)
     .order("sort_order");
-  if (error || !data?.length) return FALLBACK_RESOURCES;
+  if (error || !data?.length) {
+    return [...FALLBACK_RESOURCES].sort((a, b) => a.sort_order - b.sort_order);
+  }
   return data as ResourceLink[];
 }
 

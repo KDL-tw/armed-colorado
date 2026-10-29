@@ -4,7 +4,7 @@ import { getLitigationCases } from "@/lib/data/queries";
 import { ContentShell } from "@/components/ContentShell";
 
 export const metadata: Metadata = {
-  title: "Litigation tracker",
+  title: "Litigation Tracker",
 };
 
 export default async function LitigationPage() {
@@ -14,7 +14,7 @@ export default async function LitigationPage() {
     <ContentShell width="5xl">
       <p className="text-sm uppercase tracking-[0.2em] text-oxblood">Courts</p>
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
-        2A litigation tracker
+        2A Litigation Tracker
       </h1>
       <p className="mt-4 max-w-2xl text-muted">
         Digestible status updates on Second Amendment and firearms litigation

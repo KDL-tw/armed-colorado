@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { GuideLayout } from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "How to testify at the Colorado Legislature",
+  title: "How to Testify at the Colorado Legislature",
 };
 
 export default function TestifyingPage() {
   return (
     <GuideLayout
-      title="How to testify at the Colorado Legislature"
+      title="How to Testify at the Colorado Legislature"
       lede="Testify in person or remotely at Senate and House committee hearings. All testimony requires registration."
     >
       <p>
@@ -27,7 +27,7 @@ export default function TestifyingPage() {
       </p>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">Before you testify</h2>
+        <h2 className="font-display text-2xl text-navy">Before You Testify</h2>
         <ul className="mt-4 space-y-3">
           <li>
             <strong>Find your committee:</strong> Bills are assigned to committees
@@ -60,7 +60,7 @@ export default function TestifyingPage() {
 
       <section>
         <h2 className="font-display text-2xl text-navy">
-          How to sign up to testify in person
+          How to Sign Up to Testify in Person
         </h2>
         <p className="mt-4">
           Committee meetings are open to the public. To testify in person:
@@ -112,7 +112,7 @@ export default function TestifyingPage() {
 
       <section>
         <h2 className="font-display text-2xl text-navy">
-          How to sign up to testify remotely
+          How to Sign Up to Testify Remotely
         </h2>
         <p className="mt-4">
           Remote testimony allows you to participate via phone or video. To
@@ -165,7 +165,7 @@ export default function TestifyingPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">Finding hearings</h2>
+        <h2 className="font-display text-2xl text-navy">Finding Hearings</h2>
         <p className="mt-4">
           Committee hearings are scheduled daily during the legislative session:
         </p>
@@ -208,7 +208,7 @@ export default function TestifyingPage() {
 
       <section>
         <h2 className="font-display text-2xl text-navy">
-          Committee locations
+          Committee Locations
         </h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className="border border-navy/10 p-4">
@@ -231,7 +231,7 @@ export default function TestifyingPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">Need help?</h2>
+        <h2 className="font-display text-2xl text-navy">Need Help?</h2>
         <p className="mt-4">
           For questions about testifying, contact the committee staff listed on
           the

@@ -50,7 +50,7 @@ export default async function AdminHealthPage() {
       <Link href="/admin" className="text-sm text-amber">
         ← Admin
       </Link>
-      <h1 className="mt-3 font-display text-4xl text-navy">API health</h1>
+      <h1 className="mt-3 font-display text-4xl text-navy">API Health</h1>
       <p className="mt-3 text-sm text-muted">
         Live env checks plus optional rows in <code>api_health_checks</code>.
       </p>
@@ -87,7 +87,7 @@ export default async function AdminHealthPage() {
       {stored.length > 0 ? (
         <>
           <h2 className="mt-12 font-display text-2xl text-navy">
-            Stored snapshots
+            Stored Snapshots
           </h2>
           <ul className="mt-4 space-y-2 text-sm text-muted">
             {stored.map((row) => (

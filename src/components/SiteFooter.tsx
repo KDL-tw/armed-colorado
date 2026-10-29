@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 const FOOTER_LINKS = [
-  { href: "/vote", label: "Register to vote" },
-  { href: "/legislators", label: "Find legislators" },
-  { href: "/statutes", label: "Colorado statutes" },
-  { href: "/concealed-carry", label: "Concealed carry" },
-  { href: "/self-defense", label: "Self-defense" },
-  { href: "/testify", label: "How to testify" },
-  { href: "/gun-trusts", label: "Gun trusts" },
-  { href: "/restore-rights", label: "Restore rights" },
+  { href: "/vote", label: "Register to Vote" },
+  { href: "/legislators", label: "Find Legislators" },
+  { href: "/statutes", label: "Colorado Statutes" },
+  { href: "/concealed-carry", label: "Concealed Carry" },
+  { href: "/self-defense", label: "Self-Defense" },
+  { href: "/testify", label: "How to Testify" },
+  { href: "/gun-trusts", label: "Gun Trusts" },
+  { href: "/restore-rights", label: "Restore Rights" },
 ];
 
 export function SiteFooter() {

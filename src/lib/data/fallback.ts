@@ -68,15 +68,28 @@ export const FALLBACK_CASES: LitigationCase[] = [
     slug: "garcia-v-polis",
     title: "Garcia v. Polis",
     court: "U.S. District Court for the District of Colorado",
-    docket: null,
+    docket: "1:23-cv-02563",
     parties:
-      "Plaintiffs challenging Colorado firearm waiting-period / related restrictions; Jared Polis et al.",
+      "Alicia Garcia and Rocky Mountain Gun Owners v. Jared Polis (Governor) et al.",
     status: "active",
     summary:
-      "Federal challenge related to Colorado firearm waiting-period rules. Verify latest docket entries before relying on status.",
-    timeline: [{ date: "2024+", label: "Case active — verify latest docket" }],
+      "Federal challenge to HB23-1219, the 2023 Waiting Period to Deliver a Firearm Act (three-day delay after background check). Filed October 1, 2023; preliminary injunction denied November 2023; 10th Circuit appeal No. 23-1380. Verify latest docket entries before relying on status.",
+    timeline: [
+      { date: "2023-10-01", label: "Complaint filed (1:23-cv-02563)" },
+      {
+        date: "2023-11",
+        label: "Preliminary injunction denied; appeal to 10th Circuit (No. 23-1380)",
+      },
+    ],
     sources: [
-      { label: "CourtListener", url: "https://www.courtlistener.com/" },
+      {
+        label: "MSLF case page",
+        url: "https://mslegal.org/cases/garcia-v-polis/",
+      },
+      {
+        label: "CourtListener docket",
+        url: "https://www.courtlistener.com/docket/67846039/rocky-mountain-gun-owners-v-polis/",
+      },
     ],
   },
   {
@@ -102,6 +115,10 @@ export const FALLBACK_CASES: LitigationCase[] = [
         url: "https://dockets.justia.com/docket/colorado/codce/1:2025cv02725/246985",
       },
       {
+        label: "MSLF case page",
+        url: "https://mslegal.org/cases/del-toro-v-polis/",
+      },
+      {
         label: "SB25-003",
         url: "https://leg.colorado.gov/bills/sb25-003",
       },
@@ -110,30 +127,42 @@ export const FALLBACK_CASES: LitigationCase[] = [
   {
     slug: "doj-v-denver",
     title: "DOJ v. Denver",
-    court: "Federal court (Colorado)",
-    docket: null,
-    parties: "U.S. DOJ / City and County of Denver — verify caption",
-    status: "monitoring",
+    court: "U.S. District Court for the District of Colorado",
+    docket: "1:26-cv-01929",
+    parties: "United States v. City and County of Denver; Denver Police Department",
+    status: "active",
     summary:
-      "Tracker placeholder for DOJ matters involving Denver and firearms policy. Confirm docket before citing.",
+      "DOJ suit filed May 5, 2026, challenging Denver's ordinance banning semi-automatic rifles (so-called 'assault weapons') as an unconstitutional Second Amendment restriction.",
     timeline: [
-      { date: "n/a", label: "Awaiting confirmed docket — edit in admin" },
+      { date: "2026-05-05", label: "Complaint filed (1:26-cv-01929)" },
     ],
-    sources: [{ label: "DOJ", url: "https://www.justice.gov/" }],
+    sources: [
+      {
+        label: "DOJ press release",
+        url: "https://www.justice.gov/opa/pr/justice-department-sues-city-denver-unconstitutional-weapons-bans",
+      },
+      { label: "Complaint (PDF)", url: "https://www.justice.gov/crt/media/1439466/dl" },
+    ],
   },
   {
     slug: "doj-v-colorado",
     title: "DOJ v. Colorado",
-    court: "Federal court (Colorado)",
-    docket: null,
-    parties: "U.S. DOJ / State of Colorado — verify caption",
-    status: "monitoring",
+    court: "U.S. District Court for the District of Colorado",
+    docket: "1:26-cv-01950",
+    parties: "United States v. State of Colorado",
+    status: "active",
     summary:
-      "Tracker placeholder for DOJ matters involving Colorado and firearms policy. Confirm docket before citing.",
+      "DOJ suit filed May 6, 2026, challenging Colorado's ban on standard-capacity (large) firearm magazines as an unconstitutional Second Amendment restriction.",
     timeline: [
-      { date: "n/a", label: "Awaiting confirmed docket — edit in admin" },
+      { date: "2026-05-06", label: "Complaint filed (1:26-cv-01950)" },
     ],
-    sources: [{ label: "DOJ", url: "https://www.justice.gov/" }],
+    sources: [
+      {
+        label: "DOJ press release",
+        url: "https://www.justice.gov/opa/pr/justice-department-sues-state-colorado-unconstitutional-weapons-ban",
+      },
+      { label: "Complaint (PDF)", url: "https://www.justice.gov/crt/media/1439591/dl" },
+    ],
   },
 ];
 
@@ -149,21 +178,21 @@ export const FALLBACK_RESOURCES: ResourceLink[] = [
     sort_order: 10,
   },
   {
-    slug: "rmgo",
-    name: "Rocky Mountain Gun Owners",
-    category: "advocacy",
-    url: "https://rmgo.org/",
-    description: "Colorado gun-rights advocacy.",
-    note: null,
-    colorado_contact: true,
-    sort_order: 20,
-  },
-  {
     slug: "cssa",
     name: "Colorado State Shooting Association",
     category: "advocacy",
     url: "https://cssa.org/",
     description: "State shooting association; Del Toro plaintiff.",
+    note: null,
+    colorado_contact: true,
+    sort_order: 20,
+  },
+  {
+    slug: "rmgo",
+    name: "Rocky Mountain Gun Owners",
+    category: "advocacy",
+    url: "https://rmgo.org/",
+    description: "Colorado gun-rights advocacy.",
     note: null,
     colorado_contact: true,
     sort_order: 30,

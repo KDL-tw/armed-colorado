@@ -4,6 +4,21 @@ import { ContentShell } from "@/components/ContentShell";
 
 export const metadata: Metadata = { title: "Resources" };
 
+const MINOR_WORDS = new Set([
+  "a", "an", "the", "and", "but", "or", "nor", "for", "so", "yet", "to",
+  "of", "in", "on", "at", "by", "as", "via", "per",
+]);
+
+function titleCase(s: string): string {
+  return s
+    .split(" ")
+    .map((w, i) => {
+      if (i > 0 && MINOR_WORDS.has(w.toLowerCase())) return w.toLowerCase();
+      return w.charAt(0).toUpperCase() + w.slice(1);
+    })
+    .join(" ");
+}
+
 export default async function ResourcesPage() {
   const resources = await getResources();
   const byCategory = resources.reduce<Record<string, typeof resources>>(
@@ -20,7 +35,7 @@ export default async function ResourcesPage() {
     <ContentShell width="4xl">
       <p className="text-sm uppercase tracking-[0.2em] text-oxblood">Directory</p>
       <h1 className="mt-3 font-display text-4xl text-navy md:text-5xl">
-        Resource links
+        Resource Links
       </h1>
       <p className="mt-4 max-w-2xl text-muted">
         Advocacy, legal, government, health, and community organizations.
@@ -29,8 +44,8 @@ export default async function ResourcesPage() {
 
       {Object.entries(byCategory).map(([category, items]) => (
         <section key={category} className="mt-12">
-          <h2 className="font-display text-2xl capitalize text-navy">
-            {category}
+          <h2 className="font-display text-2xl text-navy">
+            {titleCase(category)}
           </h2>
           <ul className="mt-5 space-y-6">
             {items.map((r) => (

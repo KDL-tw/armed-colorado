@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { GuideLayout } from "@/components/GuideLayout";
 
-export const metadata: Metadata = { title: "Concealed carry" };
+export const metadata: Metadata = { title: "Concealed Carry" };
 
 export default function ConcealedCarryPage() {
   return (
     <GuideLayout
-      title="Colorado concealed carry laws"
+      title="Colorado Concealed Carry Laws"
       lede="Overview pointers only — statutes and sheriff policies change."
     >
       <p>
@@ -35,7 +35,7 @@ export default function ConcealedCarryPage() {
         </li>
         <li>
           Renewal training providers: see{" "}
-          <a href="/ccw-renewal">CCW renewal directory</a>.
+          <a href="/ccw-renewal">CHP renewal directory</a>.
         </li>
       </ul>
     </GuideLayout>
