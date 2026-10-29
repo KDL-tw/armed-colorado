@@ -19,6 +19,22 @@ function titleCase(s: string): string {
     .join(" ");
 }
 
+const CATEGORY_LABELS: Record<string, string> = {
+  advocacy: "Advocacy",
+  legal: "Legal",
+  government: "Government",
+  research: "Research & Data",
+  safety: "Safety & Training",
+  tools: "Tools & Services",
+  community: "Community",
+  health: "Health",
+};
+
+const CATEGORY_ORDER = [
+  "advocacy", "legal", "government", "research",
+  "safety", "tools", "community", "health",
+];
+
 export default async function ResourcesPage() {
   const resources = await getResources();
   const byCategory = resources.reduce<Record<string, typeof resources>>(
@@ -30,6 +46,10 @@ export default async function ResourcesPage() {
     },
     {},
   );
+  const orderedCategories = Object.keys(byCategory).sort(
+    (a, b) =>
+      (CATEGORY_ORDER.indexOf(a) ?? 99) - (CATEGORY_ORDER.indexOf(b) ?? 99),
+  );
 
   return (
     <ContentShell width="4xl">
@@ -38,17 +58,18 @@ export default async function ResourcesPage() {
         Resource Links
       </h1>
       <p className="mt-4 max-w-2xl text-muted">
-        Advocacy, legal, government, health, and community organizations.
-        Listings are informational — verify contacts and positions yourself.
+        Advocacy, legal, government, research, safety, tools, and community
+        organizations. Listings are informational — verify contacts and
+        positions yourself.
       </p>
 
-      {Object.entries(byCategory).map(([category, items]) => (
+      {orderedCategories.map((category) => (
         <section key={category} className="mt-12">
           <h2 className="font-display text-2xl text-navy">
-            {titleCase(category)}
+            {CATEGORY_LABELS[category] ?? titleCase(category)}
           </h2>
           <ul className="mt-5 space-y-6">
-            {items.map((r) => (
+            {byCategory[category].map((r) => (
               <li
                 key={r.slug}
                 className="border-t border-navy/10 pt-5 first:border-t-0 first:pt-0"
@@ -69,12 +90,14 @@ export default async function ResourcesPage() {
                     </span>
                   )}
                   {r.colorado_contact === false ? (
-                    <span className="text-xs uppercase tracking-wider text-oxblood">
-                      No CO contact noted
+                    <span className="text-sm font-bold text-red-600">
+                      [NO COLORADO CONTACT]
                     </span>
                   ) : null}
                 </div>
-                <p className="mt-2 text-muted">{r.description}</p>
+                {r.description ? (
+                  <p className="mt-2 text-muted">{r.description}</p>
+                ) : null}
                 {r.note ? (
                   <p className="mt-2 text-sm text-muted">{r.note}</p>
                 ) : null}
