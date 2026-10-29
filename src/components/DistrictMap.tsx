@@ -1,11 +1,17 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type {
-  ChamberData,
-  CountyFeature,
-  LonLat,
-} from "@/lib/districts/types";
+import type { ChamberData, CountyFeature } from "@/lib/districts/types";
+import {
+  COS39,
+  METRO_DEFS,
+  buildMetroInset,
+  countyLabelPos,
+  districtColor,
+  ringsToPath,
+  scanBBox,
+  type BBox,
+} from "@/lib/districts/metros";
 
 interface DistrictMapProps {
   chamber: "house" | "senate";
@@ -13,124 +19,6 @@ interface DistrictMapProps {
   counties: CountyFeature[];
   planYear: number;
   effectiveSince: string;
-}
-
-/** Equirectangular longitude correction at Colorado's mid-latitude (39°). */
-const COS39 = Math.cos((39 * Math.PI) / 180);
-
-/**
- * Deterministic, readable per-district color: golden-angle hue rotation so
- * adjacent districts differ, stable across renders (no randomness).
- */
-function districtColor(n: number): string {
-  return `hsl(${Math.round((n * 137.508) % 360)}, 52%, 74%)`;
-}
-
-/**
- * Build an SVG path `d` for a feature's rings under a projector.
- * Outer rings + holes; the nonzero fill rule handles holes.
- */
-function ringsToPath(
-  rings: LonLat[][][],
-  project: (lon: number, lat: number) => [number, number],
-): string {
-  return rings
-    .map((poly) =>
-      poly
-        .map((ring) => {
-          const pts = ring
-            .map(([lon, lat]) => {
-              const [x, y] = project(lon, lat);
-              return `${x.toFixed(3)},${y.toFixed(3)}`;
-            })
-            .join("L");
-          return `M${pts}Z`;
-        })
-        .join(""),
-    )
-    .join("");
-}
-
-function shoelaceArea(ring: LonLat[]): number {
-  let a = 0;
-  for (let i = 0; i < ring.length; i++) {
-    const [x1, y1] = ring[i];
-    const [x2, y2] = ring[(i + 1) % ring.length];
-    a += x1 * y2 - x2 * y1;
-  }
-  return Math.abs(a) / 2;
-}
-
-function vertexCentroid(ring: LonLat[]): [number, number] {
-  let sx = 0;
-  let sy = 0;
-  for (const [x, y] of ring) { sx += x; sy += y; }
-  return [sx / ring.length, sy / ring.length];
-}
-
-function bboxCenter(ring: LonLat[]): [number, number] {
-  let minLon = Infinity, maxLon = -Infinity, minLat = Infinity, maxLat = -Infinity;
-  for (const [lon, lat] of ring) {
-    if (lon < minLon) minLon = lon;
-    if (lon > maxLon) maxLon = lon;
-    if (lat < minLat) minLat = lat;
-    if (lat > maxLat) maxLat = lat;
-  }
-  return [(minLon + maxLon) / 2, (minLat + maxLat) / 2];
-}
-
-function pointInRing(pt: LonLat, ring: LonLat[]): boolean {
-  const [x, y] = pt;
-  let inside = false;
-  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-    const [xi, yi] = ring[i];
-    const [xj, yj] = ring[j];
-    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) {
-      inside = !inside;
-    }
-  }
-  return inside;
-}
-
-function isInsideCounty(pt: LonLat, county: CountyFeature): boolean {
-  for (const poly of county.rings) {
-    if (pointInRing(pt, poly[0])) {
-      const inHole = poly.slice(1).some((hole) => pointInRing(pt, hole));
-      if (!inHole) return true;
-    }
-  }
-  return false;
-}
-
-function countyLabelPos(county: CountyFeature): [number, number] {
-  let best: LonLat[] = county.rings[0][0];
-  let bestArea = -1;
-  for (const poly of county.rings) {
-    for (const ring of poly) {
-      const a = shoelaceArea(ring);
-      if (a > bestArea) { bestArea = a; best = ring; }
-    }
-  }
-  const vc = vertexCentroid(best);
-  return isInsideCounty(vc, county) ? vc : bboxCenter(best);
-}
-
-interface BBox {
-  minLon: number;
-  maxLon: number;
-  minLat: number;
-  maxLat: number;
-}
-
-function scanBBox(rings: LonLat[][][], box: BBox): void {
-  for (const poly of rings)
-    for (const ring of poly)
-      for (const [lon, lat] of ring) {
-        if (lon < box.minLon) box.minLon = lon;
-        if (lon > box.maxLon) box.maxLon = lon;
-        if (lat < box.minLat) box.minLat = lat;
-        if (lat > box.maxLat) box.maxLat = lat;
-      }
 }
 
 export default function DistrictMap({
@@ -145,7 +33,12 @@ export default function DistrictMap({
 
   // Main-map projection: fit all districts + counties into a 1000-unit-wide box.
   const main = useMemo(() => {
-    const box: BBox = { minLon: Infinity, maxLon: -Infinity, minLat: Infinity, maxLat: -Infinity };
+    const box: BBox = {
+      minLon: Infinity,
+      maxLon: -Infinity,
+      minLat: Infinity,
+      maxLat: -Infinity,
+    };
     for (const d of data.districts) scanBBox(d.rings, box);
     for (const c of counties) scanBBox(c.rings, box);
     const k = 1000 / ((box.maxLon - box.minLon) * COS39);
@@ -172,62 +65,11 @@ export default function DistrictMap({
 
   // Metro insets: each re-projects its counties + the districts whose label
   // falls in the metro bbox, clipped to the union of the metro's county shapes.
-  const metros = useMemo(() => {
-    const defs = [
-      {
-        key: "denver",
-        title: "Denver Metro",
-        names: [
-          "ADAMS", "ARAPAHOE", "BOULDER", "BROOMFIELD", "CLEAR CREEK",
-          "DENVER", "DOUGLAS", "GILPIN", "JEFFERSON",
-        ],
-      },
-      { key: "springs", title: "Colorado Springs Metro", names: ["EL PASO", "TELLER"] },
-    ];
-    const W = 320;
-    const H = 280;
-    return defs.map((m) => {
-      const metroCounties = counties.filter((c) => m.names.includes(c.name));
-      if (metroCounties.length !== m.names.length) {
-        // A county name from the service didn't match — surface it loudly
-        // rather than rendering a silently-incomplete inset.
-        throw new Error(
-          `Metro "${m.title}": found ${metroCounties.length}/${m.names.length} counties`,
-        );
-      }
-      const box: BBox = { minLon: Infinity, maxLon: -Infinity, minLat: Infinity, maxLat: -Infinity };
-      for (const c of metroCounties) scanBBox(c.rings, box);
-      const kx = W / ((box.maxLon - box.minLon) * COS39);
-      const ky = H / (box.maxLat - box.minLat);
-      const k = Math.min(kx, ky);
-      const ox = (W - (box.maxLon - box.minLon) * COS39 * k) / 2;
-      const oy = (H - (box.maxLat - box.minLat) * k) / 2;
-      const ip = (lon: number, lat: number): [number, number] => [
-        ox + (lon - box.minLon) * COS39 * k,
-        oy + (box.maxLat - lat) * k,
-      ];
-      const inBox = (p: LonLat) =>
-        p[0] >= box.minLon && p[0] <= box.maxLon && p[1] >= box.minLat && p[1] <= box.maxLat;
-      return {
-        key: m.key,
-        title: m.title,
-        W,
-        H,
-        clipCounties: metroCounties.map((c) => ringsToPath(c.rings, ip)),
-        countyLabels: metroCounties.map((c) => {
-          const [lon, lat] = countyLabelPos(c);
-          return { name: c.name, label: ip(lon, lat) };
-        }),
-        districtPaths: data.districts
-          .filter((d) => inBox(d.label))
-          .map((d) => ({
-            district: d.district,
-            d: ringsToPath(d.rings, ip),
-            label: ip(d.label[0], d.label[1]),
-          })),
-      };
-    });
-  }, [counties, data]);
+  // Shared geometry with the full-page maps (see src/lib/districts/metros.ts).
+  const metros = useMemo(
+    () => METRO_DEFS.map((m) => buildMetroInset(counties, data, m, 320, 280)),
+    [counties, data],
+  );
 
   return (
     <figure>
@@ -315,13 +157,21 @@ export default function DistrictMap({
         </g>
       </svg>
 
-      {/* Metro insets. */}
+      {/* Metro insets — clickable: each opens the full-page interactive map
+          for that metro in a new tab (the inline insets are too zoomed out). */}
       <div className="mt-4 flex flex-wrap gap-6">
         {metros.map((m) => (
-          <figure key={m.key} className="w-64">
+          <a
+            key={m.key}
+            href={`/legislators/districts/${chamber}/${m.key}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Open ${m.title} ${label} district map in a new tab`}
+            className="group w-64 rounded-md outline-none focus-visible:ring-2 focus-visible:ring-oxblood"
+          >
             <svg
               viewBox={`0 0 ${m.W} ${m.H}`}
-              className="h-auto w-full"
+              className="h-auto w-full rounded-sm ring-1 ring-transparent transition duration-150 group-hover:ring-oxblood/60"
               role="img"
               aria-label={`${m.title} inset`}
             >
@@ -405,10 +255,10 @@ export default function DistrictMap({
                 vectorEffect="non-scaling-stroke"
               />
             </svg>
-            <figcaption className="mt-1 text-center text-xs font-medium uppercase tracking-wide text-muted">
-              {m.title}
-            </figcaption>
-          </figure>
+            <span className="mt-1 block text-center text-xs font-medium uppercase tracking-wide text-muted transition group-hover:text-oxblood">
+              {m.title} · click to enlarge
+            </span>
+          </a>
         ))}
       </div>
 
