@@ -103,9 +103,9 @@ Contact data as of 2026-10-28 — verify before relying on it.
 ## Community
 
 ### Colorado Cares for Safety
-- URL: (none found)
-- Description: (placeholder — no information available)
-- CO contact: [NO COLORADO CONTACT]
+- URL: https://coloradocaresforsafety.org/
+- Description: Colorado Cares for Safety is a Colorado nonprofit (501(c)(3) in formation) that provides free firearm safety education, secure storage, de-escalation, and emergency medical response training to residents statewide. Its programs include safe handling and storage courses, free distribution of storage devices such as cable locks and vehicle boxes, conflict de-escalation skills, and Stop the Bleed certification.
+- CO contact: Colorado Cares for Safety — info@coloradocaresforsafety.org
 
 ### Liberal Gun Club
 - URL: https://theliberalgunclub.com/

@@ -391,10 +391,11 @@ export const FALLBACK_RESOURCES: ResourceLink[] = [
     slug: "co-cares-for-safety",
     name: "Colorado Cares for Safety",
     category: "community",
-    url: null,
-    description: "",
-    note: null,
-    colorado_contact: false,
+    url: "https://coloradocaresforsafety.org/",
+    description:
+      "Colorado Cares for Safety is a Colorado nonprofit (501(c)(3) in formation) that provides free firearm safety education, secure storage, de-escalation, and emergency medical response training to residents statewide. Its programs include safe handling and storage courses, free distribution of storage devices such as cable locks and vehicle boxes, conflict de-escalation skills, and Stop the Bleed certification.",
+    note: "Colorado contact: Colorado Cares for Safety — info@coloradocaresforsafety.org.",
+    colorado_contact: true,
     sort_order: 210,
   },
   {
