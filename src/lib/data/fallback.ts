@@ -407,7 +407,9 @@ export const FALLBACK_RESOURCES: ResourceLink[] = [
     colorado_contact: true,
     sort_order: 220,
   },
-];export const FALLBACK_SB25_FAQS: FaqEntry[] = [
+];
+
+export const FALLBACK_SB25_FAQS: FaqEntry[] = [
   {
     page_key: "sb25-003",
     question: "What does SB25-003 generally require?",
