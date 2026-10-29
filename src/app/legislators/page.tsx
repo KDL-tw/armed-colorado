@@ -73,7 +73,17 @@ export default async function LegislatorsPage({
           </div>
         </section>
 
-        {/* 2 — How districts are determined */}
+        {/* 2 — Committee tabs */}
+        <section aria-labelledby="committees" className="mt-16">
+          <h2 id="committees" className="font-display text-3xl text-navy">
+            Committee Rosters
+          </h2>
+          <div className="mt-4">
+            <LegislatorsTabs catalog={catalog} initialTab={initialTab} />
+          </div>
+        </section>
+
+        {/* 3 — How districts are determined */}
         <section aria-labelledby="how-districts" className="mt-12">
           <h2 id="how-districts" className="font-display text-3xl text-navy">
             How Colorado&rsquo;s Districts Are Determined
@@ -146,7 +156,7 @@ export default async function LegislatorsPage({
           </div>
         </section>
 
-        {/* 3 — House districts */}
+        {/* 4 — House districts */}
         <section aria-labelledby="house-districts" className="mt-12">
           <h2 id="house-districts" className="font-display text-3xl text-navy">
             House Districts
@@ -166,7 +176,7 @@ export default async function LegislatorsPage({
           </div>
         </section>
 
-        {/* 4 — Senate districts */}
+        {/* 5 — Senate districts */}
         <section aria-labelledby="senate-districts" className="mt-12">
           <h2 id="senate-districts" className="font-display text-3xl text-navy">
             Senate Districts
@@ -183,16 +193,6 @@ export default async function LegislatorsPage({
               planYear={districts.planYear}
               effectiveSince={districts.effectiveSince}
             />
-          </div>
-        </section>
-
-        {/* 5 — Existing committee tabs (unchanged) */}
-        <section aria-labelledby="committees" className="mt-16">
-          <h2 id="committees" className="font-display text-3xl text-navy">
-            Committee Rosters
-          </h2>
-          <div className="mt-4">
-            <LegislatorsTabs catalog={catalog} initialTab={initialTab} />
           </div>
         </section>
 
