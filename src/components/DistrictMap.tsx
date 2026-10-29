@@ -51,6 +51,70 @@ function ringsToPath(
     .join("");
 }
 
+function shoelaceArea(ring: LonLat[]): number {
+  let a = 0;
+  for (let i = 0; i < ring.length; i++) {
+    const [x1, y1] = ring[i];
+    const [x2, y2] = ring[(i + 1) % ring.length];
+    a += x1 * y2 - x2 * y1;
+  }
+  return Math.abs(a) / 2;
+}
+
+function vertexCentroid(ring: LonLat[]): [number, number] {
+  let sx = 0;
+  let sy = 0;
+  for (const [x, y] of ring) { sx += x; sy += y; }
+  return [sx / ring.length, sy / ring.length];
+}
+
+function bboxCenter(ring: LonLat[]): [number, number] {
+  let minLon = Infinity, maxLon = -Infinity, minLat = Infinity, maxLat = -Infinity;
+  for (const [lon, lat] of ring) {
+    if (lon < minLon) minLon = lon;
+    if (lon > maxLon) maxLon = lon;
+    if (lat < minLat) minLat = lat;
+    if (lat > maxLat) maxLat = lat;
+  }
+  return [(minLon + maxLon) / 2, (minLat + maxLat) / 2];
+}
+
+function pointInRing(pt: LonLat, ring: LonLat[]): boolean {
+  const [x, y] = pt;
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i];
+    const [xj, yj] = ring[j];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) {
+      inside = !inside;
+    }
+  }
+  return inside;
+}
+
+function isInsideCounty(pt: LonLat, county: CountyFeature): boolean {
+  for (const poly of county.rings) {
+    if (pointInRing(pt, poly[0])) {
+      const inHole = poly.slice(1).some((hole) => pointInRing(pt, hole));
+      if (!inHole) return true;
+    }
+  }
+  return false;
+}
+
+function countyLabelPos(county: CountyFeature): [number, number] {
+  let best: LonLat[] = county.rings[0][0];
+  let bestArea = -1;
+  for (const poly of county.rings) {
+    for (const ring of poly) {
+      const a = shoelaceArea(ring);
+      if (a > bestArea) { bestArea = a; best = ring; }
+    }
+  }
+  const vc = vertexCentroid(best);
+  return isInsideCounty(vc, county) ? vc : bboxCenter(best);
+}
+
 interface BBox {
   minLon: number;
   maxLon: number;
@@ -94,6 +158,10 @@ export default function DistrictMap({
       height: (box.maxLat - box.minLat) * k,
       project,
       countyPaths: counties.map((c) => ({ name: c.name, d: ringsToPath(c.rings, project) })),
+      countyLabels: counties.map((c) => {
+        const [lon, lat] = countyLabelPos(c);
+        return { name: c.name, label: project(lon, lat) };
+      }),
       districtPaths: data.districts.map((d) => ({
         district: d.district,
         d: ringsToPath(d.rings, project),
@@ -146,6 +214,10 @@ export default function DistrictMap({
         W,
         H,
         clipCounties: metroCounties.map((c) => ringsToPath(c.rings, ip)),
+        countyLabels: metroCounties.map((c) => {
+          const [lon, lat] = countyLabelPos(c);
+          return { name: c.name, label: ip(lon, lat) };
+        }),
         districtPaths: data.districts
           .filter((d) => inBox(d.label))
           .map((d) => ({
@@ -180,10 +252,28 @@ export default function DistrictMap({
               key={c.name}
               d={c.d}
               fill="#e8eaee"
-              stroke="#94a3b8"
-              strokeWidth={0.6}
+              stroke="#64748b"
+              strokeWidth={0.9}
               vectorEffect="non-scaling-stroke"
             />
+          ))}
+          {main.countyLabels.map((c) => (
+            <text
+              key={c.name}
+              x={c.label[0].toFixed(1)}
+              y={c.label[1].toFixed(1)}
+              textAnchor="middle"
+              dominantBaseline="central"
+              fontSize={7}
+              fontWeight={500}
+              fill="#1e293b"
+              stroke="#ffffff"
+              strokeWidth={2}
+              paintOrder="stroke"
+              style={{ pointerEvents: "none" }}
+            >
+              {c.name}
+            </text>
           ))}
         </g>
         {/* Districts. */}
@@ -195,7 +285,7 @@ export default function DistrictMap({
                 <path
                   d={d.d}
                   fill={districtColor(d.district)}
-                  fillOpacity={active ? 1 : 0.82}
+                  fillOpacity={active ? 1 : 0.55}
                   stroke={active ? "#0a1a33" : "#ffffff"}
                   strokeWidth={active ? 1.6 : 0.7}
                   vectorEffect="non-scaling-stroke"
@@ -248,17 +338,35 @@ export default function DistrictMap({
                     key={i}
                     d={d}
                     fill="#e8eaee"
-                    stroke="#94a3b8"
-                    strokeWidth={0.5}
+                    stroke="#64748b"
+                    strokeWidth={0.8}
                     vectorEffect="non-scaling-stroke"
                   />
+                ))}
+                {m.countyLabels.map((c) => (
+                  <text
+                    key={c.name}
+                    x={c.label[0].toFixed(1)}
+                    y={c.label[1].toFixed(1)}
+                    textAnchor="middle"
+                    dominantBaseline="central"
+                    fontSize={9}
+                    fontWeight={500}
+                    fill="#1e293b"
+                    stroke="#ffffff"
+                    strokeWidth={1.5}
+                    paintOrder="stroke"
+                    style={{ pointerEvents: "none" }}
+                  >
+                    {c.name}
+                  </text>
                 ))}
                 {m.districtPaths.map((d) => (
                   <path
                     key={d.district}
                     d={d.d}
                     fill={districtColor(d.district)}
-                    fillOpacity={0.88}
+                    fillOpacity={0.65}
                     stroke="#ffffff"
                     strokeWidth={0.5}
                     vectorEffect="non-scaling-stroke"
