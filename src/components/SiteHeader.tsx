@@ -9,6 +9,7 @@ const NAV = [
   { href: "/litigation", label: "Litigation" },
   { href: "/sb25-003", label: "SB25-003" },
   { href: "/resources", label: "Resources" },
+  { href: "/concealed-carry", label: "Concealed Carry" },
   { href: "/alerts", label: "Alerts" },
   { href: "/events", label: "Events" },
 ];
