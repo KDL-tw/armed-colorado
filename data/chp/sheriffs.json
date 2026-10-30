@@ -8,10 +8,10 @@
       "phone": "(303) 655-3215",
       "fax": "(303) 655-3296",
       "address": "4430 S Adams County Pkwy., 1st Floor, Suite W5400, Brighton, CO, 80601",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "CHP@adamssheriffco.gov",
+      "website": "https://adamssheriffco.gov/",
+      "chpUrl": "https://adamssheriffco.gov/concealed-handgun-permits/",
+      "hours": "Mon-Fri 8:00 AM-4:30 PM"
     },
     {
       "county": "ALAMOSA",
@@ -20,9 +20,9 @@
       "fax": "(719) 589-6134",
       "address": "1315 17th Street, Alamosa, CO, 81101",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://www.alamosacounty.org/185/Sheriff",
+      "chpUrl": "https://www.alamosacounty.org/309/Concealed-Handgun-Permit",
+      "hours": "Mon-Thu 7:00 AM-5:30 PM"
     },
     {
       "county": "ARAPAHOE",
@@ -30,10 +30,10 @@
       "phone": "(720) 874-4176",
       "fax": "(720) 874-4158",
       "address": "13101 East Broncos Parkway, Centennial, CO, 80112",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "CHP@arapahoegov.com",
+      "website": "https://www.arapahoeco.gov/your_county/county_departments/sheriffs_office/index.php",
+      "chpUrl": "https://www.arapahoeco.gov/your_county/county_departments/sheriffs_office/services/concealed_handgun_permits/index.php",
+      "hours": "Tue-Thu 7:00 AM-4:00 PM (CHP walk-in)"
     },
     {
       "county": "ARCHULETA",
@@ -42,9 +42,9 @@
       "fax": "(970) 264-4700",
       "address": "85 Harman Park Drive PO Box 638, Pagosa Springs, CO, 81147",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://sheriff.archuletacounty.gov/",
+      "chpUrl": "https://sheriff.archuletacounty.gov/programs-services/concealed-handgun-permits/",
+      "hours": "Mon-Fri 8:00 AM-5:00 PM"
     },
     {
       "county": "BACA",
@@ -53,9 +53,9 @@
       "fax": "(719) 523-4587",
       "address": "265 E 2nd Ave, Springfield, CO, 81073",
       "chpEmail": null,
-      "website": null,
+      "website": "https://www.bacacountyco.gov/departments/sheriffs-office/",
       "chpUrl": null,
-      "hours": null
+      "hours": "Mon-Thu 8:00 AM-4:00 PM (records)"
     },
     {
       "county": "BENT",
@@ -64,9 +64,9 @@
       "fax": "(719) 456-0476",
       "address": "11100 County Road GG .5, Las Animas, CO, 81054",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://bentsheriff.gov/",
+      "chpUrl": "https://bentsheriff.gov/concealed-carry/",
+      "hours": "Mon-Thu 8:30 AM-5:30 PM (administrative)"
     },
     {
       "county": "BOULDER",
@@ -74,10 +74,10 @@
       "phone": "(303) 441-4605",
       "fax": "(303) 441-4739",
       "address": "5600 Flatiron Pkwy., Boulder, CO, 80301",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "SheriffCHP@bouldercounty.gov",
+      "website": "https://bouldercounty.gov/safety/sheriff/",
+      "chpUrl": "https://bouldercounty.gov/safety/firearms/concealed-handgun-permit/",
+      "hours": "Mon-Fri 8:00 AM-5:00 PM"
     },
     {
       "county": "BROOMFIELD",
@@ -85,10 +85,10 @@
       "phone": "(303) 438-6440",
       "fax": "(303) 438-6433",
       "address": "7 DesCombes Drive, Broomfield, CO, 80020",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "chp@broomfield.org",
+      "website": "https://www.broomfield.org/",
+      "chpUrl": "https://www.broomfield.org/1309/Firearm-Checks-and-Permits",
+      "hours": "Mon-Fri 8:00 AM-5:00 PM"
     },
     {
       "county": "CHAFFEE",
@@ -97,9 +97,9 @@
       "fax": "(719) 539-1077",
       "address": "641 W. Third ST. PO Box 699, Salida, CO, 81201",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://www.chaffeecounty.org/departments/sheriff/index.php",
+      "chpUrl": "https://www.chaffeecounty.org/departments/sheriff/records/concealed_carry.php",
+      "hours": "Mon-Thu 8:00 AM-5:00 PM; Fri closed"
     },
     {
       "county": "CHEYENNE",
@@ -108,9 +108,9 @@
       "fax": "(719) 767-5023",
       "address": "PO Box 363, Cheyenne Wells, CO, 80810",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://www.cheyennesheriffcolorado.com/",
+      "chpUrl": "https://www.cheyennesheriffcolorado.com/concealed-carry.html",
+      "hours": "Mon-Fri 8:00 AM-4:00 PM"
     },
     {
       "county": "CLEAR CREEK",
@@ -118,10 +118,10 @@
       "phone": "303-679-2476 ",
       "fax": "(303) 679-2447",
       "address": "405 Argentine Street PO Box 2000, Georgetown, CO, 80444",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "chpcourse@clearcreeksheriff.us",
+      "website": "https://www.clearcreekcounty.us/761/Clear-Creek-County-Sheriffs-Office",
+      "chpUrl": "https://www.clearcreekcounty.us/1582/Concealed-Handgun-Training",
+      "hours": "Mon-Thu 7:30 AM-4:00 PM"
     },
     {
       "county": "CONEJOS",
@@ -130,9 +130,9 @@
       "fax": "(719) 376-2557",
       "address": "PO Box 37, Conejos, CO, 81129",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://conejoscounty.colorado.gov/elected-officials/sheriffs",
+      "chpUrl": "https://conejoscounty.colorado.gov/sheriffs-office-information-page",
+      "hours": "Mon-Fri 8:00 AM-4:30 PM"
     },
     {
       "county": "COSTILLA",
@@ -141,7 +141,7 @@
       "fax": "(719) 672-1091",
       "address": "103 Gasper Street, San Luis, CO, 81152",
       "chpEmail": null,
-      "website": null,
+      "website": "https://www.costillacounty.gov/sheriff",
       "chpUrl": null,
       "hours": null
     },
@@ -152,8 +152,8 @@
       "fax": "(719) 267-3089",
       "address": "110 E 6th St, Ordway, CO, 81063",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://crowleycounty.colorado.gov/government-offices/crowley-county-sheriffs-office",
+      "chpUrl": "https://crowleycountysheriff.com/concealed-handgun-permits/",
       "hours": null
     },
     {
@@ -163,9 +163,9 @@
       "fax": "(719) 783-9085",
       "address": "PO Box 1489, Westcliffe, CO, 81252",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://custersheriff.colorado.gov/",
+      "chpUrl": "https://custersheriff.colorado.gov/concealed-handgun-permit",
+      "hours": "Mon-Thu 8:00 AM-4:30 PM; Fri-Sun and federal holidays closed"
     },
     {
       "county": "DELTA",
@@ -173,10 +173,10 @@
       "phone": "(970) 874-2000",
       "fax": "(970) 874-2027",
       "address": "555 Palmer Street PO Box 172, Delta, CO, 81416",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "crevoir@deltacountyco.gov",
+      "website": "https://www.deltacountyco.gov/",
+      "chpUrl": "https://www.deltacountyco.gov/981/Concealed-Handgun-Permits",
+      "hours": "Mon-Fri 8:00 AM-5:00 PM MST"
     },
     {
       "county": "DENVER",
@@ -184,9 +184,9 @@
       "phone": "(720) 913-3600",
       "fax": null,
       "address": "P.O. Box 1108, Denver, CO, 80201",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "chpEmail": "DPD.CHP@denvergov.org",
+      "website": "https://www.denvergov.org/",
+      "chpUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Programs-Services/Concealed-Handgun-Permits",
       "hours": null
     },
     {
@@ -196,7 +196,7 @@
       "fax": "(970) 677-2880",
       "address": "409 N Main Street Box 505, Dove Creek, CO, 81324",
       "chpEmail": null,
-      "website": null,
+      "website": "https://dolocnty.colorado.gov/sheriff",
       "chpUrl": null,
       "hours": null
     },
@@ -206,10 +206,10 @@
       "phone": "(303) 663-7722",
       "fax": "(303) 814-8790",
       "address": "4000 Justice Way, Castle Rock, CO, 80109",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "CHP@dcsheriff.net",
+      "website": "https://dcsheriff.net/",
+      "chpUrl": "https://dcsheriff.net/sheriffs-office/divisions/civil-and-warrants/concealed-handgun-permits/",
+      "hours": "Monday \u2013 Friday 8:00 a.m. \u2013 5:00 p.m."
     },
     {
       "county": "EAGLE",
@@ -217,10 +217,10 @@
       "phone": "(970) 328-8500",
       "fax": "(970) 328-1448",
       "address": "0885 E Chambers Avenue P.O. Box 359, Eagle, CO, 81631",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "info@sheriff.eagle.co.us",
+      "website": "https://www.eaglesheriff.com/",
+      "chpUrl": "https://www.eaglesheriff.com/services/administrative/concealed_weapon.php",
+      "hours": "Monday - Friday 8:00 AM - 5:00 PM"
     },
     {
       "county": "EL PASO",
@@ -228,10 +228,10 @@
       "phone": "(719) 520-7100",
       "fax": "(719) 520-7262",
       "address": "27 East Vermijo Avenue, Colorado Springs, CO, 80903",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "chp@elpasoco.com",
+      "website": "https://epcsheriffsoffice.com/",
+      "chpUrl": "https://epcsheriffsoffice.com/services/concealed-handgun-permit/",
+      "hours": "Monday-Friday 8:00am-4:30pm"
     },
     {
       "county": "ELBERT",
@@ -239,10 +239,10 @@
       "phone": "(303) 621-2027",
       "fax": "(303) 621-2055",
       "address": "751 Ute Avenue, Kiowa, CO, 80117",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "shane.mcclure@elbertcounty-co.gov",
+      "website": "https://www.elbertcounty-co.gov/",
+      "chpUrl": "https://www.elbertcounty-co.gov/185/Concealed-Handgun-Permits",
+      "hours": "Tuesday, Thursday & Saturday, 9:00am-1:00pm"
     },
     {
       "county": "FREMONT",
@@ -251,8 +251,8 @@
       "fax": "(719) 276-5593",
       "address": "100 Justice Center Rd, Canon City, CO, 81212",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://fremontsheriff.org/",
+      "chpUrl": "https://crimewatch.net/us/co/fremont/sheriff/180579/content/concealed-handgun-permits",
       "hours": null
     },
     {
@@ -262,9 +262,9 @@
       "fax": "(970) 945-6430",
       "address": "107 8TH ST, Glenwood Springs, CO, 81601",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://www.garcosheriff.com/",
+      "chpUrl": "https://www.garcosheriff.com/concealed-handgun-permit/",
+      "hours": "Mon \u2013 Fri: 8am \u2013 5pm, Wed: 8am \u2013 4pm, Sat \u2013 Sun: CLOSED"
     },
     {
       "county": "GILPIN",
@@ -272,10 +272,10 @@
       "phone": "(303) 582-1060",
       "fax": "(303) 582-3813",
       "address": "2960 Dory Hill Rd Unit 300, Black Hawk, CO, 80422",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "Records@gilpincounty.org",
+      "website": "https://gilpincounty.colorado.gov/elected-officials/sheriffs-page",
+      "chpUrl": "https://gilpincounty.colorado.gov/administration-and-records",
+      "hours": "8 a.m. to 4:30 p.m. Monday - Friday (closed holidays)"
     },
     {
       "county": "GRAND",
@@ -283,10 +283,10 @@
       "phone": "(970) 725-3343",
       "fax": "(970) 725-3227",
       "address": "PO Box 48, Hot Sulphur Spgs, CO, 80451",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "CHP@co.grand.co.us",
+      "website": "https://www.co.grand.co.us/",
+      "chpUrl": "https://www.co.grand.co.us/359/Concealed-Handgun-Permits",
+      "hours": "Monday - Thursday 7:30 a.m. - 5:30 p.m. (closed on holidays)"
     },
     {
       "county": "GUNNISON",
@@ -295,9 +295,9 @@
       "fax": "(970) 641-7649",
       "address": "510 W. Bidwell Avenue, Gunnison, CO, 81230",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://www.gunnisoncounty.org/",
+      "chpUrl": "https://www.gunnisoncounty.org/220/Concealed-Handgun-Permitting",
+      "hours": "Monday - Friday 8:00 AM - 5:00 PM"
     },
     {
       "county": "HINSDALE",
@@ -306,9 +306,9 @@
       "fax": "(970) 944-2744",
       "address": "PO Box 127, Lake City, CO, 81235",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://hinsdalecountysheriff.com/",
+      "chpUrl": "https://hinsdalecountysheriff.com/concealed-handgun-permit",
+      "hours": "Monday - Thursday, 9:00 AM to 1:00 PM (excluding holidays)"
     },
     {
       "county": "HUERFANO",
@@ -317,8 +317,8 @@
       "fax": "(719) 738-3676",
       "address": "500 S Albert Ave, Walsenburg, CO, 81089",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://huerfano.us/sheriff/",
+      "chpUrl": "https://huerfano.us/sheriff/concealed-handgun-permit-information/",
       "hours": null
     },
     {
@@ -328,7 +328,7 @@
       "fax": "(970) 723-4740",
       "address": "PO Box 565, Walden, CO, 80480",
       "chpEmail": null,
-      "website": null,
+      "website": "https://jacksoncounty.colorado.gov/sheriff-jail",
       "chpUrl": null,
       "hours": null
     },
@@ -338,10 +338,10 @@
       "phone": "(303) 271-5852",
       "fax": "(303) 271-5307",
       "address": "200 Jefferson County Pkwy, Golden, CO, 80401",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "chprecords@jeffco.us",
+      "website": "https://www.jeffcosheriffco.gov/",
+      "chpUrl": "https://www.jeffcosheriffco.gov/services/chp",
+      "hours": "Monday - Friday 8:00 AM - 5:00 PM (excluding county holidays)"
     },
     {
       "county": "KIOWA",
@@ -350,8 +350,8 @@
       "fax": "(719) 438-2205",
       "address": "PO Box 427, Eads, CO, 81036",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://www.kiowasheriff.co/",
+      "chpUrl": "https://www.kiowasheriff.co/colorado-concealed-carry/",
       "hours": null
     },
     {
@@ -361,8 +361,8 @@
       "fax": "(719) 346-7282",
       "address": "1650 Donelan Ave, Suite 103, Burlington, CO, 80807",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://kitcarsoncounty.colorado.gov/kcc-sheriff",
+      "chpUrl": "https://kitcarsoncounty.colorado.gov/kcc-sheriff/concealed-weapon-permit",
       "hours": null
     },
     {
@@ -371,9 +371,9 @@
       "phone": "(970) 247-1157",
       "fax": "(970) 247-1618",
       "address": "283 Girard Street, Durango, CO, 81303",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "chpEmail": "ccw@lpcgov.org",
+      "website": "https://www.lpcgov.org/departments/sheriff_s_office/index.php",
+      "chpUrl": "https://www.lpcgov.org/divisions/administration/concealed_handgun.php",
       "hours": null
     },
     {
@@ -382,9 +382,9 @@
       "phone": "(719) 486-1249",
       "fax": "(719) 486-0139",
       "address": "505 Harrison Avenue PO Box 255, Leadville, CO, 80461",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "chpEmail": "conceal.carry@lakecountyso.org",
+      "website": "https://www.lakecountyco.com/232/Sheriff",
+      "chpUrl": "https://www.lakecountyco.com/547/Concealed-Handgun-Permit",
       "hours": null
     },
     {
@@ -394,7 +394,7 @@
       "fax": "(970) 482-8745",
       "address": "2501 Midpoint Drive, Fort Collins, CO, 80525",
       "chpEmail": null,
-      "website": null,
+      "website": "https://www.larimer.gov/sheriff",
       "chpUrl": null,
       "hours": null
     },
@@ -404,8 +404,8 @@
       "phone": "(719) 846-2211",
       "fax": "(719) 846-0171",
       "address": "2309 E Main Street, Trinidad, CO, 81082",
-      "chpEmail": null,
-      "website": null,
+      "chpEmail": "navarette@lasosheriff.org",
+      "website": "https://lasanimascounty.colorado.gov/",
       "chpUrl": null,
       "hours": null
     },
@@ -416,8 +416,8 @@
       "fax": "(719) 743-2392",
       "address": "PO Box 10, Hugo, CO, 80821",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://lincolncounty.colorado.gov/",
+      "chpUrl": "https://lincolnsheriff.net/forms.html",
       "hours": null
     },
     {
@@ -437,10 +437,10 @@
       "phone": "(970) 244-3500",
       "fax": "(970) 244-3511",
       "address": "215 Rice Street, Grand Junction, CO, 81502",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "so-records@mesacounty.us",
+      "website": "https://www.mesacounty.us/departments-and-services/sheriff",
+      "chpUrl": "https://www.mesacounty.us/departments-and-services/sheriff/services/concealed-handgun-permit",
+      "hours": "Monday - Friday 7:00 a.m. - 4:00 p.m. (excluding holidays)"
     },
     {
       "county": "MINERAL",
@@ -460,7 +460,7 @@
       "fax": "(970) 824-9780",
       "address": "800 W 1st St #100, Craig, CO, 81625",
       "chpEmail": null,
-      "website": null,
+      "website": "https://moffatcounty.colorado.gov/",
       "chpUrl": null,
       "hours": null
     },
@@ -471,9 +471,9 @@
       "fax": "(970) 565-3731",
       "address": "730 East Driscoll Street, Cortez, CO, 81321",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://montezumacounty.gov/",
+      "chpUrl": "https://montezumacounty.gov/sheriffoffice/concealed-weapons",
+      "hours": "Permit processing Wednesdays 7:30 a.m. - 4:00 p.m."
     },
     {
       "county": "MONTROSE",
@@ -482,8 +482,8 @@
       "fax": "(970) 252-4060",
       "address": "1200 N Grand Ave, Montrose, CO, 81401",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://www.montrosecounty.net/",
+      "chpUrl": "https://www.montrosecountysheriffsoffice.com/concealed-handgun-permit-chp",
       "hours": null
     },
     {
@@ -493,8 +493,8 @@
       "fax": "(970) 542-3453",
       "address": "801 E Beaver Ave, Fort Morgan, CO, 80701",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://morgancounty.colorado.gov/",
+      "chpUrl": "https://morgancounty.colorado.gov/concealed-carry-permit-information",
       "hours": null
     },
     {
@@ -503,8 +503,8 @@
       "phone": "(719) 384-5941",
       "fax": "(719) 384-2272",
       "address": "222 E 2nd St, La Junta, CO, 81050",
-      "chpEmail": null,
-      "website": null,
+      "chpEmail": "eguzman@oterogov.org",
+      "website": "https://oterocounty.colorado.gov/",
       "chpUrl": null,
       "hours": null
     },
@@ -515,8 +515,8 @@
       "fax": "(970) 325-0225",
       "address": "421 6th Avenue PO Box 585, Ouray, CO, 81427",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://ouraycountyco.gov/",
+      "chpUrl": "https://ouraycountyco.gov/378/Concealed-Handgun-Permit",
       "hours": null
     },
     {
@@ -526,7 +526,7 @@
       "fax": "(719) 836-4113",
       "address": "1180 CR 16 PO Box 604, Fairplay, CO, 80440",
       "chpEmail": null,
-      "website": null,
+      "website": "https://www.parkcountyco.gov/",
       "chpUrl": null,
       "hours": null
     },
@@ -537,8 +537,8 @@
       "fax": "(970) 854-2332",
       "address": "221 S Interocean Ave, Holyoke, CO, 80734",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://phillipscounty.colorado.gov",
+      "chpUrl": "https://phillipscounty.colorado.gov/concealed-handgun-permits",
       "hours": null
     },
     {
@@ -547,10 +547,10 @@
       "phone": "(970) 920-5300",
       "fax": "(970) 920-5307",
       "address": "506 E Main Street Suite 103, Aspen, CO, 81611",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "sheriffexternal@pitkinsheriff.com",
+      "website": "https://pitkincounty.com",
+      "chpUrl": "https://pitkincounty.com/177/Concealed-Handgun-Permit",
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m."
     },
     {
       "county": "PROWERS",
@@ -591,10 +591,10 @@
       "phone": "(719) 657-4000",
       "fax": "(719) 657-2108",
       "address": "640 Cherry St, Del Norte, CO, 81132",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "sheriff@riograndecounty.org",
+      "website": "https://riograndecounty.colorado.gov",
+      "chpUrl": "https://riograndecounty.colorado.gov/concealed-handgun-info",
+      "hours": "Monday \u2013 Friday 8:00 a.m. to 4:00 p.m."
     },
     {
       "county": "ROUTT",
@@ -602,10 +602,10 @@
       "phone": "(970) 870-5502",
       "fax": "(970) 870-5525",
       "address": "2025 Shield Drive, Steamboat Springs, CO, 80487",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "dscherar@co.routt.co.us",
+      "website": "https://co.routt.co.us",
+      "chpUrl": "https://co.routt.co.us/1035/Concealed-Handgun-Permits",
+      "hours": "Civil Division: 9:00 am - 5:00 pm Monday-Thursday; 9:00 am - 12:00 pm Friday"
     },
     {
       "county": "SAGUACHE",
@@ -614,7 +614,7 @@
       "fax": "(719) 655-2240",
       "address": "530 5th Street PO Box 265, Saguache, CO, 81149",
       "chpEmail": null,
-      "website": null,
+      "website": "https://saguachecounty.colorado.gov",
       "chpUrl": null,
       "hours": null
     },
@@ -624,9 +624,9 @@
       "phone": "(970) 387-5531",
       "fax": "(970) 387-0251",
       "address": "PO Box 178, Silverton, CO, 81433",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "chpEmail": "sheriffsoffice@sanjuancolorado.us",
+      "website": "https://sanjuancounty.colorado.gov",
+      "chpUrl": "https://sanjuancounty.colorado.gov/law-enforcement-info",
       "hours": null
     },
     {
@@ -647,8 +647,8 @@
       "fax": "(970) 474-2749",
       "address": "315 Cedar St Suite 320, Julesburg, CO, 80737",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://sedgwickcounty.colorado.gov",
+      "chpUrl": "https://sedgwickcounty.colorado.gov/concealed-weapons-information",
       "hours": null
     },
     {
@@ -657,10 +657,10 @@
       "phone": "(970) 453-2232",
       "fax": "(970) 453-7329",
       "address": "PO Box 210 501 North Park Ave, Breckenridge, CO, 80424",
-      "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "chpEmail": "CHPinfo@SummitCountyCO.gov",
+      "website": "https://www.summitcountyco.gov/",
+      "chpUrl": "https://www.summitsheriffcolorado.gov/divisions/support_services/firearms/concealed_handgun_permits.php",
+      "hours": "8:00am - 4:30pm, Monday - Friday (Closed all major holidays)"
     },
     {
       "county": "TELLER",
@@ -669,8 +669,8 @@
       "fax": "(719) 687-7927",
       "address": "11400 US Highway 24, Divide, CO, 80814",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://tellercounty.gov",
+      "chpUrl": "https://tellercounty.gov/214/Apply-for-a-Concealed-Carry-Permit",
       "hours": null
     },
     {
@@ -680,8 +680,8 @@
       "fax": "(970) 345-2419",
       "address": "26861 Hwy 34, Akron, CO, 80720",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
+      "website": "https://washingtoncounty.colorado.gov",
+      "chpUrl": "https://washingtoncountysheriff.colorado.gov/sheriffs-office/concealed-handgun-permits",
       "hours": null
     },
     {
@@ -702,9 +702,9 @@
       "fax": "(970) 332-5820",
       "address": "310 Ash Street, Suite G, Wray, CO, 80758",
       "chpEmail": null,
-      "website": null,
-      "chpUrl": null,
-      "hours": null
+      "website": "https://yumacounty.colorado.gov",
+      "chpUrl": "https://yumacountysheriff.net/projects/concealed-handgun-permits/",
+      "hours": "8:00am \u2013 4:00pm"
     }
   ]
 }
