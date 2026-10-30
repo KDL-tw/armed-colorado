@@ -1,0 +1,220 @@
+{
+  "fetchedAt": "2026-10-30T10:26:27.659Z",
+  "sourceUrl": "https://cbi.colorado.gov/sections/firearms-instacheck-unit/concealed-handgun-permit-chp-reciprocity",
+  "statuteCitation": "18-12-213",
+  "requirements": [
+    "The issuing state recognizes/honors a Colorado permit (CHP).",
+    "The permit holder is a resident of the issuing state.",
+    "The permit holder is in possession of a matching state-issued driver's license or state ID showing residency in that state.",
+    "The permit holder is 21 years of age or older.",
+    "The permit holder is in possession of a valid permit.",
+    "Colorado does not recognize a permit issued to a nonresident of the issuing state — state of residency and state of issue must match (C.R.S. 18-12-213, as amended 2007).",
+    "A Colorado resident may carry concealed in-state only with a Colorado CHP — never with another state's permit."
+  ],
+  "states": [
+    {
+      "name": "Colorado",
+      "status": "full"
+    },
+    {
+      "name": "Alabama",
+      "status": "full"
+    },
+    {
+      "name": "Alaska",
+      "status": "full"
+    },
+    {
+      "name": "Arizona",
+      "status": "full"
+    },
+    {
+      "name": "Arkansas",
+      "status": "full"
+    },
+    {
+      "name": "Delaware",
+      "status": "full"
+    },
+    {
+      "name": "Florida",
+      "status": "full"
+    },
+    {
+      "name": "Georgia",
+      "status": "full"
+    },
+    {
+      "name": "Idaho",
+      "status": "full"
+    },
+    {
+      "name": "Iowa",
+      "status": "full"
+    },
+    {
+      "name": "Indiana",
+      "status": "full"
+    },
+    {
+      "name": "Kansas",
+      "status": "full"
+    },
+    {
+      "name": "Kentucky",
+      "status": "full"
+    },
+    {
+      "name": "Louisiana",
+      "status": "full"
+    },
+    {
+      "name": "Michigan",
+      "status": "full"
+    },
+    {
+      "name": "Minnesota",
+      "status": "full"
+    },
+    {
+      "name": "Mississippi",
+      "status": "full"
+    },
+    {
+      "name": "Missouri",
+      "status": "full"
+    },
+    {
+      "name": "Montana",
+      "status": "full"
+    },
+    {
+      "name": "Nebraska",
+      "status": "full"
+    },
+    {
+      "name": "New Hampshire",
+      "status": "full"
+    },
+    {
+      "name": "New Mexico",
+      "status": "full"
+    },
+    {
+      "name": "North Carolina",
+      "status": "full"
+    },
+    {
+      "name": "North Dakota",
+      "status": "full"
+    },
+    {
+      "name": "Ohio",
+      "status": "full"
+    },
+    {
+      "name": "Oklahoma",
+      "status": "full"
+    },
+    {
+      "name": "Pennsylvania",
+      "status": "full"
+    },
+    {
+      "name": "South Dakota",
+      "status": "full"
+    },
+    {
+      "name": "Tennessee",
+      "status": "full"
+    },
+    {
+      "name": "Texas",
+      "status": "full"
+    },
+    {
+      "name": "Utah",
+      "status": "full"
+    },
+    {
+      "name": "Virginia",
+      "status": "full"
+    },
+    {
+      "name": "West Virginia",
+      "status": "full"
+    },
+    {
+      "name": "Wisconsin",
+      "status": "full"
+    },
+    {
+      "name": "Wyoming",
+      "status": "full"
+    },
+    {
+      "name": "California",
+      "status": "none"
+    },
+    {
+      "name": "Connecticut",
+      "status": "none"
+    },
+    {
+      "name": "District of Columbia",
+      "status": "none"
+    },
+    {
+      "name": "Hawaii",
+      "status": "none"
+    },
+    {
+      "name": "Illinois",
+      "status": "none"
+    },
+    {
+      "name": "Maine",
+      "status": "none"
+    },
+    {
+      "name": "Maryland",
+      "status": "none"
+    },
+    {
+      "name": "Massachusetts",
+      "status": "none"
+    },
+    {
+      "name": "Nevada",
+      "status": "none"
+    },
+    {
+      "name": "New Jersey",
+      "status": "none"
+    },
+    {
+      "name": "New York",
+      "status": "none"
+    },
+    {
+      "name": "Oregon",
+      "status": "none"
+    },
+    {
+      "name": "Rhode Island",
+      "status": "none"
+    },
+    {
+      "name": "South Carolina",
+      "status": "none"
+    },
+    {
+      "name": "Vermont",
+      "status": "none"
+    },
+    {
+      "name": "Washington",
+      "status": "none"
+    }
+  ]
+}
