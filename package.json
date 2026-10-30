@@ -14,7 +14,9 @@
     "validate-districts": "tsx scripts/validate-districts.ts",
     "fetch-chp-crs": "tsx scripts/fetch-chp-crs.ts",
     "fetch-chp-reciprocity": "tsx scripts/fetch-chp-reciprocity.ts",
-    "validate-chp-reciprocity": "tsx scripts/validate-chp-reciprocity.ts"
+    "validate-chp-reciprocity": "tsx scripts/validate-chp-reciprocity.ts",
+    "fetch-chp-sheriffs": "tsx scripts/fetch-chp-sheriffs.ts",
+    "validate-chp-sheriffs": "tsx scripts/validate-chp-sheriffs.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.111.0",
