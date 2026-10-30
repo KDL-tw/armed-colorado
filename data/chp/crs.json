@@ -1,0 +1,568 @@
+{
+  "fetchedAt": "2026-10-30T10:19:59.584584+00:00",
+  "sourceUrl": "https://cbi.colorado.gov/firearms/concealed-handgun-permit-chp",
+  "statutes": [
+    {
+      "citation": "18-12-201",
+      "title": "Legislative declaration",
+      "description": "Statewide uniformity of CHP law",
+      "summary": "The general assembly declares that the criteria and procedures for issuing concealed handgun permits are a matter of statewide concern and that the state occupies the field of permit regulation. It instructs each sheriff to implement and administer part 2 of article 12 of title 18. Sheriffs may not impose on applicants burdens or restrictions beyond those specified in the part.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-202",
+      "title": "Definitions",
+      "description": "Key terms for CHP statutes",
+      "summary": "Defines the terms used throughout the CHP part, including 'handgun,' 'permit,' 'sheriff,' 'training certificate,' 'verified instructor,' and 'refresher class.' 'Permit' excludes a temporary emergency permit issued under 18-12-209. It also defines 'chronically and habitually uses alcoholic beverages' for eligibility purposes.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-203",
+      "title": "Criteria for obtaining a permit",
+      "description": "Eligibility requirements for a CHP",
+      "summary": "A sheriff shall issue a CHP to an applicant who is a legal Colorado resident (members of the armed forces on permanent duty station orders in the state, and their immediate families living in Colorado, are deemed residents), is 21 or older, is not ineligible to possess a firearm, has not been convicted of perjury on a permit application, does not chronically and habitually use alcohol, is not an unlawful user of or addicted to a controlled substance, and is not subject to a protection or extreme risk protection order. The applicant must also demonstrate handgun competence, for example with a training certificate from a concealed handgun training class obtained within the preceding year. A sheriff may deny a permit if they reasonably believe documented previous behavior makes it likely the applicant will present a danger to self or others.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-204",
+      "title": "Permit contents - validity - carrying requirements",
+      "description": "Permit form, term, and carry duties",
+      "summary": "Each permit bears the permittee's color photograph and the issuing sheriff's signature, and all permits are the same size and color. A permit is valid for five years from issuance and is effective in all areas of the state except as limited by 18-12-214. A permittee must carry the permit and valid photo identification at all times while in possession of a concealed handgun and produce both upon demand; failure is a petty offense, dismissed if the permittee exhibits both documents to the court. A person may carry a handgun without a permit, not considered concealed, in a private vehicle for a legal use or while legally hunting.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-205",
+      "title": "Sheriff - application - procedure - background check",
+      "description": "Application form, fees, fingerprints",
+      "summary": "An applicant completes the statewide standardized application in person before the sheriff of the county of residence, secondary residence, or business property and signs under oath; false or omitted statements are perjury under 18-8-503. The applicant submits a permit fee not to exceed $100 plus the fingerprint processing amount set by the CBI director for state and FBI checks, documentary evidence of handgun competence, and a photograph (or has one taken by the sheriff). The sheriff verifies identity with a valid Colorado driver's license or Colorado or military photo ID, takes two sets of fingerprints for the CBI, and runs the national instant criminal background check and state criminal justice information system search.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-206",
+      "title": "Sheriff - issuance or denial of permits - report",
+      "description": "Ninety-day decision and annual report",
+      "summary": "Within ninety days of receiving a complete application, a sheriff must issue the permit or deny it solely on the grounds that the applicant fails the 18-12-203 criteria or would be a danger under 18-12-203(2). A denial must be in writing, state the grounds, and inform the applicant of the right to a second review and judicial review under 18-12-207. If fingerprint results do not arrive within ninety days, the sheriff decides without them and may later revoke or issue the permit if the results show an error. Each sheriff files an annual report with the general assembly on applications received, permits issued and denied, and revocations.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-207",
+      "title": "Judicial review - permit denial - permit suspension - permit revocation - denial, suspension, or revocation of instructor verification",
+      "description": "Court review of sheriff decisions",
+      "summary": "An applicant or permittee may seek judicial review of a denial, refusal to renew, suspension, or revocation, either in lieu of or after the sheriff's second review, following the procedures of rule 106 of the Colorado rules of civil procedure. The sheriff bears the burden of proving ineligibility by a preponderance of the evidence, or a danger determination by clear and convincing evidence, and the court may award attorney fees to the prevailing party. The same review applies to decisions denying, suspending, or revoking firearms instructor verification.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-208",
+      "title": "Colorado bureau of investigation - duties",
+      "description": "CBI fingerprint processing duties",
+      "summary": "Upon receiving an applicant's fingerprints from a sheriff, the CBI processes them for state criminal justice information and, within ten days, forwards one set to the FBI, reporting the results to the sheriff. The CBI may use the fingerprints only to support permit issuance or renewal and to notify the issuing sheriff that a permittee has been arrested for, charged with, or convicted of an offense requiring revocation or suspension of the permit.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-209",
+      "title": "Issuance by sheriffs of temporary emergency permits",
+      "description": "Emergency permits for immediate danger",
+      "summary": "A sheriff may issue a temporary emergency permit to a person the sheriff has reason to believe may be in immediate danger. The applicant submits the 18-12-205 items except handgun-competence evidence, may be 18 or older, and pays a temporary permit fee not to exceed $25 as set by the sheriff. The permit is valid for ninety days and may be renewed once for an additional ninety days, or for successive ninety-day periods while the permittee is under 21; the carrying restrictions of 18-12-214 apply.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-210",
+      "title": "Maintenance of permit - address change - invalidity of permit",
+      "description": "Address changes and lost permits",
+      "summary": "A permittee must notify the issuing sheriff within thirty days after changing the address on the permit and within three business days after the permit is lost, stolen, or destroyed; failure to notify is a civil infraction. A lost, stolen, or destroyed permit is automatically invalid, and the permittee may obtain a duplicate upon payment of $15 to the issuing sheriff and submission of a notarized statement that the permit was lost, stolen, or destroyed. The section also applies to temporary emergency permits.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-211",
+      "title": "Renewal of permits",
+      "description": "Five-year renewal process",
+      "summary": "Within one hundred twenty days before expiration, a permittee may renew by submitting a completed renewal form, an affidavit that the permittee remains qualified under 18-12-203(1)(a) through (g), evidence of handgun competence, and a renewal fee not to exceed $50 as set by the sheriff; if renewing with a different sheriff, a legible photocopy of the permit is required. Renewal after the expiration date but within six months requires a $15 late fee in addition to the renewal fee; a permit more than six months past expiration is permanently expired and the person must reapply as a new applicant. Competence for renewal may be shown with a training or refresher class certificate obtained within six months before submission.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-212",
+      "title": "Exemption",
+      "description": "Officer exemptions from Part 2",
+      "summary": "Part 2 does not apply to law enforcement officers employed by jurisdictions outside Colorado, so long as the foreign jurisdiction exempts Colorado peace officers from its concealed handgun or weapons laws. A retired peace officer within the first five years after retirement may obtain a permit by submitting a letter signed by the sheriff or chief of police of the employing jurisdiction attesting that the officer meets the 18-12-203 criteria; the officer is exempt from fingerprint and criminal history checks and the application fee. A permit issued under this provision may not be renewed.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-213",
+      "title": "Reciprocity",
+      "description": "Out-of-state permits honored in Colorado",
+      "summary": "A concealed handgun or concealed weapon permit issued by a state that recognizes the validity of Colorado permits is valid in Colorado in all respects if the holder is 21 or older and is a resident of the issuing state, as shown by the address on a valid picture identification issued by that state. A person who has been a Colorado resident for no more than ninety days may also carry on the strength of an out-of-state permit, as shown by the date of issuance on a valid Colorado picture identification. 'Valid picture identification' means a driver's license or a state identification issued in lieu of one.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-214",
+      "title": "Authority granted by permit - carrying restrictions - local authority",
+      "description": "Where a CHP may be carried",
+      "summary": "A CHP authorizes carrying a concealed handgun in all areas of the state except as limited by this section, and does not authorize using a handgun in a manner that violates state law. A permit does not authorize carrying where federal law prohibits firearms, where a local ordinance prohibits concealed handguns, on public elementary, middle, junior high, or high school property (exceptions: the handgun remains in the vehicle, school security officers on duty, and undeveloped school property used for hunting or shooting sports), at licensed child care centers or colleges in violation of 18-12-105.5, in government buildings in violation of 18-12-105.3, at polling locations, or in public buildings with permanent weapons screening. Local governments may prohibit concealed carry in specific buildings or areas and must post signs at public entrances; private property owners, tenants, employers, and businesses retain the right to prohibit carry.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-215",
+      "title": "Immunity",
+      "description": "Liability protection for officials",
+      "summary": "The CBI, local law enforcement agencies, and their employees are not liable for damages resulting from good faith compliance with the CHP part. Law enforcement officers and agencies, medical personnel, and organizations that offer concealed handgun training or refresher classes and their personnel are not liable for damages resulting from the issuance or denial of a permit when they provide information in good faith.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-216",
+      "title": "Permits issued prior to May 17, 2003",
+      "description": "Transition for pre-2003 permits",
+      "summary": "A permit issued under the pre-2003 statute 18-12-105.1 permanently expired on June 30, 2007, or on the expiration date stated on the permit, whichever came first. A person who had submitted a full set of fingerprints before May 17, 2003 could renew under part 2 upon expiration; a person who had not had to reapply for a new permit. The issuing authority was required to send an expiration notice within one hundred twenty days before the permit's expiration.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-105",
+      "title": "Unlawfully carrying a concealed weapon - unlawful possession of weapons",
+      "description": "Crime of carrying without authority",
+      "summary": "It is a class 1 misdemeanor to knowingly and unlawfully carry a firearm concealed on or about the person, or to carry an explosive, incendiary, or other dangerous device on the property of, or into any building in which, the general assembly's chambers, galleries, or offices are located or a legislative hearing is conducted. Carrying a firearm in a government building in violation of the section is also a class 1 misdemeanor. Exemptions include a person's own dwelling or place of business, a private vehicle, a valid CHP holder (unless carrying in violation of 18-12-214), and peace officers acting in conformance with agency policy.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-105.5",
+      "title": "Unlawfully carrying a weapon - unlawful possession of weapons - school, college, or university grounds - definition",
+      "description": "Weapons bans on school grounds",
+      "summary": "It is unlawful to knowingly carry a firearm, openly or concealed, in or on the real estate of a licensed child care center, public or private elementary, middle, junior high, high, or vocational school, or public or private college, university, or seminary; a firearm violation is a class 1 misdemeanor, and a non-firearm deadly weapon violation is a class 6 felony. Exceptions include a handgun that remains unloaded inside a motor vehicle on college grounds, a CHP holder on public K-12 property in accordance with 18-12-214(3), a CHP holder in a parking area of a child care center or college, and school resource officers, peace officers, and security personnel on duty.",
+      "federal": false
+    },
+    {
+      "citation": "18-12-105.6",
+      "title": "Limitation on local ordinances regarding firearms in private vehicles",
+      "description": "Statewide travel-with-weapon preemption",
+      "summary": "The general assembly declares that carrying a weapon in a private automobile or other private means of conveyance for hunting or for lawful protection of a person's or another's person or property while traveling into, through, or within a municipal, county, or city and county jurisdiction, regardless of the number of stops, is a matter of statewide concern and is not an offense. No municipality, county, or city and county may enact or enforce an ordinance or resolution restricting a person's ability to travel with a weapon in a private vehicle for those purposes.",
+      "federal": false
+    },
+    {
+      "citation": "29-11.7-101",
+      "title": "Legislative declaration",
+      "description": "State and local firearms regulation",
+      "summary": "The general assembly declares that the regulation of firearms is a matter of state and local concern, grounded in the state constitutional rights to defend one's life and liberty and to keep and bear arms. It recognizes the state's interest in regulating firearms because of the ease of transporting firearms between local jurisdictions and notes that local government officials are uniquely equipped to make determinations in their jurisdictions.",
+      "federal": false
+    },
+    {
+      "citation": "29-11.7-101.5",
+      "title": "Definitions",
+      "description": "Article 11.7 defined terms",
+      "summary": "Defines 'firearm component or accessory' as an item contained in, used in conjunction with, or mounted to a firearm, and 'local government' as a statutory or home rule city and county, county, city, or town. These terms apply throughout article 11.7 of title 29.",
+      "federal": false
+    },
+    {
+      "citation": "29-11.7-102",
+      "title": "Firearms database - prohibited",
+      "description": "Ban on local firearms databases",
+      "summary": "A local government, including a law enforcement agency, may not maintain a list or other record or database of persons who purchase, exchange, or transfer firearms (except federally licensed firearms dealers) or of the descriptions, including serial numbers, of such firearms. The section does not require the CBI to consider anything other than state or federal law in its background approval process, and does not authorize local restrictions on military or law enforcement procurement.",
+      "federal": false
+    },
+    {
+      "citation": "29-11.7-103",
+      "title": "Local regulations governing firearms permitted",
+      "description": "Local power to regulate firearms",
+      "summary": "A local government may enact an ordinance, regulation, or other law governing or prohibiting the sale, purchase, transfer, or possession of a firearm, ammunition, or firearm component or accessory that a person may lawfully handle under state or federal law. A local law may not impose a requirement less restrictive than state law, and any less restrictive ordinance enacted before the 2021 amendment is void and unenforceable. A local law may impose a criminal penalty only on a person who knew or reasonably should have known the conduct was prohibited.",
+      "federal": false
+    },
+    {
+      "citation": "29-11.7-104",
+      "title": "Regulation - carrying - posting",
+      "description": "Local open-carry bans and signage",
+      "summary": "A local government may enact an ordinance, regulation, or other law prohibiting the open carrying of a firearm in a building or specific area within its jurisdiction. If it does so, the local government must post signs at the public entrances to the building or specific area informing persons that open carrying of firearms is prohibited there. The concealed-carry notice required by 18-12-214 may be included on a sign describing open-carry restrictions posted under this section.",
+      "federal": false
+    },
+    {
+      "citation": "18 USC 926A",
+      "title": "Interstate transportation of firearms",
+      "description": "Federal transport preemption",
+      "summary": "A person not otherwise prohibited by federal law from transporting, shipping, or receiving a firearm may, for any lawful purpose, transport a firearm from any place where the person may lawfully possess and carry it to any other place where the person may lawfully possess and carry it, notwithstanding any state or local law. During transport the firearm must be unloaded and neither the firearm nor any ammunition may be readily accessible from the passenger compartment; in a vehicle without a separate compartment, the firearm or ammunition must be in a locked container other than the glove compartment or console.",
+      "federal": true
+    },
+    {
+      "citation": "18 USC 926B",
+      "title": "Carrying of concealed firearms by qualified law enforcement officers",
+      "description": "Federal LE officer carry",
+      "summary": "A qualified law enforcement officer carrying the photographic identification issued by the employing agency may carry a concealed firearm in any state or local jurisdiction, notwithstanding any state or local law. The officer must be authorized by law and by the agency to carry a firearm, not under disciplinary action that could result in suspension or loss of police powers, meet the agency's firearm qualification standards, not be under the influence of alcohol or drugs, and not be prohibited by federal law from receiving a firearm. State and local laws restricting firearms on government property and private property restrictions are preserved.",
+      "federal": true
+    },
+    {
+      "citation": "18 USC 926C",
+      "title": "Carrying of concealed firearms by qualified retired law enforcement officers",
+      "description": "Federal retired LE officer carry",
+      "summary": "A qualified retired law enforcement officer carrying the photographic identification issued by the agency may carry a concealed firearm in any state or local jurisdiction, notwithstanding any state or local law. Qualification requires separation in good standing, statutory arrest powers, and either 10 or more years of service or separation due to a service-connected disability, plus current agency authorization to carry, meeting qualification standards, and not being under the influence of alcohol or drugs. State and local laws restricting firearms on government property and private property restrictions are preserved.",
+      "federal": true
+    },
+    {
+      "citation": "18-1-704.5",
+      "title": "Use of deadly physical force against an intruder",
+      "description": "Castle doctrine for dwellings",
+      "summary": "The general assembly recognizes that Colorado citizens have a right to expect absolute safety within their own homes. An occupant of a dwelling is justified in using any degree of physical force, including deadly physical force, against another person who has made an unlawful entry into the dwelling, when the occupant reasonably believes the person has committed or is committing or intends to commit a crime against a person or property in addition to the uninvited entry, and reasonably believes the person might use any physical force, no matter how slight, against any occupant. An occupant using force in accordance with the section is immune from criminal prosecution and civil liability. 'Dwelling' does not include a place of habitation in a detention facility.",
+      "federal": false,
+      "related": true
+    },
+    {
+      "citation": "18-12-106",
+      "federal": false,
+      "related": true,
+      "title": "Prohibited use of weapons - definitions",
+      "summary": "A class 1 misdemeanor to knowingly aim a firearm at another person or to recklessly discharge a firearm. Possession of a CHP or temporary emergency permit is expressly no defense to a violation. (Related statute: the governing provision for the brandishing topic; not listed on the CBI CHP page.)"
+    },
+    {
+      "citation": "18-1-704",
+      "federal": false,
+      "related": true,
+      "title": "Use of physical force in defense of a person - definitions",
+      "summary": "The general use-of-force defense: physical force is justified to defend against imminent unlawful force; deadly force only when a lesser degree is inadequate and there is imminent danger of death or great bodily injury, or the other person is committing certain felonies against a dwelling occupant. (Related statute: the companion to 18-1-704.5 for the castle-doctrine topic; not listed on the CBI CHP page.)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "where-laws-live",
+      "heading": "Where the laws are listed",
+      "citations": [
+        "18-12-201",
+        "18-12-202",
+        "18-12-203",
+        "18-12-204",
+        "18-12-205",
+        "18-12-206",
+        "18-12-207",
+        "18-12-208",
+        "18-12-209",
+        "18-12-210",
+        "18-12-211",
+        "18-12-212",
+        "18-12-213",
+        "18-12-214",
+        "18-12-215",
+        "18-12-216",
+        "18-12-105",
+        "18-12-105.5",
+        "18-12-105.6",
+        "29-11.7-101",
+        "29-11.7-101.5",
+        "29-11.7-102",
+        "29-11.7-103",
+        "29-11.7-104"
+      ],
+      "summary": "Colorado's concealed handgun permit law is codified in part 2 of article 12 of title 18 of the Colorado Revised Statutes, sections 18-12-201 through 18-12-216, which set the eligibility criteria, application and renewal procedures, carrying restrictions, and reciprocity rules. Related provisions appear in 18-12-105 and 18-12-105.5 (unlawful carrying and school-ground weapons bans) and in article 11.7 of title 29 (sections 29-11.7-101 through 29-11.7-104), which governs local regulation of firearms and open carry. Federal law, including 18 U.S.C. 926A through 926C, preempts state restrictions on interstate transport of firearms and on carry by qualified active and retired law enforcement officers."
+    },
+    {
+      "id": "where-you-can-carry",
+      "heading": "Where you may carry concealed with a CHP",
+      "citations": [
+        "18-12-214"
+      ],
+      "summary": "A CHP authorizes the permittee to carry a concealed handgun in all areas of the state, except as specifically limited by 18-12-214. The permit is effective statewide from the date of issuance. A permittee must carry the permit and valid photo identification at all times while in possession of a concealed handgun and produce both upon demand by a law enforcement officer."
+    },
+    {
+      "id": "where-you-cannot-carry",
+      "heading": "Where you may NOT carry, even with a CHP",
+      "citations": [
+        "18-12-214",
+        "18-12-105",
+        "18-12-105.5",
+        "18-12-105.6"
+      ],
+      "summary": "Even with a valid CHP, a person may not carry a concealed handgun where federal law prohibits firearms, where a local ordinance prohibits it, on public K-12 school property (with narrow exceptions for the handgun remaining in the vehicle, school security officers on duty, and undeveloped school property used for hunting or shooting sports), at licensed child care centers or colleges in violation of 18-12-105.5, in government buildings in violation of 18-12-105.3, at polling locations, or in public buildings with permanent weapons screening. Carrying a firearm in a government building or on the property of the general assembly in violation of 18-12-105 is a class 1 misdemeanor. Private property owners, tenants, employers, and businesses retain the right to prohibit carry on their property, and local governments must post signs where they restrict carry."
+    },
+    {
+      "id": "reciprocity",
+      "heading": "Reciprocity with other states",
+      "citations": [
+        "18-12-213"
+      ],
+      "summary": "Colorado honors an out-of-state concealed handgun permit if the issuing state recognizes Colorado permits, the holder is 21 or older, and the holder is a resident of the issuing state as shown by the address on a valid picture ID issued by that state. A person who has been a Colorado resident for no more than ninety days may also carry on the strength of an out-of-state permit, as shown by the date of issuance on a valid Colorado picture ID. A Colorado resident may carry in-state only with a Colorado CHP. The interactive reciprocity map on this page covers current state-by-state status."
+    },
+    {
+      "id": "lost-or-stolen",
+      "heading": "Lost or stolen CHP",
+      "citations": [
+        "18-12-210"
+      ],
+      "summary": "If a CHP is lost, stolen, or destroyed, the permit is automatically invalid. The permittee must notify the issuing sheriff within three business days; failure to notify is a civil infraction. A duplicate or substitute permit may be obtained upon payment of $15 to the issuing sheriff and submission of a notarized statement that the permit was lost, stolen, or destroyed."
+    },
+    {
+      "id": "exemptions",
+      "heading": "Exemptions from the CHP requirement",
+      "citations": [
+        "18-12-212"
+      ],
+      "summary": "Part 2 does not apply to law enforcement officers employed by jurisdictions outside Colorado, so long as the foreign jurisdiction exempts Colorado peace officers from its concealed handgun or weapons laws. A retired peace officer within the first five years after retirement may obtain a permit by submitting a letter from the sheriff or chief of police of the employing jurisdiction attesting to eligibility; the officer is exempt from fingerprint and criminal history checks and the application fee. A permit issued under this provision may not be renewed; upon expiration the person must apply under the regular process."
+    },
+    {
+      "id": "traveling",
+      "heading": "Traveling with your CHP",
+      "citations": [
+        "18-12-213",
+        "18 USC 926A"
+      ],
+      "summary": "When traveling in another state, a CHP holder may carry only if the destination state recognizes Colorado permits and the holder meets the reciprocity requirements of 18-12-213 (21 or older, resident of the issuing state or a new Colorado resident of no more than 90 days, matching state-issued picture ID). Federal law (18 U.S.C. 926A) preempts state restrictions on transporting an unloaded, not-readily-accessible firearm in a vehicle between places where the person may lawfully possess and carry it. Sections 926B and 926C cover carry by qualified active and retired law enforcement officers, respectively."
+    },
+    {
+      "id": "address-change",
+      "heading": "Duty to notify of an address change",
+      "citations": [
+        "18-12-210"
+      ],
+      "summary": "A permittee must notify the issuing sheriff within thirty days after changing the address specified on the permit. Failure to notify the sheriff of an address change is a civil infraction. The same section requires notification within three business days if the permit is lost, stolen, or destroyed."
+    },
+    {
+      "id": "brandishing",
+      "heading": "Brandishing / unnecessary display",
+      "citations": [
+        "18-12-105",
+        "18-12-106"
+      ],
+      "summary": "Colorado has no dedicated 'brandishing' statute. The closest provision read in the sources is 18-12-106 (prohibited use of weapons), which makes it a class 1 misdemeanor to knowingly aim a firearm at another person or to discharge a firearm recklessly or with criminal negligence; 18-12-106 is not among the statutes listed on this page. 18-12-105, cited here, is the nearest listed statute and covers unlawful carrying of a concealed weapon, including carrying a firearm in a government building. A CHP does not authorize using a handgun in a manner that would violate state law (18-12-214)."
+    },
+    {
+      "id": "castle-doctrine",
+      "heading": "Castle doctrine and stand your ground",
+      "citations": [
+        "18-1-704.5",
+        "18-1-704"
+      ],
+      "summary": "C.R.S. 18-1-704.5 (the 'Make My Day' statute) provides that an occupant of a dwelling is justified in using any degree of physical force, including deadly physical force, against a person who has made an unlawful entry into the dwelling, when the occupant reasonably believes the intruder has committed or is committing or intends to commit a crime against a person or property in addition to the uninvited entry, and reasonably believes the intruder might use any physical force, no matter how slight, against any occupant. An occupant using force in accordance with the section is immune from criminal prosecution and civil liability. Outside the dwelling, 18-1-704 governs self-defense: deadly physical force may be used only if the person reasonably believes a lesser degree of force is inadequate and reasonably believes there is imminent danger of death or great bodily injury (or the person is committing burglary, kidnapping, robbery, sexual assault, or assault). Colorado is not a general stand-your-ground state outside the dwelling; the 18-1-704 framework permits deadly force only as a last resort, meaning a person must retreat if safely possible."
+    }
+  ],
+  "obtain": {
+    "steps": [
+      {
+        "title": "Confirm eligibility",
+        "detail": "You must be a legal Colorado resident (or a member of the armed forces on permanent duty station orders in the state, or an immediate family member of one living in Colorado), 21 or older, not ineligible to possess a firearm under 18-12-108 or federal law, not convicted of perjury on a permit application, not chronically and habitually using alcohol, not an unlawful user of or addicted to a controlled substance, and not subject to a protection or extreme risk protection order.",
+        "citations": [
+          "18-12-203"
+        ]
+      },
+      {
+        "title": "Complete handgun training",
+        "detail": "Demonstrate handgun competence by completing an in-person concealed handgun training class (minimum 8 hours, live-fire exercise with 70% accuracy, written exam with 80% passing score) taught by a verified instructor, or qualify through military service, law enforcement certification, or organized shooting competition. A training certificate from a class obtained within the preceding year is required for a first-time application.",
+        "citations": [
+          "18-12-203",
+          "18-12-202"
+        ]
+      },
+      {
+        "title": "Obtain the application form",
+        "detail": "Complete the statewide standardized CHP application form, available from each sheriff. The form asks for your full name, date of birth, address, birth name and any other names used, home addresses for the past ten years, residency status, and whether you meet the 18-12-203 criteria. The form may not require you to waive any right or release any privileged information.",
+        "citations": [
+          "18-12-205"
+        ]
+      },
+      {
+        "title": "Submit the application in person",
+        "detail": "Bring the completed application, proof of residency (Colorado driver's license, Colorado ID card, or military ID with duty orders), documentary evidence of handgun competence, and the required fees to the sheriff of the county where you reside, maintain a secondary residence, or own or lease business property. Sign the application in person before the sheriff's designee under a sworn oath that the information is true and correct.",
+        "citations": [
+          "18-12-205"
+        ]
+      },
+      {
+        "title": "Pay the fees",
+        "detail": "The total fee is $152.50: a $52.50 state fee (CCIC fingerprint $17.50 + InstaCheck $13.00 + FBI fingerprint $22.00, per 18-12-205(2)(b)) plus a $100 sheriff processing fee (the statutory maximum; the sheriff sets the actual amount). Fees are paid to the issuing sheriff as a cashier's check or money order made payable to CBI; sheriffs may add an administrative fee. Fees are non-refundable if the application is denied.",
+        "citations": [
+          "18-12-205"
+        ]
+      },
+      {
+        "title": "Have fingerprints taken and photo",
+        "detail": "The sheriff takes two complete sets of fingerprints at the time of application and submits both sets to the CBI (the sheriff does not retain a set). The CBI processes the fingerprints for state criminal justice information and forwards one set to the FBI within ten days. Your photograph is taken at the sheriff's office at the time of submission.",
+        "citations": [
+          "18-12-205",
+          "18-12-208"
+        ]
+      },
+      {
+        "title": "Background check and decision",
+        "detail": "The sheriff verifies your identity with a valid Colorado driver's license or state/military photo ID, confirms you meet the 18-12-203 criteria, and runs the national instant criminal background check and state criminal justice information system search. If you reside in a municipality or town, the sheriff consults with the local police department. The sheriff must issue or deny the permit within 90 days of receiving the complete application.",
+        "citations": [
+          "18-12-205",
+          "18-12-206"
+        ]
+      },
+      {
+        "title": "Receive your permit",
+        "detail": "If approved, the sheriff issues a permit bearing your color photograph and the sheriff's signature, valid for five years from the date of issuance. If denied, the sheriff must notify you in writing stating the grounds and informing you of the right to seek a second review by the sheriff and judicial review under 18-12-207.",
+        "citations": [
+          "18-12-204",
+          "18-12-206",
+          "18-12-207"
+        ]
+      }
+    ],
+    "exceptions": [
+      {
+        "title": "Law enforcement and retired officer exemption",
+        "detail": "Part 2 does not apply to law enforcement officers employed by jurisdictions outside Colorado, so long as the foreign jurisdiction exempts Colorado peace officers from its concealed handgun laws. A retired peace officer within the first five years after retirement may obtain a permit by submitting a letter from the sheriff or chief of police of the employing jurisdiction attesting to eligibility; no fingerprint or criminal history check or application fee is required. A permit issued under this provision may not be renewed.",
+        "citations": [
+          "18-12-212"
+        ]
+      },
+      {
+        "title": "Temporary emergency permit",
+        "detail": "A sheriff may issue a 90-day temporary emergency permit to a person the sheriff has reason to believe may be in immediate danger. The applicant must be 18 or older, submits the 18-12-205 items except handgun-competence evidence, and pays a $30.50 fee (CCIC $17.50 + InstaCheck $13.00, per 18-12-209). The permit may be renewed once for an additional 90 days, or for successive 90-day periods while the permittee is under 21.",
+        "citations": [
+          "18-12-209"
+        ]
+      }
+    ]
+  },
+  "renew": {
+    "steps": [
+      {
+        "title": "Renew within the window",
+        "detail": "Within 120 days before your permit expires, obtain a renewal form from the sheriff of the county where you reside (or where you maintain a secondary residence or business property). If renewing with a different sheriff than the one who issued the permit, you must also submit a legible photocopy of the current permit.",
+        "citations": [
+          "18-12-211"
+        ]
+      },
+      {
+        "title": "Complete the renewal form and affidavit",
+        "detail": "Submit a completed renewal form (meeting the same requirements as an initial application under 18-12-205(1)), an affidavit stating that you remain qualified under 18-12-203(1)(a) through (g), and evidence of handgun competence. Competence may be shown with a training or refresher class certificate obtained within six months before submission, military service, law enforcement certification, or organized shooting competition.",
+        "citations": [
+          "18-12-211",
+          "18-12-203"
+        ]
+      },
+      {
+        "title": "Pay the renewal fee",
+        "detail": "The renewal fee is $13.00 (InstaCheck only; fingerprints are already on file from the original application). The fee is paid to the issuing sheriff as a cashier's check or money order made payable to CBI; sheriffs may add an administrative fee. If you miss the expiration date but renew within six months, a $15 late fee applies in addition to the renewal fee.",
+        "citations": [
+          "18-12-211"
+        ]
+      },
+      {
+        "title": "Sheriff verification and decision",
+        "detail": "The sheriff verifies that you meet the 18-12-203(1)(a) through (g) criteria and are not a danger under 18-12-203(2), and either renews or denies the renewal in accordance with 18-12-206(1). No new fingerprints are required for renewal. If renewal is denied, you may seek a second review by the sheriff and judicial review under 18-12-207.",
+        "citations": [
+          "18-12-211",
+          "18-12-206",
+          "18-12-207"
+        ]
+      }
+    ],
+    "exceptions": [
+      {
+        "title": "What invalidates a permit",
+        "detail": "A permit is automatically invalid if it is lost, stolen, or destroyed (notify the issuing sheriff within three business days; a duplicate costs $15 plus a notarized statement). A permittee must notify the issuing sheriff within thirty days of an address change; failure is a civil infraction. A permit more than six months past expiration is permanently expired and the person must reapply as a new applicant.",
+        "citations": [
+          "18-12-210",
+          "18-12-211"
+        ]
+      },
+      {
+        "title": "Disqualifying events",
+        "detail": "The sheriff shall deny, revoke, or refuse to renew a permit if the permittee fails to meet any of the 18-12-203(1) criteria (e.g., becomes subject to a protection order, is convicted of a disqualifying offense, or is determined to be an unlawful user of a controlled substance). The sheriff may also deny, revoke, or refuse to renew if they reasonably believe documented previous behavior makes it likely the permittee will present a danger to self or others. Following issuance, if the sheriff has a reasonable belief that a permittee no longer meets the criteria or presents a danger, the sheriff shall suspend the permit until the matter is resolved.",
+        "citations": [
+          "18-12-203",
+          "18-12-207"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "If I have a Concealed Handgun Permit do I still have to get a background check to buy a firearm?",
+      "answer": "Yes. At this time, Colorado Concealed Handgun permits do not meet all the criteria to qualify for an exemption to the background check. Even if you have a Colorado CHP you must have a new background check every time you purchase a firearm. Out-of-state permit holders also need a background check to purchase a firearm in Colorado.",
+      "citations": [
+        "18-12-205"
+      ]
+    },
+    {
+      "question": "How long is a Colorado CHP valid?",
+      "answer": "A CHP is valid for five years from the date of issuance. A temporary emergency permit is valid for 90 days and may be renewed once for an additional 90 days, or for successive 90-day periods while the permittee is under 21.",
+      "citations": [
+        "18-12-204",
+        "18-12-209"
+      ]
+    },
+    {
+      "question": "Can I carry my CHP in another state?",
+      "answer": "Only if the other state recognizes Colorado permits and you meet the reciprocity requirements: you must be 21 or older, be a resident of the issuing state (or a new Colorado resident of no more than 90 days), and carry a valid picture ID issued by the issuing state showing your address. A Colorado resident may carry in-state only with a Colorado CHP.",
+      "citations": [
+        "18-12-213"
+      ]
+    },
+    {
+      "question": "What should I do if my CHP is lost or stolen?",
+      "answer": "Notify the issuing sheriff within three business days; the permit is automatically invalid once lost, stolen, or destroyed. You may obtain a duplicate by paying $15 and submitting a notarized statement that the permit was lost, stolen, or destroyed. Failure to notify the sheriff is a civil infraction.",
+      "citations": [
+        "18-12-210"
+      ]
+    },
+    {
+      "question": "Do I need to notify the sheriff if I move?",
+      "answer": "Yes. You must notify the issuing sheriff within thirty days after changing the address specified on your permit. Failure to notify is a civil infraction.",
+      "citations": [
+        "18-12-210"
+      ]
+    },
+    {
+      "question": "Can a private business prohibit me from carrying my CHP on their property?",
+      "answer": "Yes. Nothing in the CHP statutes limits the existing rights of a private property owner, private tenant, private employer, or private business entity to prohibit carry on their property. A CHP does not authorize using a handgun in a manner that would violate state law.",
+      "citations": [
+        "18-12-214"
+      ]
+    },
+    {
+      "question": "What are the training requirements for a first-time CHP?",
+      "answer": "You must demonstrate handgun competence by completing an in-person concealed handgun training class (minimum 8 hours, live-fire exercise with 70% accuracy, written exam with 80% passing score) taught by a verified instructor, or qualify through military service, law enforcement certification, or organized shooting competition. A training certificate from a class obtained within the preceding year is required for a first-time application; a refresher class certificate is valid for renewal but not for an initial application.",
+      "citations": [
+        "18-12-203",
+        "18-12-202"
+      ]
+    },
+    {
+      "question": "What happens if my application is denied?",
+      "answer": "The sheriff must notify you in writing, stating the grounds for denial and informing you of the right to seek a second review by the sheriff, to submit additional information for the record, and to seek judicial review under 18-12-207. At judicial review, the sheriff bears the burden of proving ineligibility by a preponderance of the evidence, or a danger determination by clear and convincing evidence.",
+      "citations": [
+        "18-12-206",
+        "18-12-207"
+      ]
+    }
+  ],
+  "fees": {
+    "newApplication": {
+      "total": 52.5,
+      "parts": [
+        {
+          "label": "CCIC Fingerprint check",
+          "amount": 17.5
+        },
+        {
+          "label": "InstaCheck",
+          "amount": 13.0
+        },
+        {
+          "label": "FBI Fingerprint check",
+          "amount": 22.0
+        }
+      ],
+      "citation": "18-12-205(2)(b)"
+    },
+    "temporaryEmergency": {
+      "total": 30.5,
+      "parts": [
+        {
+          "label": "CCIC Fingerprint check",
+          "amount": 17.5
+        },
+        {
+          "label": "InstaCheck",
+          "amount": 13.0
+        }
+      ],
+      "citation": "18-12-209"
+    },
+    "renewal": {
+      "total": 13.0,
+      "parts": [
+        {
+          "label": "InstaCheck (fingerprints previously sent to CBI)",
+          "amount": 13.0
+        }
+      ],
+      "citation": "18-12-211"
+    },
+    "paymentNote": "All fees must be submitted to the issuing sheriff's department in the form of a cashier's check or money order made payable to CBI. Sheriff's departments may charge an administrative fee in addition to fees charged by the CBI."
+  }
+}
