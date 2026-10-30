@@ -16,6 +16,8 @@ export interface CrsStatute {
   summary: string;
   /** true for 18 USC entries (linked via Cornell LII, not CGA). */
   federal?: boolean;
+  /** true for statutes that govern the page's topics but are NOT in the CBI CHP statute list (e.g. 18-12-106 brandishing, 18-1-704 duty to retreat). Rendered in a separate "Related statutes" subsection; excluded from the CBI reconciliation in scripts/fetch-chp-crs.ts. */
+  related?: boolean;
 }
 
 /** One topic under "Concealed Handgun Carry Laws". */
