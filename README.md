@@ -18,7 +18,8 @@ Reference site for Colorado firearms law: Billwatch (268 gun bills across 29 yea
 | `/legislators` | Legislator lookup, committee rosters, House/Senate district maps; metro insets link to `/legislators/districts/[chamber]/[metro]` (enlarged interactive map) |
 | `/alerts` | Email alert signup (Resend when configured) |
 | `/events` | Events calendar (admin-managed) |
-| `/concealed-carry` · `/ccw-renewal` · `/gun-trusts` · `/restore-rights` · `/self-defense` · `/statutes` · `/testify` · `/testifying` · `/vote` | Civic guides (shared `GuideLayout`) |
+| `/concealed-carry` | Concealed Handgun Permit (CHP) guide: CRS statutes, obtain/renew steps, US reciprocity map, county sheriff map (local JSON) |
+| `/ccw-renewal` · `/gun-trusts` · `/restore-rights` · `/self-defense` · `/statutes` · `/testify` · `/testifying` · `/vote` | Civic guides (shared `GuideLayout`) |
 | `/admin` | Unauthenticated CMS (Content, Litigation, Events, Analytics, API health) |
 
 ## Local development
@@ -123,5 +124,10 @@ The search and year-filter controls on the page are wired via a client component
 
 - `npm run fetch-committees` / `npm run validate-committees` — scrape CO GA committee rosters into `data/committee-catalog.json`
 - `npm run fetch-districts` / `npm run validate-districts` — fetch the 2021 House/Senate redistricting plan into `data/districts/districts.json`
+- `npm run fetch-chp-crs` — verify `data/chp/crs.json` against the live CBI CHP page (hard-fails on statute-list/fee drift)
+- `npm run fetch-chp-reciprocity` — refresh `data/chp/reciprocity.json` from the CBI reciprocity page
+- `npm run fetch-chp-sheriffs` — refresh `data/chp/sheriffs.json` from the OCV directory
+- `npm run validate-chp-reciprocity` — gate: `reciprocity.json` is valid
+- `npm run validate-chp-sheriffs` — gate: `sheriffs.json` matches county geometry
 
 **Billwatch pipeline (`npx tsx scripts/…`):** `assemble-catalog.ts` (regenerate the catalog from RMGO + CO GA data), `apply-enacted-dates.ts`, `apply-official-titles.ts`, `apply-bill-summaries.ts`, `fetch-prime-sponsors.ts`, plus pre-2016 archive helpers. See `AGENTS.md` → "billwatch-data-pipeline".
