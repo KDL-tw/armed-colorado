@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T10:19:59.584584+00:00",
+  "fetchedAt": "2026-10-30T10:24:07.874Z",
   "sourceUrl": "https://cbi.colorado.gov/firearms/concealed-handgun-permit-chp",
   "statutes": [
     {
@@ -530,11 +530,11 @@
         },
         {
           "label": "InstaCheck",
-          "amount": 13.0
+          "amount": 13
         },
         {
           "label": "FBI Fingerprint check",
-          "amount": 22.0
+          "amount": 22
         }
       ],
       "citation": "18-12-205(2)(b)"
@@ -548,17 +548,17 @@
         },
         {
           "label": "InstaCheck",
-          "amount": 13.0
+          "amount": 13
         }
       ],
       "citation": "18-12-209"
     },
     "renewal": {
-      "total": 13.0,
+      "total": 13,
       "parts": [
         {
           "label": "InstaCheck (fingerprints previously sent to CBI)",
-          "amount": 13.0
+          "amount": 13
         }
       ],
       "citation": "18-12-211"
