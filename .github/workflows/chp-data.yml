@@ -1,0 +1,73 @@
+name: CHP data update
+
+on:
+  schedule:
+    # Tuesdays 06:00 Mountain (12:00 UTC).
+    - cron: "0 12 * * 2"
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest CHP data
+        run: |
+          npm run fetch-chp-crs
+          npm run fetch-chp-reciprocity
+          npm run fetch-chp-sheriffs
+
+      - name: Validate
+        run: |
+          npm run validate-chp-reciprocity
+          npm run validate-chp-sheriffs
+
+      - name: Check for changes
+        id: changed
+        run: |
+          if [ -z "$(git status --porcelain data/chp data/us-states)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open PR
+        if: steps.changed.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "chp-data-bot"
+          git config user.email "chp-data-bot@users.noreply.github.com"
+          BRANCH="chore/chp-data-$(date +%Y%m%d)"
+          git checkout -b "$BRANCH"
+          git add data/chp data/us-states
+          git commit -m "chore(chp): refresh concealed-carry data
+
+          Automated weekly refresh (scripts/fetch-chp-*.ts).
+          Review: open /concealed-carry on the preview deployment and
+          confirm the reciprocity map and sheriff map still render."
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "CHP data refresh" \
+            --body "Automated weekly refresh of the concealed-carry page data.
+
+          **What changed:** run \`git diff main\` in this PR. The fetch
+          scripts printed which page sections were affected (reciprocity
+          map / sheriff map / statute list).
+
+          **Checklist before merging:**
+          - [ ] \`validate-chp-reciprocity\` and \`validate-chp-sheriffs\` passed (they run in CI)
+          - [ ] Preview deployment of /concealed-carry renders both maps + all five sections
+          - [ ] If the statute list changed, the CRS summaries in data/chp/crs.json were re-verified against the new text"
