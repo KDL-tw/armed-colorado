@@ -1,7 +1,7 @@
 {
   "planYear": 2021,
-  "fetchedAt": "2026-10-29T04:34:43.932Z",
-  "sha256": "c56b543140d74c501cedd3b6d04a2b6f862f955b830e39f96d9bd3ce8ef4bf62",
+  "fetchedAt": "2026-11-02T21:32:34.901Z",
+  "sha256": "0683d5b900c68e242d9c5c64a40902baffe81e69550b2b405f9ca5f36917ca34",
   "officialShapefileUrls": {
     "house": "https://redistricting.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTU5LCJwdXIiOiJibG9iX2lkIn19--5a9193ab75042aa2c28791758b9d36739e90fd96/2021_Approved_House_Plan_w_Final_Adjustments.zip",
     "senate": "https://redistricting.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTYxLCJwdXIiOiJibG9iX2lkIn19--c1605eb537a59d70d2cd8c30ff743e96bffd5f1f/2021_Approved_Senate_Plan_w_Final_Adjustments.zip"
