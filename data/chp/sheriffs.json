@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T10:28:59.796Z",
+  "fetchedAt": "2026-11-03T19:06:58.336Z",
   "sourceUrl": "https://cdn.myocv.com/ocvapps/a132480125/public/contact_sheriffSDirectory.json",
   "sheriffs": [
     {
@@ -209,7 +209,7 @@
       "chpEmail": "CHP@dcsheriff.net",
       "website": "https://dcsheriff.net/",
       "chpUrl": "https://dcsheriff.net/sheriffs-office/divisions/civil-and-warrants/concealed-handgun-permits/",
-      "hours": "Monday \u2013 Friday 8:00 a.m. \u2013 5:00 p.m."
+      "hours": "Monday – Friday 8:00 a.m. – 5:00 p.m."
     },
     {
       "county": "EAGLE",
@@ -264,7 +264,7 @@
       "chpEmail": null,
       "website": "https://www.garcosheriff.com/",
       "chpUrl": "https://www.garcosheriff.com/concealed-handgun-permit/",
-      "hours": "Mon \u2013 Fri: 8am \u2013 5pm, Wed: 8am \u2013 4pm, Sat \u2013 Sun: CLOSED"
+      "hours": "Mon – Fri: 8am – 5pm, Wed: 8am – 4pm, Sat – Sun: CLOSED"
     },
     {
       "county": "GILPIN",
@@ -594,7 +594,7 @@
       "chpEmail": "sheriff@riograndecounty.org",
       "website": "https://riograndecounty.colorado.gov",
       "chpUrl": "https://riograndecounty.colorado.gov/concealed-handgun-info",
-      "hours": "Monday \u2013 Friday 8:00 a.m. to 4:00 p.m."
+      "hours": "Monday – Friday 8:00 a.m. to 4:00 p.m."
     },
     {
       "county": "ROUTT",
@@ -704,7 +704,7 @@
       "chpEmail": null,
       "website": "https://yumacounty.colorado.gov",
       "chpUrl": "https://yumacountysheriff.net/projects/concealed-handgun-permits/",
-      "hours": "8:00am \u2013 4:00pm"
+      "hours": "8:00am – 4:00pm"
     }
   ]
 }
