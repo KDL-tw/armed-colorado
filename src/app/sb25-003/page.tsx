@@ -7,7 +7,7 @@ import {
 } from "@/lib/sb25/sb25-client";
 import type { FeeRow, Sb25Instructor } from "@/lib/sb25/types";
 import { WideGuideLayout } from "@/components/chp/WideGuideLayout";
-import { CrsLink } from "@/components/chp/CrsLink";
+import { CrsLink, crsCitationsToLinks } from "@/components/chp/CrsLink";
 import { PermitStepList } from "@/components/sb25/PermitStepList";
 import { SsfSearch } from "@/components/sb25/SsfSearch";
 
@@ -139,7 +139,7 @@ export default function Sb25003Page() {
             <ul className="mt-2 space-y-2">
               {law.is.map((item, i) => (
                 <li key={i} className="text-muted">
-                  {item}
+                  {crsCitationsToLinks(item)}
                 </li>
               ))}
             </ul>
@@ -149,7 +149,7 @@ export default function Sb25003Page() {
             <ul className="mt-2 space-y-2">
               {law.isNot.map((item, i) => (
                 <li key={i} className="text-muted">
-                  {item}
+                  {crsCitationsToLinks(item)}
                 </li>
               ))}
             </ul>
@@ -217,7 +217,7 @@ export default function Sb25003Page() {
         <ul className="mt-2">
           {process.courseRequirements.map((r, i) => (
             <li key={i} className="text-muted">
-              {r}
+              {crsCitationsToLinks(r)}
             </li>
           ))}
         </ul>
