@@ -1,0 +1,144 @@
+{
+  "fetchedAt": "2026-11-15T00:00:00.000Z",
+  "sourceUrls": [
+    "https://cpw.state.co.us/specified-semiautomatic-firearms",
+    "https://sbg.colorado.gov/firearms-dealer-division",
+    "https://leg.colorado.gov/bills/sb25-003"
+  ],
+  "law": {
+    "effectiveDate": "August 1, 2026",
+    "citations": ["18-12-116", "18-12-101", "24-35-122"],
+    "is": [
+      "Prohibits the manufacture, distribution, transfer, sale, and purchase of Specified Semiautomatic Firearms on or after August 1, 2026.",
+      "Defines a 'Specified Semiautomatic Firearm' (C.R.S. 18-12-116(1)(d)): a semiautomatic rifle or semiautomatic shotgun with a detachable magazine, or a gas-operated semiautomatic handgun with a detachable magazine.",
+      "A person may purchase or transfer an SSF only after completing a Colorado Firearms Safety Program (FSP) course — passing the exam and hands-on practical with 90% or better — and receiving an eligibility card from the county sheriff.",
+      "Classifies any device, part, kit, tool, accessory, or combination of parts that increases the rate of fire of a semiautomatic firearm above its standard rate of fire as a 'rapid-fire device,' a dangerous weapon.",
+      "Requires the Firearms Dealer Division to publish and keep updated a list of specific SSF models (C.R.S. 24-35-122)."
+    ],
+    "isNot": [
+      "It does NOT ban all semiautomatic firearms — only the 'specified' ones (detachable-magazine rifles/shotguns and gas-operated detachable-magazine handguns) listed in the FDD guidance.",
+      "It does NOT ban magazines by themselves, and it does NOT apply to manually cycled (non-semiautomatic) firearms — bolt, pump, lever, or slide action (C.R.S. 18-12-116(1)(d)(II)(B)).",
+      "It does NOT apply to recoil-operated single- or double-action semiautomatic handguns (C.R.S. 18-12-116(1)(d)(II)(D)).",
+      "It does NOT ban possession. The prohibition (C.R.S. 18-12-116(2)) applies to manufacture, distribution, transfer, sale, and purchase on or after August 1, 2026 — so keeping a lawfully owned firearm is not itself unlawful, but transferring or selling one is, with narrow exceptions such as estate transfers (C.R.S. 18-12-116(3)(f)).",
+      "It does NOT accept out-of-state, hunter-education-only, or CCW safety courses in place of the FSP course."
+    ]
+  },
+  "permitSteps": [
+    {
+      "title": "Apply in the Firearms Safety System (FSS)",
+      "detail": "Create an account in CPW's Firearms Safety System and submit your application; it routes to your county sheriff's queue. Add any Hunter Education credentials now.",
+      "cost": { "label": "$0", "detail": "self-service application" },
+      "time": { "label": "minutes to complete", "detail": "then it waits in the sheriff's queue — some counties were not reviewing applications until Aug 1, 2026" },
+      "citations": []
+    },
+    {
+      "title": "Submit documents to your county sheriff",
+      "detail": "Provide a name-based background check and a government-issued photo ID to the sheriff's office. Fees are collected at this step.",
+      "cost": { "label": "$52 + sheriff fee", "detail": "$52 course-record fee (to CPW) plus a county-set administrative fee" },
+      "time": { "label": "varies by county", "detail": "background-check + document review; some counties are slower or not yet accepting" },
+      "citations": ["18-12-116"]
+    },
+    {
+      "title": "Sheriff review → eligibility card",
+      "detail": "The sheriff reviews the file, determines eligibility, and issues an eligibility card good for 5 years. An email is sent whether approved or denied.",
+      "cost": { "label": "included above", "detail": "no separate step fee" },
+      "time": { "label": "varies by county", "detail": "sheriff review turnaround" },
+      "citations": []
+    },
+    {
+      "title": "Complete the FSP course & pass the exam",
+      "detail": "Take the course from any sheriff-verified FSP instructor (Basic 4-hr or Extended 12-hr) and pass the exam + hands-on practical with 90% or better. Passing opens a 5-year purchase window.",
+      "cost": { "label": "varies by instructor", "detail": "the FSP instructor's course fee — not a state fee" },
+      "time": { "label": "4–12 hours of instruction", "detail": "the 12-hr course spans at least 2 days; instructor scheduling is the long pole" },
+      "citations": ["18-12-202.7"]
+    },
+    {
+      "title": "Purchase with FFL verification",
+      "detail": "At a federally licensed firearms dealer, the dealer confirms your eligibility in the FSS and completes the purchase.",
+      "cost": { "label": "firearm price", "detail": "excluded from permit cost" },
+      "time": { "label": "at point of sale", "detail": "subject to normal FFL transfer processing" },
+      "citations": []
+    }
+  ],
+  "courseOptions": [
+    {
+      "id": "basic",
+      "hours": 4,
+      "title": "Basic Firearms Safety Program",
+      "requiredWhen": "If you already have Hunter Education or a CPW firearms safety course.",
+      "format": "4 hours of in-person instruction.",
+      "passScore": "90% on the final exam + hands-on practical.",
+      "notes": "Hunter education alone does NOT qualify — you still take this 4-hour class on top of it."
+    },
+    {
+      "id": "extended",
+      "hours": 12,
+      "title": "Extended Firearms Safety Program",
+      "requiredWhen": "If you have never taken Hunter Education or a CPW firearms safety course.",
+      "format": "12 hours of instruction, delivered on at least 2 different days.",
+      "passScore": "90% on the final exam + hands-on practical.",
+      "notes": "The instructor enters your score in the CPW database within 3 business days."
+    }
+  ],
+  "courseRequirements": [
+    "Taught by an instructor verified by a sheriff (C.R.S. 18-12-202.7).",
+    "In-person only, with the instructor on site.",
+    "Pass the final exam with a minimum score of 90%.",
+    "On completion you have 5 years to purchase SSFs; after that, restart at Step 1."
+  ],
+  "fees": {
+    "rows": [
+      {
+        "label": "Firearms Training and Safety Course Record fee",
+        "amount": "$52",
+        "collectedBy": "Sheriff's office (remitted to CPW)",
+        "description": "Parks & Wildlife Commission–approved; covers FSP administrative costs; adjustable at most once per year; charged whether or not you are approved."
+      },
+      {
+        "label": "Sheriff's office administrative fee",
+        "amount": "Varies by county",
+        "collectedBy": "County sheriff",
+        "description": "Each sheriff sets its own fee; applied when the application is approved (an eligibility card is issued)."
+      },
+      {
+        "label": "FSP course fee",
+        "amount": "Varies by instructor",
+        "collectedBy": "Approved FSP instructor",
+        "description": "A cost may be associated with the course; set by the instructor, not the state."
+      },
+      {
+        "label": "Name-based background check / fingerprinting",
+        "amount": "Varies / confirm",
+        "collectedBy": "Sheriff's office or a fingerprint vendor",
+        "description": "FDD lists fingerprinting vendors (IdentoGO, local law-enforcement agencies, Colorado Fingerprinting). Confirm cost with your sheriff."
+      }
+    ],
+    "paymentNote": "The $52 course-record fee and the sheriff's fee are charged whether or not your application is approved. Fees are collected during the sheriff step (Step 2).",
+    "totalExcludingFirearm": "Fixed $52 + your county's sheriff fee + the instructor's course fee (both vary). The state does not publish a single total — call your sheriff and your instructor for exact amounts."
+  },
+  "totals": {
+    "optimisticTime": "A few days to several weeks",
+    "optimisticTimeNote": "The two long poles are (1) your county's background-check/review turnaround and (2) scheduling the FSP course. Some counties were not reviewing applications until Aug 1, 2026. Confirm timing with your sheriff before you start."
+  },
+  "links": {
+    "cpw": [
+      { "label": "CPW: Specified Semiautomatic Firearms (full process + fees)", "url": "https://cpw.state.co.us/specified-semiautomatic-firearms" },
+      { "label": "CPW FAQ (PDF)", "url": "https://cpw.widencollective.com/assets/share/asset/y3bhqcgilj" },
+      { "label": "Firearms Safety Program handout (PDF)", "url": "https://cpw.widencollective.com/assets/share/asset/ka04iw1wh4" }
+    ],
+    "sbg": [
+      { "label": "Firearms Dealer Division (official firearms list + statement-of-position process)", "url": "https://sbg.colorado.gov/firearms-dealer-division" },
+      { "label": "Specified Semiautomatic Firearms Guidance (official list PDF)", "url": "https://sbg.colorado.gov/sites/sbg/files/documents/Specified_Semiautomatic_Firearms_Guidance_07.30.2026.pdf" }
+    ]
+  },
+  "instructorProgram": {
+    "howToBecome": "To become an FSP instructor you must first be a verified firearms instructor through a county sheriff (C.R.S. 18-12-202.7), then complete the free FSP 'Train the Trainer.'",
+    "trainTheTrainer": "The Train the Trainer (virtual or in-person, capped at 50, free) covers the curriculum, testing guidelines, and the Firearms Safety System — creating your account, registering students, and entering pass/fail results.",
+    "upcoming": [
+      { "date": "October 6, 2026", "time": "2–5 p.m.", "mode": "Virtual" },
+      { "date": "November 17, 2026", "time": "2–5 p.m.", "mode": "Virtual" },
+      { "date": "December 2, 2026", "time": "2–5 p.m.", "mode": "Virtual" }
+    ],
+    "contact": { "phone": "303-291-7143", "email": "dnr_cpw_firearmsafety@state.co.us" }
+  }
+}
