@@ -1,0 +1,3530 @@
+{
+  "fetchedAt": "2026-11-16T18:29:59.048Z",
+  "sourceUrl": "https://sbg.colorado.gov/sites/sbg/files/documents/Specified_Semiautomatic_Firearms_Guidance_07.30.2026.pdf",
+  "version": "07/30/2026",
+  "counts": {
+    "rifle": 581,
+    "shotgun": 134,
+    "handgun": 161,
+    "total": 876
+  },
+  "firearms": [
+    {
+      "name": "2A ARMAMENT - BLR 16 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ACME RIFLES - AM-10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ACME RIFLES - AM-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ADAMS ARMS - AR10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ADAMS ARMS - AR15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ADAMS ARMS - AR308 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ADAMS ARMS - P1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ADAMS ARMS - P2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ADAMS ARMS - P3 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ADLER ARMS (AKDAL) - AD500 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AERO PRECISION - AC-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AERO PRECISION - M4E1 PRO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AERO PRECISION - OEM RIFLE",
+      "category": "rifle"
+    },
+    {
+      "name": "AGENCY ARMS - GENERAL PURPOSE RIFLE (GPR)",
+      "category": "rifle"
+    },
+    {
+      "name": "AGENCY ARMS - RONIN TACTICS GPR",
+      "category": "rifle"
+    },
+    {
+      "name": "ALEXANDER ARMS - R300 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ALEXANDER ARMS - BEOWULF SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ALEXANDER ARMS - GRENDEL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ALEXANDER ARMS - .17 HMR STANDARD RIFLE",
+      "category": "rifle"
+    },
+    {
+      "name": "ALEXANDER ARMS - .17 HMR TACTICAL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ALEXANDER ARMS - .17 HMR VARMINT PREDATOR",
+      "category": "rifle"
+    },
+    {
+      "name": "ALPHA FOXTROT ARMS - AFAR-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ALGIMEC - AGM-1",
+      "category": "rifle"
+    },
+    {
+      "name": "AMERICAN TACTICAL (ATI) - ALPHA MAXX SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AMERICAN TACTICAL (ATI) - AR15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AMERICAN TACTICAL (ATI) - GERMAN SPORT GUNS GSG-16 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDERSON MANUFACTURING - AM-10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDERSON MANUFACTURING - AM-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDERSON MANUFACTURING - AR-9 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDERSON MANUFACTURING - AR-10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 10 CREEDMORE DIVERGENT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 10 DIVERGENT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 10 SPARTAN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 15 A2M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 15 BRAVO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 15 DUTY SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 15 HALO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 15 NATO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ACI 15 WYLDE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - ESSENTIAL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANDRO ARMS - M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ANGSTADT ARMS - UDP-9",
+      "category": "rifle"
+    },
+    {
+      "name": "ANGSTADT ARMS - UDP-9 SBR",
+      "category": "rifle"
+    },
+    {
+      "name": "ANGSTADT ARMS - VANQUISH SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARMALITE - AR-18",
+      "category": "rifle"
+    },
+    {
+      "name": "ARMALITE - AR-103GN18 AR-10",
+      "category": "rifle"
+    },
+    {
+      "name": "ARMALITE - AR-180",
+      "category": "rifle"
+    },
+    {
+      "name": "ARMSCORP - L.S.R. (F.A.L.)",
+      "category": "rifle"
+    },
+    {
+      "name": "ARMSCORP - TM22 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARSENAL INC - SAM5 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARSENAL INC - SAM7 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARSENAL INC - SA M-7 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARSENAL INC - SAS M-7 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARSENAL INC - SLR 104 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARSENAL INC - SLR 106 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ARSENAL INC - SLR 107 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ATLANTIC FIREARMS - MAXX SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ATLANTIC FIREARMS - ATI SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ATLANTIC FIREARMS - ET ARMS OMEGA SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AUTO-ORDANCE - 2021 BOOTLEGGER SPECIAL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AUTO-ORDANCE - THOMPSON 1927A SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "AUTO-ORDANCE - THOMPSON M1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "B&T FIREARMS - APC223 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "B&T FIREARMS - APC300 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "B&T FIREARMS - APC308 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "B&T FIREARMS - SPC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BARRETT - 82A1 50 CAL",
+      "category": "rifle"
+    },
+    {
+      "name": "BARRETT - 82",
+      "category": "rifle"
+    },
+    {
+      "name": "BARRETT - M107A1",
+      "category": "rifle"
+    },
+    {
+      "name": "BARRETT - REC 7 DI",
+      "category": "rifle"
+    },
+    {
+      "name": "BARRETT - REC 10",
+      "category": "rifle"
+    },
+    {
+      "name": "BATTLE ARMS - AUTHORITY ELITE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BATTLE ARMS - OIP SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BATTLE ARMS - WORKHORSE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BATTLE ARMS - XIPHOS SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BEAR CREEK ARSENAL - BC-9 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BEAR CREEK ARSENAL - BC-10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BEAR CREEK ARSENAL - BC-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BEAR CREEK ARSENAL - BC-22 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BEAR CREEK ARSENAL - X22 MAGNUM",
+      "category": "rifle"
+    },
+    {
+      "name": "BEAR CREEK ARSENAL - BC-47 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BERSA - BAR15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK CREEK LABS (BCL) - 102 MK7",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK CREEK LABS (BCL) - AR10 MK7",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - A2-FDE",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - BILLET 21041501",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - CARNIVORE",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - CRYPT",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - ESCORT",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - FALLOUT 15",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - FALLOUT PCW-9MM-SI",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - FISSION",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - FUSION",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - PCC-9MM-SI",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - PREDATORE",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - SPEC-15",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - SPEC-15-P",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - TYRANT-450 BUSHMASTER",
+      "category": "rifle"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - TYRANT-.300 AAC BLACKOUT",
+      "category": "rifle"
+    },
+    {
+      "name": "BLUE LINE SOLUTIONS - MAUSER SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - M4 CARBINE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - MID 16 CARBINE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - RECCE- 14 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - RECCE- 16 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - RECCE- 18 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - CQB SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-9 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-10LR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-22LR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-47 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-300 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - MAKASI SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - MK-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - XM15",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - BRAVO ZULU/",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - BRAVO ZULU SBR",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - M4",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - M4A2",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - ORC II PRO LTW",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - BOAR",
+      "category": "rifle"
+    },
+    {
+      "name": "BUSHMASTER - CARBON 15",
+      "category": "rifle"
+    },
+    {
+      "name": "CALICO - LIBERTY IT (50-100 RD HELICA MAGAZINE)",
+      "category": "rifle"
+    },
+    {
+      "name": "CALICO - LIBERTY 50",
+      "category": "rifle"
+    },
+    {
+      "name": "CALICO - LIBERTY II",
+      "category": "rifle"
+    },
+    {
+      "name": "CALICO - LIBERTY 50T TACTICAL CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "CALICO - M100 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CALICO - M-960 SBR",
+      "category": "rifle"
+    },
+    {
+      "name": "CAMDON DEFENSE - CD15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CARACAL - CAR814 A2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CARACAL - CAR816 A2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CARACAL - VERSUS COMPETITION SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CENTURY ARMS - BFT AK SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CENTURY ARMS - VSKA AK SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CENTURY ARMS - WASR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CESKA ZBROJOVKA (CZ) - BREN 2",
+      "category": "rifle"
+    },
+    {
+      "name": "CESKA ZBROJOVKA (CZ) - SCORPION SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CHEYTAC USA - CT10",
+      "category": "rifle"
+    },
+    {
+      "name": "CHEYTAC USA - CT15",
+      "category": "rifle"
+    },
+    {
+      "name": "CHIAPPA FIREARMS - RAK9",
+      "category": "rifle"
+    },
+    {
+      "name": "CHRISTENSEN ARMS - CA-10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CLAWGEAR ARMS - CG 15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CMMG - DISSENT MK4 22 ARC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CMMG - ENDEAVOR MK4 22 ARC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CMMG - MK4",
+      "category": "rifle"
+    },
+    {
+      "name": "CMMG - RESOLUTE MK4 22 ARC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "CMMG - MK47",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - 9MM CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - AR15A4",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - CR6920 CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - ENHANCED PATROL RIFLE (EPR) SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - M4 CARBINE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - M4 TROOPER",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - M5 CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - MAGPUL SL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - MID-LENGTH CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - MONOLITHIC CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "COLT - LE6920 OEM-1",
+      "category": "rifle"
+    },
+    {
+      "name": "CZ - 805 BREN",
+      "category": "rifle"
+    },
+    {
+      "name": "CZ USA - SCORPION SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DAEWOO - KIAI MAX-I",
+      "category": "rifle"
+    },
+    {
+      "name": "DAEWOO - K1A1 MAX-II",
+      "category": "rifle"
+    },
+    {
+      "name": "DAEWOO - K2",
+      "category": "rifle"
+    },
+    {
+      "name": "DAEWOO - K2 V.1",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - DD4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - DD5 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - DD5 SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - M4 ISR",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - M4 PDW SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - M4 PDW SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - M4 V7 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - M4A1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - MK12",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - PCC 916",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - PCC SBR",
+      "category": "rifle"
+    },
+    {
+      "name": "DANIEL DEFENSE - SPRIII",
+      "category": "rifle"
+    },
+    {
+      "name": "DEL-TON SIERRA 316",
+      "category": "rifle"
+    },
+    {
+      "name": "DEMRO - TAC-1",
+      "category": "rifle"
+    },
+    {
+      "name": "DEMRO - TAC-1 MODERN",
+      "category": "rifle"
+    },
+    {
+      "name": "DERYA ARMS - TM22",
+      "category": "rifle"
+    },
+    {
+      "name": "DIAMONDBACK - DB10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DIAMONDBACK - DB15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DIAMONDBACK - DB17 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DIAMONDBACK - DBR9 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - A2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - ANVIL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - B5 BRAVO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - DP 10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - DR 10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - DR 15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - FSB",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - MOE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - ORACLE II",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - QUAD RAIL",
+      "category": "rifle"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - SPORTACLE II",
+      "category": "rifle"
+    },
+    {
+      "name": "DRAGUNOV - SVD",
+      "category": "rifle"
+    },
+    {
+      "name": "DRAGUNOV - SVD HUNGARIAN VERSION",
+      "category": "rifle"
+    },
+    {
+      "name": "DS ARMS - AR15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DS ARMS - AR-15P",
+      "category": "rifle"
+    },
+    {
+      "name": "DS ARMS - G SERIES FAL",
+      "category": "rifle"
+    },
+    {
+      "name": "MODERN VERSION OF FN G FAL",
+      "category": "rifle"
+    },
+    {
+      "name": "DS ARMS - LSR FAL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DS ARMS - SA58 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "DS ARMS - ZM4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ENSIO FIREARMS - KAR-21",
+      "category": "rifle"
+    },
+    {
+      "name": "FAMAS - F-1",
+      "category": "rifle"
+    },
+    {
+      "name": "FAMAS - G-2",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FAL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FN 15 DMR3",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FN 15 GUARDIAN",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FN 15 MILITARY SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FN 15 SRP G2",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FN 15 TAC3 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FNAR",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - FNC",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - LAR",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - M249S SÉRIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - PS90",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - SCAR 20S SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - SCAR 165 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - SCAR 175 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FAXON FIREARMS - ARAK-21 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FAXON FIREARMS - ION SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FAXON FIREARMS - PRO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FAXON FIREARMS - SENTINIAL AR-10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FAXON FIREARMS - SPORT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FEATHER - AT-9 CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "FEDERAL ARMS (FA) - FA91",
+      "category": "rifle"
+    },
+    {
+      "name": "FIGHTLITE - MCR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FIGHTLITE - SCR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOSTECH - FLITE EAGLE RIFLE",
+      "category": "rifle"
+    },
+    {
+      "name": "FOUR PEAKS TACTICAL - AR 15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOUR PEAKS TACTICAL - 4P 10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOUR PEAKS TACTICAL - 4P 15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOSTECH FIREARMS - FLITE EAGLE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOSTECH FIREARMS - STEALTH RAPTOR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOSTECH FIREARMS - TECH STRYKER SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOXTROT MIKE PRODUCTS - MIKE 9 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FOXTROT MIKE PRODUCTS - FM15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - BFS III",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - C12",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - CVR 16",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - CVR SBR",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - F17",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - F17-L SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - F17-M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - F17- SPR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - F17-X SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - HTF R3",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - LIBERTAS",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - M4",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - OPS SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - PDW-C7",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - PRAEFECTOR",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - RS7",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - RS11",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - XO-R3",
+      "category": "rifle"
+    },
+    {
+      "name": "FRANKLIN ARMORY - XO-26",
+      "category": "rifle"
+    },
+    {
+      "name": "GARAYSAR - DESERTTECH MDR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GARAYSAR - FEAR-7 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GARAYSAR - FEAR-10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GARAYSAR - FEAR-308 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GARAYSAR - FEAR-ME SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - BORDER PATROL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - BORDER PATROL SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - GDP SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - GFR MOD1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - GFW SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - SUPER DUTY MOD1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - SUPER DUTY MOD1- A SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GEISSELE AUTOMATICS - VSASS MRGG MK1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GERMAN SPORT GUNS (GSG) - GSG-9 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GERMAN SPORT GUNS (GSG) - GSG-16 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GERMAN SPORT GUNS (GSG) - MP-40 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GERMAN SPORT GUNS (GSG) - STG-44",
+      "category": "rifle"
+    },
+    {
+      "name": "GREAT LAKES FIREARMS - GLFA .223 WYLDE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GREAT LAKES FIREARMS - GLFA .243 WIN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GREAT LAKES FIREARMS - GLFA .308 WIN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "GREAT LAKES FIREARMS -GLFA .350 LEGEND",
+      "category": "rifle"
+    },
+    {
+      "name": "GREAT LAKES FIREARMS - GLFA 6.5 CREEDMORE",
+      "category": "rifle"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - 635 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - A-2 CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - BLEM 635 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - M-14",
+      "category": "rifle"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - M- 16A1&2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - XM16E1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - XM177E2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MOD 91",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MOD 93 A2",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MOD 93 A3",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - G28Z",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - G36",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - HK243 S SAR",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - HK243 S TAR",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - HK416",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - PSG1",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MP5 (Semi-Auto) (SBR)",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MR223 A3",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MR308 A3",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MR308 A3-28",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MR556 A4",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MR762 A1",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MR762 A1-LONG RIFLE",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - MR762 A4",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - SP5",
+      "category": "rifle"
+    },
+    {
+      "name": "HECKLER AND KOCH - SP5-L",
+      "category": "rifle"
+    },
+    {
+      "name": "HENRY - HOMESTEADER",
+      "category": "rifle"
+    },
+    {
+      "name": "HENRY - HOMESTEADER 9MM",
+      "category": "rifle"
+    },
+    {
+      "name": "HI POINT FIREARMS - CARBINE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "HI POINT FIREARMS - HP-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "HUGLU - MOHAC PCC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - ARAD 5 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - CARMEL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - GALIL ACE GEN II SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - TAVOR-7 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - TAVOR- SAR",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - TAVOR X95-L",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - ZION-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ISRAEL WEAPON INDUSTRIES (IWI) - ZION-25 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ISSC ARMS - MK22 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "IZHMASH - SAIGA",
+      "category": "rifle"
+    },
+    {
+      "name": "J&R ENGINEERING (WILKINSON ARMS) - M68",
+      "category": "rifle"
+    },
+    {
+      "name": "JUGGERNAUT TACTICAL - AR-9",
+      "category": "rifle"
+    },
+    {
+      "name": "JUGGERNAUT TACTICAL - JT-10",
+      "category": "rifle"
+    },
+    {
+      "name": "JUGGERNAUT TACTICAL - JT-15",
+      "category": "rifle"
+    },
+    {
+      "name": "JUST RIGHT CARBINES (JRC) - M-LOC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "JUST RIGHT CARBINES (JRC) - TAKE DOWN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KALASHNIKOV - AK 102-1 CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "KARABINEK - MSBS GROT S16 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - CMR-30 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - R50 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - RDB SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - RFB",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - SU16 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - SU-22 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - SU-22CA SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - SUB2000 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KEL TEC - SUB CQB",
+      "category": "rifle"
+    },
+    {
+      "name": "KNIGHT’S ARMAMENT - SR15 KS SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KNIGHT’S ARMAMENT - SR25 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KRISS FIREARMS - DEFIANCE DMK22C SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KRISS FIREARMS - VECTOR CRB SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KRISS FIREARMS - VECTOR CRB GEN 2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KRISS FIREARMS - VECTOR CRB ENHANCED GEN 2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KRISS FIREARMS - VECTOR CRB GEN 3 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "KRISS FIREARMS - VECTOR SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "LEWIS MACHINE AND TOOL CO. (LMT DEFENSE) - DEFENDER",
+      "category": "rifle"
+    },
+    {
+      "name": "LEWIS MACHINE AND TOOL CO. (LMT DEFENSE) - MARS-L MRP SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "LEWIS MACHINE AND TOOL CO. (LMT DEFENSE) - L129A1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "LEWIS MACHINE AND TOOL CO. (LMT DEFENSE) - R20 RAHE REFERENCE",
+      "category": "rifle"
+    },
+    {
+      "name": "LEWIS MACHINE AND TOOL CO. (LMT DEFENSE) - NEW ZEALAND REFERENCE",
+      "category": "rifle"
+    },
+    {
+      "name": "LWRC INTERNATIONAL - IC-9",
+      "category": "rifle"
+    },
+    {
+      "name": "LWRC INTERNATIONAL - IC DI SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "LWRC INTERNATIONAL - IC MKII SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "LWRC INTERNATIONAL - REPR MKII SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "LWRC INTERNATIONAL - SIX8 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAKASI FIREARMS - MK-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAKASI FIREARMS - MK-47 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MANCHESTER ARMS - MK-45",
+      "category": "rifle"
+    },
+    {
+      "name": "MAUSER - M15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAUSER - M17 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAUSER - TAC OPS SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - MD:9 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - MD:10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - MD:11 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - MD:15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - MDX:508 SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - MDX:510 SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - PDX SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - SDX SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MAXIM DEFENSE - SDX RFLX SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MOLOT FIREARMS - FM RPK SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MOLOT FIREARMS - VEPR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MOLOT FIREARMS - VEPR FM-AK SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "MOLOT FIREARMS - VEPR FM-AR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NEMO ARMS -BATTLE-LITE RIFLE",
+      "category": "rifle"
+    },
+    {
+      "name": "NEMO ARMS - FX RIFLE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NEMO ARMS - OMEN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NEMO ARMS - XO RIFLE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NEMO ARMS - BATTLE-LIGHT RIFLE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NOVESKE FIREARMS - CHAINSAW SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NOVESKE FIREARMS - N-4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NOVESKE FIREARMS - N-6 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "NOVESKE FIREARMS - N-9",
+      "category": "rifle"
+    },
+    {
+      "name": "OMEGA GUNS - ZTAR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ORTHOS ARMS - BABUSHKA SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ORTHOS ARMS - JOKER SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - 300 AAC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - GUARDSMAN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - AK-47 GF3",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - JAKL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - NATO MOE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - OLCAN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - PA-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "P.A.W.S. - ZX6 & ZX8",
+      "category": "rifle"
+    },
+    {
+      "name": "PIONEER ARMS - SPORTER AK SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PIONEER ARMS - TACTICAL SPORTER SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PIONEER ARMS - UNDERFOLDER SPORTER SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PRIMARY WEAPONS SYSTEMS (PWS) - MK SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PRIMARY WEAPONS SYSTEMS (PWS) - UXR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9CT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9KT SBR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9LT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9LT BR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9LTR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9R SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9RS SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 9SDM SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 51P SBR FS",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 32KFR",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - 63",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - A3S SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - GI SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - K3P SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "PTR FIREARMS - PDWR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "Q FIREARMS - BOOMBOX SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "Q FIREARMS - HONEY BADGER SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "Q FIREARMS - SUGAR WEASEL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "RADIAN - MODEL 1",
+      "category": "rifle"
+    },
+    {
+      "name": "RADICAL FIREARMS - RF10",
+      "category": "rifle"
+    },
+    {
+      "name": "REMINGTON - R-25",
+      "category": "rifle"
+    },
+    {
+      "name": "RISE ARMAMENT - WATCHMAN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "RISE ARMAMENT - WATCHMAN XR 22 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "RISE ARMAMENT - 1121 XR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROBINSON ARMAMENT - XCR (ALL VERSIONS)",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK ISLAND - M1600 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK ISLAND - MAK22 SA SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK ISLAND - TM22 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - BT2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - BT3 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - BT6 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - BT9G SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR-8 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR-9M SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR-15M SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR-22 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR-47 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LH LEF-T SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "RUGER - AR-556",
+      "category": "rifle"
+    },
+    {
+      "name": "RUGER - LC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "RUGER - PC CARBINE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "RUGER - SFAR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "RUGER - SR-762",
+      "category": "rifle"
+    },
+    {
+      "name": "SAIGA ARMS - PRO FAB ALEXANDRIA",
+      "category": "rifle"
+    },
+    {
+      "name": "SAIGA ARMS - TAVOR BULLPUB SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SAUER - S303",
+      "category": "rifle"
+    },
+    {
+      "name": "SHADOW SYSTEMS - U526 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - 540",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - 550",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - 551",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - 551-2",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - 552-2",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - AMT/510",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - MCX",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - SIGM400 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - SG540",
+      "category": "rifle"
+    },
+    {
+      "name": "SIG SAUER - PE57",
+      "category": "rifle"
+    },
+    {
+      "name": "SKS MODEL D AND MODEL M",
+      "category": "rifle"
+    },
+    {
+      "name": "SKS MODERNIZED",
+      "category": "rifle"
+    },
+    {
+      "name": "SMITH & WESSON - M&P10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SMITH & WESSON - M&P15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SMITH & WESSON - M&P FPC SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SONS OF LIBERTY GUN WORKS - LRF",
+      "category": "rifle"
+    },
+    {
+      "name": "SONS OF LIBERTY GUN WORKS - MK1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SONS OF LIBERTY GUN WORKS - OB1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SONS OF LIBERTY GUN WORKS - SAGE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SONS OF LIBERTY GUN WORKS - M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - ST-9",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - ST-15 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - MINI-RECLUSE",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - GENIII BILLET",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - KRYPTEK SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - STROUP",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - S.T. SIGNATURE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - ASSASSIN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - CRUSADER",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - BATTLE RIFLE",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - M4 LE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKES TACTICAL - MIDLENGTH SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - RETRO BUILD",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - ST COMPRESSOR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - SPARTAN",
+      "category": "rifle"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - WAHINE",
+      "category": "rifle"
+    },
+    {
+      "name": "SPRINGFIELD ARMORY - AA9122 M1 SCOUT",
+      "category": "rifle"
+    },
+    {
+      "name": "SPRINGFIELD ARMORY - HELION BULLPUP",
+      "category": "rifle"
+    },
+    {
+      "name": "SPRINGFIELD ARMORY - SA 16 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPRINGFIELD ARMORY - SAINT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "SPRINGFIELD ARMORY - SAINT VICTOR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 10 MARKSMAN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 3 GUN SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 CLASSIC CARBINE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 CLASSIC RIFLE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 COVENANT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 LEO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 M4 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 PURSUIT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 RETRO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 SPR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 SUPER VARMINTER SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STAG FIREARMS - STAG 15 TACTICAL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "STANDARD MFG. - STD-15",
+      "category": "rifle"
+    },
+    {
+      "name": "STANDARD MFG. - G4S",
+      "category": "rifle"
+    },
+    {
+      "name": "STERLING - R9 MK1",
+      "category": "rifle"
+    },
+    {
+      "name": "STERLING - R10 MK1",
+      "category": "rifle"
+    },
+    {
+      "name": "STERLING - R15 MK1",
+      "category": "rifle"
+    },
+    {
+      "name": "STERLING - R18 MK3",
+      "category": "rifle"
+    },
+    {
+      "name": "STEYR - AUG SA",
+      "category": "rifle"
+    },
+    {
+      "name": "STEYR - AUG A3 M1",
+      "category": "rifle"
+    },
+    {
+      "name": "STEYR - AUG A3-SA M2 BULLPUP",
+      "category": "rifle"
+    },
+    {
+      "name": "TARAN TACTICAL INNOVATIONS (TTI) - JW2 TR-1",
+      "category": "rifle"
+    },
+    {
+      "name": "TARAN TACTICAL INNOVATIONS (TTI) - JW3 MPX",
+      "category": "rifle"
+    },
+    {
+      "name": "TARAN TACTICAL INNOVATIONS (TTI) - X V7 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TIPPMANN ARMS - M4-22 LTE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TIPPMANN ARMS - M4-22 PRO SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TIPPMANN ARMS - M4-22 RCR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TIPPMANN ARMS - M4-22 REDLINE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TIPPMANN ARMS - M4-22 WMR ELITE SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TIPPMANN ARMS - PRO TS20 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TISAS - ZPT 223 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "TOMMY BUILT - T7",
+      "category": "rifle"
+    },
+    {
+      "name": "UTAS DEFENSE - 9MM",
+      "category": "rifle"
+    },
+    {
+      "name": "UTAS DEFENSE - .223 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "UTAS DEFENSE - .308",
+      "category": "rifle"
+    },
+    {
+      "name": "VALMET - RK62 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "VALMET - M82",
+      "category": "rifle"
+    },
+    {
+      "name": "VKTR FIREARMS - VK-1 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "VKTR FIREARMS - VK-1PW SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WALTHER - COLT M4 CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "WASSENAAR ARRANGEMENT SEMI- AUTOMATIC RIFLES (WASR) - 2 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WASSENAAR ARRANGEMENT SEMI- AUTOMATIC RIFLES (WASR) - 3 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WASSENAAR ARRANGEMENT SEMI- AUTOMATIC RIFLES (WASR) - 10 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WASSENAAR ARRANGEMENT SEMI- AUTOMATIC RIFLES (WASR) - 10/63 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WASSENAAR ARRANGEMENT SEMI- AUTOMATIC RIFLES (WASR) - M SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WATCHTOWER DEFENSE - RAIDERS SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WEAVER ARMS - NIGHTHAWK",
+      "category": "rifle"
+    },
+    {
+      "name": "WILKINSON ARMS - 9MM CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - AR9 CARBINE",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - AR-15 PROTECTOR",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - PROTECTOR",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - RECON TACTICAL",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - SBR TACTICAL",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - TACTICAL SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - ULTRALIGHT SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WILSON COMBAT - URBAN SUPER SNIPER",
+      "category": "rifle"
+    },
+    {
+      "name": "WINCHESTER REPEATING ARMS - SXR SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "WINCHESTER REPEATING ARMS - SX-AR",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - PAP M70 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - PAP M72 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - PAP M77 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZPAP M90 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZR7762UFSR SPORTING RIFLE",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZPAP85 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZPAP92 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZPAPM70 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZPAPM90 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZASTAVA ARMS - M91",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - Z-3",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - Z-33",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - ZF-39 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - ZF-56 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - ZF-300 SERIES",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - ZF-350",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - ZPD-10",
+      "category": "rifle"
+    },
+    {
+      "name": "ZENITH FIREARMS - ZPD-15",
+      "category": "rifle"
+    },
+    {
+      "name": "ZEV INDUSTRIES - AR15 BILLET CORE ELITE",
+      "category": "rifle"
+    },
+    {
+      "name": "ZEV INDUSTRIES - FOLDING DEFENSIVE PLATFORM (FOLDED)",
+      "category": "rifle"
+    },
+    {
+      "name": "ZEV INDUSTRIES - FOLDING DEFENSIVE PLATFORM (OPEN)",
+      "category": "rifle"
+    },
+    {
+      "name": "ADLER ARMS - BP12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "AKDAL - MKA 1919",
+      "category": "shotgun"
+    },
+    {
+      "name": "AMERICAN TACTICAL INDUSTRIES - ALPHA MAXX SGA",
+      "category": "shotgun"
+    },
+    {
+      "name": "AMERICAN TACTICAL INDUSTRIES - BULLDOG SGA SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ASELKON ARMS - ASK 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ATTACK ARMS - ATTACK SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ATTACK ARMS - B SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ATTACK ARMS - S SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "BERIKA BMF12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "BERIKA BXT12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "BERIKA TM1950 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "BERIKA TXT12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "BLACK ACES TACTICAL - CORE 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "BLACK ACES TACTICAL - PRO BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "BLACK ACES TACTICAL - SR 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "CENTURY ARMS - BP-12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "CHIAPPA FIREARMS - AR-12A",
+      "category": "shotgun"
+    },
+    {
+      "name": "CHIAPPA FIREARMS - CD N4S",
+      "category": "shotgun"
+    },
+    {
+      "name": "CITADEL ARMS - BOSS25 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "CITADEL ARMS - PUPS SCOUT SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "DAEWOO - USAS",
+      "category": "shotgun"
+    },
+    {
+      "name": "DAEWOO - USAS 12 SHORT BARREL",
+      "category": "shotgun"
+    },
+    {
+      "name": "DERYA FIREARMS - DY12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "DERYA FIREARMS - DY12Z",
+      "category": "shotgun"
+    },
+    {
+      "name": "DICKINSON ARMS - ERMOX XPA SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "DICKINSON ARMS - BULLPUP RANGER",
+      "category": "shotgun"
+    },
+    {
+      "name": "EMPEROR FIREARMS - COBRA 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "EMPEROR FIREARMS - MAJOR 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "EMPEROR FIREARMS - SUPRA PRO 12",
+      "category": "shotgun"
+    },
+    {
+      "name": "EMPEROR FIREARMS - WMX 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ERMOX FIREARMS - BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ERMOX FIREARMS - XPA XS SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ERMOX FIREARMS - XPA XT SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ESCORT FIREARMS - BTS BULLPUP",
+      "category": "shotgun"
+    },
+    {
+      "name": "ESCORT FIREARMS - DF 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ESCORT FIREARMS - RAIDER SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ESCORT FIREARMS - SDX",
+      "category": "shotgun"
+    },
+    {
+      "name": "ETERNAL ARMS - ATTACKER FX SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "F.I.E./FRANCHI - SPAS 15",
+      "category": "shotgun"
+    },
+    {
+      "name": "FUSION FIREARMS - LIBERTY SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-102",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-103",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-104",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-105",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-106",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-107",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-109",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-116 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - FEAR-125",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - MKA1919 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "GARAYSAR - MKA1923",
+      "category": "shotgun"
+    },
+    {
+      "name": "GENESIS ARMS - GEN-12 MBS",
+      "category": "shotgun"
+    },
+    {
+      "name": "GENESIS ARMS - GEN-12 PDS SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "GENESIS ARMS - GEN-12 RONIN SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "GENESIS ARMS - GEN-12 SBM SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "GENESIS - X KOVERT",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GFBP1220",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GF991220 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GF252220",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GF12AR1220",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GFZ1218",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GFY11220",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - TYPHOON GFX120101",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GF1712B",
+      "category": "shotgun"
+    },
+    {
+      "name": "GFORCE ARMS - GF12HMRB",
+      "category": "shotgun"
+    },
+    {
+      "name": "HUGLU - XR 8 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "IVER JOHNSON - STRYKER SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "IVER JOHNSON - MF SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "JTS FIREARMS - M12AK SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "JTS FIREARMS - M12AR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "KALASHNIKOV - KOMRAD",
+      "category": "shotgun"
+    },
+    {
+      "name": "KHAN ARMS - AX SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "LANDOR FIREARMS - LND SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "LANDOR FIREARMS - LND 137",
+      "category": "shotgun"
+    },
+    {
+      "name": "MOLOT FIREARMS - VEPR 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "N96 FIREARMS - PTMS AR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "N96 FIREARMS - PTR5 BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "N96 FIREARMS - TR101 BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "N96 FIREARMS - TR103 AR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - AK12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - AR12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - BP12",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - BPA12",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - EGX500 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - G3 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - MAG12",
+      "category": "shotgun"
+    },
+    {
+      "name": "PANZER ARMS - RANCH12",
+      "category": "shotgun"
+    },
+    {
+      "name": "RADIKAL FIREARMS - BULLPUP NK-1 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "RADIKAL FIREARMS - BULLPUP NK-2 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "RADIKAL FIREARMS - MKX-3 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "RADIKAL FIREARMS - MKX-5 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "RADIKAL FIREARMS - MKX-5 SHORT SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ROCK ISLAND ARMS - VFR-14",
+      "category": "shotgun"
+    },
+    {
+      "name": "ROCK ISLAND ARMS - VR60 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ROCK ISLAND ARMS - VR80 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ROCK ISLAND ARMS - VR82",
+      "category": "shotgun"
+    },
+    {
+      "name": "ROCK ISLAND ARMS - VRBP100",
+      "category": "shotgun"
+    },
+    {
+      "name": "ROCK ISLAND ARMS - VRF14",
+      "category": "shotgun"
+    },
+    {
+      "name": "SAIGA ARMS - 410 SBS TROMIX SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SAIGA ARMS - KUSHNAPUP BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SAIGA ARMS - SAIGA 12 BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SILVER EAGLE ARMS - TAC SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SOVRAN ARMS - SB-1 BULLPUP",
+      "category": "shotgun"
+    },
+    {
+      "name": "SOVRAN ARMS - SB-5 BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SOVRAN ARMS - SM-3 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SOVRAN ARMS - SM-12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SOVRAN ARMS - SR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SOVRAN ARMS - SVR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "SRM ARMS - 1208",
+      "category": "shotgun"
+    },
+    {
+      "name": "SRM ARMS - 1212",
+      "category": "shotgun"
+    },
+    {
+      "name": "SRM ARMS - 1216 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TARAN TACTICAL INNOVATIONS (TTI) - 3G",
+      "category": "shotgun"
+    },
+    {
+      "name": "TARAN TACTICAL INNOVATIONS (TTI) - JW4",
+      "category": "shotgun"
+    },
+    {
+      "name": "TITAN TACTICAL INNOVATIONS (TTI) - GEN- 12 DRACARYS 3GUN",
+      "category": "shotgun"
+    },
+    {
+      "name": "TITAN TACTICAL INNOVATIONS (TTI) - JW4 DRACARYS GEN 12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TOKAREV USA - TAR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TOKAREV USA - TBP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TOKAREV USA - TT-12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TOROS ARMS - DS-12 BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TOROS ARMS - TR-12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TOROS ARMS - TR-15 BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TRISTAR ARMS - COMPACT TACTICAL SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TRISTAR ARMS - DRX SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TYPHOON - XII SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TYPHOON - BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "TYPHOON - F12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "U235 ARMORY - M22 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "UTAS DEFENCE - XTR-12 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "VEZIR ARMS - CARRERA B100 BULLPUP SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "VEZIR ARMS - CARRERA B200 BULLPUP",
+      "category": "shotgun"
+    },
+    {
+      "name": "VEZIR ARMS - CR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "VEZIR ARMS - AUTO5WALTRO VERTICAL MAGAZINE SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "VEZIR ARMS - AUTO5WALTRO VR-20 SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "VEZIR ARMS - VZR SERIES",
+      "category": "shotgun"
+    },
+    {
+      "name": "ACME RIFLES - PROXIMAL AM-15 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ADAMS ARMS - P2 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ADAMS ARMS - P3 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ALEXANDER ARMS - BEOWULF PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ALEXANDER ARMS - GRENDEL PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ALEXANDER ARMS - HMR PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ALEXANDER ARMS - HMR BRACELESS PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "ALPHA FOXTROT - AFAR-15 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "AMERICAN TACTICAL (ATI) - ALPHA MAXX SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "AMERICAN TACTICAL (ATI) - MILSPORT SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "AMERICAN TACTICAL (ATI) - MP40P",
+      "category": "handgun"
+    },
+    {
+      "name": "ANDERSON MANUFACTURING - AM-9 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "ANDERSON MANUFACTURING - AM-15 A4 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "ANGSTADT ARMS - MDP-9 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ANGSTADT ARMS - VANQUISH PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ARSENAL INC. - SAM7C SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ARSENAL INC. - SAM7K SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ARSENAL INC. - 106F SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ARSENAL INC. - 107CR SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "AUTO-ORDANCE - 1927A PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "B&T FIREARMS - APC223 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "B&T FIREARMS - APC300 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BATTLEARMS - AUTHORITY ELITE PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BATTLEARMS - OIP PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BATTLEARMS - SILENT PROFESSIONAL PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BATTLEARMS - TANKER PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BATTLEARMS - WORKHORSE PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BATTLEARMS - XIPHOS PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BEAR CREEK ARSENAL - .22 LONG RIFLE PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "BERSA - BAR15 7.5 IN SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BERSA - BAR9 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - A2 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE - BILLET PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "BLACK RAIN ORDINANCE – SPEC-15 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - REECE II SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - REECE 9 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BRAVO COMPANY MFG (BCM) - REECE 12 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-9 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-10LR PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-15 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - BM-47 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "BRIGADE MANUFACTURING - FOSTECH EDITION PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CALICO - M-950",
+      "category": "handgun"
+    },
+    {
+      "name": "CAMDON DEFENSE - CD15",
+      "category": "handgun"
+    },
+    {
+      "name": "CENTURY ARMS - AP5 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CENTURY ARMS - AP51 PDW",
+      "category": "handgun"
+    },
+    {
+      "name": "CENTURY ARMS - AP53",
+      "category": "handgun"
+    },
+    {
+      "name": "CENTURY ARMS - BFT47 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CENTURY ARMS - DRACO SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CENTURY ARMS - DRACO 9S SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CENTURY ARMS - NAK9 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CESKA ZBROJOVKA (CZ) - BREN 2 MS SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CHIAPPA FIREARMS - CBR-9",
+      "category": "handgun"
+    },
+    {
+      "name": "CHIAPPA FIREARMS - CD PAC-9 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CMMG - BANSHEE MK4 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "CMMG - DISSENT MK4 22 ARC PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "COLT MANUFACTURING CO. - M4 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "COLT MANUFACTURING CO - M4 OEM",
+      "category": "handgun"
+    },
+    {
+      "name": "COLT MANUFACTURING CO - M5 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "DANIEL DEFENSE - DD5P",
+      "category": "handgun"
+    },
+    {
+      "name": "DANIEL DEFENSE - DDM4 PDW PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DANIEL DEFENSE - DDM4 V7 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DANIEL DEFENSE - MK18",
+      "category": "handgun"
+    },
+    {
+      "name": "DANIEL DEFENSE - PCC",
+      "category": "handgun"
+    },
+    {
+      "name": "DIAMONDBACK FIREARMS - DB10 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DIAMONDBACK FIREARMS - DB15 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DIAMONDBACK FIREARMS - DBX SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - AR PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - ANVIL PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - DP15 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - GEN4 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "DPMS PANTHER FIREARMS - KITTY KAT PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DS ARMS - SA58 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "DS ARMS - ZM4 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ENSIO FIREARMS - KAR-21 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "FABRIQUE NATIONALE (FN) - SCAR 15P",
+      "category": "handgun"
+    },
+    {
+      "name": "FAXON FIREARMS - ION PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FAXON FIREARMS - PREMIER PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FAXON FIREARMS - SENTENIAL AR-10 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FIGHTLITE - SCR PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FOSTECH FIREARMS - FLITE EAGLE PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FOSTECH FIREARMS - STEALTH RAPTOR PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FOSTECH FIREARMS - TECH STRYKER PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FOXTROT MIKE PRODUCTS - MIKE 9 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "FOXTROT MIKE PRODUCTS - MIKE 15 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "GARAYSAR FIREARMS - FEAR ME9C SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "GEISSELE AUTOMATIC - BORDER PATROL PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "GEISSELE AUTOMATIC - SUPER DUTY MOD1 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "GERMAN SPORTS GUN (GSG) - MP40P SERIES - AMERICAN TACTICAL (ATI)",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - A2 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - 300BLK SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - 635 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - 733 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - CLET SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - COMMANDO SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - DOE 300 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - DOE 9mm SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - IDF SPECIAL",
+      "category": "handgun"
+    },
+    {
+      "name": "HARRINGTON RICHARDSON (H&R) - XM177E1 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HECKLER & KOCH - HK416 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HI POINT FIREARMS - HP-15 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "HI POINT FIREARMS - 995P SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ISRAEL WEAPONS INDUSTRIES (IWI) - GALIL ACE PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ISRAEL WEAPONS INDUSTRIES (IWI) - ZION-15 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "JUGGERNAUT TACTICAL - AR-15 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "JUGGERNAUT TACTICAL - AR-9 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "JUST RIGHT CARBINES (JRC) - M-LOC PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "KEL TEC - P50",
+      "category": "handgun"
+    },
+    {
+      "name": "KELTEC - PLR-16",
+      "category": "handgun"
+    },
+    {
+      "name": "LWRC INTERNATIONAL - IC 9 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "LWRC INTERNATIONAL - IC MKII PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "MAGNUM RESEARCH - DESERT EAGLE SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "MAXIM DEFENSE - MD:9 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "MAXIM DEFENSE - PDX PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "MAXIM DEFENSE - SDX RFLX PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "MILITARY ARMAMENT CORP (MAC) - 5 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "MILITARY ARMAMENT CORP (MAC) - IX",
+      "category": "handgun"
+    },
+    {
+      "name": "MAGNUM RESEARCH - DESERT EAGLE MARK XIX SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "MAKASI FIREARMS - MK-AR SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "MAXIM DEFENSE - MDX:508 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "NOVESKE FIREARMS - CHAINSAW PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "NOVESKE FIREARMS - N-4 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "NOVESKE FIREARMS - N-6 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "NOVESKE FIREARMS - N-9 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "OLYMPIC ARMS - OA-93",
+      "category": "handgun"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - GUARDSMAN SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - HAR- 15 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - JAKL PISTOL WITH BRACE SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) = JAKL PISTOL WITHOUT BRACE SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - SABER- 18 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "PALMETTO STATE ARMORY (PSA) - SBA4 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "PIONEER ARMS - HELLPUP PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "PIONEER ARMS - MICRO HELLPUP PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "PTR FIREARMS - 32P PDWR PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "Q FIREARMS - BOOMBOX PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "Q FIREARMS - HONEY BADGER PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "Q FIREARMS - SUGAR WEASEL PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "RETAY ARMS - RA22 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR 9M SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR 15LH LEF-T SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR 15M SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR 47 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ROCK RIVER ARMS - LAR BT9G SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "SAIGA ARMS - AP5 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "SAIGA ARMS - AR PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "SAIGA ARMS - AR-15 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "SHADOW SYSTEMS - E526 PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "SONS OF LIBERTY GUN WORKS - M4 L89 PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "SONS OF LIBERTY GUN WORKS - BLOOD DIAMOND PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - BI-AXIAL RECOIL PISTOL",
+      "category": "handgun"
+    },
+    {
+      "name": "SPIKE’S TACTICAL - CHF BILLET SAR3",
+      "category": "handgun"
+    },
+    {
+      "name": "TARAN TACTICAL INNOVATIONS (TTI) - SIG MPX K",
+      "category": "handgun"
+    },
+    {
+      "name": "VKTR INDUSTRIES - VK-1P SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "WALTHER ARMS - HAMMELI TAC R1",
+      "category": "handgun"
+    },
+    {
+      "name": "WILDEY FIREARMS CORP - SURVIVOR SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ZASTAVA ARMS - M85 SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZPAP85",
+      "category": "handgun"
+    },
+    {
+      "name": "ZASTAVA ARMS - ZPAP92",
+      "category": "handgun"
+    },
+    {
+      "name": "ZEV TECHNOLOGIES - AR15 CORE ELITE PISTOL SERIES",
+      "category": "handgun"
+    },
+    {
+      "name": "JP ENTERPRISES - 5.11 ABR",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - ASF-20",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - CTR-02",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - GMR-15 SERIES",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - JP-5 SERIES",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - JP-15 SERIES",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - JP-22R ACTION RIFLE",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - JPRFX",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - LRP-07 SERIES",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - PSC-21 SERIES",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - SCI-20 SERIES",
+      "category": "rifle",
+      "inAddendum": true
+    },
+    {
+      "name": "FB RADOM - P-83 WANAD",
+      "category": "handgun",
+      "inAddendum": true
+    },
+    {
+      "name": "JP ENTERPRISES - JP AR PISTOLS",
+      "category": "handgun",
+      "inAddendum": true
+    }
+  ]
+}

@@ -19,8 +19,25 @@ const SHOTGUNS = /^\s*SEMIAUTOMATIC SHOTGUNS WITH DETACHABLE MAGAZINES\s*$/;
 const PISTOLS = /^\s*SEMIAUTOMATIC GAS-OPERATED PISTOLS WITH DETACHABLE MAGAZINES\s*$/;
 const ADDENDUM = /^\s*ADDENDUM\s*$/;
 const FOOTER_A = /photographs are examples only/i;
-const FOOTER_B = /^the series\.?$/i;
+const FOOTER_B = /^(in )?the series\.?$/i;
 const PAGE_NUM = /^\d{1,3}$/;
+
+/** Known non-firearm note lines the FDD PDF emits (document-format specific). */
+const NOISE = [/semiautomatic models only/i];
+
+function isNoise(name: string): boolean {
+  return NOISE.some((re) => re.test(name));
+}
+
+/** A prose sentence (the addendum's intro paragraph) has many all-lowercase
+ *  words; a MAKE - MODEL identifier has at most a few (e.g. "9mm", "Semi-Auto").
+ *  >= 4 all-lowercase words (length >= 3) reliably flags prose. */
+function looksLikeProse(name: string): boolean {
+  const lowerWords = name
+    .split(/[^\p{L}]+/u)
+    .filter((w) => w.length >= 3 && w === w.toLowerCase());
+  return lowerWords.length >= 4;
+}
 
 export function parseSsfText(text: string, sourceUrl: string, version: string): SsfData {
   let category: SsfCategory | null = null;
@@ -52,7 +69,18 @@ export function parseSsfText(text: string, sourceUrl: string, version: string): 
   }
   flush();
 
+  // Post-processing: drop prose sentences and known PDF notes, and dedupe
+  // same-name+category repeats (the source lists a few models twice).
+  const seen = new Set<string>();
+  const cleaned = firearms.filter((f) => {
+    if (looksLikeProse(f.name) || isNoise(f.name)) return false;
+    const key = f.name + "\u0000" + f.category;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
   const counts = { rifle: 0, shotgun: 0, handgun: 0, total: 0 };
-  for (const f of firearms) { counts[f.category]++; counts.total++; }
-  return { fetchedAt: new Date().toISOString(), sourceUrl, version, counts, firearms };
+  for (const f of cleaned) { counts[f.category]++; counts.total++; }
+  return { fetchedAt: new Date().toISOString(), sourceUrl, version, counts, firearms: cleaned };
 }

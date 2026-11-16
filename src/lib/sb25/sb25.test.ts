@@ -22,6 +22,9 @@ const SAMPLE = [
   "",
   "AKDAL - MKA 1919",
   "",
+  "Photographs are examples only and do not represent all variations of the listed firearms",
+  "in the series.",
+  "",
   "ADDENDUM",
   "",
   "SEMIAUTOMATIC GAS-OPERATED PISTOLS WITH DETACHABLE MAGAZINES",
@@ -46,8 +49,44 @@ describe("parseSsfText", () => {
     // no footer / page-number leakage
     assert.ok(!data.firearms.some((f) => /^\d+$/.test(f.name)));
     assert.ok(!data.firearms.some((f) => /photographs are examples/i.test(f.name)));
+    assert.ok(!data.firearms.some((f) => /in the series/i.test(f.name)));
     assert.equal(data.version, "07/30/2026");
     assert.equal(data.sourceUrl, "https://example.pdf");
+  });
+
+  test("drops prose, known notes, and same-category duplicates", () => {
+    const DUP_SAMPLE = [
+      "SEMIAUTOMATIC RIFLES WITH DETACHABLE MAGAZINES",
+      "",
+      "B&T FIREARMS - SPC SERIES",
+      "",
+      "SEMIAUTOMATIC MODELS ONLY",
+      "",
+      "The following rifles were added based on public feedback previously",
+      "unidentified manufacturers.",
+      "",
+      "BEAR CREEK ARSENAL - BC-15 SERIES",
+      "",
+      "BEAR CREEK ARSENAL - BC-15 SERIES",
+      "",
+      "SEMIAUTOMATIC SHOTGUNS WITH DETACHABLE MAGAZINES",
+      "",
+      "AKDAL - MKA 1919",
+    ].join("\n");
+    const data = parseSsfText(DUP_SAMPLE, "https://example.pdf", "07/30/2026");
+    assert.equal(data.counts.total, 3);
+    assert.equal(data.counts.rifle, 2);
+    assert.equal(data.counts.shotgun, 1);
+    assert.equal(data.counts.handgun, 0);
+    // known note dropped
+    assert.ok(!data.firearms.some((f) => /models only/i.test(f.name)));
+    // prose sentence dropped (wrapped across two lines)
+    assert.ok(!data.firearms.some((f) => /following rifles were added/i.test(f.name)));
+    // same-name+category duplicate deduped to one
+    assert.equal(
+      data.firearms.filter((f) => f.name === "BEAR CREEK ARSENAL - BC-15 SERIES").length,
+      1,
+    );
   });
 });
 
