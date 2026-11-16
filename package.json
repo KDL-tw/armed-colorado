@@ -16,7 +16,11 @@
     "fetch-chp-reciprocity": "tsx scripts/fetch-chp-reciprocity.ts",
     "validate-chp-reciprocity": "tsx scripts/validate-chp-reciprocity.ts",
     "fetch-chp-sheriffs": "tsx scripts/fetch-chp-sheriffs.ts",
-    "validate-chp-sheriffs": "tsx scripts/validate-chp-sheriffs.ts"
+    "validate-chp-sheriffs": "tsx scripts/validate-chp-sheriffs.ts",
+    "sb25:ssf": "tsx scripts/fetch-sb25-ssf.ts",
+    "sb25:instructors": "tsx scripts/fetch-sb25-instructors.ts",
+    "sb25:validate": "tsx scripts/validate-sb25-ssf.ts",
+    "sb25:test": "tsx --test --test-reporter=tap src/lib/sb25/sb25.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.111.0",

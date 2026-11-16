@@ -13,7 +13,7 @@ Reference site for Colorado firearms law: Billwatch (268 gun bills across 29 yea
 | `/billwatch/[id]` | Single-bill detail (sponsors, fiscal cost) via the Umbrella API |
 | `/litigation` | 2A litigation tracker (Supabase, in-repo fallback) |
 | `/litigation/[slug]` | Single-case detail (timeline, sources) |
-| `/sb25-003` | SB25-003 class requirements + county availability |
+| `/sb25-003` | SB25-003 semiautomatic-firearms law guide: what it is/isn't, the permit-to-purchase process (cost + time), course options, fees, searchable official SSF list, FSP instructors (local JSON) |
 | `/resources` | 22-organization directory with Colorado contacts |
 | `/legislators` | Legislator lookup, committee rosters, House/Senate district maps; metro insets link to `/legislators/districts/[chamber]/[metro]` (enlarged interactive map) |
 | `/alerts` | Email alert signup (Resend when configured) |
@@ -129,5 +129,9 @@ The search and year-filter controls on the page are wired via a client component
 - `npm run fetch-chp-sheriffs` — refresh `data/chp/sheriffs.json` from the OCV directory
 - `npm run validate-chp-reciprocity` — gate: `reciprocity.json` is valid
 - `npm run validate-chp-sheriffs` — gate: `sheriffs.json` matches county geometry
+- `npm run sb25:ssf` — fetch + parse the FDD SSF guidance PDF into `data/sb25/ssf.json` (needs `poppler-utils`; cache-first, `--force` re-downloads)
+- `npm run sb25:instructors` — convert `data/sb25/instructors-src.csv` into `data/sb25/instructors.json` (degrades to an empty file / "coming soon" if no CSV)
+- `npm run sb25:validate` — gate: `ssf.json` counts are consistent and no noise leaked
+- `npm run sb25:test` — run the `sb25.test.ts` parser tests (TAP)
 
 **Billwatch pipeline (`npx tsx scripts/…`):** `assemble-catalog.ts` (regenerate the catalog from RMGO + CO GA data), `apply-enacted-dates.ts`, `apply-official-titles.ts`, `apply-bill-summaries.ts`, `fetch-prime-sponsors.ts`, plus pre-2016 archive helpers. See `AGENTS.md` → "billwatch-data-pipeline".

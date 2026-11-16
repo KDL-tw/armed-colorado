@@ -10,9 +10,9 @@ const CATS: { key: "all" | SsfCategory; label: string }[] = [
 ];
 
 /**
- * Client-side text + category filter over the SSF living list. ~240 items —
- * trivially client-filterable, no server round-trip. Controlled inputs; pure
- * filter of the committed data.
+ * Client-side text + category filter over the SSF living list (~876 items —
+ * trivially client-filterable, no server round-trip). Controlled inputs; pure
+ * filter of the committed data. Styled to the site's light theme.
  */
 export function SsfSearch({ firearms, version }: { firearms: SsfFirearm[]; version: string }) {
   const [q, setQ] = useState("");
@@ -29,10 +29,10 @@ export function SsfSearch({ firearms, version }: { firearms: SsfFirearm[]; versi
   }, [firearms, q, cat]);
 
   return (
-    <div className="rounded-xl border border-white/10 bg-white/[0.03] p-4">
+    <div className="rounded-md border border-silver bg-cream p-4">
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-        <h3 className="text-lg font-bold text-white">Specified Semiautomatic Firearms list</h3>
-        <span className="text-xs text-white/50">FDD guidance · {version}</span>
+        <h3 className="font-display text-xl text-navy">Specified Semiautomatic Firearms list</h3>
+        <span className="text-xs text-silver-muted">FDD guidance · {version}</span>
       </div>
 
       <div className="mb-3 flex flex-col gap-2 sm:flex-row">
@@ -40,15 +40,17 @@ export function SsfSearch({ firearms, version }: { firearms: SsfFirearm[]; versi
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search make or model…"
-          className="w-full rounded-lg border border-white/15 bg-black/30 px-3 py-2 text-sm text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/30 sm:flex-1"
+          className="w-full rounded-md border border-silver bg-white px-3 py-2 text-sm text-navy placeholder:text-silver-muted focus:border-amber focus:outline-none sm:flex-1"
         />
-        <div className="flex gap-1">
+        <div className="flex flex-wrap gap-1">
           {CATS.map((c) => (
             <button
               key={c.key}
               onClick={() => setCat(c.key)}
-              className={`rounded-lg px-3 py-2 text-sm font-semibold transition-colors ${
-                cat === c.key ? "bg-white text-black" : "bg-white/5 text-white/70 hover:bg-white/10"
+              className={`rounded-md px-3 py-2 text-sm font-semibold transition-colors ${
+                cat === c.key
+                  ? "bg-oxblood text-white"
+                  : "border border-silver bg-white text-navy hover:bg-cream"
               }`}
             >
               {c.label}
@@ -57,26 +59,29 @@ export function SsfSearch({ firearms, version }: { firearms: SsfFirearm[]; versi
         </div>
       </div>
 
-      <div className="mb-2 text-sm text-white/60">
-        Showing <span className="font-bold text-white">{filtered.length}</span> of {total} firearms
-      </div>
+      <p className="mb-2 text-sm text-muted">
+        Showing <strong className="text-navy">{filtered.length}</strong> of {total} firearms
+      </p>
 
       {filtered.length === 0 ? (
-        <div className="rounded-lg border border-dashed border-white/15 p-6 text-center text-white/50">
+        <div className="rounded-md border border-dashed border-silver p-6 text-center text-muted">
           No firearms match. Try clearing the search or picking another category.
         </div>
       ) : (
-        <ul className="grid max-h-[28rem] list-none gap-1 overflow-auto sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid max-h-[28rem] gap-1 overflow-auto sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((f) => (
-            <li key={f.name} className="flex items-center justify-between rounded-lg bg-white/[0.03] px-3 py-2 text-sm">
-              <span className="text-white">
+            <div
+              key={f.name}
+              className="flex items-center justify-between gap-2 rounded-md border border-silver/40 bg-white px-3 py-2 text-sm"
+            >
+              <span className="text-navy">
                 {f.name}
-                {f.inAddendum ? <span className="ml-2 text-xs text-white/40">(addendum)</span> : null}
+                {f.inAddendum ? <span className="ml-2 text-xs text-silver-muted">(addendum)</span> : null}
               </span>
-              <span className="text-xs uppercase tracking-wide text-white/40">{f.category}</span>
-            </li>
+              <span className="shrink-0 text-xs uppercase tracking-wide text-silver-muted">{f.category}</span>
+            </div>
           ))}
-        </ul>
+        </div>
       )}
     </div>
   );
