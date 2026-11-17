@@ -119,7 +119,16 @@ export default function Sb25003Page() {
   return (
     <WideGuideLayout
       title="SB25-003: Semiautomatic Firearms & Rapid-Fire Devices"
-      lede="The complete guide to Colorado's mandated permit to purchase law — what it is and isn't, the permit-to-purchase process, course options and fees, and the current up-to-date official list of Specified Semiautomatic Firearms. Confirm everything with Colorado Parks and Wildlife (CPW) and your sheriff."
+      lede={<>
+        The complete guide to Colorado’s mandated permit to purchase law — what it is
+        and isn’t, the permit-to-purchase process, course options and fees, and the
+        current up-to-date official list of Specified Semiautomatic Firearms.{" "}
+        <strong>
+          It is wise to read through this entire page before initiating any step in the
+          process.
+        </strong>{" "}
+        Confirm everything with Colorado Parks and Wildlife (CPW) and your sheriff.
+      </>}
     >
       {/* intro */}
       <p className="mt-6">
@@ -212,7 +221,7 @@ export default function Sb25003Page() {
           {process.courseOptions.map((c) => (
             <div key={c.id} className="rounded-md border border-silver bg-cream p-5">
               <p className="text-xs font-bold uppercase tracking-wide text-silver-muted">
-                {`${c.hours}-hour course`}
+                {`${c.hours}-hour course${c.id === "basic" ? "*" : ""}`}
               </p>
               <h3 className="mt-1 font-display text-xl text-navy">{c.title}</h3>
               <p className="mt-2 text-muted">
@@ -232,6 +241,46 @@ export default function Sb25003Page() {
             </div>
           ))}
         </div>
+        <div className="callout mt-4 text-sm">
+          <p>
+            <strong>*</strong> It is difficult for smaller instructor businesses to teach
+            the 12-hour course; the length of time increases the costs for both
+            participants and the instructors. As such, it is advised for people to get
+            their hunter safety course certification first. Then they will only have to
+            take the 4-hour class.
+          </p>
+          <p className="mt-2">
+            Many out-of-state providers offer their hunter safety courses online and are
+            significantly less expensive than those offered by CPW.
+          </p>
+        </div>
+        <h3 className="mt-6 font-display text-xl text-navy">
+          Getting an Out-of-State Hunter’s Safety Certificate
+        </h3>
+        <ol className="mt-2 list-decimal space-y-1 pl-5">
+          <li>
+            Find a hunter safety course using{" "}
+            <a
+              href="https://www.hunter-ed.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-oxblood underline"
+            >
+              hunter-ed.com
+            </a>{" "}
+            that fits your budget, time constraints, and online/in-person preferences.
+          </li>
+          <li>
+            Sign up and complete the hunter safety course according to the course’s
+            requirements (these can differ for each course).
+          </li>
+          <li>
+            Once you have the documentation that you have completed the hunter safety
+            course, bring that documentation to your Colorado instructor and present it
+            to them. Then you will only have to take the 4-hour course to satisfy
+            SB25-003.
+          </li>
+        </ol>
       </Section>
 
       {/* ============ Fees ============ */}
@@ -303,6 +352,18 @@ export default function Sb25003Page() {
             <InstructorTable instructors={instructors.instructors} />
           </div>
         )}
+        <p className="mt-3">
+          Highest Caliber [WEBSITE NEEDED] and{" "}
+          <a
+            href="https://concealedcarryclassdenver.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-oxblood underline"
+          >
+            Concealed Carry Classes of Denver
+          </a>{" "}
+          teach the 4-hour class, custom classes, and private classes 7 days a week.
+        </p>
       </Section>
 
       {/* ============ Sources ============ */}

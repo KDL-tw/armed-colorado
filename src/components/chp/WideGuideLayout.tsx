@@ -12,7 +12,7 @@ export function WideGuideLayout({
   children,
 }: {
   title: string;
-  lede?: string;
+  lede?: React.ReactNode;
   children: React.ReactNode;
 }) {
   return (
