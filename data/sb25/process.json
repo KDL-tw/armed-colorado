@@ -36,7 +36,11 @@
       "detail": "Provide a name-based background check and a government-issued photo ID to the sheriff's office. Fees are collected at this step.",
       "cost": { "label": "$52 + sheriff fee", "detail": "$52 course-record fee (to CPW) plus a county-set administrative fee" },
       "time": { "label": "varies by county", "detail": "background-check + document review; some counties are slower or not yet accepting" },
-      "citations": ["18-12-116"]
+      "citations": ["18-12-116"],
+      "notes": [
+        "Weld County is the only county accepting out-of-county online applications.",
+        "Per statute, documents can be submitted to ANY sheriff in the state. It is not restricted to the sheriff of the county you currently reside in."
+      ]
     },
     {
       "title": "Sheriff review → eligibility card",

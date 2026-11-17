@@ -18,6 +18,8 @@
     "fetch-chp-sheriffs": "tsx scripts/fetch-chp-sheriffs.ts",
     "validate-chp-sheriffs": "tsx scripts/validate-chp-sheriffs.ts",
     "sb25:ssf": "tsx scripts/fetch-sb25-ssf.ts",
+    "sb25:check-ssf": "tsx scripts/check-sb25-ssf.ts",
+    "sb25:monitor-ssf": "bash scripts/ssf-monitor.sh",
     "sb25:instructors": "tsx scripts/fetch-sb25-instructors.ts",
     "sb25:validate": "tsx scripts/validate-sb25-ssf.ts",
     "sb25:test": "tsx --test --test-reporter=tap src/lib/sb25/sb25.test.ts"

@@ -27,6 +27,15 @@ export function PermitStepList({ steps }: { steps: PermitStep[] }) {
           <div className="min-w-0 flex-1">
             <p className="font-display text-xl text-navy">{s.title}</p>
             <p className="mt-1 text-muted">{s.detail}</p>
+            {s.notes && s.notes.length > 0 && (
+              <div className="mt-2 space-y-1 rounded-md border-l-2 border-amber bg-cream px-3 py-2">
+                {s.notes.map((note, k) => (
+                  <p key={k} className="text-sm text-muted">
+                    {note}
+                  </p>
+                ))}
+              </div>
+            )}
             <div className="mt-2 grid grid-cols-2 gap-3 rounded-md border border-silver bg-cream p-3">
               <MiniCell heading="Cost" label={s.cost.label} detail={s.cost.detail} />
               <MiniCell heading="Time" label={s.time.label} detail={s.time.detail} />

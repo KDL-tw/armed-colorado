@@ -189,6 +189,14 @@ export default function Sb25003Page() {
           You must complete a Colorado Firearms Safety Program (FSP) course and pass the exam with
           90% or better. Which course you take depends on your prior experience.
         </p>
+        <h3 className="mt-4 font-display text-xl text-navy">Course requirements</h3>
+        <ul className="mt-2">
+          {process.courseRequirements.map((r, i) => (
+            <li key={i} className="text-muted">
+              {crsCitationsToLinks(r)}
+            </li>
+          ))}
+        </ul>
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           {process.courseOptions.map((c) => (
             <div key={c.id} className="rounded-md border border-silver bg-cream p-5">
@@ -213,14 +221,6 @@ export default function Sb25003Page() {
             </div>
           ))}
         </div>
-        <h3 className="mt-6 font-display text-xl text-navy">Course requirements</h3>
-        <ul className="mt-2">
-          {process.courseRequirements.map((r, i) => (
-            <li key={i} className="text-muted">
-              {crsCitationsToLinks(r)}
-            </li>
-          ))}
-        </ul>
       </Section>
 
       {/* ============ Fees ============ */}

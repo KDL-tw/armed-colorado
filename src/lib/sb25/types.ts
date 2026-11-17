@@ -36,6 +36,7 @@ export interface PermitStep {
   cost: CostOrTime;
   time: CostOrTime;
   citations: string[]; // CRS citations → CrsLink
+  notes?: string[]; // optional clarifying notes rendered under the step detail
 }
 
 export interface CourseOption {
