@@ -48,14 +48,14 @@ export default async function BillDetailPage({ params }: Props) {
       ) : null}
 
       <section className="mt-10">
-        <h2 className="font-display text-2xl text-navy">Summary</h2>
+        <h2 className="font-display text-3xl text-navy">Summary</h2>
         <p className="mt-3 leading-relaxed text-muted">
           {bill.summary ?? "Summary unavailable."}
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-2xl text-navy">Sponsors</h2>
+        <h2 className="font-display text-3xl text-navy">Sponsors</h2>
         {sponsors.length === 0 ? (
           <p className="mt-3 text-muted">No sponsors listed.</p>
         ) : (
@@ -72,7 +72,7 @@ export default async function BillDetailPage({ params }: Props) {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-2xl text-navy">
+        <h2 className="font-display text-3xl text-navy">
           Cost to Colorado
         </h2>
         <p className="mt-3 text-muted">

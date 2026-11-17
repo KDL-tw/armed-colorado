@@ -31,7 +31,7 @@ export default async function LitigationDetailPage({ params }: Props) {
       ) : null}
 
       <section className="mt-10">
-        <h2 className="font-display text-2xl text-navy">Overview</h2>
+        <h2 className="font-display text-3xl text-navy">Overview</h2>
         <p className="mt-3 leading-relaxed text-muted">{c.summary}</p>
         {c.parties ? (
           <p className="mt-4 text-sm text-muted">
@@ -42,7 +42,7 @@ export default async function LitigationDetailPage({ params }: Props) {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-2xl text-navy">Timeline</h2>
+        <h2 className="font-display text-3xl text-navy">Timeline</h2>
         <ol className="mt-4 space-y-3 border-l border-navy/15 pl-5">
           {c.timeline.map((item, i) => (
             <li key={`${item.date}-${i}`}>
@@ -56,7 +56,7 @@ export default async function LitigationDetailPage({ params }: Props) {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-2xl text-navy">Sources</h2>
+        <h2 className="font-display text-3xl text-navy">Sources</h2>
         <ul className="mt-3 space-y-2">
           {c.sources.map((s) => (
             <li key={s.url}>

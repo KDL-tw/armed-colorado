@@ -27,7 +27,7 @@ export default function TestifyingPage() {
       </p>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">Before You Testify</h2>
+        <h2 className="font-display text-3xl text-navy">Before You Testify</h2>
         <ul className="mt-4 space-y-3">
           <li>
             <strong>Find your committee:</strong> Bills are assigned to committees
@@ -59,7 +59,7 @@ export default function TestifyingPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">
+        <h2 className="font-display text-3xl text-navy">
           How to Sign Up to Testify in Person
         </h2>
         <p className="mt-4">
@@ -111,7 +111,7 @@ export default function TestifyingPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">
+        <h2 className="font-display text-3xl text-navy">
           How to Sign Up to Testify Remotely
         </h2>
         <p className="mt-4">
@@ -165,7 +165,7 @@ export default function TestifyingPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">Finding Hearings</h2>
+        <h2 className="font-display text-3xl text-navy">Finding Hearings</h2>
         <p className="mt-4">
           Committee hearings are scheduled daily during the legislative session:
         </p>
@@ -207,12 +207,12 @@ export default function TestifyingPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">
+        <h2 className="font-display text-3xl text-navy">
           Committee Locations
         </h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className="border border-navy/10 p-4">
-            <h3 className="font-semibold text-navy">Senate Committees</h3>
+            <h3 className="font-semibold text-xl text-navy">Senate Committees</h3>
             <p className="mt-2 text-sm text-muted">
               Legislative Services Building (LSB), 200 E. 14th Ave.
               <br />
@@ -220,7 +220,7 @@ export default function TestifyingPage() {
             </p>
           </div>
           <div className="border border-navy/10 p-4">
-            <h3 className="font-semibold text-navy">House Committees</h3>
+            <h3 className="font-semibold text-xl text-navy">House Committees</h3>
             <p className="mt-2 text-sm text-muted">
               Legislative Services Building (LSB), 200 E. 14th Ave.
               <br />
@@ -231,7 +231,7 @@ export default function TestifyingPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-2xl text-navy">Need Help?</h2>
+        <h2 className="font-display text-3xl text-navy">Need Help?</h2>
         <p className="mt-4">
           For questions about testifying, contact the committee staff listed on
           the

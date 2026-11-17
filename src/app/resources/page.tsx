@@ -66,7 +66,7 @@ export default async function ResourcesPage() {
 
       {orderedCategories.map((category) => (
         <section key={category} className="mt-12">
-          <h2 className="font-display text-2xl text-navy">
+          <h2 className="font-display text-3xl text-navy">
             {CATEGORY_LABELS[category] ?? titleCase(category)}
           </h2>
           <ul className="mt-5 space-y-6">

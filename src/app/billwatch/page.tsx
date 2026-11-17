@@ -76,7 +76,7 @@ export default async function BillwatchPage() {
       <div id="bill-tables-container" className="mt-10">
         {catalog.length === 0 ? (
           <div className="mt-12 border border-dashed border-navy/15 bg-white px-6 py-14 text-center">
-            <p className="font-display text-2xl text-navy">
+            <p className="font-display text-3xl text-navy">
               No bills loaded
             </p>
             <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-muted">
@@ -236,7 +236,7 @@ export default async function BillwatchPage() {
 
       {/* Legend */}
       <section className="mt-14 border-t border-navy/10 pt-8">
-        <h2 className="font-display text-2xl text-navy mb-4">Legend</h2>
+        <h2 className="font-display text-3xl text-navy mb-4">Legend</h2>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-1">
           <div>
             <h3 className="text-sm font-semibold text-navy mb-2">

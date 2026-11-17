@@ -204,7 +204,7 @@ function StepHeading({
   return (
     <h2
       id={anchor}
-      className="flex items-center gap-3 font-display text-2xl text-navy"
+      className="flex items-center gap-3 font-display text-3xl text-navy"
     >
       <span className="step-num" aria-hidden>
         {n}
@@ -219,7 +219,7 @@ function MethodCard({ m }: { m: (typeof METHODS)[number] }) {
   return (
     <article className="flex flex-col rounded-md border border-silver bg-white">
       <div className="flex items-center justify-between gap-2 border-b border-silver px-4 py-3">
-        <h3 className="font-display text-lg text-navy">{m.name}</h3>
+        <h3 className="font-display text-xl text-navy">{m.name}</h3>
         <span
           className={`rounded-full px-2.5 py-0.5 text-[13px] font-semibold uppercase tracking-wide ${m.badgeClass}`}
         >
@@ -358,7 +358,7 @@ export default function VotePage() {
         <StepHeading n={4} title="Get Your Ballot" anchor="ballot" />
         <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <article className="rounded-md border border-silver bg-white p-5">
-            <h3 className="font-display text-lg text-navy">Track It</h3>
+            <h3 className="font-display text-xl text-navy">Track It</h3>
             <p className="mt-2 text-sm text-muted">
               Sign up for free email or SMS alerts and track your ballot from
               mailing through counting.
@@ -373,7 +373,7 @@ export default function VotePage() {
             </a>
           </article>
           <article className="rounded-md border border-silver bg-white p-5">
-            <h3 className="font-display text-lg text-navy">Cure It</h3>
+            <h3 className="font-display text-xl text-navy">Cure It</h3>
             <p className="mt-2 text-sm text-muted">
               If your ballot signature is mismatched or missing, you can
               &ldquo;cure&rdquo; it online.
@@ -394,7 +394,7 @@ export default function VotePage() {
       <section id="id" className="mt-12 scroll-mt-24">
         <h2
           id="id-heading"
-          className="flex items-center gap-3 font-display text-2xl text-navy"
+          className="flex items-center gap-3 font-display text-3xl text-navy"
         >
           <span className="step-num" aria-hidden>
             ID
@@ -406,7 +406,7 @@ export default function VotePage() {
           following is acceptable — all may be presented in digital format.
           Documents showing an address must show a Colorado address.
         </p>
-        <h3 className="mt-6 font-display text-lg text-navy">
+        <h3 className="mt-6 font-display text-xl text-navy">
           Photo ID
         </h3>
         <div className="mt-3 flex flex-wrap gap-2">
@@ -416,7 +416,7 @@ export default function VotePage() {
             </span>
           ))}
         </div>
-        <h3 className="mt-6 font-display text-lg text-navy">
+        <h3 className="mt-6 font-display text-xl text-navy">
           Address-Proof Documents
         </h3>
         <div className="mt-3 flex flex-wrap gap-2">
@@ -432,7 +432,7 @@ export default function VotePage() {
       <section id="situations" className="mt-12 scroll-mt-24">
         <h2
           id="situations-heading"
-          className="flex items-center gap-3 font-display text-2xl text-navy"
+          className="flex items-center gap-3 font-display text-3xl text-navy"
         >
           <span className="step-num" aria-hidden>
             ?
@@ -445,7 +445,7 @@ export default function VotePage() {
               key={s.title}
               className="rounded-md border border-silver bg-cream p-5"
             >
-              <h3 className="font-display text-lg text-navy">{s.title}</h3>
+              <h3 className="font-display text-xl text-navy">{s.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted">
                 {s.body}
               </p>
@@ -458,7 +458,7 @@ export default function VotePage() {
       <section id="resources" className="mt-12 scroll-mt-24">
         <h2
           id="resources-heading"
-          className="flex items-center gap-3 font-display text-2xl text-navy"
+          className="flex items-center gap-3 font-display text-3xl text-navy"
         >
           <span className="step-num" aria-hidden>
             ↗
@@ -468,7 +468,7 @@ export default function VotePage() {
         <div className="mt-5 rounded-md border border-silver bg-white p-5">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             <div>
-              <h3 className="flex items-center gap-2 font-display text-lg text-navy">
+              <h3 className="flex items-center gap-2 font-display text-xl text-navy">
                 <Image
                   src="/images/colorado-flag.svg"
                   alt="Flag of Colorado"
@@ -493,7 +493,7 @@ export default function VotePage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-display text-lg text-navy">
+              <h3 className="font-display text-xl text-navy">
                 SOS Elections Division
               </h3>
               <ul className="mt-3 space-y-2 text-sm text-muted">
@@ -517,7 +517,7 @@ export default function VotePage() {
                 </li>
                 <li>Address: 1700 Broadway, Suite 550, Denver CO 80290</li>
               </ul>
-              <h3 className="mt-6 font-display text-lg text-navy">
+              <h3 className="mt-6 font-display text-xl text-navy">
                 Get Involved
               </h3>
               <ul className="mt-3 space-y-2 text-sm">

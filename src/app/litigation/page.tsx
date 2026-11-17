@@ -26,7 +26,7 @@ export default async function LitigationPage() {
           <li key={c.slug} className="border-t border-navy/10 pt-6">
             <Link href={`/litigation/${c.slug}`} className="group block">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h2 className="font-display text-2xl text-navy group-hover:text-oxblood">
+                <h2 className="font-display text-3xl text-navy group-hover:text-oxblood">
                   {c.title}
                 </h2>
                 <span className="text-xs uppercase tracking-wider text-muted">

@@ -21,7 +21,7 @@ export default async function EventsPage() {
 
       {events.length === 0 ? (
         <div className="mt-12 border border-dashed border-navy/15 px-6 py-12 text-center">
-          <p className="font-display text-2xl text-navy">No upcoming events</p>
+          <p className="font-display text-3xl text-navy">No upcoming events</p>
           <p className="mt-3 text-sm text-muted">
             Add events in{" "}
             <Link href="/admin/events" className="text-oxblood underline">
@@ -37,7 +37,7 @@ export default async function EventsPage() {
               key={event.id ?? event.title}
               className="border-t border-navy/10 pt-6"
             >
-              <h2 className="font-display text-2xl text-navy">{event.title}</h2>
+              <h2 className="font-display text-3xl text-navy">{event.title}</h2>
               {event.starts_at ? (
                 <p className="mt-1 text-sm text-amber">
                   {new Date(event.starts_at).toLocaleString()}
