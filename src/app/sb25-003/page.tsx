@@ -12,7 +12,7 @@ import { PermitStepList } from "@/components/sb25/PermitStepList";
 import { SsfSearch } from "@/components/sb25/SsfSearch";
 
 export const metadata: Metadata = {
-  title: "SB25-003: Colorado Semiautomatic Firearms",
+  title: "SB25-003: Semiautomatic Firearms & Rapid-Fire Devices",
   description:
     "Colorado SB25-003 guide: what the law is and isn't, the permit-to-purchase process, course options and fees, and the official list of Specified Semiautomatic Firearms.",
 };
@@ -38,8 +38,8 @@ function FeeTable({
           <tr className="border-b border-silver text-left text-silver-muted">
             <th className="w-40 py-2 pr-3 font-medium">Fee</th>
             <th className="w-32 py-2 pr-3 font-medium">Amount</th>
-            <th className="w-40 py-2 pr-3 font-medium">Collected by</th>
-            <th className="py-2 pr-3 font-medium">What it covers</th>
+            <th className="w-40 py-2 pr-3 font-medium">Collected By</th>
+            <th className="py-2 pr-3 font-medium">What It Covers</th>
           </tr>
         </thead>
         <tbody>
@@ -118,15 +118,15 @@ export default function Sb25003Page() {
 
   return (
     <WideGuideLayout
-      title="SB25-003"
-      lede="The complete guide to Colorado's semiautomatic firearms law — what it is and isn't, the permit-to-purchase process, course options and fees, and the official list of Specified Semiautomatic Firearms. Confirm everything with CPW and your sheriff."
+      title="SB25-003: Semiautomatic Firearms & Rapid-Fire Devices"
+      lede="The complete guide to Colorado's mandated permit to purchase law — what it is and isn't, the permit-to-purchase process, course options and fees, and the current up-to-date official list of Specified Semiautomatic Firearms. Confirm everything with Colorado Parks and Wildlife (CPW) and your sheriff."
     >
       {/* intro */}
       <p className="mt-6">
-        Effective <strong>August 1, 2026</strong>, Colorado’s SB25-003 restricts the purchase,
+        Effective <strong>August 1, 2026</strong>, Colorado’s <a href="https://leg.colorado.gov/bills/sb25-003" target="_blank" rel="noopener noreferrer" className="text-oxblood underline underline-offset-2 hover:text-oxblood-deep">SB25-003: Semiautomatic Firearms &amp; Rapid-Fire Devices</a> restricts the purchase,
         sale, and transfer of Specified Semiautomatic Firearms (SSFs). This page explains the law,
         walks through the permit-to-purchase process, and provides the official, up-to-date list of
-        covered firearms.{" "}
+        restricted semi-automatic firearms.{" "}
         <CrsLink citation="18-12-116" /> · <CrsLink citation="18-12-101" /> ·{" "}
         <CrsLink citation="24-35-122" />
       </p>
@@ -135,7 +135,7 @@ export default function Sb25003Page() {
       <Section title="The Law">
         <div className="mt-4 grid gap-6 md:grid-cols-2">
           <div className="rounded-md border border-silver bg-cream p-5">
-            <h3 className="font-display text-xl text-navy">What it is</h3>
+            <h3 className="font-display text-xl text-navy">What It Is</h3>
             <ul className="mt-2 space-y-2">
               {law.is.map((item, i) => (
                 <li key={i} className="text-muted">
@@ -145,7 +145,7 @@ export default function Sb25003Page() {
             </ul>
           </div>
           <div className="rounded-md border border-silver bg-cream p-5">
-            <h3 className="font-display text-xl text-navy">What it isn’t</h3>
+            <h3 className="font-display text-xl text-navy">What It Isn’t</h3>
             <ul className="mt-2 space-y-2">
               {law.isNot.map((item, i) => (
                 <li key={i} className="text-muted">
@@ -189,7 +189,7 @@ export default function Sb25003Page() {
           You must complete a Colorado Firearms Safety Program (FSP) course and pass the exam with
           90% or better. Which course you take depends on your prior experience.
         </p>
-        <h3 className="mt-4 font-display text-xl text-navy">Course requirements</h3>
+        <h3 className="mt-4 font-display text-xl text-navy">Course Requirements</h3>
         <ul className="mt-2">
           {process.courseRequirements.map((r, i) => (
             <li key={i} className="text-muted">
@@ -197,6 +197,17 @@ export default function Sb25003Page() {
             </li>
           ))}
         </ul>
+        <p className="mt-2 text-muted">
+          Certified instructor list:{" "}
+          <a
+            href="https://docs.google.com/spreadsheets/d/1xrpQm9zKEANw6wiSoMHpwgZu_jydxr6w2SPez7Qvhyw/edit?gid=0#gid=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-oxblood underline"
+          >
+            Colorado FSP instructor directory
+          </a>
+        </p>
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           {process.courseOptions.map((c) => (
             <div key={c.id} className="rounded-md border border-silver bg-cream p-5">

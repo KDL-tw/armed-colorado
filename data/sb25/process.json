@@ -13,14 +13,14 @@
       "Defines a 'Specified Semiautomatic Firearm' (C.R.S. 18-12-116(1)(d)): a semiautomatic rifle or semiautomatic shotgun with a detachable magazine, or a gas-operated semiautomatic handgun with a detachable magazine.",
       "A person may purchase or transfer an SSF only after completing a Colorado Firearms Safety Program (FSP) course — passing the exam and hands-on practical with 90% or better — and receiving an eligibility card from the county sheriff.",
       "Classifies any device, part, kit, tool, accessory, or combination of parts that increases the rate of fire of a semiautomatic firearm above its standard rate of fire as a 'rapid-fire device,' a dangerous weapon.",
-      "Requires the Firearms Dealer Division to publish and keep updated a list of specific SSF models (C.R.S. 24-35-122)."
+      "Requires the Firearms Dealer Division (FDD) to publish and keep updated a list of specific SSF models (C.R.S. 24-35-122)."
     ],
     "isNot": [
       "It does NOT ban all semiautomatic firearms — only the 'specified' ones (detachable-magazine rifles/shotguns and gas-operated detachable-magazine handguns) listed in the FDD guidance.",
       "It does NOT ban magazines by themselves, and it does NOT apply to manually cycled (non-semiautomatic) firearms — bolt, pump, lever, or slide action (C.R.S. 18-12-116(1)(d)(II)(B)).",
       "It does NOT apply to recoil-operated single- or double-action semiautomatic handguns (C.R.S. 18-12-116(1)(d)(II)(D)).",
       "It does NOT ban possession. The prohibition (C.R.S. 18-12-116(2)) applies to manufacture, distribution, transfer, sale, and purchase on or after August 1, 2026 — so keeping a lawfully owned firearm is not itself unlawful, but transferring or selling one is, with narrow exceptions such as estate transfers (C.R.S. 18-12-116(3)(f)).",
-      "It does NOT accept out-of-state, hunter-education-only, or CCW safety courses in place of the FSP course."
+      "It does NOT accept out-of-state, hunter-education-only, or concealed carry weapon (CCW) safety courses in place of the FSP course."
     ]
   },
   "permitSteps": [
@@ -32,7 +32,7 @@
       "citations": []
     },
     {
-      "title": "Submit documents to your county sheriff",
+      "title": "Submit Documents to Your County Sheriff",
       "detail": "Provide a name-based background check and a government-issued photo ID to the sheriff's office. Fees are collected at this step.",
       "cost": { "label": "$52 + sheriff fee", "detail": "$52 course-record fee (to CPW) plus a county-set administrative fee" },
       "time": { "label": "varies by county", "detail": "background-check + document review; some counties are slower or not yet accepting" },
@@ -43,21 +43,21 @@
       ]
     },
     {
-      "title": "Sheriff review → eligibility card",
+      "title": "Sheriff Review → Eligibility Card",
       "detail": "The sheriff reviews the file, determines eligibility, and issues an eligibility card good for 5 years. An email is sent whether approved or denied.",
       "cost": { "label": "included above", "detail": "no separate step fee" },
       "time": { "label": "varies by county", "detail": "sheriff review turnaround" },
       "citations": []
     },
     {
-      "title": "Complete the FSP course & pass the exam",
+      "title": "Complete the FSP Course & Pass the Exam",
       "detail": "Take the course from any sheriff-verified FSP instructor (Basic 4-hr or Extended 12-hr) and pass the exam + hands-on practical with 90% or better. Passing opens a 5-year purchase window.",
       "cost": { "label": "varies by instructor", "detail": "the FSP instructor's course fee — not a state fee" },
       "time": { "label": "4–12 hours of instruction", "detail": "the 12-hr course spans at least 2 days; instructor scheduling is the long pole" },
       "citations": ["18-12-202.7"]
     },
     {
-      "title": "Purchase with FFL verification",
+      "title": "Purchase with a Federally Licensed Firearms Dealer (FFL)",
       "detail": "At a federally licensed firearms dealer, the dealer confirms your eligibility in the FSS and completes the purchase.",
       "cost": { "label": "firearm price", "detail": "excluded from permit cost" },
       "time": { "label": "at point of sale", "detail": "subject to normal FFL transfer processing" },

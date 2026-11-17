@@ -31,7 +31,7 @@ export function SsfSearch({ firearms, version }: { firearms: SsfFirearm[]; versi
   return (
     <div className="rounded-md border border-silver bg-cream p-4">
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-        <h3 className="font-display text-xl text-navy">Specified Semiautomatic Firearms list</h3>
+        <h3 className="font-display text-xl text-navy">Specified Semiautomatic Firearms List</h3>
         <span className="text-xs text-silver-muted">FDD guidance · {version}</span>
       </div>
 
