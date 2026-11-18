@@ -1,6 +1,6 @@
 # Armed Colorado
 
-Reference site for Colorado firearms law: Billwatch (268 gun bills across 29 years, 1998–2026), a 2A litigation tracker, SB25-003 class requirements, a 22-organization resource directory, legislator lookup with interactive district maps, civic guides, and an unauthenticated admin CMS.
+Reference site for Colorado firearms law: Billwatch (268 gun bills across 29 years, 1998–2026), a 2A litigation tracker, SB25-003 class requirements, a 22-organization resource directory, legislator lookup with interactive district maps, civic guides, and a password-protected admin CMS.
 
 **Stack:** Next.js 16 App Router · React 19 · Tailwind v4 · Vercel · Supabase Free (Special projects TSOR) · optional Umbrella API + Resend
 
@@ -20,7 +20,7 @@ Reference site for Colorado firearms law: Billwatch (268 gun bills across 29 yea
 | `/events` | Events calendar (admin-managed) |
 | `/concealed-carry` | Concealed Handgun Permit (CHP) guide: CRS statutes, obtain/renew steps, US reciprocity map, county sheriff map (local JSON) |
 | `/ccw-renewal` · `/gun-trusts` · `/restore-rights` · `/self-defense` · `/statutes` · `/testify` · `/testifying` · `/vote` | Civic guides (shared `GuideLayout`) |
-| `/admin` | Unauthenticated CMS (Content, Litigation, Events, Analytics, API health) |
+| `/admin` | Password-protected CMS (Content, Litigation, Events, Analytics, API health) — see [Admin gate](#admin-gate) |
 
 ## Local development
 
@@ -51,6 +51,19 @@ Dev mode (Turbopack) streams RSC and loads hundreds of async chunks + HMR, which
 | `SUPABASE_SERVICE_ROLE_KEY` | Server-only admin writes — never expose to the client |
 | `UMBRELLA_API_URL` / `UMBRELLA_API_KEY` | Optional Umbrella bill API — powers `/billwatch/[id]` detail (sponsors, fiscal cost). Without it, the bill detail page runs in stub mode. |
 | `RESEND_API_KEY` / `RESEND_FROM_EMAIL` | Optional alert confirmation emails |
+| `ADMIN_PASSWORD` | Admin gate password (shared secret). Never commit it. Generate: `openssl rand -base64 18`. Set in `.env.local` AND Vercel env. |
+| `ADMIN_SECURE_COOKIE` | Optional. Set to `1` when served over HTTPS (e.g. Vercel) so the session cookie only travels over secure connections. |
+
+## Admin gate
+
+`/admin/*` is behind a shared-password gate (`ADMIN_PASSWORD`):
+
+- `src/proxy.ts` (Next 16 Proxy — the replacement for middleware) redirects unauthenticated GET/HEAD to `/admin/login` and returns 403 for other methods, which also blocks unauthenticated server-action POSTs.
+- `/admin/login` is the only public admin page. Correct password → httpOnly `admin_session` cookie (`expiry + SHA-256(password + expiry)`, 12h TTL, constant-time compare).
+- Defense in depth: `requireAdmin()` in `src/lib/actions/admin.ts` also refuses to run without a valid session cookie.
+- Fail-closed: with `ADMIN_PASSWORD` unset, `/admin` returns 503 and login shows the misconfiguration.
+- Changing `ADMIN_PASSWORD` invalidates all existing sessions (revocation path). There is no per-user identity or rate limiting — if that becomes a requirement, upgrade to Supabase Auth (the README's earlier "do not enable Supabase Auth for v1" note was scoped to v1 simplicity).
+- Set `ADMIN_SECURE_COOKIE=1` in the Vercel env so the cookie is HTTPS-only on the public deployment.
 
 ## Supabase (Special projects TSOR — Free)
 
@@ -91,7 +104,7 @@ The search and year-filter controls on the page are wired via a client component
 
 ## Admin
 
-`/admin` has **no login**. Keep the URL private. Sections: Content, Litigation, Events, Analytics, API health.
+`/admin` is password-protected — see [Admin gate](#admin-gate). Sections: Content, Litigation, Events, Analytics, API health.
 
 ## Design conventions
 

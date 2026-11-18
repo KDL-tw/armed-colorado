@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { isSupabaseConfigured } from "@/lib/supabase/clients";
 import { ContentShell } from "@/components/ContentShell";
+import { logoutAction } from "@/lib/actions/admin-auth";
 
 const LINKS = [
   {
@@ -33,8 +34,8 @@ export default function AdminHomePage() {
     <ContentShell width="4xl">
       <h1 className="font-display text-4xl text-navy">Admin</h1>
       <p className="mt-3 max-w-2xl text-sm text-muted">
-        No login in v1. Mutations use the server service-role key. Keep this URL
-        private until auth is added.
+        Shared-password CMS. Sessions last 12 hours. Mutations use the server
+        service-role key.
       </p>
       {!configured ? (
         <p className="mt-4 border border-amber/40 bg-amber/10 px-4 py-3 text-sm text-amber">
@@ -55,6 +56,9 @@ export default function AdminHomePage() {
           </li>
         ))}
       </ul>
+      <form action={logoutAction} className="mt-10">
+        <button type="submit" className="admin-btn">Sign out</button>
+      </form>
     </ContentShell>
   );
 }

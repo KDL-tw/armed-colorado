@@ -23,9 +23,9 @@ export function SiteHeader() {
     return (
       <header className="border-b border-white/10 bg-navy">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-          <Link href="/admin" className="font-display text-lg text-white">
+          <span className="font-display text-lg text-white">
             Armed Colorado Admin
-          </Link>
+          </span>
           <Link href="/" className="text-sm text-silver hover:text-amber">
             ← Public site
           </Link>

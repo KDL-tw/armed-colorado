@@ -46,9 +46,6 @@ export function SiteFooter() {
       </div>
       <div className="relative mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 border-t border-white/10 px-4 py-5 text-xs text-silver-muted">
         <span>© {new Date().getFullYear()} Armed Colorado</span>
-        <Link href="/admin" className="hover:text-silver">
-          Admin
-        </Link>
       </div>
     </footer>
   );
