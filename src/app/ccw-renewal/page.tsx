@@ -18,9 +18,8 @@ export default async function CcwRenewalPage() {
       </p>
       {orgs.length === 0 ? (
         <p>
-          No organizations listed yet. Add entries in{" "}
-          <a href="/admin">Admin → Content</a>, or contact your county sheriff
-          for approved instructors.
+          No organizations listed yet. Contact your county sheriff for
+          approved instructors.
         </p>
       ) : (
         <ul>

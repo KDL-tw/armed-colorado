@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { getEvents } from "@/lib/data/queries";
 import { ContentShell } from "@/components/ContentShell";
 
@@ -22,13 +21,7 @@ export default async function EventsPage() {
       {events.length === 0 ? (
         <div className="mt-12 border border-dashed border-navy/15 px-6 py-12 text-center">
           <p className="font-display text-3xl text-navy">No upcoming events</p>
-          <p className="mt-3 text-sm text-muted">
-            Add events in{" "}
-            <Link href="/admin/events" className="text-oxblood underline">
-              Admin → Events
-            </Link>
-            .
-          </p>
+          <p className="mt-3 text-sm text-muted">Check back soon.</p>
         </div>
       ) : (
         <ul className="mt-10 space-y-6">
