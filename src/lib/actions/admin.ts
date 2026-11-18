@@ -1,20 +1,29 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { cookies } from "next/headers";
 import { createServiceClient } from "@/lib/supabase/clients";
+import { SESSION_COOKIE, verifySession } from "@/lib/admin-auth/session";
 
-function requireAdmin() {
+async function requireAdmin() {
   const client = createServiceClient();
   if (!client) {
     throw new Error(
       "SUPABASE_SERVICE_ROLE_KEY / NEXT_PUBLIC_SUPABASE_URL not configured",
     );
   }
+  // Defense in depth: the proxy gate covers /admin/*, but refuse to run
+  // service-role writes without a valid admin session cookie.
+  const password = process.env.ADMIN_PASSWORD;
+  const session = (await cookies()).get(SESSION_COOKIE)?.value;
+  if (!password || !session || !(await verifySession(password, session))) {
+    throw new Error("Admin session required");
+  }
   return client;
 }
 
 export async function upsertFaq(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   const payload = {
     page_key: String(formData.get("page_key") || ""),
@@ -34,7 +43,7 @@ export async function upsertFaq(formData: FormData) {
 }
 
 export async function deleteFaq(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   if (id) await client.from("faq_entries").delete().eq("id", id);
   revalidatePath("/admin/content");
@@ -42,7 +51,7 @@ export async function deleteFaq(formData: FormData) {
 }
 
 export async function upsertResource(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   const colorado = formData.get("colorado_contact");
   const payload = {
@@ -68,7 +77,7 @@ export async function upsertResource(formData: FormData) {
 }
 
 export async function upsertCounty(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   const payload = {
     county: String(formData.get("county") || ""),
@@ -89,7 +98,7 @@ export async function upsertCounty(formData: FormData) {
 }
 
 export async function upsertCcwOrg(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   const payload = {
     name: String(formData.get("name") || ""),
@@ -111,7 +120,7 @@ export async function upsertCcwOrg(formData: FormData) {
 }
 
 export async function upsertLitigation(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   let timeline = [];
   let sources = [];
@@ -149,7 +158,7 @@ export async function upsertLitigation(formData: FormData) {
 }
 
 export async function deleteLitigation(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   if (id) await client.from("litigation_cases").delete().eq("id", id);
   revalidatePath("/admin/litigation");
@@ -157,7 +166,7 @@ export async function deleteLitigation(formData: FormData) {
 }
 
 export async function upsertEvent(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   const starts = String(formData.get("starts_at") || "");
   const payload = {
@@ -178,7 +187,7 @@ export async function upsertEvent(formData: FormData) {
 }
 
 export async function deleteEvent(formData: FormData) {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const id = String(formData.get("id") || "");
   if (id) await client.from("events").delete().eq("id", id);
   revalidatePath("/admin/events");
@@ -186,7 +195,7 @@ export async function deleteEvent(formData: FormData) {
 }
 
 export async function refreshHealthChecks() {
-  const client = requireAdmin();
+  const client = await requireAdmin();
   const umbrellaConfigured = Boolean(
     process.env.UMBRELLA_API_KEY && process.env.UMBRELLA_API_URL,
   );
