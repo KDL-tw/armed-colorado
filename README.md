@@ -61,7 +61,7 @@ Dev mode (Turbopack) streams RSC and loads hundreds of async chunks + HMR, which
 - `src/proxy.ts` (Next 16 Proxy — the replacement for middleware) redirects unauthenticated GET/HEAD to `/admin/login` and returns 403 for other methods, which also blocks unauthenticated server-action POSTs.
 - `/admin/login` is the only public admin page. Correct password → httpOnly `admin_session` cookie (`expiry + SHA-256(password + expiry)`, 12h TTL, constant-time compare).
 - Defense in depth: `requireAdmin()` in `src/lib/actions/admin.ts` also refuses to run without a valid session cookie.
-- Fail-closed: with `ADMIN_PASSWORD` unset, `/admin` returns 503 and login shows the misconfiguration.
+- Fail-closed: with `ADMIN_PASSWORD` unset, `/admin` returns 503 and login shows the misconfiguration on submit (the page itself renders normally).
 - Changing `ADMIN_PASSWORD` invalidates all existing sessions (revocation path). There is no per-user identity or rate limiting — if that becomes a requirement, upgrade to Supabase Auth (the README's earlier "do not enable Supabase Auth for v1" note was scoped to v1 simplicity).
 - Set `ADMIN_SECURE_COOKIE=1` in the Vercel env so the cookie is HTTPS-only on the public deployment.
 

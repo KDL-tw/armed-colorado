@@ -13,8 +13,7 @@ import {
 function resolveNext(value: FormDataEntryValue | null): string {
   if (
     typeof value === "string" &&
-    value.startsWith("/admin") &&
-    !value.startsWith("//")
+    (value === "/admin" || value.startsWith("/admin/"))
   ) {
     return value;
   }
