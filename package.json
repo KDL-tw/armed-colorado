@@ -22,7 +22,8 @@
     "sb25:monitor-ssf": "bash scripts/ssf-monitor.sh",
     "sb25:instructors": "tsx scripts/fetch-sb25-instructors.ts",
     "sb25:validate": "tsx scripts/validate-sb25-ssf.ts",
-    "sb25:test": "tsx --test --test-reporter=tap src/lib/sb25/sb25.test.ts"
+    "sb25:test": "tsx --test --test-reporter=tap src/lib/sb25/sb25.test.ts",
+    "admin-auth:test": "tsx --test --test-reporter=tap src/lib/admin-auth/session.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.111.0",
