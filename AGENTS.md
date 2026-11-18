@@ -225,6 +225,9 @@ The five anti-patterns and core principles from the original incident write-up (
 <!-- BEGIN:data-freshness-automation -->
 # Data Freshness Automation ("last checked / last updated" notes)
 
+- Timestamps in the notes render in MILITARY time (24-hour, no AM/PM —
+  user preference; midnight = 00:00): `formatStamp()` in
+  `src/lib/data/format.ts` uses `hourCycle: "h23"`.
 - Every data page (billwatch, legislators, legislators/districts metro,
   concealed-carry, sb25-003) renders a two-line light-grey note
   (`src/components/DataStamp.tsx`) directly under each pulled-data block:
