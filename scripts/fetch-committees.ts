@@ -27,6 +27,7 @@ import * as path from "path";
 import sharp from "sharp";
 import type { CommitteeCatalog, CommitteeMember } from "../src/lib/committee/types";
 import { stampFreshness } from "../src/lib/data/data-stamp";
+import { recordCheck } from "../src/lib/data/check-record";
 
 const BASE = "https://leg.colorado.gov";
 const UA = { "User-Agent": "ArmedColorado-CommitteeRoster/1.0" };
@@ -248,14 +249,8 @@ async function main() {
     }
   }
 
-  // Regenerate the reference files (ground truth, brought current).
-  const house = live.filter((c) => c.chamber === "house");
-  const senate = live.filter((c) => c.chamber === "senate");
-  fs.writeFileSync(HOUSE_REF, serializeHouse(house, contacts), "utf8");
-  fs.writeFileSync(SENATE_REF, serializeSenate(senate, contacts), "utf8");
-  console.log(`Wrote ${HOUSE_REF} and ${SENATE_REF}`);
-
-  // Previous catalog (for freshness change detection).
+  // Previous catalog (for freshness change detection) — read BEFORE any
+  // write so a no-op run can skip every file write.
   let prevCatalog: unknown = null;
   try {
     prevCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
@@ -284,10 +279,27 @@ async function main() {
       return { chamber: c.chamber, slug: c.slug, name: c.name, url: c.url, description: c.description, members };
     }),
   };
-  // Freshness stamps: fetchedAt on every run; updatedAt only if the roster
-  // content actually changed vs. the previous catalog.
-  Object.assign(catalog, stampFreshness(prevCatalog, catalog));
-  fs.writeFileSync(CATALOG_PATH, JSON.stringify(catalog, null, 2), "utf8");
+
+  // Freshness stamps + no-op discipline (user rule: no no-op commits). An
+  // unchanged roster writes NOTHING — reference files included (their
+  // "Regenerated on" date line would otherwise churn every run). Photo-flag
+  // flips (a previously-missing photo now on disk) count as content changes
+  // and self-heal the catalog on the next run.
+  const stamps = stampFreshness(prevCatalog, catalog);
+  if (stamps.changed) {
+    Object.assign(catalog, stamps);
+    // Regenerate the reference files (ground truth, brought current).
+    const house = live.filter((c) => c.chamber === "house");
+    const senate = live.filter((c) => c.chamber === "senate");
+    fs.writeFileSync(HOUSE_REF, serializeHouse(house, contacts), "utf8");
+    fs.writeFileSync(SENATE_REF, serializeSenate(senate, contacts), "utf8");
+    fs.writeFileSync(CATALOG_PATH, JSON.stringify(catalog, null, 2), "utf8");
+    recordCheck(["data/committee-catalog.json"], "updated");
+    console.log(`Wrote ${HOUSE_REF}, ${SENATE_REF} and ${CATALOG_PATH}`);
+  } else {
+    recordCheck(["data/committee-catalog.json"], "up-to-date");
+    console.log("UP-TO-DATE: committee roster unchanged — no files written, nothing to commit.");
+  }
 
   const totalSeats = catalog.committees.reduce((n, c) => n + c.members.length, 0);
   const photos = fs.readdirSync(PHOTOS_DIR).filter((f) => f.endsWith(".jpg")).length;

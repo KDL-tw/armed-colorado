@@ -14,6 +14,7 @@ import * as fs from "fs";
 import * as path from "path";
 import type { SheriffsData, SheriffInfo } from "../src/lib/chp/types";
 import { stampFreshness } from "../src/lib/data/data-stamp";
+import { recordCheck } from "../src/lib/data/check-record";
 
 const ROOT = process.cwd();
 const DATA_FILE = path.join(ROOT, "data/chp/sheriffs.json");
@@ -80,12 +81,19 @@ async function main() {
     sourceUrl: OCV_URL,
     sheriffs,
   };
-  // Freshness stamps: fetchedAt on every run; updatedAt only if the sheriff
-  // records actually changed vs. the previous file (hand-researched fields
-  // are part of the compared content).
-  Object.assign(data, stampFreshness(prevData, data));
+  // Freshness stamps + no-op discipline (user rule: no no-op commits):
+  // same content (incl. carried-forward hand-researched fields) → write
+  // NOTHING. A sheriff/phone change → write + commit-ready.
+  const stamps = stampFreshness(prevData, data);
+  if (!stamps.changed) {
+    recordCheck(["data/chp/sheriffs.json"], "up-to-date");
+    console.log("UP-TO-DATE: sheriff directory unchanged — no file written, nothing to commit.");
+    return;
+  }
+  Object.assign(data, stamps);
   fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + "\n", "utf8");
+  recordCheck(["data/chp/sheriffs.json"], "updated");
   console.log(`Wrote ${sheriffs.length} sheriffs to data/chp/sheriffs.json`);
 }
 

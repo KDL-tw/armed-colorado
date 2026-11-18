@@ -6,12 +6,14 @@
  * Compares (a) the set of CRS/federal citations and (b) the three fee
  * totals on the CBI page against the committed data. If either changed,
  * exit 1 with a diff — the research content (titles/summaries) must be
- * re-verified by a human against the new statute text before merging.
- * On success, updates `fetchedAt` and prints OK.
+ * re-verified by a human against the new statute text before committing.
+ * On success, records the check (no file write — user rule: no no-op
+ * commits; the check record drives the "Last checked" note line).
  */
 import * as fs from "fs";
 import * as path from "path";
 import type { CrsData } from "../src/lib/chp/types";
+import { recordCheck } from "../src/lib/data/check-record";
 
 const ROOT = process.cwd();
 const DATA_FILE = path.join(ROOT, "data/chp/crs.json");
@@ -67,9 +69,11 @@ async function main() {
     console.error(`\nfetch-chp-crs: ${errors} error(s). Re-verify the affected statutes against the new text, update data/chp/crs.json, then re-run.`);
     process.exit(1);
   }
-  data.fetchedAt = new Date().toISOString();
-  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + "\n", "utf8");
-  console.log(`OK — statute list (${liveCrs.size} CRS + ${liveUs.size} federal) and fee totals match the CBI page. fetchedAt updated.`);
+  // Success = NO write (user rule: no no-op commits). CRS content changes are
+  // human-edited + committed (researched text); the check is recorded in
+  // .cache/freshness.json, which drives the "Last checked" note line.
+  recordCheck(["data/chp/crs.json"], "verified");
+  console.log(`OK — statute list (${liveCrs.size} CRS + ${liveUs.size} federal) and fee totals match the CBI page. No changes committed.`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

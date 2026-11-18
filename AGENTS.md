@@ -225,44 +225,64 @@ The five anti-patterns and core principles from the original incident write-up (
 <!-- BEGIN:data-freshness-automation -->
 # Data Freshness Automation ("last checked / last updated" notes)
 
-- Timestamps in the notes render in MILITARY time (24-hour, no AM/PM —
-  user preference; midnight = 00:00): `formatStamp()` in
-  `src/lib/data/format.ts` uses `hourCycle: "h23"`.
+STANDING USER RULE (2026-11-18): every pulled-data source runs the loop
+auto-detect → site update → note update → commit+push, EXCEPT where that
+would produce a flood of commits. No-op runs must produce NO COMMITS and no
+dirty tree — the git history of each data file contains REAL changes only
+(the historical-analysis guarantee). The gun-bill catalog is the sanctioned
+exception: session activity would commit nearly daily, so it stays manual.
+
+## The note
 - Every data page (billwatch, legislators, legislators/districts metro,
   concealed-carry, sb25-003) renders a two-line light-grey note
   (`src/components/DataStamp.tsx`) directly under each pulled-data block:
-  "Last checked:" and "Last updated:". The pages are `force-dynamic`
-  (per-request): note + data are read from the files on disk at render time,
-  so a job that rewrites a data file shows up in the note on the NEXT page
-  load — no rebuild, no restart. (Verified 2026-11-18: running
-  `npx tsx scripts/fetch-sb25-ssf.ts` moved /sb25-003's "Last checked"
-  live under `next start`.)
-- Job-side stamps: the regenerate fetch scripts (fetch-committees,
-  fetch-districts, fetch-sb25-ssf, fetch-sb25-instructors,
-  fetch-chp-reciprocity, fetch-chp-sheriffs) call `stampFreshness()` from
-  `src/lib/data/data-stamp.ts` before writing: `fetchedAt` is stamped on
-  EVERY run; `updatedAt` is stamped ONLY when the content (excluding the
-  two stamp fields) actually changed vs. the previous file — otherwise the
-  previous value is carried forward. The verify-only script (fetch-chp-crs)
-  rewrites the whole object and re-stamps `fetchedAt` only, so any existing
-  `updatedAt` survives automatically. STANDING RULE: any job or human edit
-  that rewrites a data file must never drop an existing `updatedAt`.
-- Site-side resolver `getDataFreshness()` (`src/lib/data/freshness.ts`):
-  checked = file `fetchedAt` → file `updatedAt` → git last-commit-date for the
-  file → mtime; updated = file `updatedAt` → git → mtime (git results cached
-  60 s so auto-pulls land without a server restart). The gun-bill catalog
-  (JSON array — no top-level fields) and the hand-authored
-  `data/sb25/process.json` resolve BOTH lines from git (last commit that
-  touched the file).
-- GitHub Actions (chp-data.yml Tue 06:00 MT, district-maps.yml Mon 06:00 MT)
-  opens the refresh PR and arms AUTO-MERGE (squash) — it merges when CI is
-  green. A NEW redistricting plan never auto-merges: the fetch step exits 3
-  on purpose and no PR is opened.
-- `scripts/auto-pull.sh` (system cron on noether, `*/15 * * * *`)
-  fast-forwards the local main so merged refresh PRs land: it SKIPS a dirty
-  working tree (you are mid-work; next tick retries) and refuses diverged
-  branches (logs `DIVERGED` — push your local commits to clear it). Log:
-  `.cache/auto-pull.log` (gitignored). Data pages are dynamic, so a pulled
-  data change needs no rebuild. A stale "Last updated" on the site is the
-  visible tell for a diverged tree or a failed pipeline.
+  "Last checked:" over "Last updated:". MILITARY time (24-hour h23, no
+  AM/PM — user preference; midnight = 00:00): `formatStamp()` in
+  `src/lib/data/format.ts`.
+- The pages are `force-dynamic` (per-request): note + data read the files on
+  disk at render time → a committed change is live on the next page load —
+  no rebuild, no restart.
+- Resolver `getDataFreshness()` (`src/lib/data/freshness.ts`):
+  - "Last checked" = local check record (`.cache/freshness.json`, gitignored,
+    written by every successful loop run — committed or not) → file
+    `fetchedAt` → file `updatedAt` → git last-commit-date → mtime.
+  - "Last updated" = file `updatedAt` → git last-commit-date → mtime
+    (committed content change only).
+  - The gun-bill catalog (JSON array) and the hand-authored
+    `data/sb25/process.json` carry no job stamps → both lines from git.
+
+## The loops (system cron on noether; log `.cache/freshness-loop.log`)
+- `scripts/freshness-loop.sh <chp|districts|committees>` orchestrates:
+  guards (skip when local main is ahead of origin — never pushes your
+  unpushed work — or when the source's data paths have uncommitted edits;
+  skip notices deduped to one per 24 h) → fetch/verify scripts → validators
+  → commit (data paths only, per-source message) → push. Signal alert
+  (`hermes send`) fires ONLY when something happened or needs attention
+  (content committed, verify failure, new plan, push failure, skip); a clean
+  no-op check is silent. Cron: chp daily 07:10 · districts Mon 06:30 ·
+  committees Tue 06:30. (The crontab PATH includes /home/noether/.local/bin
+  for node/npx/hermes.)
+- SSF list: `scripts/check-sb25-ssf.ts` via the existing daily 07:00 hermes
+  cron (sb25-ssf-updater) — detects a NEW FDD guidance PDF version and only
+  on change re-parses, rewrites ssf.json + the process.json source link,
+  then commits + pushes itself. Same no-op discipline.
+- The fetch/verify scripts enforce the write rule: `stampFreshness()`
+  (`src/lib/data/data-stamp.ts`, `changed` flag) — a content change stamps
+  `fetchedAt` + `updatedAt` and writes; no change writes NOTHING and records
+  the check. `fetch-chp-crs` is verify-only (never writes: success =
+  `recordCheck` only, mismatch = exit 1 for human re-verification). Standing
+  rule: never drop an existing `updatedAt` when rewriting a data file
+  (job or human).
+
+## Sync + history
+- `scripts/auto-pull.sh` (cron */15) fast-forwards local main from origin —
+  keeps the clone in sync for history and picks up any off-box push. Skips
+  dirty trees; logs DIVERGED when local has unpushed commits (push to
+  clear). Log: `.cache/auto-pull.log`.
+- The old GitHub Actions refresh workflows (chp-data.yml, district-maps.yml
+  with PR + auto-merge) are RETIRED (2026-11-18) — the local loops replicate
+  their gates (validators before every commit; the exit-3 new-plan fail-safe
+  now raises a Signal alert). Historical analysis over any data file:
+  `git log --follow data/<file>`, `git show <sha>:data/<file>`,
+  `git diff <a> <b> -- data/<file>` — one commit per real change.
 <!-- END:data-freshness-automation -->

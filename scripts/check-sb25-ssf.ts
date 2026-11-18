@@ -17,6 +17,7 @@ import { execSync } from "node:child_process";
 import { writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { parseSsfText } from "../src/lib/sb25/ssf-parser";
+import { recordCheck } from "../src/lib/data/check-record";
 
 const FDD_PAGE = "https://sbg.colorado.gov/firearms-dealer-division";
 const UA =
@@ -61,6 +62,7 @@ const current = JSON.parse(readFileSync(ssfPath, "utf8")) as {
 };
 
 if (current.sourceUrl === latestUrl) {
+  recordCheck(["data/sb25/ssf.json", "data/sb25/process.json"], "up-to-date");
   console.log(
     `UP-TO-DATE version=${current.version} total=${current.counts.total} source=${latestUrl}`,
   );
@@ -99,6 +101,7 @@ writeFileSync(procPath, JSON.stringify(proc, null, 2) + "\n");
 run("git add data/sb25/ssf.json data/sb25/process.json");
 run(`git commit -m "data(sb25): refresh SSF list to ${versionStr} (${data.counts.total} firearms)"`);
 run("git push origin main");
+recordCheck(["data/sb25/ssf.json", "data/sb25/process.json"], "updated");
 console.log(
   `UPDATED version=${versionStr} total=${data.counts.total} (was ${current.version}/${current.counts.total}); committed + pushed to origin/main.`,
 );

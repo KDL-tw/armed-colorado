@@ -1,26 +1,29 @@
 /**
  * Data-freshness stamps (JOB side).
  *
- * Every fetch/refresh job that rewrites a data file on disk stamps two fields
- * into that file:
+ * Fetch jobs stamp two fields into a data file — but ONLY when the content
+ * actually changed. No-op runs write nothing (user rule: no no-op commits,
+ * 2026-11-18), so the git history of a data file contains real changes only:
  *
- *   - fetchedAt — every successful run (the data was *checked*).
- *   - updatedAt — only when the file's content actually changed vs. the
- *     previous file (the data was *updated*); otherwise the previous file's
- *     updatedAt is carried forward (or omitted when it had none).
+ *   - fetchedAt — when the job re-fetched and committed a content change.
+ *   - updatedAt — when the file's content last changed (same instant for
+ *     these jobs; a separate field so human-edited files can carry their
+ *     own update time too).
  *
- * The site's "Last checked / Last updated" note reads these fields first
- * (see src/lib/data/freshness.ts), so the note moves as soon as a job writes
- * the file — no git commit, no rebuild, no restart.
+ * The site's note lines: "Last checked" comes from the local check record
+ * (src/lib/data/check-record.ts — written on EVERY successful run, committed
+ * or not); "Last updated" comes from these fields / git (see
+ * src/lib/data/freshness.ts).
  *
  * Usage (in a fetch script):
  *   const stamps = stampFreshness(prevParsedFileOrNull, newData);
+ *   if (!stamps.changed) { recordCheck(files, "up-to-date"); process.exit(0); }
  *   Object.assign(newData, stamps);
  *   writeFileSync(out, JSON.stringify(newData, null, 2) + "\n");
  *
- * Verify-only jobs (e.g. scripts/fetch-chp-crs.ts) must NOT use this helper:
- * they load the whole object and re-stamp only `fetchedAt`, which carries any
- * existing `updatedAt` forward automatically.
+ * Verify-only jobs (e.g. scripts/fetch-chp-crs.ts) never write: they compare
+ * live source vs. committed data and recordCheck() on success, so both a
+ * clean verify and a mismatch leave the tree untouched.
  */
 
 export interface FreshnessStamps {
@@ -28,6 +31,10 @@ export interface FreshnessStamps {
   fetchedAt: string;
   /** ISO — present only when the content changed vs. `prev` (or `prev` absent). */
   updatedAt?: string;
+  /** True when the content (stamps stripped) differs from `prev`, or `prev` was
+   *  absent. No-op runs MUST use this to skip their write entirely: no file
+   *  write, no dirty tree, no no-op commit (user rule 2026-11-18). */
+  changed: boolean;
 }
 
 /** Canonical form for order-independent content comparison: keys sorted at
@@ -63,7 +70,7 @@ export function stampFreshness(prev: unknown, next: object): FreshnessStamps {
       ? (prev as { updatedAt?: unknown }).updatedAt
       : undefined;
 
-  const out: FreshnessStamps = { fetchedAt: now };
+  const out: FreshnessStamps = { fetchedAt: now, changed };
   if (changed) {
     out.updatedAt = now;
   } else if (typeof prevUpdatedAt === "string" && prevUpdatedAt.length > 0) {

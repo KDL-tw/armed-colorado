@@ -11,6 +11,7 @@ import { writeFileSync, mkdirSync, readFileSync, existsSync, statSync } from "no
 import path from "node:path";
 import { parseSsfText } from "../src/lib/sb25/ssf-parser";
 import { stampFreshness } from "../src/lib/data/data-stamp";
+import { recordCheck } from "../src/lib/data/check-record";
 
 const GUIDANCE_URL =
   "https://sbg.colorado.gov/sites/sbg/files/documents/Specified_Semiautomatic_Firearms_Guidance_07.30.2026.pdf";
@@ -50,11 +51,16 @@ try {
   /* first run — no previous file */
 }
 
-// Freshness stamps: fetchedAt on every run; updatedAt only if the firearm
-// list actually changed vs. the previous file (same PDF re-fetch → carried
-// forward, so a weekly no-op refresh does not move "Last updated").
-Object.assign(data, stampFreshness(prev, data));
-
+// Freshness stamps + no-op discipline: same PDF re-parsed → write NOTHING
+// (no dirty tree, no no-op commit).
+const stamps = stampFreshness(prev, data);
 console.error(`parsed ${data.counts.total} firearms (r=${data.counts.rifle} s=${data.counts.shotgun} h=${data.counts.handgun})`);
+if (!stamps.changed) {
+  recordCheck(["data/sb25/ssf.json"], "up-to-date");
+  console.error("UP-TO-DATE: SSF content unchanged — no file written, nothing to commit.");
+  process.exit(0);
+}
+Object.assign(data, stamps);
 writeFileSync(OUT, JSON.stringify(data, null, 2) + "\n");
+recordCheck(["data/sb25/ssf.json"], "updated");
 console.error("wrote data/sb25/ssf.json");

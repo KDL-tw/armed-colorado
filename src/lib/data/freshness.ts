@@ -4,24 +4,26 @@
  * For each pulled-data file (the committed output of a fetch/refresh job) we
  * report two timestamps:
  *
- *   - checkedAt — when the job last *checked* the data. Primary source: the
- *     file's `fetchedAt` field, which the fetch scripts stamp on every
- *     successful run (including verify-and-no-op runs that only re-confirm
- *     the data is current).
+ *   - checkedAt — when the data was last *checked*. Primary source: the
+ *     LOCAL check record (.cache/freshness.json, gitignored), which the
+ *     freshness loops write on every successful run — committed or not.
+ *     That is the "Last checked" semantic: it moves whenever a loop verifies
+ *     the data, with no no-op commits. Next: the file's `fetchedAt` field
+ *     (stamped by fetch scripts when they commit a content change), then
+ *     updatedAt, git, mtime.
  *
- *   - updatedAt — when the file's *content* last changed. Primary source: the
- *     file's `updatedAt` field, which the fetch scripts stamp ONLY when the
- *     content actually differs from the previous file (see
- *     src/lib/data/data-stamp.ts). Files that carry no such fields (the
+ *   - updatedAt — when the file's *content* last changed (COMMITTED).
+ *     Primary source: the file's `updatedAt` field, which the fetch scripts
+ *     stamp ONLY when the content actually differs from the previous file
+ *     (see src/lib/data/data-stamp.ts). Files that carry no such fields (the
  *     gun-bill catalog — JSON array — and the hand-authored
  *     data/sb25/process.json) fall back to the git committer date of the
- *     last commit that touched the file, then to the file mtime, so the UI
- *     never shows garbage.
+ *     last commit that touched the file, then to the file mtime.
  *
  * The data pages render per request and pass their already-parsed data
- * object, so the note reflects the file on disk at request time: when a job
- * rewrites the data file, the note updates on the next page load — no
- * rebuild, no restart.
+ * object, so the note reflects the files on disk at request time: when a
+ * loop commits a data change, "Last updated" moves on the next page load —
+ * no rebuild, no restart.
  *
  * Server-only: uses child_process (git) and fs. Do not import from a
  * client component.
@@ -30,6 +32,7 @@ import { execFile } from "node:child_process";
 import { existsSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { promisify } from "node:util";
+import { readCheckRecord } from "./check-record";
 
 const execFileAsync = promisify(execFile);
 
@@ -129,8 +132,12 @@ export async function getDataFreshness(opts: {
   const stamps = topLevelStamps(parsed);
   const fetched = stamps.fetchedAt ?? null;
   const updated = stamps.updatedAt ?? null;
+  // The local check record is the latest verification by a freshness loop —
+  // it moves on every check, committed or not (no-op runs write nothing to
+  // git). It is the "Last checked" source of truth when present.
+  const checkedRecord = readCheckRecord(opts.file);
   const fallback = (await gitLastCommitIso(opts.file)) ?? fileMtimeIso(opts.file);
   const updatedAt = updated ?? fallback;
-  const checkedAt = fetched ?? updatedAt;
+  const checkedAt = checkedRecord ?? fetched ?? updatedAt;
   return { checkedAt, updatedAt };
 }

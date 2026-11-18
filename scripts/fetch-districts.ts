@@ -15,6 +15,7 @@ import { simplifyRings, labelPoint, roundRings, roundPoint } from "./districts/g
 // Relative import — scripts/ convention (see scripts/assemble-catalog.ts).
 import type { DistrictsData, DistrictsManifest, LonLat } from "../src/lib/districts/types";
 import { stampFreshness } from "../src/lib/data/data-stamp";
+import { recordCheck } from "../src/lib/data/check-record";
 
 const DATA_DIR = path.join(process.cwd(), "data", "districts");
 const DP_TOLERANCE = 0.002; // degrees; tighten to 0.001 if file exceeds 1.2 MB
@@ -150,10 +151,15 @@ async function main(): Promise<void> {
     senate: chambers.senate,
     counties,
   };
-  // Freshness stamps: fetchedAt on every run; updatedAt only if the geometry
-  // content actually changed vs. the previous file (re-fetching the same plan
-  // → carried forward, so a weekly no-op refresh does not move "Last updated").
-  Object.assign(data, stampFreshness(prevData, data));
+  // Freshness stamps + no-op discipline: re-fetching the same plan writes
+  // NOTHING (no dirty tree, no no-op commit).
+  const stamps = stampFreshness(prevData, data);
+  if (!stamps.changed) {
+    recordCheck(["data/districts/districts.json"], "up-to-date");
+    console.log("UP-TO-DATE: district geometry unchanged — no file written, nothing to commit.");
+    return;
+  }
+  Object.assign(data, stamps);
   mkdirSync(DATA_DIR, { recursive: true });
   const json = JSON.stringify(data);
   writeFileSync(dataPath, json);
@@ -174,6 +180,7 @@ async function main(): Promise<void> {
     },
   };
   writeFileSync(manifestPath, JSON.stringify(newManifest, null, 2));
+  recordCheck(["data/districts/districts.json"], "updated");
   console.log(
     `Wrote ${dataPath} (${sizeMb.toFixed(2)} MB): ` +
     `${data.house.districts.length} house districts, ` +
