@@ -5,6 +5,9 @@ import path from 'path';
 const CATALOG_FILE = 'gun-bill-catalog-20260828.json';
 const CATALOG_PATH = path.join(process.cwd(), 'data', CATALOG_FILE);
 
+/** Repo-relative path of the catalog file, for data-freshness lookups. */
+export const GUN_BILL_CATALOG_REL = `data/${CATALOG_FILE}`;
+
 /**
  * Load catalog data from the server
  */

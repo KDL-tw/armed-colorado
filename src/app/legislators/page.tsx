@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { loadCommitteeCatalog } from "@/lib/committee/committee-client";
 import { loadDistrictsData } from "@/lib/districts/districts-client";
+import { DataStamp } from "@/components/DataStamp";
+import { getDataFreshness } from "@/lib/data/freshness";
 import DistrictMap from "@/components/DistrictMap";
 import LegislatorsTabs, { type TabId } from "@/components/LegislatorsTabs";
 
@@ -20,6 +22,15 @@ export default async function LegislatorsPage({
   const districts = loadDistrictsData();
   const params = await searchParams;
   const initialTab: TabId = isTabId(params.tab) ? params.tab : "find";
+
+  const committeeFresh = await getDataFreshness({
+    file: "data/committee-catalog.json",
+    fetchedAt: catalog.fetchedAt,
+  });
+  const districtsFresh = await getDataFreshness({
+    file: "data/districts/districts.json",
+    fetchedAt: districts.fetchedAt,
+  });
 
   return (
     <main className="min-h-[70vh] bg-white">
@@ -85,6 +96,12 @@ export default async function LegislatorsPage({
           <div className="mt-4">
             <LegislatorsTabs catalog={catalog} initialTab={initialTab} />
           </div>
+          {/* Data freshness for the committee-roster job */}
+          <DataStamp
+            checkedAt={committeeFresh.checkedAt}
+            updatedAt={committeeFresh.updatedAt}
+            className="mt-3"
+          />
         </section>
 
         {/* 3 — How districts are determined */}
@@ -198,6 +215,12 @@ export default async function LegislatorsPage({
               effectiveSince={districts.effectiveSince}
             />
           </div>
+          {/* Data freshness for the district-map job (House + Senate above) */}
+          <DataStamp
+            checkedAt={districtsFresh.checkedAt}
+            updatedAt={districtsFresh.updatedAt}
+            className="mt-3"
+          />
         </section>
 
         <p className="mt-12 text-sm text-muted">

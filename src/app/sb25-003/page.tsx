@@ -10,6 +10,8 @@ import { WideGuideLayout } from "@/components/chp/WideGuideLayout";
 import { CrsLink, crsCitationsToLinks } from "@/components/chp/CrsLink";
 import { PermitStepList } from "@/components/sb25/PermitStepList";
 import { SsfSearch } from "@/components/sb25/SsfSearch";
+import { DataStamp } from "@/components/DataStamp";
+import { getDataFreshness } from "@/lib/data/freshness";
 
 export const metadata: Metadata = {
   title: "SB25-003: Semiautomatic Firearms & Rapid-Fire Devices",
@@ -109,12 +111,25 @@ function InstructorTable({ instructors }: { instructors: Sb25Instructor[] }) {
   );
 }
 
-export default function Sb25003Page() {
+export default async function Sb25003Page() {
   const process = loadSb25Process();
   const ssf = loadSb25Ssf();
   const instructors = loadSb25Instructors();
   const { law } = process;
   const asOf = process.fetchedAt.slice(0, 10);
+
+  const processFresh = await getDataFreshness({
+    file: "data/sb25/process.json",
+    fetchedAt: process.fetchedAt,
+  });
+  const ssfFresh = await getDataFreshness({
+    file: "data/sb25/ssf.json",
+    fetchedAt: ssf.fetchedAt,
+  });
+  const instructorsFresh = await getDataFreshness({
+    file: "data/sb25/instructors.json",
+    fetchedAt: instructors.fetchedAt,
+  });
 
   return (
     <WideGuideLayout
@@ -300,6 +315,12 @@ export default function Sb25003Page() {
           <p className="mt-1">{process.fees.paymentNote}</p>
         </div>
       </Section>
+      {/* Data freshness for the SB25 process guide (law, process, course, fees above) */}
+      <DataStamp
+        checkedAt={processFresh.checkedAt}
+        updatedAt={processFresh.updatedAt}
+        className="mt-4"
+      />
 
       {/* ============ The SSF List ============ */}
       <Section title="The List of Specified Semiautomatic Firearms">
@@ -324,6 +345,12 @@ export default function Sb25003Page() {
           </a>
           .
         </p>
+        {/* Data freshness for the SSF-list job */}
+        <DataStamp
+          checkedAt={ssfFresh.checkedAt}
+          updatedAt={ssfFresh.updatedAt}
+          className="mt-3"
+        />
       </Section>
 
       {/* ============ FSP Instructors ============ */}
@@ -364,6 +391,12 @@ export default function Sb25003Page() {
           </a>{" "}
           teach the 4-hour class, custom classes, and private classes 7 days a week.
         </p>
+        {/* Data freshness for the FSP-instructor job */}
+        <DataStamp
+          checkedAt={instructorsFresh.checkedAt}
+          updatedAt={instructorsFresh.updatedAt}
+          className="mt-3"
+        />
       </Section>
 
       {/* ============ Sources ============ */}

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadDistrictsData } from "@/lib/districts/districts-client";
+import { DataStamp } from "@/components/DataStamp";
+import { getDataFreshness } from "@/lib/data/freshness";
 import { METRO_DEFS } from "@/lib/districts/metros";
 import MetroMap from "@/components/MetroMap";
 
@@ -26,6 +28,10 @@ export default async function MetroDistrictsPage({ params }: Props) {
   const districts = loadDistrictsData();
   const label = c === "house" ? "House" : "Senate";
   const title = METRO_DEFS.find((m) => m.key === metro)!.title;
+  const districtsFresh = await getDataFreshness({
+    file: "data/districts/districts.json",
+    fetchedAt: districts.fetchedAt,
+  });
 
   return (
     <main className="min-h-[70vh] bg-white">
@@ -57,6 +63,12 @@ export default async function MetroDistrictsPage({ params }: Props) {
             effectiveSince={districts.effectiveSince}
           />
         </div>
+        {/* Data freshness for the district-map job */}
+        <DataStamp
+          checkedAt={districtsFresh.checkedAt}
+          updatedAt={districtsFresh.updatedAt}
+          className="mt-3"
+        />
       </div>
     </main>
   );

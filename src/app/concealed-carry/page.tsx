@@ -8,6 +8,8 @@ import { UsReciprocityMap, type UsStatesTopology } from "@/components/chp/UsReci
 import { ColoradoSheriffsMap } from "@/components/chp/ColoradoSheriffsMap";
 import { loadCrsData, loadReciprocityData, loadSheriffsData } from "@/lib/chp/chp-client";
 import { loadDistrictsData } from "@/lib/districts/districts-client";
+import { DataStamp } from "@/components/DataStamp";
+import { getDataFreshness } from "@/lib/data/freshness";
 
 export const metadata: Metadata = {
   title: "Concealed Handgun Permit (CHP) Guide",
@@ -39,7 +41,7 @@ function FeeTable({ label, fee, statute }: { label: string; fee: { total: number
   );
 }
 
-export default function ConcealedCarryPage() {
+export default async function ConcealedCarryPage() {
   const crs = loadCrsData();
   const reciprocity = loadReciprocityData();
   const sheriffs = loadSheriffsData();
@@ -47,6 +49,19 @@ export default function ConcealedCarryPage() {
   const usTopology = JSON.parse(
     readFileSync(path.join(process.cwd(), "data/us-states/states-10m.json"), "utf8"),
   ) as UsStatesTopology;
+
+  const crsFresh = await getDataFreshness({
+    file: "data/chp/crs.json",
+    fetchedAt: crs.fetchedAt,
+  });
+  const reciprocityFresh = await getDataFreshness({
+    file: "data/chp/reciprocity.json",
+    fetchedAt: reciprocity.fetchedAt,
+  });
+  const sheriffsFresh = await getDataFreshness({
+    file: "data/chp/sheriffs.json",
+    fetchedAt: sheriffs.fetchedAt,
+  });
 
   return (
     <WideGuideLayout
@@ -180,6 +195,12 @@ export default function ConcealedCarryPage() {
       <div className="mt-6">
         <UsReciprocityMap topology={usTopology} states={reciprocity.states} />
       </div>
+      {/* Data freshness for the reciprocity job */}
+      <DataStamp
+        checkedAt={reciprocityFresh.checkedAt}
+        updatedAt={reciprocityFresh.updatedAt}
+        className="mt-3"
+      />
 
       {/* ============ 4. Renewing Your CHP ============ */}
       <h2 className="mt-12 font-display text-3xl text-navy">Renewing Your CHP in Colorado</h2>
@@ -191,6 +212,12 @@ export default function ConcealedCarryPage() {
       <div className="mt-6">
         <StepList steps={crs.renew.steps} exceptions={crs.renew.exceptions} stepLabel="Renewal" />
       </div>
+      {/* Data freshness for the CHP statute/CRS job (laws, obtaining, renewing above) */}
+      <DataStamp
+        checkedAt={crsFresh.checkedAt}
+        updatedAt={crsFresh.updatedAt}
+        className="mt-3"
+      />
 
       {/* ============ 5. Contacting your Sheriff ============ */}
       <h2 className="mt-12 font-display text-3xl text-navy">Contacting Your Sheriff’s Department</h2>
@@ -202,6 +229,12 @@ export default function ConcealedCarryPage() {
       <div className="mt-6">
         <ColoradoSheriffsMap counties={districts.counties} sheriffs={sheriffs.sheriffs} />
       </div>
+      {/* Data freshness for the county-sheriff job */}
+      <DataStamp
+        checkedAt={sheriffsFresh.checkedAt}
+        updatedAt={sheriffsFresh.updatedAt}
+        className="mt-3"
+      />
 
       <p className="mt-12 text-sm text-muted">
         Statutes and sheriff policies change. This page is refreshed automatically from official sources; the current

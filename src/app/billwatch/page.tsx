@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { loadGunBillCatalog } from "@/lib/gun-bill/catalog-client";
+import { loadGunBillCatalog, GUN_BILL_CATALOG_REL } from "@/lib/gun-bill/catalog-client";
 import { ContentShell } from "@/components/ContentShell";
+import { DataStamp } from "@/components/DataStamp";
+import { getDataFreshness } from "@/lib/data/freshness";
 import { BillTableClient } from "./BillTableClient";
 import Link from "next/link";
 import type { GunBillCatalogEntry, GunBillCatalogYear } from "@/lib/gun-bill/types";
@@ -27,6 +29,10 @@ export default async function BillwatchPage() {
   } catch (error) {
     console.error("Error loading catalog:", error);
   }
+
+  const catalogFresh = await getDataFreshness({
+    file: GUN_BILL_CATALOG_REL,
+  });
 
   return (
     <ContentShell width="screen">
@@ -233,6 +239,13 @@ export default async function BillwatchPage() {
           })
         )}
       </div>
+
+      {/* Data freshness for the bill catalog job */}
+      <DataStamp
+        checkedAt={catalogFresh.checkedAt}
+        updatedAt={catalogFresh.updatedAt}
+        className="mt-4"
+      />
 
       {/* Legend */}
       <section className="mt-14 border-t border-navy/10 pt-8">
