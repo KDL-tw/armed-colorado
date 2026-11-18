@@ -26,6 +26,7 @@ import * as fs from "fs";
 import * as path from "path";
 import sharp from "sharp";
 import type { CommitteeCatalog, CommitteeMember } from "../src/lib/committee/types";
+import { stampFreshness } from "../src/lib/data/data-stamp";
 
 const BASE = "https://leg.colorado.gov";
 const UA = { "User-Agent": "ArmedColorado-CommitteeRoster/1.0" };
@@ -254,6 +255,14 @@ async function main() {
   fs.writeFileSync(SENATE_REF, serializeSenate(senate, contacts), "utf8");
   console.log(`Wrote ${HOUSE_REF} and ${SENATE_REF}`);
 
+  // Previous catalog (for freshness change detection).
+  let prevCatalog: unknown = null;
+  try {
+    prevCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
+  } catch {
+    /* first run — no previous catalog */
+  }
+
   // Build the catalog from the same in-memory data (source of truth).
   const catalog: CommitteeCatalog = {
     session,
@@ -275,6 +284,9 @@ async function main() {
       return { chamber: c.chamber, slug: c.slug, name: c.name, url: c.url, description: c.description, members };
     }),
   };
+  // Freshness stamps: fetchedAt on every run; updatedAt only if the roster
+  // content actually changed vs. the previous catalog.
+  Object.assign(catalog, stampFreshness(prevCatalog, catalog));
   fs.writeFileSync(CATALOG_PATH, JSON.stringify(catalog, null, 2), "utf8");
 
   const totalSeats = catalog.committees.reduce((n, c) => n + c.members.length, 0);

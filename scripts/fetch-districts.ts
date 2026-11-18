@@ -14,6 +14,7 @@ import { SOURCES, type ChamberKey } from "./districts/sources";
 import { simplifyRings, labelPoint, roundRings, roundPoint } from "./districts/geometry";
 // Relative import — scripts/ convention (see scripts/assemble-catalog.ts).
 import type { DistrictsData, DistrictsManifest, LonLat } from "../src/lib/districts/types";
+import { stampFreshness } from "../src/lib/data/data-stamp";
 
 const DATA_DIR = path.join(process.cwd(), "data", "districts");
 const DP_TOLERANCE = 0.002; // degrees; tighten to 0.001 if file exceeds 1.2 MB
@@ -134,6 +135,13 @@ async function main(): Promise<void> {
   }
 
   // 3) Write data + manifest.
+  const dataPath = path.join(DATA_DIR, "districts.json");
+  let prevData: unknown = null;
+  try {
+    prevData = JSON.parse(readFileSync(dataPath, "utf8"));
+  } catch {
+    /* first run — no previous data */
+  }
   const data: DistrictsData = {
     planYear: SOURCES.planYear,
     effectiveSince: SOURCES.effectiveSince,
@@ -142,8 +150,11 @@ async function main(): Promise<void> {
     senate: chambers.senate,
     counties,
   };
+  // Freshness stamps: fetchedAt on every run; updatedAt only if the geometry
+  // content actually changed vs. the previous file (re-fetching the same plan
+  // → carried forward, so a weekly no-op refresh does not move "Last updated").
+  Object.assign(data, stampFreshness(prevData, data));
   mkdirSync(DATA_DIR, { recursive: true });
-  const dataPath = path.join(DATA_DIR, "districts.json");
   const json = JSON.stringify(data);
   writeFileSync(dataPath, json);
   const sizeMb = Buffer.byteLength(json) / (1024 * 1024);

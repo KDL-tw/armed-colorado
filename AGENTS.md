@@ -221,3 +221,45 @@ Canonical rules live in plan-crafting-principles #5. Additionally: test table re
 
 The five anti-patterns and core principles from the original incident write-up (symptom-chasing, conflating "invisible" with "not present", no boundary evidence, listing verification steps without running them, declaring success without user confirmation) are merged into the Verification & Debugging Protocol above. Follow that protocol.
 <!-- END:debugging-anti-patterns -->
+
+<!-- BEGIN:data-freshness-automation -->
+# Data Freshness Automation ("last checked / last updated" notes)
+
+- Every data page (billwatch, legislators, legislators/districts metro,
+  concealed-carry, sb25-003) renders a two-line light-grey note
+  (`src/components/DataStamp.tsx`) directly under each pulled-data block:
+  "Last checked:" and "Last updated:". The pages are `force-dynamic`
+  (per-request): note + data are read from the files on disk at render time,
+  so a job that rewrites a data file shows up in the note on the NEXT page
+  load — no rebuild, no restart. (Verified 2026-11-18: running
+  `npx tsx scripts/fetch-sb25-ssf.ts` moved /sb25-003's "Last checked"
+  live under `next start`.)
+- Job-side stamps: the regenerate fetch scripts (fetch-committees,
+  fetch-districts, fetch-sb25-ssf, fetch-sb25-instructors,
+  fetch-chp-reciprocity, fetch-chp-sheriffs) call `stampFreshness()` from
+  `src/lib/data/data-stamp.ts` before writing: `fetchedAt` is stamped on
+  EVERY run; `updatedAt` is stamped ONLY when the content (excluding the
+  two stamp fields) actually changed vs. the previous file — otherwise the
+  previous value is carried forward. The verify-only script (fetch-chp-crs)
+  rewrites the whole object and re-stamps `fetchedAt` only, so any existing
+  `updatedAt` survives automatically. STANDING RULE: any job or human edit
+  that rewrites a data file must never drop an existing `updatedAt`.
+- Site-side resolver `getDataFreshness()` (`src/lib/data/freshness.ts`):
+  checked = file `fetchedAt` → file `updatedAt` → git last-commit-date for the
+  file → mtime; updated = file `updatedAt` → git → mtime (git results cached
+  60 s so auto-pulls land without a server restart). The gun-bill catalog
+  (JSON array — no top-level fields) and the hand-authored
+  `data/sb25/process.json` resolve BOTH lines from git (last commit that
+  touched the file).
+- GitHub Actions (chp-data.yml Tue 06:00 MT, district-maps.yml Mon 06:00 MT)
+  opens the refresh PR and arms AUTO-MERGE (squash) — it merges when CI is
+  green. A NEW redistricting plan never auto-merges: the fetch step exits 3
+  on purpose and no PR is opened.
+- `scripts/auto-pull.sh` (system cron on noether, `*/15 * * * *`)
+  fast-forwards the local main so merged refresh PRs land: it SKIPS a dirty
+  working tree (you are mid-work; next tick retries) and refuses diverged
+  branches (logs `DIVERGED` — push your local commits to clear it). Log:
+  `.cache/auto-pull.log` (gitignored). Data pages are dynamic, so a pulled
+  data change needs no rebuild. A stale "Last updated" on the site is the
+  visible tell for a diverged tree or a failed pipeline.
+<!-- END:data-freshness-automation -->

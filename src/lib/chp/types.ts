@@ -54,6 +54,8 @@ export interface CrsFees {
 
 export interface CrsData {
   fetchedAt: string;
+  /** ISO — last time the content actually changed. The verify job (scripts/fetch-chp-crs.ts) re-stamps fetchedAt only, so this moves only on real content changes (e.g. a human re-verifying statutes). */
+  updatedAt?: string;
   sourceUrl: string;
   statutes: CrsStatute[];
   topics: CrsTopic[];
@@ -75,6 +77,7 @@ export interface ReciprocityState {
 
 export interface ReciprocityData {
   fetchedAt: string;
+  updatedAt?: string; // ISO — last time the content actually changed (stamped by scripts/fetch-chp-reciprocity.ts)
   sourceUrl: string;
   statuteCitation: string;
   /** Requirements list from the CBI page. */
@@ -102,6 +105,7 @@ export interface SheriffInfo {
 
 export interface SheriffsData {
   fetchedAt: string;
+  updatedAt?: string; // ISO — last time the content actually changed (stamped by scripts/fetch-chp-sheriffs.ts)
   sourceUrl: string;
   sheriffs: SheriffInfo[];
 }

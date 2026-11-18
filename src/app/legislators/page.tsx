@@ -9,6 +9,11 @@ import LegislatorsTabs, { type TabId } from "@/components/LegislatorsTabs";
 
 export const metadata: Metadata = { title: "Find Your Legislators" };
 
+// Render per request (already dynamic via searchParams; made explicit so the
+// freshness notes + data always reflect the files on disk, which refresh jobs
+// rewrite in place — a static build would freeze the notes at build time).
+export const dynamic = "force-dynamic";
+
 function isTabId(v: string | string[] | undefined): v is TabId {
   return v === "find" || v === "house" || v === "senate";
 }
@@ -25,11 +30,11 @@ export default async function LegislatorsPage({
 
   const committeeFresh = await getDataFreshness({
     file: "data/committee-catalog.json",
-    fetchedAt: catalog.fetchedAt,
+    data: catalog,
   });
   const districtsFresh = await getDataFreshness({
     file: "data/districts/districts.json",
-    fetchedAt: districts.fetchedAt,
+    data: districts,
   });
 
   return (

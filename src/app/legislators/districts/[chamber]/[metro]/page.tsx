@@ -14,6 +14,11 @@ type Props = {
 const CHAMBERS = new Set(["house", "senate"]);
 const METRO_KEYS = new Set(METRO_DEFS.map((m) => m.key));
 
+// Render per request (already dynamic via params; made explicit so the
+// freshness note + data always reflect the file on disk, which refresh jobs
+// rewrite in place — a static build would freeze the note at build time).
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { chamber, metro } = await params;
   const label = chamber === "house" ? "House" : "Senate";
@@ -30,7 +35,7 @@ export default async function MetroDistrictsPage({ params }: Props) {
   const title = METRO_DEFS.find((m) => m.key === metro)!.title;
   const districtsFresh = await getDataFreshness({
     file: "data/districts/districts.json",
-    fetchedAt: districts.fetchedAt,
+    data: districts,
   });
 
   return (

@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     "Colorado SB25-003 guide: what the law is and isn't, the permit-to-purchase process, course options and fees, and the official list of Specified Semiautomatic Firearms.",
 };
 
+// Render per request: the "last checked / last updated" notes (and the data)
+// must reflect the data files on disk, which refresh jobs rewrite in place —
+// a static build would freeze the notes at build time.
+export const dynamic = "force-dynamic";
+
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-12">
@@ -120,15 +125,15 @@ export default async function Sb25003Page() {
 
   const processFresh = await getDataFreshness({
     file: "data/sb25/process.json",
-    fetchedAt: process.fetchedAt,
+    data: process,
   });
   const ssfFresh = await getDataFreshness({
     file: "data/sb25/ssf.json",
-    fetchedAt: ssf.fetchedAt,
+    data: ssf,
   });
   const instructorsFresh = await getDataFreshness({
     file: "data/sb25/instructors.json",
-    fetchedAt: instructors.fetchedAt,
+    data: instructors,
   });
 
   return (

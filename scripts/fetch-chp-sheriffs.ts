@@ -13,6 +13,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import type { SheriffsData, SheriffInfo } from "../src/lib/chp/types";
+import { stampFreshness } from "../src/lib/data/data-stamp";
 
 const ROOT = process.cwd();
 const DATA_FILE = path.join(ROOT, "data/chp/sheriffs.json");
@@ -38,9 +39,10 @@ async function main() {
     process.exit(1);
   }
 
-  const prev = fs.existsSync(DATA_FILE)
-    ? new Map((JSON.parse(fs.readFileSync(DATA_FILE, "utf8")) as SheriffsData).sheriffs.map((s) => [s.county, s]))
-    : new Map<string, SheriffInfo>();
+  const prevData: SheriffsData | null = fs.existsSync(DATA_FILE)
+    ? (JSON.parse(fs.readFileSync(DATA_FILE, "utf8")) as SheriffsData)
+    : null;
+  const prev = new Map((prevData?.sheriffs ?? []).map((s) => [s.county, s]));
 
   const sheriffs: SheriffInfo[] = entries.map((e) => {
     const county = countyKey(e.title);
@@ -78,6 +80,10 @@ async function main() {
     sourceUrl: OCV_URL,
     sheriffs,
   };
+  // Freshness stamps: fetchedAt on every run; updatedAt only if the sheriff
+  // records actually changed vs. the previous file (hand-researched fields
+  // are part of the compared content).
+  Object.assign(data, stampFreshness(prevData, data));
   fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + "\n", "utf8");
   console.log(`Wrote ${sheriffs.length} sheriffs to data/chp/sheriffs.json`);

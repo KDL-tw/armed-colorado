@@ -17,6 +17,11 @@ export const metadata: Metadata = {
     "Colorado concealed carry law: CHP statutes, how to obtain and renew a CHP, state reciprocity, and every county sheriff's office.",
 };
 
+// Render per request: the "last checked / last updated" notes (and the data)
+// must reflect the data files on disk, which refresh jobs rewrite in place —
+// a static build would freeze the notes at build time.
+export const dynamic = "force-dynamic";
+
 const money = (n: number) => `$${n.toFixed(2)}`;
 
 function FeeTable({ label, fee, statute }: { label: string; fee: { total: number; parts: { label: string; amount: number }[]; citation: string }; statute?: boolean }) {
@@ -52,15 +57,15 @@ export default async function ConcealedCarryPage() {
 
   const crsFresh = await getDataFreshness({
     file: "data/chp/crs.json",
-    fetchedAt: crs.fetchedAt,
+    data: crs,
   });
   const reciprocityFresh = await getDataFreshness({
     file: "data/chp/reciprocity.json",
-    fetchedAt: reciprocity.fetchedAt,
+    data: reciprocity,
   });
   const sheriffsFresh = await getDataFreshness({
     file: "data/chp/sheriffs.json",
-    fetchedAt: sheriffs.fetchedAt,
+    data: sheriffs,
   });
 
   return (

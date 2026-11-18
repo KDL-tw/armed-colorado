@@ -10,6 +10,7 @@ import { execSync } from "node:child_process";
 import { writeFileSync, mkdirSync, readFileSync, existsSync, statSync } from "node:fs";
 import path from "node:path";
 import { parseSsfText } from "../src/lib/sb25/ssf-parser";
+import { stampFreshness } from "../src/lib/data/data-stamp";
 
 const GUIDANCE_URL =
   "https://sbg.colorado.gov/sites/sbg/files/documents/Specified_Semiautomatic_Firearms_Guidance_07.30.2026.pdf";
@@ -41,6 +42,19 @@ const text = readFileSync(tmpText, "utf8");
 const version = pdfVersion(GUIDANCE_URL);
 const data = parseSsfText(text, GUIDANCE_URL, version);
 
+const OUT = path.join(process.cwd(), "data", "sb25", "ssf.json");
+let prev: unknown = null;
+try {
+  prev = JSON.parse(readFileSync(OUT, "utf8"));
+} catch {
+  /* first run — no previous file */
+}
+
+// Freshness stamps: fetchedAt on every run; updatedAt only if the firearm
+// list actually changed vs. the previous file (same PDF re-fetch → carried
+// forward, so a weekly no-op refresh does not move "Last updated").
+Object.assign(data, stampFreshness(prev, data));
+
 console.error(`parsed ${data.counts.total} firearms (r=${data.counts.rifle} s=${data.counts.shotgun} h=${data.counts.handgun})`);
-writeFileSync(path.join(process.cwd(), "data", "sb25", "ssf.json"), JSON.stringify(data, null, 2) + "\n");
+writeFileSync(OUT, JSON.stringify(data, null, 2) + "\n");
 console.error("wrote data/sb25/ssf.json");

@@ -15,6 +15,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import type { ReciprocityData, ReciprocityState } from "../src/lib/chp/types";
+import { stampFreshness } from "../src/lib/data/data-stamp";
 
 const ROOT = process.cwd();
 const DATA_FILE = path.join(ROOT, "data/chp/reciprocity.json");
@@ -100,6 +101,9 @@ async function main() {
     requirements: REQUIREMENTS,
     states,
   };
+  // Freshness stamps: fetchedAt on every run; updatedAt only if the state
+  // list actually changed vs. the previous file (same lists → carried forward).
+  Object.assign(data, stampFreshness(prev, data));
   fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + "\n", "utf8");
   console.log(`Wrote ${states.length} states (${full.length} full + Colorado, ${none.length} none) to data/chp/reciprocity.json`);

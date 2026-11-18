@@ -43,7 +43,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Open PR
+      - name: Open PR + arm auto-merge
         if: steps.changed.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -56,18 +56,28 @@ jobs:
           git commit -m "chore(chp): refresh concealed-carry data
 
           Automated weekly refresh (scripts/fetch-chp-*.ts).
-          Review: open /concealed-carry on the preview deployment and
-          confirm the reciprocity map and sheriff map still render."
+          Auto-merges when CI is green (tsc/lint/build + validators).
+          Review the diff before it merges if you get the chance."
           git push origin "$BRANCH"
-          gh pr create \
-            --title "CHP data refresh" \
-            --body "Automated weekly refresh of the concealed-carry page data.
+          cat > /tmp/pr-body.md <<'EOF'
+          Automated weekly refresh of the concealed-carry page data.
 
-          **What changed:** run \`git diff main\` in this PR. The fetch
+          **What changed:** run `git diff main` in this PR. The fetch
           scripts printed which page sections were affected (reciprocity
           map / sheriff map / statute list).
 
-          **Checklist before merging:**
-          - [ ] \`validate-chp-reciprocity\` and \`validate-chp-sheriffs\` passed (they run in CI)
+          **Auto-merge:** this PR arms auto-merge (squash) — it merges as
+          soon as CI is green (tsc/lint/build + the CHP validators). The
+          auto-pull on the production box then lands the change within
+          ~15 minutes, and the "Last checked / Last updated" notes on
+          /concealed-carry reflect it immediately.
+
+          **Advisory review (before it merges, if you get the chance):**
+          - [ ] `validate-chp-reciprocity` and `validate-chp-sheriffs` passed (they run in CI)
           - [ ] Preview deployment of /concealed-carry renders both maps + all five sections
-          - [ ] If the statute list changed, the CRS summaries in data/chp/crs.json were re-verified against the new text"
+          - [ ] If the statute list changed, the CRS summaries in data/chp/crs.json were re-verified against the new text
+          EOF
+          PR_URL="$(gh pr create --title "CHP data refresh" --body-file /tmp/pr-body.md | tail -n 1)"
+          PR_NUM="${PR_URL##*/}"
+          gh pr merge --auto --squash "$PR_NUM"
+          echo "Auto-merge armed (squash) on ${PR_URL} — merges when CI is green."

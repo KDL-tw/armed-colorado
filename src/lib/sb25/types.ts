@@ -17,6 +17,7 @@ export interface SsfFirearm {
 
 export interface SsfData {
   fetchedAt: string;
+  updatedAt?: string; // ISO — last time the content actually changed (stamped by scripts/fetch-sb25-ssf.ts)
   sourceUrl: string; // the guidance PDF URL
   version: string; // e.g. "07/30/2026" (from the filename/header)
   counts: { rifle: number; shotgun: number; handgun: number; total: number };
@@ -63,6 +64,7 @@ export interface Sb25SourceLink {
 
 export interface Sb25Process {
   fetchedAt: string;
+  updatedAt?: string; // ISO — hand-authored file (no fetch job): set manually when the content changes
   sourceUrls: string[];
   law: {
     effectiveDate: string;
@@ -105,6 +107,7 @@ export interface Sb25Instructor {
 
 export interface Sb25Instructors {
   fetchedAt: string;
+  updatedAt?: string; // ISO — last time the content actually changed (stamped by scripts/fetch-sb25-instructors.ts)
   source: string;
   instructors: Sb25Instructor[];
 }

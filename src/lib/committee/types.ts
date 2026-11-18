@@ -21,5 +21,6 @@ export interface Committee {
 export interface CommitteeCatalog {
   session: string; // e.g. "2026A"
   fetchedAt: string; // ISO timestamp of the last successful fetch
+  updatedAt?: string; // ISO — last time the roster CONTENT actually changed (stamped by scripts/fetch-committees.ts)
   committees: Committee[];
 }

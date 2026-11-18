@@ -23,6 +23,7 @@ export interface DistrictsData {
   planYear: number;
   effectiveSince: string;
   fetchedAt: string;
+  updatedAt?: string; // ISO — last time the geometry CONTENT actually changed (stamped by scripts/fetch-districts.ts)
   house: ChamberData;
   senate: ChamberData;
   counties: CountyFeature[];

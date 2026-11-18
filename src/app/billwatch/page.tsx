@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "Billwatch - Colorado Gun Bill Catalog",
 };
 
+// Render per request: the "last checked / last updated" note (and the catalog
+// itself) must reflect the data file on disk, which refresh jobs rewrite in
+// place — a static build would freeze the note at build time.
+export const dynamic = "force-dynamic";
+
 // Status colors
 const statusColors: Record<string, string> = {
   "Signed into Law": "text-oxblood font-bold",
@@ -32,6 +37,7 @@ export default async function BillwatchPage() {
 
   const catalogFresh = await getDataFreshness({
     file: GUN_BILL_CATALOG_REL,
+    data: catalog,
   });
 
   return (
